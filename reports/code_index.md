@@ -1,6 +1,8 @@
-# Code Location Index - main program `kofwing/21256864.swf`
+# Code Location Index - main program `kofwing__21256864`
 
 All AS2 classes decompiled by JPEXS from the boot movie: **427 classes**.
+
+The boot movie is resolved from `classification.json` (`role == main_program`), not hardcoded.
 
 Paths are relative to `_reverse/analysis/kofwing__21256864/scripts/__Packages/`.
 
@@ -24,35 +26,50 @@ Paths are relative to `_reverse/analysis/kofwing__21256864/scripts/__Packages/`.
 
 ## Character AI classes
 
-Every playable character has its own AI class plus five difficulty tiers (`Lv1`-`Lv5`) and usually a `Type2_` variant.
+Every playable character has its own AI class plus five difficulty tiers (`Lv1`-`Lv5`) and one or more variant forms.
 
-| Character | AI classes |
-| --- | ---: |
-| Ash | 12 |
-| Athena | 12 |
-| CKrizalid | 6 |
-| CZero | 6 |
-| Chunli | 12 |
-| Goenitz | 12 |
-| Haohmaru | 12 |
-| Igniz | 12 |
-| Iori | 12 |
-| K | 12 |
-| Krizalid | 6 |
-| Kula | 12 |
-| Kusanagi | 6 |
-| Kyo | 12 |
-| KyoW | 12 |
-| Mai | 12 |
-| Orochi | 12 |
-| Oswald | 6 |
-| Rugal | 12 |
-| Ryo | 12 |
-| Ryu | 12 |
-| Terry | 12 |
-| Type3_Goenitz | 6 |
-| Type3_Iori | 6 |
-| Zero | 6 |
+### Counting rules
+
+Variant markers are stripped from the **base name** by an explicit, testable rule:
+
+| Marker | Example | Base name |
+| --- | --- | --- |
+| `Type2_` | `Type2_Kyo_AI.as` | ``Type2_Kyo`` |
+| `Type3_` | `Type3_Iori_AI.as` | ``Type3_Iori`` |
+| leading `C` | `CZero_AI.as` | ``CZero`` |
+| leading `CK` | `CKrizalid_AI.as` | ``CKrizalid`` |
+
+| Quantity | Count | Meaning |
+| --- | ---: | --- |
+| AI class count | 294 | every `*_AI*.as`, variants included |
+| Variant AI classes | 126 | classes carrying a variant marker |
+| Independent characters | 21 | unique base names |
+
+A name is **never** removed to make a number match a report; the rule above is applied uniformly.
+
+| Base character | Variant forms | AI classes |
+| --- | --- | ---: |
+| Ash | Type2_ | 12 |
+| Athena | Type2_ | 12 |
+| Chunli | Type2_ | 12 |
+| Goenitz | Type2_、Type3_ | 18 |
+| Haohmaru | Type2_ | 12 |
+| Igniz | Type2_ | 12 |
+| Iori | Type2_、Type3_ | 18 |
+| K | Type2_ | 12 |
+| Krizalid | C | 12 |
+| Kula | Type2_ | 12 |
+| Kusanagi | — | 6 |
+| Kyo | Type2_ | 12 |
+| KyoW | Type2_ | 12 |
+| Mai | Type2_ | 12 |
+| Orochi | Type2_ | 12 |
+| Oswald | — | 6 |
+| Rugal | Type2_ | 12 |
+| Ryo | Type2_ | 12 |
+| Ryu | Type2_ | 12 |
+| Terry | Type2_ | 12 |
+| Zero | C | 12 |
 
 
 ## Largest / most important classes

@@ -59,7 +59,16 @@ def scan(exe: Path, chunk: int = 1 << 22):
     return sorted(uniq.values(), key=lambda h: h["offset"])
 
 
+USAGE = "usage: find_boot_swf.py <exe> <struct_json> <out_json>\n"
+
+
 def main() -> int:
+    if len(sys.argv) < 4:
+        print(USAGE, end="")
+        print("  <exe>          path to wingex1.2.exe")
+        print("  <struct_json>  reports/_struct.json (or _struct_current.json)")
+        print("  <out_json>     destination for the scan result")
+        return 2
     exe = Path(sys.argv[1])
     struct_json = Path(sys.argv[2])
     out_json = Path(sys.argv[3])

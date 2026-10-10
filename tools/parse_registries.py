@@ -47,7 +47,15 @@ def build_case_insensitive_index(dirs: list[Path]) -> dict[str, list[Path]]:
     return idx
 
 
+USAGE = ("usage: parse_registries.py <game_root> <out_dir>\n"
+         "  <game_root>  game directory containing stage/ stage2/ sound/\n"
+         "  <out_dir>    where registries.json / registry_entries.csv are written\n")
+
+
 def main() -> int:
+    if len(sys.argv) < 3:
+        print(USAGE, end="")
+        return 2
     root = Path(sys.argv[1])
     out_dir = Path(sys.argv[2])
     out_dir.mkdir(parents=True, exist_ok=True)

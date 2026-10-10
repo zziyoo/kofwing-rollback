@@ -1,0 +1,81 @@
+{
+ "generated_at": "2026-10-10T23:28:35.156150+08:00",
+ "duration_seconds": 7.9,
+ "tool": "tools/swf_struct.py",
+ "tool_sha256": "e44221425b3eca925a25d90450ab7a19f8a6235c1307dc44665382311612024b",
+ "python": "3.11.9",
+ "platform": "Windows-10-10.0.26200-SP0",
+ "input_root": "D:\\拳皇\\拳皇WingEX1.2前瞻版\\kofwing",
+ "input_file_count": 14,
+ "scan_succeeded": true,
+ "historical_record": {
+  "path": "reports/_struct.json",
+  "note": "records the ORIGINAL extraction; intentionally NOT overwritten"
+ },
+ "differences_vs_historical": {
+  "changed_files": [
+   {
+    "path": "kofwing/21256864.swf",
+    "sha256": "847a0ec9febbd5826e2c056bc2a710b20e7468570876154b05bc07dc5c29e585",
+    "bytes": 125442502,
+    "historical_sha256": "319fb968de79489beeba8dfed60dd0a37d8adedf2833f630582c7720fe95d6fb",
+    "historical_bytes": 125450217,
+    "matches_historical": false
+   },
+   {
+    "path": "kofwing/27969957.swf",
+    "sha256": "d3e506b8b30a9ec220b98883b1b0edc4622b49b6d203b4f7745f6a2e7069836d",
+    "bytes": 118729409,
+    "historical_sha256": "48c348cb15dd8ebac3bf38c7d6741150afcb7a86b8303bf1b42f208c80443ee5",
+    "historical_bytes": 118729409,
+    "matches_historical": false
+   },
+   {
+    "path": "kofwing/40440656.swf",
+    "sha256": "37e070e4d6871a1c21e6381d3cc6b2e850f24f306dc717c94e5dc465efd86da5",
+    "bytes": 106258710,
+    "historical_sha256": "8661accee8667002c87906efd9ee7062aaae8fd6331564db0e36db63199b93a8",
+    "historical_bytes": 106258710,
+    "matches_historical": false
+   },
+   {
+    "path": "kofwing/74424254.swf",
+    "sha256": "7aa3da842da64c74fcbe8350f329b133a4db07938a7ca9cf9657d1fe09540ff2",
+    "bytes": 72275112,
+    "historical_sha256": "59f1a3fbc516b26ffd2441ec833b330a95074fb938c4c51f5984217310e23333",
+    "historical_bytes": 72275112,
+    "matches_historical": false
+   },
+   {
+    "path": "kofwing/84187910.swf",
+    "sha256": "1e88cb71d3a5d971e66590a084b9a3ebf8960bbdda39610fad486d836618750e",
+    "bytes": 62511456,
+    "historical_sha256": "5131753c3c4b663c5ca8789e070a817059d57f0ef37d7642bf020e9011130e2c",
+    "historical_bytes": 62511456,
+    "matches_historical": false
+   }
+  ],
+  "changed_count": 5,
+  "explanation": "The boot movie and the 4 rejected candidates were re-cut from wingex1.2.exe after the original extraction. The boot movie is 7,715 bytes shorter because the re-cut ran to EOF instead of the stale declared FileLength. Its tag stream remains complete."
+ },
+ "summary": {
+  "total_files": 14,
+  "valid_swf": 10,
+  "invalid_swf": 4,
+  "declared_length_mismatch": 12,
+  "with_as2": 10,
+  "with_as3": 0,
+  "with_sprite": 8,
+  "with_sound": 5,
+  "distinct_sha256": 14,
+  "duplicate_groups": 0,
+  "total_bytes": 497650870,
+  "swf_versions": [
+   6,
+   7,
+   8,
+   15
+  ],
+  "counting_rule": "total_files/invalid_swf/duplicate/total_bytes cover ALL candidates; with_* are computed over structurally VALID SWF only"
+ }
+}

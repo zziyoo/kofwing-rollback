@@ -335,9 +335,11 @@ def main() -> int:
     root = Path(sys.argv[1])
     out_path = Path(sys.argv[2])
 
+    # Sort on the POSIX-style relative path, not the native path string, so the
+    # row order is identical on Windows and POSIX.
     files = sorted(
         (p for p in root.rglob("*") if p.is_file() and p.suffix.lower() == ".swf"),
-        key=lambda p: str(p).lower(),
+        key=lambda p: p.relative_to(root).as_posix().lower(),
     )
     records = []
     for p in files:

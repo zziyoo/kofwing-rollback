@@ -162,28 +162,41 @@ class ClassifierRuleTest(unittest.TestCase):
             self.assertTrue(note)
 
     def test_every_required_signal_is_actually_defined(self):
-        defined = set(classify.SIG)
+        # A rule may require either a regex signal from SIG, or one of the
+        # signals computed at classify() time (currently __boot_movie__ and
+        # packages_class_count).
+        defined = set(classify.SIG) | {"__boot_movie__", "packages_class_count"}
         for _role, _conf, needed, _note in classify.ROLE_RULES:
             for key in needed:
                 self.assertIn(key, defined)
 
-    def test_no_rule_can_label_a_file_as_the_main_program(self):
-        """Known gap, pinned so it cannot regress silently.
+    def test_main_program_is_reachable_and_evaluated_first(self):
+        """The boot movie must get its own role, not be lumped in with the packs.
 
-        Nothing in ROLE_RULES emits a 'main_program' role; the boot movie only
-        gets combat_engine_module because it happens to match the engine rule.
+        Previously no rule could emit 'main_program' at all, so the boot movie
+        was labelled combat_engine_module - tied with the four character packs.
+        The main_program rule is now first so it wins over the engine rules.
         """
         roles = {r[0] for r in classify.ROLE_RULES}
-        self.assertNotIn("main_program", roles)
-        self.assertNotIn("boot", roles)
+        self.assertIn("main_program", roles)
+        self.assertEqual(classify.ROLE_RULES[0][0], "main_program")
 
-    def test_stage_background_rule_wins_over_engine_rule_by_position(self):
-        """Known risk, pinned: rule order, not specificity, decides."""
-        self.assertEqual(classify.ROLE_RULES[0][0], "stage_background")
+    def test_boot_movie_threshold_has_a_measured_margin(self):
+        """The threshold must sit between the observed pack max (26) and the
+        boot movie (427), so the classification is evidence-based."""
+        self.assertGreater(classify.MAIN_PROGRAM_MIN_CLASSES, 26)
+        self.assertLess(classify.MAIN_PROGRAM_MIN_CLASSES, 427)
+
+    def test_engine_rule_still_exists_below_the_boot_movie_rule(self):
         engine_positions = [i for i, r in enumerate(classify.ROLE_RULES)
                             if r[0] == "combat_engine_module"]
         self.assertTrue(engine_positions)
         self.assertGreater(min(engine_positions), 0)
+
+    def test_stage_background_rule_is_not_first(self):
+        """Rule order, not specificity, decides - pinned so the boot movie is
+        never shadowed by a stage rule."""
+        self.assertNotEqual(classify.ROLE_RULES[0][0], "stage_background")
 
     def test_a_stage_like_file_is_classified_as_stage_background(self):
         script = "var bgArray = [];\nvar isBmd = true;\n"

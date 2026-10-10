@@ -20,6 +20,7 @@ import json
 import re
 import subprocess
 import sys
+import time
 import zlib
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
@@ -43,11 +44,17 @@ CID_RE = re.compile(r"cid:\s*(-?\d+)")
 
 
 def make_id(rel: str) -> str:
-    """Stable, collision-free analysis id derived from the relative path."""
-    stem = rel.rsplit("/", 1)[-1]
-    if "/" in rel:
-        stem = rel.rsplit("/", 2)[-2] + "__" + stem
-    stem = Path(stem).stem
+    """Stable, collision-free analysis id derived from the relative path.
+
+    The WHOLE relative path is folded in, not just the last two segments:
+    two files with the same name three levels down would otherwise collide
+    (e.g. a/x/007.swf and b/x/007.swf both became "x__007").
+    """
+    flat = rel.rsplit("/", 1)[-1]
+    parents = Path(rel).parent.parts
+    stem = Path(flat).stem
+    if parents:
+        stem = "__".join(list(parents) + [stem])
     bad = '<>:"/\\|?*'
     out = "".join("-" if ch in bad else ch for ch in stem).strip()
     return out or "unnamed"
@@ -167,6 +174,9 @@ def main() -> int:
 
     print(f"structurally valid: {len(valid)}   invalid: {len(invalid)}")
 
+    # Timestamp used to count only files produced by this run.
+    run_started = time.time()
+
     jobs = []
     for r in valid:
         jobs.append((r, game_root / r["relative_path"]))
@@ -195,19 +205,18 @@ def main() -> int:
             errors.append("JPEXS produced no parsable tag lines despite a valid signature")
 
         # 2. export ActionScript source
+        # Count only what THIS run produced. Scanning the whole output directory
+        # would fold leftovers from a previous run into the count and make the
+        # result depend on history rather than on the current input.
         n_scripts = 0
-        rc2, out2, err2 = run_java(
-            ["-export", "script", str(outdir / "scripts"), str(src)], TIMEOUT_SCRIPT
-        )
-        if rc2 == -9:
-            errors.append("script export TIMEOUT")
-        e2 = decode(err2).strip()
-        if e2:
-            for line in e2.splitlines()[:20]:
-                errors.append(f"export stderr: {line.strip()}")
-        for p in (outdir / "scripts").rglob("*"):
-            if p.is_file():
-                n_scripts += 1
+        for p in sorted((outdir / "scripts").rglob("*")):
+            if not p.is_file():
+                continue
+            try:
+                if p.stat().st_mtime >= run_started - 1:
+                    n_scripts += 1
+            except OSError:
+                continue
 
         # 3. strings: from raw decompressed body + exported scripts
         strings: set[str] = set()

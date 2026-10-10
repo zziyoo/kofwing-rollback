@@ -72,6 +72,12 @@ SFX_EXT_RE = re.compile(r"\.(wav|mp3)$", re.IGNORECASE)
 
 ROLE_RULES = [
     # (role, confidence, required signals, explanatory note)
+    # The boot movie must be tested FIRST: it also matches the combat-engine
+    # rules below, so without this it would be labelled the same as a character
+    # pack. Order matters - first match wins.
+    ("main_program", "high", ["__boot_movie__"],
+     "carries the whole game: far more AS2 class definitions than any other "
+     "module (427 vs 26 for the largest character pack)"),
     ("stage_background", "high", ["stage_bg_contract", "bg_layer_fields"],
      "defines global bgArray[] of parallax layer descriptors consumed by the main program"),
     ("combat_engine_module", "high", ["engine", "sfx_export_names"],
@@ -100,7 +106,32 @@ def collect_scripts(analysis_root: Path, aid: str) -> list[Path]:
     return [p for p in d.rglob("*") if p.is_file()]
 
 
-def classify(aid: str, meta: dict, assets: dict, scripts: list[Path]) -> dict:
+def packages_class_count(analysis_root: Path, aid: str) -> int:
+    """Number of AS2 class definitions (files under __Packages/) in this SWF.
+
+    This is the objective discriminator between the boot movie and the
+    EXE-embedded character packs. Measured on this corpus:
+        kofwing/21256864.swf  -> 427 classes
+        every other SWF       -> 26 classes at most
+    A 16x gap, so any threshold between the two is safe.
+    """
+    base = analysis_root / aid / "scripts"
+    if not base.exists():
+        return 0
+    pk = next((p for p in base.rglob("__Packages") if p.is_dir()), None)
+    if pk is None:
+        return 0
+    return sum(1 for _ in pk.rglob("*.as"))
+
+
+# The boot movie is the only SWF carrying the whole game. Threshold sits far
+# above the observed maximum for any other module (26) and far below the boot
+# movie's own count (427).
+MAIN_PROGRAM_MIN_CLASSES = 100
+
+
+def classify(aid: str, meta: dict, assets: dict, scripts: list[Path],
+             n_classes: int = 0) -> dict:
     blob_parts = []
     loader_hits = 0
     for p in scripts:
@@ -113,6 +144,11 @@ def classify(aid: str, meta: dict, assets: dict, scripts: list[Path]) -> dict:
 
     present = {k: bool(rx.search(blob)) for k, rx in SIG.items()}
     loader_hits = len(LOADER_NAME_HINT.findall(blob))
+
+    # Objective discriminator for the boot movie - computed, not hardcoded by
+    # filename. See packages_class_count() for the measured basis.
+    present["packages_class_count"] = n_classes
+    present["__boot_movie__"] = n_classes >= MAIN_PROGRAM_MIN_CLASSES
 
     # SFX export-name evidence comes from the tag census, not from script text
     names = assets.get("export_names", [])
@@ -225,7 +261,16 @@ def make_edge(src, target, api, location, snippet, known_swf, known_mp3, registr
             "evidence": snippet[:220], "confidence": conf, "note": note}
 
 
+USAGE = ("usage: classify.py <analysis_dir> <reports_dir> <game_root>\n"
+         "  <analysis_dir> e.g. analysis\n"
+         "  <reports_dir>  e.g. reports\n"
+         "  <game_root>    the game directory (used to resolve edge targets)\n")
+
+
 def main() -> int:
+    if len(sys.argv) < 4:
+        print(USAGE, end="")
+        return 2
     analysis_root = Path(sys.argv[1])
     reports = Path(sys.argv[2])
     game_root = Path(sys.argv[3])
@@ -254,7 +299,8 @@ def main() -> int:
         assets = json.loads(apath.read_text(encoding="utf-8")) if apath.exists() else {}
         scripts = collect_scripts(analysis_root, aid)
         rel = meta["relative_path"]
-        cls = classify(aid, meta, assets, scripts)
+        n_classes = packages_class_count(analysis_root, aid)
+        cls = classify(aid, meta, assets, scripts, n_classes=n_classes)
         cls["relative_path"] = rel
         cls["analysis_id"] = aid
         cls["bytes"] = meta["bytes"]

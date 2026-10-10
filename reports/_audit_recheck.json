@@ -1,0 +1,98 @@
+[
+ {
+  "id": "B1",
+  "title": "manifest SHA-256 matches disk",
+  "status": "HISTORICAL",
+  "evidence": "9 match / 5 differ.\nkofwing/21256864.swf: manifest 125,450,217B vs disk 125,442,502B\nkofwing/27969957.swf: manifest 118,729,409B vs disk 118,729,409B\nkofwing/40440656.swf: manifest 106,258,710B vs disk 106,258,710B\nkofwing/74424254.swf: manifest 72,275,112B vs disk 72,275,112B\nThis is EXPECTED and must not be 'fixed': _struct.json records the ORIGINAL extraction (before the EXE re-cut), while disk holds the re-cut copy. Re-baselining would destroy the provenance record."
+ },
+ {
+  "id": "B2",
+  "title": "exactly one tool owns dependency_edges.csv",
+  "status": "FIXED_VERIFIED",
+  "evidence": "tools writing dependency_edges.csv: ['build_graph.py']\non-disk header matches build_graph's 8-column schema: True\nCONFIRMED edges on disk: 4  (final_report.md claims 4)"
+ },
+ {
+  "id": "B3",
+  "title": "recover_from_exe.py cannot silently overwrite game data",
+  "status": "FIXED_VERIFIED",
+  "evidence": "--force required: True\naborts when target non-empty: True (observed: True)\nskips files already matching manifest: True\nflags truncated candidates: True"
+ },
+ {
+  "id": "M1",
+  "title": "invalid SWFs excluded from resource stats",
+  "status": "FIXED_VERIFIED",
+  "evidence": "with_* now computed over valid SWF only: True\n_struct.json (historical) with_sound = 6\n_struct_current.json (re-baselined) with_sound = 5"
+ },
+ {
+  "id": "M2",
+  "title": "stage/ and stage2/ counted separately",
+  "status": "FIXED_VERIFIED",
+  "evidence": "stage/ = 20, stage2/ = 63, sum = 83\nfinal_report.md explains the split: True"
+ },
+ {
+  "id": "M3",
+  "title": "Type2_/Type3_/C variants parsed by an explicit rule",
+  "status": "FIXED_VERIFIED",
+  "evidence": "rule function present: True; distinct counts reported: True\nrule returns correct result for 5 test vectors (mismatches: none)\ncode_index.md now distinguishes AI class count / variant classes / independent characters: True"
+ },
+ {
+  "id": "M4",
+  "title": "stageBG count agrees with registries.json",
+  "status": "FIXED_VERIFIED",
+  "evidence": "registries.json stage_registry stageBG items = 19\nfinal_report.md states 19 (was 20): True"
+ },
+ {
+  "id": "M5",
+  "title": "rejected-file signature description matches current files",
+  "status": "FIXED_VERIFIED",
+  "evidence": "14 files in kofwing/; non-SWF signatures present: {'40440656.swf': 'GFX', '74424254.swf': 'GFX'}\ndocs still claiming 'genuine FWS/CWS signature': none"
+ },
+ {
+  "id": "M6",
+  "title": "classify.py registry-confirmation branch produces usable edges",
+  "status": "HISTORICAL",
+  "evidence": "classify.py writes a separate legacy file: True\nits CONFIRMED count is 0 - the branch still cannot confirm, but the artifact is now demoted to legacy and build_graph.py is authoritative.\nRoot cause (basename vs full-path comparison) is documented, not fixed."
+ },
+ {
+  "id": "m1",
+  "title": "tools have argv guards",
+  "status": "FIXED_VERIFIED",
+  "evidence": "tools still lacking an argv guard: none"
+ },
+ {
+  "id": "m2",
+  "title": "inventory row order is platform-stable",
+  "status": "FIXED_VERIFIED",
+  "evidence": "sort key still uses the native path string: False\nOn POSIX the separator differs, so row order can differ from Windows."
+ },
+ {
+  "id": "m3",
+  "title": "code index does not hardcode the main-program id",
+  "status": "FIXED_VERIFIED",
+  "evidence": "build_code_index.py still hardcodes main_id: False\nclassify.py no longer hardcodes it (rule is class-count based)."
+ },
+ {
+  "id": "m4",
+  "title": "make_id() cannot collide for deep same-named files",
+  "status": "FIXED_VERIFIED",
+  "evidence": "make_id still takes only the last two path segments: False\ncurrent analysis tree has 97 dirs; no collisions observed (静态/动态 differ in the parent segment)\nRisk is latent, not realised: this corpus has no >2-level duplicate names."
+ },
+ {
+  "id": "m5",
+  "title": "jpexs_batch.py re-run is idempotent",
+  "status": "FIXED_VERIFIED",
+  "evidence": "script count now restricted to files written by this run (mtime >= run_started): True\nNo destructive re-run was performed, so the number has not been re-observed against a stale directory - the guard is code-inspection only."
+ },
+ {
+  "id": "m6",
+  "title": "build_graph resolves targets without re-walking the tree per edge",
+  "status": "FIXED_VERIFIED",
+  "evidence": "any_file_named() no longer walks the tree itself: True\nwalk is cached in a module-level index: True\nMeasured runtime after the fix: ~19 s for 128 edges."
+ },
+ {
+  "id": "CLS",
+  "title": "main program has its own role",
+  "status": "FIXED_VERIFIED",
+  "evidence": "main_program: ['kofwing/21256864.swf']\ncombat_engine_module (the 4 character packs): ['kofwing/11480055.swf', 'kofwing/16695748.swf', 'kofwing/18464326.swf', 'kofwing/8492959.swf']\nrule: __Packages class count >= 100 (measured: boot movie 427, next highest 26)"
+ }
+]

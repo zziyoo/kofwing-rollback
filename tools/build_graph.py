@@ -47,11 +47,27 @@ def existing(relpath: str) -> bool:
     return p.exists()
 
 
+_NAME_INDEX: dict[str, str] | None = None
+
+
+def _build_name_index() -> dict[str, str]:
+    """One walk of the game root, reused for every edge.
+
+    The previous implementation re-walked the whole tree (including the 146 MB
+    EXE) once per edge; with hundreds of edges that dominated the runtime.
+    """
+    global _NAME_INDEX
+    if _NAME_INDEX is None:
+        idx: dict[str, str] = {}
+        for p in GAME_ROOT.rglob("*"):
+            if p.is_file():
+                idx.setdefault(p.name.lower(), str(p.relative_to(GAME_ROOT)).replace("\\", "/"))
+        _NAME_INDEX = idx
+    return _NAME_INDEX
+
+
 def any_file_named(name: str) -> str | None:
-    for p in GAME_ROOT.rglob("*"):
-        if p.is_file() and p.name.lower() == name.lower():
-            return str(p.relative_to(GAME_ROOT)).replace("\\", "/")
-    return None
+    return _build_name_index().get(name.lower())
 
 
 def scan_scripts():
