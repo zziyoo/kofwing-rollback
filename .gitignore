@@ -7,6 +7,15 @@ analysis/_test/
 reports/_struct_test.json
 reports/__probe.txt
 
+# --- experiments/ : isolated JPEXS modding-pipeline experiments -------------
+# experiments/tools/  (small helper scripts)  and experiments/help/ (JPEXS -help
+# text) ARE tracked, so the experiments stay reproducible.
+# experiments/work/ and experiments/logs/ hold rebuilt SWFs and JPEXS dumps:
+# ~978 MB across ~27k files. Regenerate them by re-running the experiments;
+# never commit them.
+experiments/work/
+experiments/logs/
+
 # Python noise
 __pycache__/
 *.pyc

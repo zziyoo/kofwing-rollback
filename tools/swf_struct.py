@@ -361,20 +361,28 @@ def main() -> int:
         by_sha.setdefault(r["sha256"], []).append(r["relative_path"])
     dupes = {k: v for k, v in by_sha.items() if len(v) > 1}
 
+    # Aggregate counts below are over STRUCTURALLY VALID files only. Counting
+    # rejected candidates here would let garbage bytes inflate the totals (a
+    # rejected 106 MB blob contributed 2 bogus "sound" tags to the count).
+    good = [r for r in records if r["valid_swf"]]
     summary = {
         "root": str(root),
         "total_files": len(records),
-        "valid_swf": sum(1 for r in records if r["valid_swf"]),
-        "invalid_swf": sum(1 for r in records if not r["valid_swf"]),
+        "valid_swf": len(good),
+        "invalid_swf": len(records) - len(good),
         "declared_length_mismatch": sum(1 for r in records if not r["length_match"]),
-        "with_as2": sum(1 for r in records if r["has_do_action"] or r["has_do_init_action"]),
-        "with_as3": sum(1 for r in records if r["has_do_abc"]),
-        "with_sprite": sum(1 for r in records if r["n_sprite"] > 0),
-        "with_sound": sum(1 for r in records if r["n_sound_tags"] > 0),
+        "with_as2": sum(1 for r in good if r["has_do_action"] or r["has_do_init_action"]),
+        "with_as3": sum(1 for r in good if r["has_do_abc"]),
+        "with_sprite": sum(1 for r in good if r["n_sprite"] > 0),
+        "with_sound": sum(1 for r in good if r["n_sound_tags"] > 0),
         "distinct_sha256": len(by_sha),
         "duplicate_groups": len(dupes),
         "total_bytes": sum(r["bytes"] for r in records),
-        "swf_versions": sorted({r["swf_version"] for r in records if r["swf_version"]}),
+        "swf_versions": sorted({r["swf_version"] for r in good if r["swf_version"]}),
+        "counting_rule": (
+            "total_files/invalid_swf/duplicate/total_bytes cover ALL candidates; "
+            "with_* are computed over structurally VALID SWF only"
+        ),
     }
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(

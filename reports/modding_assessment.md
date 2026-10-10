@@ -69,7 +69,7 @@ hit detection only in `21256864.swf` will silently miss those four characters.
 | Roster (who can be picked) | `frame_1629/DoAction.as:3348` `cpuNormal_list` | High |
 | Boss roster | `getCPUList()` in `frame_1629/DoAction.as:513-713` | High |
 | Default key bindings | `frame_1629/DoAction.as:3383-3386` `key_P1_proto` / `key_P2_proto` | High |
-| Per-character must-block move IDs | `frame_1629/DoAction.as:3374-3382` `mustDefendSkill` | High |
+| Per-character must-block move IDs | ~~`frame_1629:3374-3382` `mustDefendSkill`~~ | **⚠️ 见下方更正 —— 该表是死代码** |
 | Stage list shown to the player | `stage/list.txt` (`stageBG=` line) | High |
 | Character→stage pairing | `stage/list.txt` | Medium - many entries broken, see graph report |
 | BGM assignment | `sound/list.txt` | High |
@@ -84,15 +84,42 @@ Notable inline data already present in `frame_1629/DoAction.as`:
 var cpuNormal_list = new Array("Kyo","Terry","Chunli","Mai","Ryu","Iori","K","Kula",
     "Moriya","Haohmaru","Ryo","Athena","Ash","Nameless","Kim","Andy","Oswald");
 
-// lines 3374-3382 - move IDs that must be blocked, per character
+// lines 3374-3382 - ⚠️ DEAD CODE, do not edit (see correction below)
 mustDefendSkill.Kyo  = ["sk31","sk31_s"];
 mustDefendSkill.Iori = ["sk_s_89b_s"];
 mustDefendSkill.Kula = ["sk_s_xingchen","sk_s_jiejie"];
 
-// lines 3363-3373 - built-in default stage mapping
+// lines 3383-3386 - keyboard bindings
+var key_P1_proto = {u:87,d:83,b:65,f:68,p:74,k:75,p_l:85,k_l:73,s:79,s2:76,h:84,qq:80};
+
+// lines 3363-3373 - built-in stage defaults (STALE - see section 8)
 bgMappingDefault.stageBG = "moonbridge,factory,gym,palace,earth";
 bgMappingDefault.Kyo     = "factory";
 ```
+
+### ⚠️ 更正：`mustDefendSkill` 是死代码
+
+本文件初版把 `frame_1629:3374-3382` 的 `mustDefendSkill` 表列为"高可信度修改点"。
+**该判断是错的。**
+
+核查结果（`python` 跨 5 个 SWF 全量检索）：
+
+- 该变量在主程序中有 **305 处**出现，但**全部是赋值或声明**：
+  `var mustDefendSkill = new Object();` 与 `mustDefendSkill.<角色> = [...]`。
+- **没有任何一处读取它** —— 不存在 `mustDefendSkill[x]` 形式的读取，
+  也不存在 `_root.mustDefendSkill` / `_level0.mustDefendSkill` 的限定引用。
+
+**修改这张表不会产生任何效果。**
+
+**真正生效的是每个 AI 类自己的表：** 每个 `<Name>_AI.as` 在约 1764–1769 行定义了自己的
+`checkMustDefendSkill(oppSkill)` 函数，内部持有一份更大的本地表，并在 `:1089`、`:1584`、
+`:2579` 等处被调用。
+
+**要改"必须防御的招式"，应修改对应角色 `<Name>_AI.as` 里的 `checkMustDefendSkill()`，
+而不是 `frame_1629` 的全局表。**
+
+（复现：`Select-String -Pattern "mustDefendSkill" -Recurse` 后过滤掉 `mustDefendSkill\.\w+\s*=`
+的行；剩余为空即证明无读取。）
 
 Note that `bgMappingDefault` names (`moonbridge`, `factory`, `gym`, `palace`, `earth`) **do not
 exist** in `stage/` either, so the in-code defaults are stale; `stage/list.txt` is what actually

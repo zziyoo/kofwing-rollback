@@ -1,0 +1,64 @@
+﻿JPEXS Free Flash Decompiler v.26.3.0 nightly build 3573
+-------------------------------------------------------
+Replace data.
+[1;4mUsage[m: <executable> [PRE-OPTIONS] [1m-replace[m \
+       [3m<infile>[m [3m<outfile>[m \
+       ([3m<characterId1>[m|[3m<scriptName1>[m) [3m<importDataFile1>[m \
+       [nofill] [[33m-startFrame[m [3m<startFrame>[m] ([[3m<format1>[m][[3m<methodBodyIndex1>[m]) \
+       [([3m<characterId2>[m|[3m<scriptName2>[m) [3m<importDataFile2>[m \
+       [nofill] [[33m-startFrame[m [3m<startFrame>[m] ([[3m<format2>[m][[3m<methodBodyIndex2>[m])]...
+
+[1;4mExecutable[m:
+       Linux: ffdec or ffdec.sh
+      Mac OS: ffdec.sh
+     Windows: ffdec-cli.exe or ffdec.bat
+        Java: java -jar ffdec.jar
+
+[1;4mDescription[m:
+    Replaces the data of the specified BinaryData, Image, Shape, Text, Font,
+    Sound tag or Script.
+    nofill parameter can be specified only for shape replace.
+    [3m<startFrame>[m parameter sets sound range start frame (for sound streams)
+    [3m<format>[m parameter can be specified for Image and Shape tags.
+    valid formats: lossless, lossless2, jpeg2, jpeg3, jpeg4.
+    [3m<methodBodyIndexN>[m parameter should be specified if and only if the imported entity is an AS3 P-Code.
+    Use [33m-1[m as characterId to replace main timeline SoundStreamHead.
+
+[1;4mPre-options[m:
+[33m-config[m key=value[,key2=value2][,key3=value3...]
+    Set configuration values.
+    Use [1m-listconfigs[m command to list the available configuration settings.
+    Values are boolean, you can use 0/1, true/false, on/off or yes/no.
+    If no other parameters passed, configuration is saved.
+    Otherwise it is used only once.
+    DO NOT PUT space between comma (,) and next value.
+
+[33m-configFile[m [3m<file>[m
+    Use configuration from a file [3m<file>[m. TOML file format is expected.
+    When it has .bin extension, legacy storage is used.
+
+[33m-charset[m [3m<charsetName>[m
+    Set desired character set for reading/writing SWF files with
+    SWF version <= 5.
+
+[33m-tagProfile[m [3m<profileId>[m
+    Use a tag profile when reading SWF files.
+    Use "standard" for standard SWF tag interpretation.
+    Use [33m-listtagprofiles[m to list available profile identifiers.
+
+[33m-air[m 
+    Use AIR ("airglobal.swc") for AS3 compilation instead of "playerglobal.swc".
+
+[1;4mAlternative[m:
+
+[1m-replace[m [3m<infile>[m [3m<outfile>[m [3m<argsfile>[m
+    Replace data using argsfile.
+    Same as [1m-replace[m command, but the rest of arguments is read as lines from
+    a text file [3m<argsfile>[m
+
+[4;1mExamples[m:
+Sorry, no example found for command replace,
+Let us know in issue tracker when you need it.
+
+You can use special value "/dev/stdin" for input files to read data 
+from standard input (even on Windows)

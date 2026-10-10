@@ -1,0 +1,5879 @@
+{
+ "Kyo1": {
+  "variable": "Kyo1",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "1",
+  "character": "Kyo",
+  "move_count": 29,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "外式•轰斧阳",
+    "normal": "→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "外式•奈落落",
+    "normal": "空中↓＋重拳",
+    "easy": "空中↓＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "百弐拾五式•七濑",
+    "normal": "前沖中重腿",
+    "easy": "前沖中重腿",
+    "describe": ""
+   },
+   {
+    "skill": "八拾八式",
+    "normal": "↘＋重腿",
+    "easy": "↘＋重腿",
+    "describe": "破站防"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "百式•鬼烧",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "百拾四式•荒咬",
+    "normal": "↓→＋轻拳",
+    "easy": "←＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "┗百弐拾八式•九伤",
+    "normal": "┗拳",
+    "easy": "┗重拳",
+    "describe": ""
+   },
+   {
+    "skill": "┃ ┗百弐拾七式•八錆",
+    "normal": "┃ ┗拳",
+    "easy": "┃ ┗重拳",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "┃ ┃┗外式•砌穿",
+    "normal": "┃ ┃┗拳",
+    "easy": "┃ ┃┗重拳",
+    "describe": ""
+   },
+   {
+    "skill": "┃ ┗百弐拾五式•七濑",
+    "normal": "┃ ┗腿",
+    "easy": "┃ ┗重腿",
+    "describe": ""
+   },
+   {
+    "skill": "┗百弐拾七式•八錆",
+    "normal": "┗↓←＋拳",
+    "easy": "┗←＋轻拳",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "┃┗外式•砌穿",
+    "normal": "┗拳",
+    "easy": "┗重拳",
+    "describe": ""
+   },
+   {
+    "skill": "┃┃┗弐百拾弐式•琴月阳",
+    "normal": "┗→↓←＋腿",
+    "easy": "┗↓←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "百拾五式•毒咬",
+    "normal": "↓→＋重拳",
+    "easy": "→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "┗四百壹式•罪詠",
+    "normal": "┗拳",
+    "easy": "┗重拳",
+    "describe": ""
+   },
+   {
+    "skill": "┃┗四百弐式•罚詠",
+    "normal": "┗拳",
+    "easy": "┗重拳",
+    "describe": ""
+   },
+   {
+    "skill": "七拾五式•改",
+    "normal": "↓→＋腿",
+    "easy": "→＋重腿",
+    "describe": ""
+   },
+   {
+    "skill": "七拾七式•独乐屠",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "弐百拾弐式•琴月阳",
+    "normal": "→↓←＋腿",
+    "easy": "↓←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "九百拾式•鹤摘",
+    "normal": "↓←＋重拳",
+    "easy": "←＋轻拳",
+    "describe": "可格挡并反击"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "最终决战奥义•无式",
+    "normal": "↓→↓→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "里百八式•大蛇薙",
+    "normal": "↓←→＋拳",
+    "easy": "轻脚",
+    "describe": "按住可蓄力，"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "阳炎乱舞",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "真•无式",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "伍百弐拾四式·神尘",
+    "normal": "→↓←＋爆气键",
+    "easy": "---",
+    "describe": "近身无视防御"
+   }
+  ]
+ },
+ "Kyo2": {
+  "variable": "Kyo2",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "2",
+  "character": "Kyo",
+  "move_count": 19,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "外式•轰斧 阳",
+    "normal": "→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "外式•奈落落",
+    "normal": "空中↓＋重拳",
+    "easy": "空中↓＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "百弐拾五式•七濑",
+    "normal": "前沖中重腿",
+    "easy": "前沖中重腿",
+    "describe": ""
+   },
+   {
+    "skill": "八拾八式",
+    "normal": "↘＋重腿",
+    "easy": "↘＋重腿",
+    "describe": "破站防"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "百式•鬼烧",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "百八式•暗拂",
+    "normal": "↓→＋拳",
+    "easy": "→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "七拾五式•改",
+    "normal": "↓→＋腿",
+    "easy": "→＋重腿",
+    "describe": ""
+   },
+   {
+    "skill": "百壹式•胧车",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "四百弐拾七式•轹铁",
+    "normal": "↓←＋拳",
+    "easy": "←＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "苍鬼",
+    "normal": "→↓←＋腿",
+    "easy": "↓←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "百八拾弐式",
+    "normal": "↓→↓→＋拳",
+    "easy": "轻拳",
+    "describe": "可蓄力,蓄满防御不可"
+   },
+   {
+    "skill": "里百八式•大蛇薙",
+    "normal": "↓←→＋拳",
+    "easy": "轻腿",
+    "describe": "按住可蓄力"
+   },
+   {
+    "skill": "千九百九拾九式•雾焰",
+    "normal": "↓→↓→＋腿",
+    "easy": "↓轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "阳炎裂弹",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "爆炎神尘",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   }
+  ]
+ },
+ "Kusanagi1": {
+  "variable": "Kusanagi1",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "1",
+  "character": "Kusanagi",
+  "move_count": 19,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "外式•轰斧 阳",
+    "normal": "→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "外式•奈落落",
+    "normal": "空中↓＋重拳",
+    "easy": "空中↓＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "八拾八式",
+    "normal": "↘＋重腿",
+    "easy": "↘＋重腿",
+    "describe": "破站防"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "百式•鬼烧",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "百八式•暗拂",
+    "normal": "↓→＋拳",
+    "easy": "→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "七拾五式•改",
+    "normal": "↓→＋腿",
+    "easy": "→＋重腿",
+    "describe": ""
+   },
+   {
+    "skill": "百壹式•胧车",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "九百十式•鹤摘",
+    "normal": "↓←＋拳",
+    "easy": "←＋拳",
+    "describe": "格挡并反击"
+   },
+   {
+    "skill": "弐百拾弐式•琴月阳",
+    "normal": "→↓←＋腿",
+    "easy": "↓←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "布都御魂",
+    "normal": "↓→↓→＋拳",
+    "easy": "↓+轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "里百八式•大蛇薙",
+    "normal": "↓←→＋拳",
+    "easy": "轻腿",
+    "describe": "按住可蓄力"
+   },
+   {
+    "skill": "千九百九拾九式•雾焰",
+    "normal": "↓→↓→＋腿",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "火枷巨槌",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "最终决战奥义·零式",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "天羽羽斩",
+    "normal": "↓←↓→＋爆气键",
+    "easy": "←→＋爆气键",
+    "describe": "按住可蓄力"
+   }
+  ]
+ },
+ "Iori1": {
+  "variable": "Iori1",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "1",
+  "character": "Iori",
+  "move_count": 22,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "外式•梦弹",
+    "normal": "→＋轻拳",
+    "easy": "→＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "┗梦弹二段",
+    "normal": "┗→＋轻拳",
+    "easy": "┗→＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "外式•杭",
+    "normal": "↘＋重拳",
+    "easy": "↘＋重拳",
+    "describe": "可追地"
+   },
+   {
+    "skill": "外式•轰斧阴死神",
+    "normal": "→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "外式•百合折",
+    "normal": "空中←＋轻腿",
+    "easy": "空中←＋轻腿",
+    "describe": "逆向攻击"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "百式•鬼烧",
+    "normal": "→↓→＋ 拳",
+    "easy": "↓→＋ 拳",
+    "describe": ""
+   },
+   {
+    "skill": "百八式•暗拂",
+    "normal": "↓→＋拳",
+    "easy": "→＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "百弐拾七式•葵花",
+    "normal": "↓←＋拳",
+    "easy": "←＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "┗葵花二段",
+    "normal": "┗拳",
+    "easy": "┗拳",
+    "describe": ""
+   },
+   {
+    "skill": "┃┗葵花三段",
+    "normal": "┃┗拳",
+    "easy": "┃┗重拳",
+    "describe": ""
+   },
+   {
+    "skill": "弐百拾弐式•琴月阴",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "屑風",
+    "normal": "近身←↓→＋拳",
+    "easy": "近身←→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "叁佰拾壹式•爪栉",
+    "normal": "→↓→＋腿",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "禁千弐百拾壱式•八稚女",
+    "normal": "↓→←＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "┗裏参百拾六式•豺华",
+    "normal": "┗↓→↓→＋拳",
+    "easy": "↓＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "里百八式•八酒杯",
+    "normal": "↓←→＋拳",
+    "easy": "轻腿",
+    "describe": "可蓄力"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "祈爪栉八稚女",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "三神技之贰•梦月洗礼",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": "可蓄力，防御反击技"
+   }
+  ]
+ },
+ "Iori2": {
+  "variable": "Iori2",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "2",
+  "character": "Iori",
+  "move_count": 19,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "外式•梦弹",
+    "normal": "→＋轻拳",
+    "easy": "→＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "┗梦弹二段",
+    "normal": "┗→＋轻拳",
+    "easy": "┗→＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "外式•杭",
+    "normal": "↘＋重拳",
+    "easy": "↘＋重拳",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "外式•轰斧阴死神",
+    "normal": "→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "外式•百合折",
+    "normal": "空中←＋轻腿",
+    "easy": "空中←＋轻腿",
+    "describe": "逆向攻击"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "佰肆式•鵺讨",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "佰拾肆式•玉决",
+    "normal": "↓→＋拳",
+    "easy": "→＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "肆佰壹式•冲月",
+    "normal": "↓←＋拳",
+    "easy": "←＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "佰贰拾九式•明乌",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "贰佰叁式•槌椿",
+    "normal": "近身←↓→＋拳",
+    "easy": "近身←→＋拳",
+    "describe": "可破防"
+   },
+   {
+    "skill": "叁佰拾壹式•爪栉",
+    "normal": "→↓→＋腿",
+    "easy": "↓→＋重腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "禁千弐百拾壱式•八稚女",
+    "normal": "↓→←＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "禁千弐百拾八式•八咫乌",
+    "normal": "↓→↓→＋腿",
+    "easy": "轻腿",
+    "describe": "力模式下可追地"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "天太御魂",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "血之乱舞",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   }
+  ]
+ },
+ "Iori3": {
+  "variable": "Iori3",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "3",
+  "character": "Iori",
+  "move_count": 18,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "外式•梦弹",
+    "normal": "→＋轻拳",
+    "easy": "→＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "┗梦弹二段",
+    "normal": "┗→＋轻拳",
+    "easy": "┗→＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "外式•轰斧阴死神",
+    "normal": "→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "外式•百合折",
+    "normal": "空中←＋轻腿",
+    "easy": "空中←＋轻腿",
+    "describe": "逆向攻击"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "百式•鬼烧",
+    "normal": "→↓→＋ 拳",
+    "easy": "↓→＋ 拳",
+    "describe": ""
+   },
+   {
+    "skill": "百八式•暗拂",
+    "normal": "↓→＋拳",
+    "easy": "→＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "百弐拾七式•葵花",
+    "normal": "↓←＋拳",
+    "easy": "←＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "┗葵花二段",
+    "normal": "┗拳",
+    "easy": "┗重拳",
+    "describe": ""
+   },
+   {
+    "skill": "┃┗葵花三段",
+    "normal": "┃┗拳",
+    "easy": "┃┗拳",
+    "describe": ""
+   },
+   {
+    "skill": "弐百拾弐式•琴月阴",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "屑風",
+    "normal": "近身←↓→＋拳",
+    "easy": "近身←→＋拳",
+    "describe": "可破防"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "禁千贰佰拾壹式•八稚女Max",
+    "normal": "↓→←＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "狂暴之血",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "三神技之贰•血之洗礼",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": "可蓄力，防御反击效果"
+   }
+  ]
+ },
+ "K1": {
+  "variable": "K1",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "1",
+  "character": "K",
+  "move_count": 23,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "一英寸",
+    "normal": "→＋轻拳",
+    "easy": "→＋轻拳",
+    "describe": "Wire Attack"
+   },
+   {
+    "skill": "膝攻击",
+    "normal": "→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "乌鸦咬",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "┗乌鸦再咬",
+    "normal": "┗重腿",
+    "easy": "┗重腿",
+    "describe": ""
+   },
+   {
+    "skill": "热扳机",
+    "normal": "↓→＋拳",
+    "easy": "→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "┗第二弹",
+    "normal": "┗轻腿",
+    "easy": "┗→＋轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "┗第二形",
+    "normal": "┗重腿",
+    "easy": "┗重腿",
+    "describe": ""
+   },
+   {
+    "skill": "┗狭刺",
+    "normal": "┗←＋腿",
+    "easy": "┗←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "瞬刺",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": "空中可"
+   },
+   {
+    "skill": "┗狭刺",
+    "normal": "轻腿",
+    "easy": "",
+    "describe": "破站防"
+   },
+   {
+    "skill": "狭刺",
+    "normal": "↓→＋腿",
+    "easy": "→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "空中扳机",
+    "normal": "空中↓→＋腿",
+    "easy": "空中→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "膝踢升空",
+    "normal": "→↓→＋腿",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "┗穿刺",
+    "normal": "┗腿",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "热动",
+    "normal": "↓→↓→＋拳",
+    "easy": "轻拳",
+    "describe": "可蓄力，蓄满防御不可"
+   },
+   {
+    "skill": "热动•改",
+    "normal": "↓→↓→＋轻拳",
+    "easy": "←＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "空中爆弹",
+    "normal": "↓→↓→＋腿",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "真•链动",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "烈炎板机",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   }
+  ]
+ },
+ "K2": {
+  "variable": "K2",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "2",
+  "character": "K",
+  "move_count": 20,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "一英寸",
+    "normal": "→＋轻拳",
+    "easy": "→＋轻拳",
+    "describe": "Wire Attack"
+   },
+   {
+    "skill": "膝攻击",
+    "normal": "→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "乌鸦咬",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "┗乌鸦再咬",
+    "normal": "┗腿",
+    "easy": "┗重腿",
+    "describe": ""
+   },
+   {
+    "skill": "热扳机",
+    "normal": "↓→＋拳",
+    "easy": "→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "┗第二形",
+    "normal": "┗重腿",
+    "easy": "┗重腿",
+    "describe": ""
+   },
+   {
+    "skill": "┗瞬刺",
+    "normal": "┗轻腿",
+    "easy": "┗→＋轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "┗狭刺",
+    "normal": "┗←＋腿",
+    "easy": "┗←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "狭刺",
+    "normal": "↓→＋腿",
+    "easy": "→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "空中扳机",
+    "normal": "空中↓→＋腿",
+    "easy": "空中→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "瞬刺•改",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": "空中可"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "真•热动",
+    "normal": "↓→↓→＋拳",
+    "easy": "轻拳",
+    "describe": "可蓄力，蓄满防御不可"
+   },
+   {
+    "skill": "真红炎踢",
+    "normal": "↓→↓→＋腿",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "链动",
+    "normal": "↓→←＋拳",
+    "easy": "←＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "霸气深红之星",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": "破防"
+   },
+   {
+    "skill": "翔炎",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   }
+  ]
+ },
+ "Kula1": {
+  "variable": "Kula1",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "1",
+  "character": "Kula",
+  "move_count": 19,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "一英寸",
+    "normal": "→＋轻拳",
+    "easy": "→＋轻拳",
+    "describe": "Wire Attack"
+   },
+   {
+    "skill": "滑行射击",
+    "normal": "↘＋轻腿",
+    "easy": "↘＋轻腿",
+    "describe": "破站防"
+   },
+   {
+    "skill": "临界冰点",
+    "normal": "↘＋重拳（或→↓←＋拳）",
+    "easy": "↘＋重拳（或→↓←＋拳）",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "乌鸦咬",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "钻石气息",
+    "normal": "↓→＋拳",
+    "easy": "→＋拳",
+    "describe": "分轻重"
+   },
+   {
+    "skill": "贝壳反击",
+    "normal": "↓←＋拳",
+    "easy": "←＋拳",
+    "describe": "可反击飞行道具"
+   },
+   {
+    "skill": "旋转里斯",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "┗踢冰",
+    "normal": "┗→＋重腿",
+    "easy": "┗→＋重腿",
+    "describe": ""
+   },
+   {
+    "skill": "┗滑行射击",
+    "normal": "┗→＋轻腿",
+    "easy": "┗→＋轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "钻石射击",
+    "normal": "空中↓→＋腿",
+    "easy": "空中→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "钻石冰刃",
+    "normal": "↓→↓→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "冰之舞步",
+    "normal": "↓→←＋腿",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "冰盾射击",
+    "normal": "↓→↓→＋腿",
+    "easy": "↓＋轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "冰冻结界",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "钻石星辰",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   }
+  ]
+ },
+ "Kula2": {
+  "variable": "Kula2",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "2",
+  "character": "Kula",
+  "move_count": 18,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "一英寸",
+    "normal": "→＋轻拳",
+    "easy": "→＋轻拳",
+    "describe": "Wire Attack"
+   },
+   {
+    "skill": "滑行射击",
+    "normal": "↘＋轻腿",
+    "easy": "↘＋轻腿",
+    "describe": "破站防"
+   },
+   {
+    "skill": "临界冰点",
+    "normal": "↘＋重拳（或→↓←＋拳）",
+    "easy": "↘＋重拳（或→↓←＋拳）",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "乌鸦咬",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "钻石气息",
+    "normal": "↓→＋拳",
+    "easy": "→＋拳",
+    "describe": "分轻重"
+   },
+   {
+    "skill": "┗踢冰",
+    "normal": "┗腿",
+    "easy": "",
+    "describe": "轻钻石气息才可接"
+   },
+   {
+    "skill": "三段踢",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "踢冰",
+    "normal": "↓→＋腿",
+    "easy": "→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "钻石射击",
+    "normal": "空中↓→＋腿",
+    "easy": "空中→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "寒动",
+    "normal": "↓→↓→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "翔动",
+    "normal": "↓→←＋拳",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "冰石降",
+    "normal": "↓→↓→＋腿",
+    "easy": "↓＋轻腿",
+    "describe": "可追地"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "乱刃舞",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "冰冻风暴",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": "一段时间冰冻对手"
+   }
+  ]
+ },
+ "Ryu1": {
+  "variable": "Ryu1",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "1",
+  "character": "Ryu",
+  "move_count": 18,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "锁骨割",
+    "normal": "→＋轻拳",
+    "easy": "↓＋轻拳",
+    "describe": "破 蹲防"
+   },
+   {
+    "skill": "前跃踢",
+    "normal": "→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "天魔空刃腿",
+    "normal": "前跳中↓＋轻腿",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "波动拳",
+    "normal": "↓→＋拳",
+    "easy": "→＋拳",
+    "describe": "按住 可蓄力"
+   },
+   {
+    "skill": "空中波动拳",
+    "normal": "↓←＋拳",
+    "easy": "←＋拳",
+    "describe": " 空中可"
+   },
+   {
+    "skill": "龙卷旋风腿",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": " 空中可"
+   },
+   {
+    "skill": "升龙拳",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "阿修罗闪空（前）",
+    "normal": "→↓→＋腿",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "阿修罗闪空（后）",
+    "normal": "←↓←＋腿",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "真空波动拳",
+    "normal": "↓→↓→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "真空龙卷旋风腿",
+    "normal": "↓←↓←＋腿",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "升龙裂破",
+    "normal": "↓←↓←＋拳",
+    "easy": "↓＋轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "瞬狱杀",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "神武灭杀",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": "可蓄力，有格挡效果"
+   }
+  ]
+ },
+ "Ryu2": {
+  "variable": "Ryu2",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "2",
+  "character": "Ryu",
+  "move_count": 19,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "锁骨割",
+    "normal": "→＋轻拳",
+    "easy": "↓＋轻拳",
+    "describe": "破 蹲防"
+   },
+   {
+    "skill": "前跃踢",
+    "normal": "→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "天魔空刃腿",
+    "normal": "前跳中↓＋轻腿",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "波动拳",
+    "normal": "↓→＋拳",
+    "easy": "→＋拳",
+    "describe": "按住 蓄力、空中可"
+   },
+   {
+    "skill": "龙卷旋风腿",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": " 空中可"
+   },
+   {
+    "skill": "升龙拳",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "百鬼袭",
+    "normal": "→↓→＋腿",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "┗百鬼豪斩",
+    "normal": "┗自动收招",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "┗百鬼豪冲",
+    "normal": "┗重拳",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "┗百鬼豪刃",
+    "normal": "┗重腿",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "真空波动拳",
+    "normal": "↓→↓→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "天魔斩空",
+    "normal": "↓←↓←＋拳",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "真•升龙拳",
+    "normal": "↓←→＋拳",
+    "easy": "↓＋轻腿",
+    "describe": "按住可蓄力"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "灭杀豪波动",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "ＥＸ乱舞",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": "可追地"
+   }
+  ]
+ },
+ "Moriya1": {
+  "variable": "Moriya1",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "1",
+  "character": "Moriya",
+  "move_count": 24,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "逸刀•水无月",
+    "normal": "→＋轻拳",
+    "easy": "↓＋轻拳",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "逸刀•胧•上",
+    "normal": "↓←＋轻拳",
+    "easy": "←＋轻拳",
+    "describe": "蓄满防御不可"
+   },
+   {
+    "skill": "逸刀•胧•中",
+    "normal": "↓←＋重拳",
+    "easy": "←＋重拳",
+    "describe": "蓄满防御不可"
+   },
+   {
+    "skill": "逸刀•胧•下",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": "蓄满防御不可"
+   },
+   {
+    "skill": "逸刀•月影Ａ１",
+    "normal": "↓→＋轻拳",
+    "easy": "→＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "┗逸刀•月影Ａ２",
+    "normal": "┗ 轻拳",
+    "easy": "┗ →＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "┃┗逸刀•月影Ａ３",
+    "normal": "┃┗ 轻拳",
+    "easy": "┃┗ →＋ 轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "逸刀•月影Ｃ１",
+    "normal": "↓→＋重拳",
+    "easy": "→＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "┗逸刀•月影Ｃ２",
+    "normal": "┗ 重拳",
+    "easy": "┗ 重拳",
+    "describe": ""
+   },
+   {
+    "skill": "┃┗逸刀•月影Ｃ３",
+    "normal": "┃┗ 重拳",
+    "easy": "┃┗ 重拳",
+    "describe": ""
+   },
+   {
+    "skill": "┃┃┗逸刀•月影Ｃ４",
+    "normal": "┃┃┗ 重拳",
+    "easy": "┃┃┗ 重拳",
+    "describe": ""
+   },
+   {
+    "skill": "逸刀•新月",
+    "normal": "→↓→＋轻拳",
+    "easy": "↓→＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "┗逸刀•双月",
+    "normal": "┗ →＋轻拳",
+    "easy": "┗ →＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "逸刀•里新月",
+    "normal": "→↓→＋重拳",
+    "easy": "↓→＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "月读•上弦",
+    "normal": "↓→＋重腿",
+    "easy": "→＋重腿",
+    "describe": "防御反击技"
+   },
+   {
+    "skill": "月读•下弦",
+    "normal": "↓→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": "防御反击技"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "活杀•十六夜月华",
+    "normal": "↓←↓←＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "活杀•乱之雪月华",
+    "normal": "↓→←＋拳",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "瞬杀•疾风三月斩",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "瞬杀•快刀乱麻",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   }
+  ]
+ },
+ "Moriya2": {
+  "variable": "Moriya2",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "2",
+  "character": "Moriya",
+  "move_count": 24,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "逸刀•水无月",
+    "normal": "→＋轻拳",
+    "easy": "↓＋轻拳",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "逸刀•胧•上",
+    "normal": "↓←＋轻拳",
+    "easy": "←＋轻拳",
+    "describe": "蓄满防御不可"
+   },
+   {
+    "skill": "逸刀•胧•中",
+    "normal": "↓←＋重拳",
+    "easy": "←＋重拳",
+    "describe": "蓄满防御不可"
+   },
+   {
+    "skill": "逸刀•胧•下",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": " 蓄满防御不可"
+   },
+   {
+    "skill": "逸刀•月影Ａ１",
+    "normal": "↓→＋轻拳",
+    "easy": "→＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "┗逸刀•月影Ａ２",
+    "normal": "┗ 轻拳",
+    "easy": "┗ →＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "┃┗逸刀•月影Ａ３",
+    "normal": "┃┗ 轻拳",
+    "easy": "┃┗ →＋  轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "逸刀•月影Ｃ１",
+    "normal": "↓→＋重拳",
+    "easy": "→＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "┗逸刀•月影Ｃ２",
+    "normal": "┗ 重拳",
+    "easy": "┗ 重拳",
+    "describe": ""
+   },
+   {
+    "skill": "┃┗逸刀•月影Ｃ３",
+    "normal": "┃┗ 重拳",
+    "easy": "┃┗ 重拳",
+    "describe": ""
+   },
+   {
+    "skill": "┃┃┗逸刀•月影Ｃ４",
+    "normal": "┃┃┗ 重拳",
+    "easy": "┃┃┗  重拳",
+    "describe": ""
+   },
+   {
+    "skill": "逸刀•新月",
+    "normal": "→↓→＋轻拳",
+    "easy": "↓→＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "┗逸刀•双月",
+    "normal": "┗ →＋轻拳",
+    "easy": "┗ →＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "逸刀•里新月",
+    "normal": "→↓→＋重拳",
+    "easy": "↓→＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "月读•上弦",
+    "normal": "↓→＋重腿",
+    "easy": "→＋重腿",
+    "describe": "防御反击技"
+   },
+   {
+    "skill": "月读•下弦",
+    "normal": "↓→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": "防御反击技"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "枫•伏龙",
+    "normal": "↓←→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "雪•树冰",
+    "normal": "↓→←＋拳",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "瞬杀•疾风斩",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "月华乱舞",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   }
+  ]
+ },
+ "Chunli1": {
+  "variable": "Chunli1",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "1",
+  "character": "Chunli",
+  "move_count": 16,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "鹤脚落",
+    "normal": "→＋轻脚",
+    "easy": "→＋轻脚",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "鹰爪脚",
+    "normal": "空中↓＋ 重脚",
+    "easy": "空中↓＋ 重脚",
+    "describe": ""
+   },
+   {
+    "skill": "三角跳",
+    "normal": "版边跳跃中 ↗",
+    "easy": "版边跳跃中 ↗",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "气功波",
+    "normal": "↓→＋拳",
+    "easy": "→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "旋圆蹴",
+    "normal": "↓←＋拳",
+    "easy": "←＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "回旋鹤脚蹴",
+    "normal": "↓←＋脚",
+    "easy": "←＋脚",
+    "describe": ""
+   },
+   {
+    "skill": "百裂腿",
+    "normal": "↓→＋脚",
+    "easy": "→＋脚",
+    "describe": "空中可"
+   },
+   {
+    "skill": "霸山天升脚",
+    "normal": "→↓→＋脚",
+    "easy": "↓→＋脚",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "气功掌",
+    "normal": "↓→↓→ ＋ 拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "凤翼扇",
+    "normal": "↓→↓→ ＋ 腿",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "七星闪空脚",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "波动气功炮",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": "可抵消飞行道具"
+   }
+  ]
+ },
+ "Chunli2": {
+  "variable": "Chunli2",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "2",
+  "character": "Chunli",
+  "move_count": 16,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "鹤脚落",
+    "normal": "→＋轻脚",
+    "easy": "→＋轻脚",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "鹰爪脚",
+    "normal": "空中↓＋ 重脚",
+    "easy": "空中↓＋ 重脚",
+    "describe": ""
+   },
+   {
+    "skill": "三角跳",
+    "normal": "版边跳跃中 ↗",
+    "easy": "版边跳跃中 ↗",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "气功掌",
+    "normal": "↓→＋拳",
+    "easy": "→＋拳",
+    "describe": "近身攻击"
+   },
+   {
+    "skill": "旋圆蹴",
+    "normal": "↓←＋拳",
+    "easy": "←＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "回旋鹤脚",
+    "normal": "↓←＋脚",
+    "easy": "←＋脚",
+    "describe": ""
+   },
+   {
+    "skill": "中段连蹴",
+    "normal": "↓→＋脚",
+    "easy": "→＋脚",
+    "describe": "空中可"
+   },
+   {
+    "skill": "空中穿刺",
+    "normal": "空中 ↓← ＋ 腿",
+    "easy": "空中 ← ＋ 腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "奔雷气功弹",
+    "normal": "↓→↓→ ＋ 拳",
+    "easy": "轻拳",
+    "describe": "可抵消飞行道具"
+   },
+   {
+    "skill": "空中百裂腿",
+    "normal": "↓→↓→ ＋ 腿",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "组合乱舞",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "天星乱华",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   }
+  ]
+ },
+ "Terry2": {
+  "variable": "Terry2",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "2",
+  "character": "Terry",
+  "move_count": 20,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "后打",
+    "normal": "→＋轻拳",
+    "easy": "→＋轻拳",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "步步高",
+    "normal": "↘＋重拳",
+    "easy": "↘＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "能量波浪",
+    "normal": "↓→＋轻拳",
+    "easy": "→＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "环形波",
+    "normal": "↓→＋重拳",
+    "easy": "→＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "快速回旋拳",
+    "normal": "↓←＋拳",
+    "easy": "←＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "灌篮强击",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "转身滑踢",
+    "normal": "↓→＋腿",
+    "easy": "→＋腿",
+    "describe": "破站防"
+   },
+   {
+    "skill": "能量补充１",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "┗能量补充２",
+    "normal": "┗腿",
+    "easy": "┗重腿",
+    "describe": ""
+   },
+   {
+    "skill": "┃┗能量补充３",
+    "normal": "┃┗腿",
+    "easy": "┃┗重腿",
+    "describe": ""
+   },
+   {
+    "skill": "能量射击",
+    "normal": "→↓→＋重腿",
+    "easy": "↓→＋重腿",
+    "describe": ""
+   },
+   {
+    "skill": "能量牵引",
+    "normal": "→↓→＋轻腿",
+    "easy": "↓→＋轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "能量喷泉",
+    "normal": "↓←→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "饿狼咆哮",
+    "normal": "↓→↓→＋腿",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "斗气风暴",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "上升打击",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": "破站防"
+   }
+  ]
+ },
+ "Terry1": {
+  "variable": "Terry1",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "1",
+  "character": "Terry",
+  "move_count": 18,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "后打",
+    "normal": "→＋轻拳",
+    "easy": "→＋轻拳",
+    "describe": "破蹲 防"
+   },
+   {
+    "skill": "步步高",
+    "normal": "↘＋重拳",
+    "easy": "↘＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "环形波",
+    "normal": "↓→＋轻拳",
+    "easy": "→＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "能量波",
+    "normal": "↓→＋重拳",
+    "easy": "→＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "火焰冲拳",
+    "normal": "↓←＋拳",
+    "easy": "←＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "倒跃踢",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "碎石踢",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "灌篮强击",
+    "normal": "→↓→＋腿",
+    "easy": "↓→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "能量补充(EX)",
+    "normal": "↓→＋腿",
+    "easy": "→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "┗灌篮强击",
+    "normal": "┗腿",
+    "easy": "┗重腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "能量喷泉",
+    "normal": "↓←→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "高轨喷泉",
+    "normal": "↓→↓→＋腿",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "血染玫瑰",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "能量喷涌",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   }
+  ]
+ },
+ "Haohmaru1": {
+  "variable": "Haohmaru1",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "1",
+  "character": "Haohmaru",
+  "move_count": 20,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "不意打",
+    "normal": "→＋轻拳",
+    "easy": "→＋轻拳",
+    "describe": "破 蹲防"
+   },
+   {
+    "skill": "踝踢",
+    "normal": "↘＋腿",
+    "easy": "↘＋腿",
+    "describe": "破站防"
+   },
+   {
+    "skill": "滑踢",
+    "normal": "前冲中＋腿",
+    "easy": "前冲中＋腿",
+    "describe": " 破站防"
+   },
+   {
+    "skill": "提斩",
+    "normal": "前冲中＋拳",
+    "easy": "前冲中＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "旋风烈斩",
+    "normal": "↓→＋斩",
+    "easy": "→＋ 拳",
+    "describe": "轻 、中、重效果不同"
+   },
+   {
+    "skill": "飞翔旋风烈斩",
+    "normal": "空中↓→＋斩",
+    "easy": "空中→＋斩",
+    "describe": "轻、中、重效果不同"
+   },
+   {
+    "skill": "疾风弧月斩",
+    "normal": "→↓→＋斩",
+    "easy": "↓→＋任一拳脚键",
+    "describe": "轻、中、重效果不同"
+   },
+   {
+    "skill": "烈震斩",
+    "normal": "←↓←＋斩",
+    "easy": "↓←＋任一拳脚键",
+    "describe": "轻、中、重效果不同"
+   },
+   {
+    "skill": "斩刚闪",
+    "normal": "→↓←＋拳",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "二段切",
+    "normal": "←↓→＋拳",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "伪旋风烈斩",
+    "normal": "↓→＋腿",
+    "easy": "→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "酒壶击",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": "攻击 并反射飞行道具"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "天霸封神斩",
+    "normal": "↓→↓→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "天霸凄煌斩",
+    "normal": "↓→↓→＋腿",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "十四连斩",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "一闪",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   }
+  ]
+ },
+ "Haohmaru2": {
+  "variable": "Haohmaru2",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "2",
+  "character": "Haohmaru",
+  "move_count": 20,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "不意打",
+    "normal": "→＋轻拳",
+    "easy": "→＋轻拳",
+    "describe": "破 蹲防"
+   },
+   {
+    "skill": "踝踢",
+    "normal": "↘＋腿",
+    "easy": "↘＋腿",
+    "describe": "破站防"
+   },
+   {
+    "skill": "滑踢",
+    "normal": "前冲中＋腿",
+    "easy": "前冲中＋腿",
+    "describe": " 破站防"
+   },
+   {
+    "skill": "提斩",
+    "normal": "前冲中＋拳",
+    "easy": "前冲中＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "旋风烈斩•刹",
+    "normal": "↓→＋斩",
+    "easy": "→＋ 拳",
+    "describe": " 浮空后可追击"
+   },
+   {
+    "skill": "牙空",
+    "normal": "近身拳＋拳",
+    "easy": "近身拳＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "飞燕",
+    "normal": "蹲拳＋站拳",
+    "easy": "蹲拳＋站拳",
+    "describe": ""
+   },
+   {
+    "skill": "旋风波",
+    "normal": "↓→＋腿",
+    "easy": "→＋腿",
+    "describe": "二段 攻击"
+   },
+   {
+    "skill": "弧月斩",
+    "normal": "→↓→＋斩",
+    "easy": "↓→＋拳",
+    "describe": " 轻、中、重效果不同"
+   },
+   {
+    "skill": "刚破",
+    "normal": "→↓→＋腿",
+    "easy": "↓→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "夙刃",
+    "normal": "←↓←＋拳",
+    "easy": "↓←＋拳",
+    "describe": "蓄 力攻击"
+   },
+   {
+    "skill": "胴崩",
+    "normal": "→↓←＋腿",
+    "easy": "↓←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "天霸横空断斩",
+    "normal": "↓→↓→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "刚咆",
+    "normal": "↓→↓→＋腿",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "仁王符灵阵",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "天霸断空烈斩",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   }
+  ]
+ },
+ "Orochi1": {
+  "variable": "Orochi1",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "1",
+  "character": "Orochi",
+  "move_count": 13,
+  "moves": [
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "黑粒子",
+    "normal": "↓→＋拳",
+    "easy": "→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "神指(对地)",
+    "normal": "↓→＋重腿",
+    "easy": "→＋重腿",
+    "describe": "反弹对手和飞行道具"
+   },
+   {
+    "skill": "神指(对空)",
+    "normal": "↓→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": "反弹对手"
+   },
+   {
+    "skill": "天雷落(近程)",
+    "normal": "↓←＋轻拳",
+    "easy": "←＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "天雷落(远程)",
+    "normal": "↓←＋重拳",
+    "easy": "←＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "誓约",
+    "normal": "→↓→＋腿",
+    "easy": "↓→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "灵光柱",
+    "normal": "↓→←＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "天光",
+    "normal": "↓←→＋拳",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "归宿",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "羽化蝶舞",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": "可追地"
+   }
+  ]
+ },
+ "Orochi2": {
+  "variable": "Orochi2",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "2",
+  "character": "Orochi",
+  "move_count": 15,
+  "moves": [
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "解除",
+    "normal": "↓→＋拳",
+    "easy": "→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "显齐•祝映",
+    "normal": "↓→＋重腿",
+    "easy": "→＋重腿",
+    "describe": "格挡 (对地)"
+   },
+   {
+    "skill": "显齐",
+    "normal": "↓→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": "格挡 (对空)"
+   },
+   {
+    "skill": "罚",
+    "normal": "↓←＋轻拳",
+    "easy": "←＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "刑迅",
+    "normal": "↓←＋重拳",
+    "easy": "←＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "谎言",
+    "normal": "→↓→＋腿",
+    "easy": "↓→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "糺•袚正",
+    "normal": "←↓→＋腿",
+    "easy": "←→＋腿",
+    "describe": " 反弹对手飞行道具"
+   },
+   {
+    "skill": "火阑降",
+    "normal": "→↓←＋任意攻击键",
+    "easy": "→←＋任意攻击键",
+    "describe": " 位置因攻击鍵而不同"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "混",
+    "normal": "↓←→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "黜",
+    "normal": "↓→←＋拳",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "破蛹冲鬯",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "天之濯",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": "可追地"
+   }
+  ]
+ },
+ "Igniz1": {
+  "variable": "Igniz1",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "1",
+  "character": "Igniz",
+  "move_count": 16,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "蓝色诺亚",
+    "normal": "近→＋重拳",
+    "easy": "近→＋重拳",
+    "describe": "投技"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "空间集体屠杀",
+    "normal": "↓→＋脚",
+    "easy": "",
+    "describe": "反弹 对手的物理攻击"
+   },
+   {
+    "skill": "负的起源",
+    "normal": "↓←＋脚",
+    "easy": "→＋脚",
+    "describe": "反 弹对手和飞行道具"
+   },
+   {
+    "skill": "神圣之剑•地面",
+    "normal": "↓←＋重拳",
+    "easy": "←＋脚",
+    "describe": ""
+   },
+   {
+    "skill": "神圣之剑•天空",
+    "normal": "↓←＋轻拳",
+    "easy": "←＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "鍊刃•体轴垂直切开",
+    "normal": "↓→＋拳",
+    "easy": "→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "鍊刃•颅顶骨棱切开",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "圣光之刃",
+    "normal": "↓→↓→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "混沌状态",
+    "normal": "↓→↓→＋脚",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "蓝色成神计划",
+    "normal": "↓→←＋轻拳",
+    "easy": "↓＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "白罗灭精MAX",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "合理的宇宙",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": "破防、可追地"
+   }
+  ]
+ },
+ "Igniz2": {
+  "variable": "Igniz2",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "2",
+  "character": "Igniz",
+  "move_count": 18,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "蓝色诺亚",
+    "normal": "近→＋重拳",
+    "easy": "近→＋重拳",
+    "describe": "投技"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "猿王•跃",
+    "normal": "↓→＋任意攻击键",
+    "easy": "→＋任意攻击键 ",
+    "describe": "位置因攻击鍵而不同"
+   },
+   {
+    "skill": "猿王•落下",
+    "normal": "↓←＋任意攻击键",
+    "easy": "←＋任意攻击 键",
+    "describe": "位置因攻击鍵而不同"
+   },
+   {
+    "skill": "┗猿王•火柱",
+    "normal": "┗任意攻击键",
+    "easy": "┗重拳或重腿",
+    "describe": "位置因攻击鍵而不同"
+   },
+   {
+    "skill": "猿王•火柱",
+    "normal": "→↓←＋任意攻击键",
+    "easy": "→←＋攻击 键",
+    "describe": "位置因攻击鍵而不同"
+   },
+   {
+    "skill": "幽暗升华",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "決绝之牆",
+    "normal": "←↓←＋拳",
+    "easy": "↓←＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "圣光反射",
+    "normal": "←↓←＋腿",
+    "easy": "↓←＋腿",
+    "describe": "反弹对手和飞行道具"
+   },
+   {
+    "skill": "深度洁净",
+    "normal": "←↓→＋拳",
+    "easy": "←→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "胜利之剑‧轻",
+    "normal": "↓→↓→＋轻拳",
+    "easy": "↓＋轻拳",
+    "describe": "可追地"
+   },
+   {
+    "skill": "胜利之剑‧重",
+    "normal": "↓→↓→＋重拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "禁锢狂欢",
+    "normal": "↓→↓→＋腿",
+    "easy": "轻腿",
+    "describe": " 可破防"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "终结审判",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": "可破防"
+   },
+   {
+    "skill": "活祭•神恩救赎",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": "可追地"
+   }
+  ]
+ },
+ "Rugal1": {
+  "variable": "Rugal1",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "1",
+  "character": "Rugal",
+  "move_count": 20,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "双秃鹫",
+    "normal": "→＋轻脚",
+    "easy": "→＋轻脚",
+    "describe": "第二 击破蹲防"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "裂风拳",
+    "normal": "↓→＋拳",
+    "easy": "→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "空中•重力机器",
+    "normal": "空中↓→＋拳",
+    "easy": "空中→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "毁灭压杀",
+    "normal": "→↓←＋拳",
+    "easy": "←＋拳",
+    "describe": " 按住可蓄力"
+   },
+   {
+    "skill": "帝王波•改",
+    "normal": "→←↓→＋拳",
+    "easy": "↓←＋拳",
+    "describe": "按住可蓄力"
+   },
+   {
+    "skill": "┗冲击帝王波",
+    "normal": "帝王波•改  蓄力第二段",
+    "easy": "帝王 波•改  蓄力第二段",
+    "describe": ""
+   },
+   {
+    "skill": "┃┗雷电帝王波",
+    "normal": "帝王波•改  蓄力第三段",
+    "easy": "帝 王波•改  蓄力第三段",
+    "describe": ""
+   },
+   {
+    "skill": "┃┃┗毁灭帝王波",
+    "normal": "帝王波•改  蓄力第四段",
+    "easy": " 帝王波•改  蓄力第四段",
+    "describe": "第二段破防"
+   },
+   {
+    "skill": "灭族切割",
+    "normal": "→↓→＋轻脚",
+    "easy": "↓→＋轻脚",
+    "describe": ""
+   },
+   {
+    "skill": "暗黑灭绝",
+    "normal": "→↓→＋重脚",
+    "easy": "↓→＋重脚",
+    "describe": ""
+   },
+   {
+    "skill": "一瞬投",
+    "normal": "←↓→＋拳",
+    "easy": "←→＋拳",
+    "describe": "近 身破防"
+   },
+   {
+    "skill": "闪空瞬移",
+    "normal": "←↓→＋脚",
+    "easy": "←→＋脚",
+    "describe": " 可蓄力，蓄满防御不可"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "死亡尖叫",
+    "normal": "↓→↓→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "巨人碾碎",
+    "normal": "↓→↓→＋脚",
+    "easy": "轻腿",
+    "describe": "敌方防禦动作禁止"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "恐惧杀戮",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "天国压杀",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   }
+  ]
+ },
+ "Rugal2": {
+  "variable": "Rugal2",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "2",
+  "character": "Rugal",
+  "move_count": 18,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "双秃鹫",
+    "normal": "→＋轻脚",
+    "easy": "→＋轻脚",
+    "describe": "第二 击破蹲防"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "裂风拳•改",
+    "normal": "↓→＋拳",
+    "easy": "→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "黑暗粉碎",
+    "normal": "空中↓→＋拳",
+    "easy": "空中→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "帝王波",
+    "normal": "→←↓→＋拳",
+    "easy": "↓←＋拳",
+    "describe": " 按住可蓄力"
+   },
+   {
+    "skill": "┗凯撒帝王波",
+    "normal": "帝王波  蓄力第二段",
+    "easy": "帝王波   蓄力第二段",
+    "describe": ""
+   },
+   {
+    "skill": "┃┗狂怒帝王波",
+    "normal": "帝王波  蓄力第三段",
+    "easy": "帝王 波  蓄力第三段",
+    "describe": ""
+   },
+   {
+    "skill": "┃┃┗死亡帝王波",
+    "normal": "帝王波  蓄力第四段",
+    "easy": "帝 王波  蓄力第四段",
+    "describe": "破防"
+   },
+   {
+    "skill": "灭族切割",
+    "normal": "→↓→＋脚",
+    "easy": "↓→＋脚",
+    "describe": ""
+   },
+   {
+    "skill": "绝情打击",
+    "normal": "→↓←＋脚",
+    "easy": "↓←＋脚",
+    "describe": ""
+   },
+   {
+    "skill": "帝王压杀",
+    "normal": "→↓←＋拳",
+    "easy": "←＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "巨人压杀",
+    "normal": "↓→←＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "死亡终结",
+    "normal": "↓→↓→＋脚",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "血腥屠戮",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": "电波可破防，灰色波可追地"
+   },
+   {
+    "skill": "切割风暴",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": "破防"
+   }
+  ]
+ },
+ "Ryo1": {
+  "variable": "Ryo1",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "1",
+  "character": "Ryo",
+  "move_count": 17,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "冰柱割",
+    "normal": "→＋轻拳",
+    "easy": "↓＋轻拳",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "上段受",
+    "normal": "→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": "中段格挡"
+   },
+   {
+    "skill": "下段受",
+    "normal": "↘＋轻腿",
+    "easy": "↘＋轻腿",
+    "describe": "下段格挡"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "虎煌拳",
+    "normal": "↓→＋拳",
+    "easy": "→＋拳",
+    "describe": "空中可"
+   },
+   {
+    "skill": "虎咆疾风拳",
+    "normal": "↓←＋拳",
+    "easy": "←＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "猛虎雷神刹",
+    "normal": "↓→＋腿",
+    "easy": "→＋腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "飞燕疾风脚",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "虎咆",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "暂烈拳",
+    "normal": "→←→＋拳",
+    "easy": "→←→＋拳",
+    "describe": "轻版可Wire Attack"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "霸王翔吼拳",
+    "normal": "→←↓→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "天地霸煌拳",
+    "normal": "↓→↓→＋拳",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超霸王翔吼拳",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "天地上下之构",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": "当身技"
+   }
+  ]
+ },
+ "Ryo2": {
+  "variable": "Ryo2",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "2",
+  "character": "Ryo",
+  "move_count": 18,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "冰柱割",
+    "normal": "→＋轻拳",
+    "easy": "↓＋轻拳",
+    "describe": "破蹲 防"
+   },
+   {
+    "skill": "上段受",
+    "normal": "→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": "中段 格挡"
+   },
+   {
+    "skill": "下段受",
+    "normal": "↘＋轻腿",
+    "easy": "↘＋轻腿",
+    "describe": "下段 格挡"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "虎煌拳",
+    "normal": "↓→＋拳",
+    "easy": "→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "猛虎雷神刚",
+    "normal": "↓←＋拳",
+    "easy": "←＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "飞燕疾风脚‧改",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "虎咆",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "暂烈拳",
+    "normal": "→←→＋拳",
+    "easy": "→←→＋拳",
+    "describe": " 轻版可Wire Attack"
+   },
+   {
+    "skill": "连舞拳",
+    "normal": "←↓→＋拳",
+    "easy": "←→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "两手突",
+    "normal": "←↓→＋腿",
+    "easy": "←→＋腿",
+    "describe": "重版可破防,Wire Attack"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "霸王翔吼拳",
+    "normal": "→←↓→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "龙虎乱舞",
+    "normal": "↓→←＋拳",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "真‧天地霸煌拳",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": "近身时发动攻击"
+   },
+   {
+    "skill": "狂暴乱舞",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": "被攻击時格挡并反击"
+   }
+  ]
+ },
+ "Athena1": {
+  "variable": "Athena1",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "1",
+  "character": "Athena",
+  "move_count": 18,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "凤凰炸弹",
+    "normal": "空中↓＋轻腿",
+    "easy": "空中↓＋轻腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "连环腿",
+    "normal": "→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "三角跳",
+    "normal": "版边跳跃中↗",
+    "easy": "版边跳跃中↗",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "精神力球",
+    "normal": "↓←＋拳",
+    "easy": "←＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "精神力传送",
+    "normal": "↓→＋腿",
+    "easy": "→＋腿",
+    "describe": "空中可"
+   },
+   {
+    "skill": "精神力反射",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": "可反射飞行道具"
+   },
+   {
+    "skill": "凤凰箭",
+    "normal": "空中↓←＋腿",
+    "easy": "空中←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "划空光剑",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "超级精神透",
+    "normal": "←↓→＋拳",
+    "easy": "←→＋拳",
+    "describe": "指令投"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "凤凰锐箭",
+    "normal": "↓→↓→＋腿",
+    "easy": "轻拳",
+    "describe": "标准按键空中可"
+   },
+   {
+    "skill": "闪光水晶波",
+    "normal": "→←→←＋拳",
+    "easy": "轻腿",
+    "describe": "标准按键空中可"
+   },
+   {
+    "skill": "┗水晶超射",
+    "normal": "追加↓←＋拳",
+    "easy": "追加←＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超级无限凤凰",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": "空中可,最后一击追地"
+   },
+   {
+    "skill": "超能力混合曲",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   }
+  ]
+ },
+ "Mai1": {
+  "variable": "Mai1",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "1",
+  "character": "Mai",
+  "move_count": 21,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "大轮风车落",
+    "normal": "空中↓＋轻拳",
+    "easy": "空中↓＋轻拳",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "浮羽",
+    "normal": "空中 ↓＋轻腿",
+    "easy": "空中 ↓＋轻腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "山樱桃",
+    "normal": "空中 ↓＋重腿",
+    "easy": "空中 ↓＋重腿",
+    "describe": ""
+   },
+   {
+    "skill": "三角跳",
+    "normal": "版边跳跃中 ↗",
+    "easy": "版边跳跃中 ↗",
+    "describe": ""
+   },
+   {
+    "skill": "黑燕之舞",
+    "normal": "→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "红鹤之舞",
+    "normal": "↘＋轻腿",
+    "easy": "↘＋轻腿",
+    "describe": "破站防"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "花蝶扇",
+    "normal": "↓→＋拳",
+    "easy": "→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "龙炎舞",
+    "normal": "↓←＋拳",
+    "easy": "←＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "白鹭之舞",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "飞翔龙炎舞",
+    "normal": "→↓→＋腿",
+    "easy": "↓→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "小夜千鸟",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "必杀忍蜂",
+    "normal": "↓→＋腿",
+    "easy": "→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "飞鼠之舞",
+    "normal": "空中 ↓←＋拳",
+    "easy": "空中 ←＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "水鸟之舞",
+    "normal": "↓→↓→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀忍峰",
+    "normal": "↓← →＋腿",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "不知火流•双轭",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "伎•花魁",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   }
+  ]
+ },
+ "Mai2": {
+  "variable": "Mai2",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "2",
+  "character": "Mai",
+  "move_count": 23,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "大轮风车落",
+    "normal": "空中↓＋轻拳",
+    "easy": "空中↓＋轻拳",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "浮羽",
+    "normal": "空中 ↓＋轻腿",
+    "easy": "空中 ↓＋轻腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "山樱桃",
+    "normal": "空中 ↓＋重腿",
+    "easy": "空中 ↓＋重腿",
+    "describe": ""
+   },
+   {
+    "skill": "三角跳",
+    "normal": "版边跳跃中 ↗",
+    "easy": "版边跳跃中 ↗",
+    "describe": ""
+   },
+   {
+    "skill": "黑燕之舞",
+    "normal": "→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": " 破蹲防"
+   },
+   {
+    "skill": "红鹤之舞",
+    "normal": "↘＋轻腿",
+    "easy": "↘＋轻腿",
+    "describe": " 破站防"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "花蝶扇",
+    "normal": "↓→＋拳",
+    "easy": "→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "乱花扇",
+    "normal": "↓←＋拳",
+    "easy": "←＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "┗乱花扇",
+    "normal": "┗拳",
+    "easy": "┗重拳",
+    "describe": ""
+   },
+   {
+    "skill": "┃┗乱花扇",
+    "normal": "┃┗拳",
+    "easy": "┃┗重拳",
+    "describe": ""
+   },
+   {
+    "skill": "┃┃┗乱花扇",
+    "normal": "┃┃┗拳",
+    "easy": "┃┃┗重拳",
+    "describe": ""
+   },
+   {
+    "skill": "阳炎之舞",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "樱吹雪",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "孤鹫之舞",
+    "normal": "↓→＋腿",
+    "easy": "→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "飞鼠之舞",
+    "normal": "空中 ↓←＋拳",
+    "easy": "空中 ←＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "凤凰之舞",
+    "normal": "↓←↓←＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "花岚",
+    "normal": "↓→↓→＋腿",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "不知火流•滩涂",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "腾凰•纷淆之舞",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   }
+  ]
+ },
+ "Ash1": {
+  "variable": "Ash1",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "1",
+  "character": "Ash",
+  "move_count": 18,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "获月",
+    "normal": "→＋轻拳",
+    "easy": "→＋轻拳",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "花月",
+    "normal": "←＋轻腿",
+    "easy": "←＋轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "牧月",
+    "normal": "←＋重腿",
+    "easy": "←＋重腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "风月",
+    "normal": "←→＋拳",
+    "easy": "→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "雪月",
+    "normal": "→↓→＋腿",
+    "easy": "↓→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "精灵",
+    "normal": "↓←＋任意攻击键",
+    "easy": "←＋任意攻击键",
+    "describe": "位置因攻击鍵而不同"
+   },
+   {
+    "skill": "葡萄月",
+    "normal": "←↓→＋拳",
+    "easy": "←→＋拳",
+    "describe": "指令投"
+   },
+   {
+    "skill": "芽月",
+    "normal": "←↓→＋腿",
+    "easy": "←→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "热月",
+    "normal": "↓→↓→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "雨月",
+    "normal": "↓→↓→＋腿",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "革命月",
+    "normal": "↓↓＋爆气键",
+    "easy": "↓＋轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "芽月",
+    "normal": "革命月状态↓←↓→＋拳",
+    "easy": "革命月状态↓＋轻拳",
+    "describe": "革命月状态下使用，封锁对方技能"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "幻鏡‧芽月",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "果实月",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   }
+  ]
+ },
+ "Ash2": {
+  "variable": "Ash2",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "2",
+  "character": "Ash",
+  "move_count": 18,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "获月",
+    "normal": "→＋轻拳",
+    "easy": "→＋轻拳",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "花月",
+    "normal": "←＋轻腿",
+    "easy": "←＋轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "牧月",
+    "normal": "←＋重腿",
+    "easy": "←＋重腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "风月",
+    "normal": "←→＋拳",
+    "easy": "→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "雪月",
+    "normal": "→↓→＋腿",
+    "easy": "↓→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "精灵",
+    "normal": "↓←＋任意攻击键",
+    "easy": "←＋任意攻击键",
+    "describe": "位置因攻击鍵而不同"
+   },
+   {
+    "skill": "葡萄月",
+    "normal": "←↓→＋拳",
+    "easy": "←→＋拳",
+    "describe": "指令投"
+   },
+   {
+    "skill": "芽月",
+    "normal": "←↓→＋腿",
+    "easy": "←→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "热月",
+    "normal": "↓→↓→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "雨月",
+    "normal": "↓→↓→＋腿",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "芽月",
+    "normal": "↓←↓→＋拳",
+    "easy": "↓＋轻拳",
+    "describe": "封锁技能,耗2气,爆气状态下不可用"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "果实月",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "黑暗笼罩",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "升月",
+    "normal": "空中↓↓＋爆气键",
+    "easy": "↓＋爆气键",
+    "describe": "空中技，不可在地面使用"
+   }
+  ]
+ },
+ "KyoW1": {
+  "variable": "KyoW1",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "1",
+  "character": "KyoW",
+  "move_count": 28,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "外式•轰斧阳",
+    "normal": "→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "外式•奈落落",
+    "normal": "空中↓＋重拳",
+    "easy": "空中↓＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "八拾八式",
+    "normal": "↘＋重腿",
+    "easy": "↘＋重腿",
+    "describe": "破站防"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "百式•鬼烧",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "百拾四式•荒咬",
+    "normal": "↓→＋轻拳",
+    "easy": "←＋拳",
+    "describe": "可派生轹铁"
+   },
+   {
+    "skill": "┗百弐拾八式•九伤",
+    "normal": "┗拳",
+    "easy": "┗重拳",
+    "describe": ""
+   },
+   {
+    "skill": "┃ ┗百弐拾七式•八錆",
+    "normal": "┃ ┗拳",
+    "easy": "┃ ┗重拳",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "┃ ┗百弐拾五式•七濑",
+    "normal": "┃ ┗腿",
+    "easy": "┃ ┗重腿",
+    "describe": ""
+   },
+   {
+    "skill": "┗百弐拾七式•八錆",
+    "normal": "┗↓←＋拳",
+    "easy": "┗←＋轻拳",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "┃┗外式•砌穿",
+    "normal": "┗拳",
+    "easy": "┗重拳",
+    "describe": ""
+   },
+   {
+    "skill": "┃┃┗弐百拾弐式•琴月阳",
+    "normal": "┗→↓←＋腿",
+    "easy": "┗↓←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "百拾五式•毒咬",
+    "normal": "↓→＋重拳",
+    "easy": "→＋拳",
+    "describe": "可派生荒咬"
+   },
+   {
+    "skill": "┗四百壹式•罪詠",
+    "normal": "┗拳",
+    "easy": "┗重拳",
+    "describe": ""
+   },
+   {
+    "skill": "┃┗四百弐式•罚詠",
+    "normal": "┗拳",
+    "easy": "┗重拳",
+    "describe": ""
+   },
+   {
+    "skill": "┃┃┗百式•鬼烧",
+    "normal": "拳",
+    "easy": "拳",
+    "describe": ""
+   },
+   {
+    "skill": "七拾五式•改",
+    "normal": "↓→＋腿",
+    "easy": "→＋重腿",
+    "describe": ""
+   },
+   {
+    "skill": "七拾七式•独乐屠",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "四百弐拾七式•轹铁",
+    "normal": "→↓←＋腿",
+    "easy": "↓←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "四百弐拾七式•轹铁·改",
+    "normal": "→←↓→＋腿",
+    "easy": "←→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "百弐拾三式•灼焉",
+    "normal": "毒咬-荒咬-九伤-七濑之后→↓←＋拳",
+    "easy": "毒咬-荒咬-九伤-七濑之后↓＋轻拳",
+    "describe": "不能单独发出"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "百八拾弐式",
+    "normal": "↓→↓→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "里百八式•大蛇薙",
+    "normal": "↓←→＋拳",
+    "easy": "轻脚",
+    "describe": "按住可蓄力"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "最终决战秘奥义•十拳",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "伍百弐拾四式•神尘",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": "近身无视防御"
+   }
+  ]
+ },
+ "KyoW2": {
+  "variable": "KyoW2",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "2",
+  "character": "KyoW",
+  "move_count": 29,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "外式•轰斧 阳",
+    "normal": "→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "外式•奈落落",
+    "normal": "空中↓＋重拳",
+    "easy": "空中↓＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "八拾八式",
+    "normal": "↘＋重腿",
+    "easy": "↘＋重腿",
+    "describe": "破站防"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "百拾四式•荒咬",
+    "normal": "↓→＋轻拳",
+    "easy": "←＋拳",
+    "describe": "可派生轹铁"
+   },
+   {
+    "skill": "┗百弐拾八式•九伤",
+    "normal": "┗拳",
+    "easy": "┗重拳",
+    "describe": "可派生烁鉄"
+   },
+   {
+    "skill": "┃ ┗百弐拾七式•八錆",
+    "normal": "┃ ┗拳",
+    "easy": "┃ ┗重拳",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "┃ ┗百弐拾五式•七濑",
+    "normal": "┃ ┗腿",
+    "easy": "┃ ┗重腿",
+    "describe": ""
+   },
+   {
+    "skill": "┗百弐拾七式•八錆",
+    "normal": "┗↓←＋拳",
+    "easy": "┗←＋轻拳",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "┃┗外式•砌穿",
+    "normal": "┗拳",
+    "easy": "┗重拳",
+    "describe": ""
+   },
+   {
+    "skill": "┃┃┗琴月阳",
+    "normal": "┗→↓←＋腿",
+    "easy": "┗↓←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "百拾五式•毒咬",
+    "normal": "↓→＋重拳",
+    "easy": "→＋拳",
+    "describe": "可派生荒咬"
+   },
+   {
+    "skill": "┗四百壹式•罪詠",
+    "normal": "┗拳",
+    "easy": "┗重拳",
+    "describe": ""
+   },
+   {
+    "skill": "┃┗四百弐式•罚詠",
+    "normal": "┗拳",
+    "easy": "┗重拳",
+    "describe": ""
+   },
+   {
+    "skill": "┃┃┗百式•鬼烧",
+    "normal": "拳",
+    "easy": "拳",
+    "describe": ""
+   },
+   {
+    "skill": "百式•鬼烧",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "百八式•暗拂",
+    "normal": "↓←＋拳",
+    "easy": "↓←＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "七拾五式•改",
+    "normal": "↓→＋腿",
+    "easy": "→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "百壹式•胧车",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "琴月阳",
+    "normal": "→↓←＋腿",
+    "easy": "↓←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "百拾式•鉈車",
+    "normal": "→↓→＋腿",
+    "easy": "↓→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "百二十三式•灼焉",
+    "normal": "毒咬-荒咬-九伤-七濑之后→↓←＋拳",
+    "easy": "毒咬-荒咬-九伤-七濑之后↓＋轻拳",
+    "describe": "不能单独发出"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "百八十二式",
+    "normal": "↓→↓→＋拳",
+    "easy": "轻拳",
+    "describe": "可蓄力,蓄满防御不可"
+   },
+   {
+    "skill": "里百八式•大蛇薙",
+    "normal": "↓←→＋拳",
+    "easy": "轻腿",
+    "describe": "按住可蓄力"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "里百二十一式•天丛云",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "火焰之源",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   }
+  ]
+ },
+ "Nameless1": {
+  "variable": "Nameless1",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "1",
+  "character": "Nameless",
+  "move_count": 14,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "穿孔战技•雪风",
+    "normal": "→＋轻拳",
+    "easy": "→＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "足刀战技•时雨",
+    "normal": "→＋轻腿",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "袭脚战技•冬云",
+    "normal": "↘＋腿",
+    "easy": "↘＋腿",
+    "describe": "破站防"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "地走型釟手刀战技•早蕨",
+    "normal": "↓→＋拳",
+    "easy": "→＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "对空型拔手刀战技•宵月",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "强袭型拔手刀战技•天雾",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "闪光型手刀奥义•灼凤",
+    "normal": "↓→↓→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "扩散型拔手刀奥义•绝影",
+    "normal": "↓→↓→＋腿",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "回转型突贯奥义•螺旋",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "最终型拔手刀秘籍•磷光",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   }
+  ]
+ },
+ "Zero1": {
+  "variable": "Zero1",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "1",
+  "character": "Zero",
+  "move_count": 16,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "幻魔刻翔",
+    "normal": "前进时轻拳",
+    "easy": "前进时轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "援护·库利扎里德",
+    "normal": "↓←＋轻拳",
+    "easy": "←＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "援护·地狱狮",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "援护·龙",
+    "normal": "↓←＋重拳",
+    "easy": "←＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "斩风燕破·杀魔",
+    "normal": "↓→＋重拳",
+    "easy": "→＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "斩风燕破·叛镜",
+    "normal": "↓→轻拳",
+    "easy": "→＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "斩风燕破·凰牙",
+    "normal": "→↓→＋轻拳",
+    "easy": "↓→＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "斩风燕破·翔霸",
+    "normal": "→↓→＋重拳",
+    "easy": "↓→＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "地狱锁斩熐",
+    "normal": "↓→↓→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "白罗灭精",
+    "normal": "↓→↓→＋腿",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "四神幻影‧X",
+    "normal": "↓→＋爆气键",
+    "easy": "↓←＋爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "光剑灭杀",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   }
+  ]
+ },
+ "Zero2": {
+  "variable": "Zero2",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "2",
+  "character": "Zero",
+  "move_count": 15,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "幻魔刻冲",
+    "normal": "前进时轻拳",
+    "easy": "前进时轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "魔舞红躁",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "疾火煌阵",
+    "normal": "↓→＋腿",
+    "easy": "→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "斩风燕破·杀魔",
+    "normal": "↓→＋重拳",
+    "easy": "→＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "斩风燕破·叛镜",
+    "normal": "↓→轻拳",
+    "easy": "→＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "斩风燕破·凰牙",
+    "normal": "→↓→＋轻拳",
+    "easy": "↓→＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "斩风燕破·翔霸",
+    "normal": "→↓→＋重拳",
+    "easy": "↓→＋重拳",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "狱锁斩阵",
+    "normal": "↓→↓→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "白罗灭精",
+    "normal": "↓→↓→＋腿",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "瞬狱灭杀",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "暗琉天破",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   }
+  ]
+ },
+ "Kim1": {
+  "variable": "Kim1",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "1",
+  "character": "Kim",
+  "move_count": 19,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "炼击",
+    "normal": "→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "空砂尘",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "三连击",
+    "normal": "↓←＋拳",
+    "easy": "←＋拳或→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "┗三连击追加",
+    "normal": "┗拳",
+    "easy": "┗拳",
+    "describe": ""
+   },
+   {
+    "skill": "┗三连击追加",
+    "normal": "┃ ┗拳",
+    "easy": "┃ ┗拳",
+    "describe": "轻版破蹲防"
+   },
+   {
+    "skill": "飞翔脚",
+    "normal": "空中↓→＋腿",
+    "easy": "空中↓＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "霸气脚",
+    "normal": "↓↓＋腿",
+    "easy": "↓↓＋腿",
+    "describe": "破站防，重版可追地"
+   },
+   {
+    "skill": "半月斩",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "飞燕斩",
+    "normal": "→↓←＋腿",
+    "easy": "↓→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "┗飞燕斩追加",
+    "normal": "┗腿",
+    "easy": "┗腿",
+    "describe": ""
+   },
+   {
+    "skill": "流星落",
+    "normal": "←↓→＋腿",
+    "easy": "↓←＋腿",
+    "describe": "破站防"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "凤凰脚",
+    "normal": "↓←→＋腿",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "凤凰天舞脚",
+    "normal": "空中↓→←＋腿",
+    "easy": "空中↓＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "零式凤凰脚",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "双星凤凰脚",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   }
+  ]
+ },
+ "Kim2": {
+  "variable": "Kim2",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "2",
+  "character": "Kim",
+  "move_count": 19,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "炼击",
+    "normal": "→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "三连击",
+    "normal": "↓←＋拳",
+    "easy": "←＋拳或→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "┗三连击追加",
+    "normal": "┗拳",
+    "easy": "┗拳",
+    "describe": ""
+   },
+   {
+    "skill": "┃ ┗三连击追加",
+    "normal": "┃ ┗拳",
+    "easy": "┃ ┗拳",
+    "describe": "轻版破蹲防"
+   },
+   {
+    "skill": "┗三空击",
+    "normal": "┃ ┗腿",
+    "easy": "┃ ┗腿",
+    "describe": ""
+   },
+   {
+    "skill": "┃ ┗三空击追加",
+    "normal": "┃ ┗腿",
+    "easy": "┃ ┗腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "飞翔脚",
+    "normal": "空中↓→＋腿",
+    "easy": "空中↓＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "霸气脚",
+    "normal": "↓↓＋腿",
+    "easy": "↓↓＋腿",
+    "describe": "破站防，重版可追地"
+   },
+   {
+    "skill": "半月斩",
+    "normal": "↓←＋腿",
+    "easy": "←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "飞燕斩",
+    "normal": "→↓←＋腿",
+    "easy": "↓→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "┗飞燕斩追加",
+    "normal": "┗腿",
+    "easy": "┗腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "凤凰脚",
+    "normal": "↓←→＋腿",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "凤凰飞天脚",
+    "normal": "↓→↓→＋腿",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "零距离凤凰脚",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": "近身无视防御"
+   },
+   {
+    "skill": "凤凰天升脚",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   }
+  ]
+ },
+ "Andy1": {
+  "variable": "Andy1",
+  "source": "scripts/frame_1/DoAction.as",
+  "mode": "1",
+  "character": "Andy",
+  "move_count": 20,
+  "moves": [
+   {
+    "skill": "特殊技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "上腭",
+    "normal": "→＋轻腿",
+    "easy": "→＋轻腿",
+    "describe": "破蹲防"
+   },
+   {
+    "skill": "上面",
+    "normal": "↘＋轻拳",
+    "easy": "↘＋轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "飞翔拳",
+    "normal": "↓←＋轻拳",
+    "easy": "暂无",
+    "describe": ""
+   },
+   {
+    "skill": "激·飞翔拳",
+    "normal": "↓←＋重拳",
+    "easy": "←＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "斩影拳",
+    "normal": "↓→＋拳",
+    "easy": "→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "击壁背水掌",
+    "normal": "←↓→＋拳",
+    "easy": "←→＋拳",
+    "describe": "破站防"
+   },
+   {
+    "skill": "升龙弹",
+    "normal": "→↓→＋拳",
+    "easy": "↓→＋拳",
+    "describe": ""
+   },
+   {
+    "skill": "空破弹",
+    "normal": "↓→＋腿",
+    "easy": "→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "幻影不知火",
+    "normal": "空中↓→＋腿",
+    "easy": "空中→＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "┗幻影不知火·上腭",
+    "normal": "┗重腿",
+    "easy": "┗重腿",
+    "describe": ""
+   },
+   {
+    "skill": "┗幻影不知火·下颚",
+    "normal": "┗重拳",
+    "easy": "┗重拳",
+    "describe": ""
+   },
+   {
+    "skill": "暗流蹴",
+    "normal": "←↓←＋腿",
+    "easy": "↓←＋腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "斩影流星拳",
+    "normal": "↓←→＋拳",
+    "easy": "轻拳",
+    "describe": ""
+   },
+   {
+    "skill": "超裂破弹",
+    "normal": "↓←→＋腿",
+    "easy": "轻腿",
+    "describe": ""
+   },
+   {
+    "skill": "",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "潜在超必杀技",
+    "normal": "",
+    "easy": "",
+    "describe": ""
+   },
+   {
+    "skill": "斩影至兜裂破弹",
+    "normal": "↓→＋爆气键",
+    "easy": "爆气键",
+    "describe": ""
+   },
+   {
+    "skill": "不知火流•双轭",
+    "normal": "↓←＋爆气键",
+    "easy": "←＋爆气键",
+    "describe": ""
+   }
+  ]
+ }
+}

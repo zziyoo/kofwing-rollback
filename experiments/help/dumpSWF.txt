@@ -1,0 +1,41 @@
+﻿JPEXS Free Flash Decompiler v.26.3.0 nightly build 3573
+-------------------------------------------------------
+Dump list of SWF tags to console.
+[1;4mUsage[m: <executable> [PRE-OPTIONS] [1m-dumpSWF[m \
+       [3m<infile>[m
+
+[1;4mExecutable[m:
+       Linux: ffdec or ffdec.sh
+      Mac OS: ffdec.sh
+     Windows: ffdec-cli.exe or ffdec.bat
+        Java: java -jar ffdec.jar
+
+[1;4mPre-options[m:
+[33m-config[m key=value[,key2=value2][,key3=value3...]
+    Set configuration values.
+    Use [1m-listconfigs[m command to list the available configuration settings.
+    Values are boolean, you can use 0/1, true/false, on/off or yes/no.
+    If no other parameters passed, configuration is saved.
+    Otherwise it is used only once.
+    DO NOT PUT space between comma (,) and next value.
+
+[33m-configFile[m [3m<file>[m
+    Use configuration from a file [3m<file>[m. TOML file format is expected.
+    When it has .bin extension, legacy storage is used.
+
+[33m-charset[m [3m<charsetName>[m
+    Set desired character set for reading/writing SWF files with
+    SWF version <= 5.
+
+[33m-tagProfile[m [3m<profileId>[m
+    Use a tag profile when reading SWF files.
+    Use "standard" for standard SWF tag interpretation.
+    Use [33m-listtagprofiles[m to list available profile identifiers.
+
+
+[4;1mExamples[m:
+Sorry, no example found for command dumpSWF,
+Let us know in issue tracker when you need it.
+
+You can use special value "/dev/stdin" for input files to read data 
+from standard input (even on Windows)
