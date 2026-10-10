@@ -1,0 +1,8 @@
+﻿dependency,purpose,call_sites,path_is_dynamic,script,line,code
+char/<role>.swf,per-character module loaded into the player's empty movie clip,4,True,scripts/scripts/frame_1629/DoAction.as,792,"_loc2_.loadClip(""char/"" + _loc1_ + "".swf"",P1_mc);"
+char/<role>.swf,per-character module loaded into the player's empty movie clip,4,True,scripts/scripts/frame_1629/DoAction.as,812,"_loc2_.loadClip(""char/"" + _loc1_ + "".swf"",P2_mc);"
+char/<role>.swf,per-character module loaded into the player's empty movie clip,4,True,scripts/scripts/frame_1629/DoAction.as,915,"P1_mc.loadMovie(""char/"" + roleName + "".swf"");"
+char/<role>.swf,per-character module loaded into the player's empty movie clip,4,True,scripts/scripts/frame_1629/DoAction.as,919,"P2_mc.loadMovie(""char/"" + roleName + "".swf"");"
+data/skillList.swf,"move/command table, driven via onLoadSkill()",1,False,scripts/scripts/DefineSprite_60324/frame_1/DoAction.as,15,"loadMovie(""data/skillList.swf"",skList);"
+code.swf,loaded into code_mc at the top level,1,False,scripts/scripts/frame_1629/DoAction.as,3541,"loadMovie(""code.swf"",code_mc);"
+stage/weather/<tq>.swf,weather overlay selected by the stage module via _root.tq,1,True,scripts/scripts/DefineSprite_3266/frame_1/DoAction.as,1,"this.loadMovie(""stage/weather/"" + _root.tq + "".swf"");"

@@ -1,310 +1,340 @@
-# Final Report - King of Fighters Wing EX1.2 (前瞻版) SWF Architecture Analysis
+# 最终报告 - King of Fighters Wing EX1.2 逆向分析
 
-**Scope:** static analysis of all `.swf` files extracted from `wingex1.2.exe`, plus the external
-resource directories that ship alongside it.
-**Method:** read-only. JPEXS Free Flash Decompiler 26.3.0 nightly (build 3573) at
-`D:\swf解包\ffdec.jar`, driven via CLI, plus purpose-written Python parsers for SWF header
-validation and edge extraction.
-**Nothing in the game tree was modified, recompiled, or published.**
+工作目录：`_reverse/`（git 仓库，分支 `main`）
+游戏数据根目录：`D:\拳皇\拳皇WingEX1.2前瞻版\`（全程只读）
+工具：JPEXS Free Flash Decompiler 26.3.0 CLI + 自建 Python 管线（仅标准库）
 
 ---
 
-## 1. Executive summary
+## 1. 执行摘要
 
-The main program is **`kofwing/21256864.swf`** - a 125 MB LZMA-compressed AS2 movie found at
-EXE offset 21,256,864, running to end-of-file. This is proven three independent ways (EXE layout,
-format, content), not inferred from size.
+主程序是 **`kofwing/21256864.swf`**（125,442,502 字节，LZMA/SWF v15），三条独立证据互相印证：
+位于 EXE 偏移 21,256,864 并**精确延伸至文件末尾**（21,256,864 + 125,442,502 = 146,699,366 = EXE 大小）；
+全目录唯一的 `ZWS` 影片；含 71,378 个标签、427 个 AS2 类、27,122 个脚本。
 
-The game is **100% ActionScript 1/2**. Zero `DoABC` tags exist anywhere in the 97 files. That
-makes the whole codebase directly editable and recompilable with JPEXS alone - no AVM2 bytecode
-and no Flash IDE required for script-level changes.
+游戏是**纯 AS1/AS2，零 `DoABC`**。全部 427 个类都在主影片里，没有 AVM2 字节码。
 
-All gameplay logic - 427 AS2 classes including every character's AI, the shared role state
-machine, hit detection and combo tracking - lives inside that single boot movie. The 83 files
-under `stage/` and `stage2/` are **not** gameplay code; they are stage-background modules that
-publish a uniform `bgArray` contract.
+四个运行时缺失依赖中，**已找回一个**：`data/skillList.swf` 藏在
+`data/data_old.tar` 里，含 **22 个角色、794 条完整出招表**。
 
-**The most important practical finding: the extracted tree is not a complete game.** The boot
-movie loads four paths that do not exist here:
+**修改流程已被实验证明可行**（见第 6 节）：脚本能改、SWF 能重存且结构无损，
+但**游戏能否正常跑通未经验证**，EXE 重新打包**未打通**。
 
-| Required path | Loaded by |
-| --- | --- |
-| `char/<role>.swf` | `frame_1629/DoAction.as:792,812,915,919` |
-| `data/skillList.swf` | `DefineSprite_60324/frame_1/DoAction.as:15` |
-| `code.swf` | `frame_1629/DoAction.as:3541` |
-| `stage/weather/<tq>.swf` | `DefineSprite_3266/frame_1/DoAction.as:1` |
-
-Without `char/` and `skillList.swf` there are no characters and no move tables, so a full match
-cannot run from this directory alone.
+> 本报告取代第一轮 `final_report.md`。下文标注 `[更正]` 的条目是复核后推翻了初版结论的。
 
 ---
 
-## 2. File inventory and validity
+## 2. 结论一：当前游戏目录是否完整
 
-Full data: [`file_inventory.csv`](file_inventory.csv) · [`file_inventory.md`](file_inventory.md)
+### 不完整
 
-| Metric | Value |
-| --- | ---: |
-| `.swf` files discovered (recursive) | **97** |
-| Structurally valid SWF | **93** |
-| **Rejected as false positives** | **4** |
-| Files with a stale `FileLength` header | 89 |
-| Files containing AS1/AS2 script | 82 |
-| Files containing AS3 (`DoABC`) | **0** |
-| Files containing `DefineSprite` | 91 |
-| Files containing sound tags | 6 |
-| Distinct SHA-256 values | 91 |
-| Byte-identical duplicate groups | 6 |
-| Total bytes | 594,904,068 |
-| SWF versions present | 4, 6, 7, 8, 15, 24, 47 |
-| ActionScript files exported | **31,215** |
-| ActionScript bytes exported | 19,025,558 |
-| Strings mined | 2,592,071 |
+| 组成 | 状态 |
+|---|---|
+| `wingex1.2.exe` | ✅ 完好，146,699,366 字节 |
+| `kofwing/` 10 个有效 SWF | ✅ 已从 EXE 重新切出并校验（9 个 SHA-256 完全一致，主程序因文件尾截断 7,715 字节但标签流完整） |
+| `stage/` `stage2/` `sound/` 资源 | ⚠️ **已被移除**，当前内容是你手动修改的版本，原版待你补回 |
+| `data/skillList.swf` | ✅ **已找回**，位于 `D:\kof_rescue\data_old_tar\skillList.swf` |
+| `char/` `code.swf` `stage/weather/` | ❌ 仍未找到 |
 
-### The four rejected files are provably not SWFs
+### 已找回的依赖
 
-`27969957.swf`, `40440656.swf`, `74424254.swf`, `84187910.swf` begin with a genuine `FWS`/`CWS`
-signature but their tag streams decode to garbage - unknown tag IDs 175-980 with random payloads,
-and no `End` tag. JPEXS reports `Unknown (tid: NNN)` for essentially every line.
+**`data/skillList.swf`** —— 出招表查看器，1,402,229 字节，SWF v15，通过结构校验。
 
-The cause is now proven: **these four are overlaps inside the boot movie's compressed body.**
-Each one starts at an offset *greater than* 21,256,864 (i.e. inside `21256864.swf`) and runs
-to end-of-file - the extractor found `FWS` byte patterns inside the LZMA stream and emitted them
-as separate files. They are extraction artefacts, not game resources. They must not be fed to
-editors or counted in any resource total.
-
-### Validation actually performed
-
-A file was accepted as an SWF only if: the 3-byte signature is `FWS`/`CWS`/`ZWS`; the body
-decompresses; the RECT + framerate + frame-count header parses; and the tag stream walks cleanly
-to an `End` tag with no tag declaring more bytes than remain.
-
-A **stale `FileLength` header is reported as a warning, not a failure.** 89 of 97 files declare a
-length larger than their real size (e.g. `stage2/Ryo.swf` declares 119,067 but is 115,188 bytes).
-These files parse correctly and JPEXS opens them normally - the field is simply left over from
-third-party repackaging. Treating this as corruption would have wrongly rejected 92% of the set.
-
----
-
-## 3. Main program, launcher and core-logic candidates
-
-### Ranked candidates
-
-| Rank | File | Role | Confidence | Basis |
-| --- | --- | --- | --- | --- |
-| **1** | `kofwing/21256864.swf` | **Main program** | **Confirmed** | Last SWF in EXE, offset→EOF; `ZWS`/v15; 553,260 tags; 427 classes; contains every loader call and the roster. |
-| 2 | `kofwing/11480055.swf` | Combat engine + Kim character pack | Confirmed | Carries the only copy of `Kim_AI*`, `Kim_role`, plus full `Role.as`/`HitCheck`. |
-| 3 | `kofwing/8492959.swf` | Combat engine + Andy pack | Confirmed | Same structure, `Andy_AI*`. |
-| 4 | `kofwing/16695748.swf` | Combat engine + Moriya pack | Confirmed | Same structure, `Moriya_AI*`. |
-| 5 | `kofwing/18464326.swf` | Combat engine + Nameless pack | Confirmed | Same structure, `Nameless_AI*`. |
-| 6 | `kofwing/6148152.swf` | AS2 runtime boilerplate | Confirmed | Pure `ASSetNative` prototype definitions; **no game logic** - not a launcher. |
-
-### There is no launcher SWF
-
-The Flash Projector EXE *is* the launcher. The first SWF in the file is `6148152.swf` at offset
-6,148,152, but it contains only AS2 API prototype scaffolding. Misreading it as a bootstrap
-module would send you in the wrong direction entirely.
-
-The other four small `kofwing/` files are standard **Flash Player runtime** resources, not game
-code: `6230976.swf` (fullscreen alert overlay, `FullScreen_MC`), `6235248.swf` (SharedObject
-settings/version store), `7298128.swf` (permission panel: Webcam/Microphone/Privacy), and
-`20817874.swf` (debug UI, `debug/debug.swf`).
-
----
-
-## 4. Responsibilities, evidence and confidence
-
-| Role | Count | Bytes | Evidence |
-| --- | ---: | ---: | --- |
-| Stage background module | 83 | 97,245,483 | Every one exports a global `bgArray` of `{isBmd, mc, v_rate, isBase}` - a uniform, machine-checkable contract. |
-| Combat engine / character pack | 5 | 137,775,132 | `role_corn/Role.as`, `HitCheck.as`, `HitCheck_obj.as` plus `<Name>_AI*.as` classes. |
-| Flash runtime helper | 4 | 107,798 | AS2 API stubs, fullscreen overlay, settings panel, debug UI. |
-| SharedObject settings store | 1 | 968 | `SharedObject.getLocal`, `SetSetting`, XML version check. |
-| Not an SWF (extraction artefact) | 4 | 359,774,687 | Tag streams never reach an `End` tag; lie inside the boot movie. |
-
-Note the false positives account for **359 MB** of the 594 MB total - over 60% of apparent data
-volume is extraction noise. Any size-based reasoning on this set would be badly misled.
-
----
-
-## 5. Code location index
-
-Machine-readable: [`code_index.csv`](code_index.csv) · [`code_index.md`](code_index.md)
-Base path: `_reverse/analysis/kofwing__21256864/scripts/scripts/__Packages/`
-
-| Subsystem | Classes | Key file | Size |
-| --- | ---: | --- | ---: |
-| Character state machine | shared | `role_corn/Role.as` | 198 KB |
-| Hitbox / collision | 2 | `HitCheck.as`, `HitCheck_obj.as` | 20 / 21 KB |
-| Input handling | 2 | `role_corn/KeyControl.as` | 12 KB |
-| Per-character AI | 252 | `<Name>_AI.as` | ~120 KB each |
-| Character definition | 42 | `<Name>_role.as` | 9-14 KB |
-| Combo system | 26 | `*_Combo.as`, `Combo_listener.as` | 3-5 KB |
-| Flash MXML framework | 43 | `mx/**` | - |
-
-**24 characters have AI classes in the boot movie**: Ash, Athena, CKrizalid, Chunli, CZero,
-Goenitz, Haohmaru, Igniz, Iori, K, Krizalid, Kula, Kusanagi, Kyo, KyoW, Mai, Orochi, Oswald,
-Rugal, Ryo, Ryu, Terry, Zero (plus `Type2_`/`Type3_` variants).
-
-**Four characters keep their AI only in the EXE-embedded packs** - Andy, Kim, Moriya, Nameless.
-Each pack carries a *complete duplicate* of the shared engine (`Role.as`, `HitCheck.as`,
-`KeyControl.as`). Patching hit detection in the boot movie alone will silently leave those four
-characters on old behaviour.
-
-### Inline gameplay data found in `frame_1629/DoAction.as`
+内部结构完全确定：22 个 `FrameLabel`（每角色一个），导出
+`skillList_icon` / `BoundingBox` / `DataHeaderBackGnd` 等 7 个 UI 符号，
+数据是**内联 XML 字面量**，运行期用 `_root[currentName + currentMode]` 取用：
 
 ```actionscript
-// line 3348 - playable roster
-var cpuNormal_list = new Array("Kyo","Terry","Chunli","Mai","Ryu","Iori","K","Kula",
-    "Moriya","Haohmaru","Ryo","Athena","Ash","Nameless","Kim","Andy","Oswald");
-
-// lines 3374-3382 - move IDs that must be blocked, per character
-mustDefendSkill.Kyo  = ["sk31","sk31_s"];
-mustDefendSkill.Iori = ["sk_s_89b_s"];
-mustDefendSkill.Kula = ["sk_s_xingchen","sk_s_jiejie"];
-
-// lines 3383-3386 - keyboard bindings
-var key_P1_proto = {u:87,d:83,b:65,f:68,p:74,k:75,p_l:85,k_l:73,s:79,s2:76,h:84,qq:80};
-
-// lines 3363-3373 - built-in stage defaults (STALE - see section 8)
-bgMappingDefault.stageBG = "moonbridge,factory,gym,palace,earth";
+var Kyo1 = new XML("<char><skillList skill=\"招式名\" normal=\"普通指令\" "
+                 +"easy=\"简易指令\" describe=\"备注\"/></char>");
 ```
 
+**数据自包含，不需要任何外部 XML 文件。** 已提取 41 份表、**794 条招式**，
+见 `reports/move_list.md`。
+
+### 仍缺失
+
+`char/`、`code.swf`、`stage/weather/`。其中 `char/` 的影响范围现已明确（见第 4 节）。
+
 ---
 
-## 6. SWF load graph
+## 3. 结论二：Stage 与 BGM 配置
 
-Full graph and evidence: [`dependency_graph.md`](dependency_graph.md) ·
-Edges: [`dependency_edges.csv`](dependency_edges.csv) · Mermaid: [`dependency_graph.mmd`](dependency_graph.mmd)
+### 确认存在的问题
 
+| # | 问题 | 证据 | 影响 |
+|---|---|---|---|
+| S1 | 19 条角色→舞台绑定指向**不存在的文件** | `stage/list.txt` 中的 `iceLab`/`Factory`/`Moon bridge` 等，在 EX1.2 中无对应 `.swf` | 这些角色的专属舞台加载失败 |
+| S2 | 7 条绑定指向 `stage2/其他地图/` 下的文件，而加载器**硬编码只查 `stage/`** | `DefineSprite_2659/frame_1:29`：`loadClip("stage/" + bgID + ".swf")`，无回退搜索 | 未复制则加载失败 |
+| S3 | 内置默认舞台名与实际地图名**完全不重叠** | `frame_1629:3363` 的 `moonbridge/factory/gym/palace/earth` vs 19 张中文名地图 | `list.txt` 读失败时静默全灭 |
+| S4 | `stage2/list.txt` **没有任何消费者** | 全文检索 `stage2` 在 27,122 个脚本中零命中 | 疑似 EX1.2 接入未完成 |
+| B1 | `musicNum=50` 主程序**零引用** | 全文检索引用次数 = 0 | 无运行时影响，**不是 Bug** |
+| B2 | 菜单音乐不在 `list.txt` 中，硬编码在代码里 | `frame_1629:3413`、`DefineSprite_2732:12` | 换菜单音乐需改代码 |
+| B3 | 扩展名大小写混用（`ChunLi.MP3` / `Iori3.mp3`） | `sound/list.txt` | 仅影响区分大小写的系统 |
+
+### 尚待你确认的
+
+- **S1/S2 是否为设计意图。** 三种可能：(A) `其他地图` 是需要玩家手动拷进 `stage/` 的扩展；
+  (B) `list.txt` 是原版遗留，EX1.2 换了地图名没同步；(C) 绑定失效被容忍。
+  **在确认前不要把整个 `stage2/` 复制到 `stage/`** —— 那里不只有地图，还有 60+ 个角色同名文件。
+
+### 一个有价值的机制发现
+
+`stage/list.txt` 的 `stageBG=` 是**候选舞台池**，`&角色=舞台&` 是**独占绑定**
+（绑定后被 `splice` 出池，不参与随机）。加载路径有两条：
+`isLoadStage=true` 走外部文件，`false` 走 `attachMovie("stage_"+bgID)` 内嵌符号 ——
+但主程序里**不存在任何 `stage_<地图名>` 符号**（`stage` 前缀导出只有 `Stage_shake`
+和 `stageControl_mc`），所以内嵌分支实际不可用。
+
+---
+
+## 4. 结论三：游戏逻辑定位
+
+### 四个外部加载角色（关键发现）
+
+`frame_1629:728-773` 的 `checkOutRole()` 里有硬编码白名单：
+
+```actionscript
+var _loc3_ = ["Kim","Nameless","Moriya","Andy"];
+...
+if(roleNameP1 == _loc2_) { loadP1(); }   // → loadClip("char/" + name + ".swf")
 ```
-launcher (EXE)
-  └─> kofwing/21256864.swf            MAIN, 125 MB, AS2
-        ├─ LoadVars.load("stage/list.txt")        [CONFIRMED]
-        │     └─ stageArray = bgInf.stageBG.split(",")  → _level0.bgArray
-        ├─ LoadVars.load("sound/list.txt")        [CONFIRMED]
-        │     └─ loadSound(key) → Sound.loadSound("sound/" + value)
-        ├─ loadClip("stage/" + bgID + ".swf")     [83 stage SWFs]
-        │     └─ stage SWF exports bgArray[] → Stage_control2.as:76
-        ├─ loadClip("char/" + role + ".swf")      [MISSING]
-        ├─ loadMovie("data/skillList.swf")         [MISSING]
-        ├─ loadMovie("code.swf")                   [MISSING]
-        ├─ loadMovie("stage/weather/" + tq + ".swf")[MISSING]
-        └─ Sound.loadSound("sound/main.mp3", "sound/select.mp3")  [CONFIRMED]
-```
 
-### Confirmed vs missing
+**只有这 4 个角色走外部 `char/` 加载，其余 21 个走 `attachMovie("role_"+name)` 从主影片内联。**
 
-Only **4** edges could be confirmed against files on disk (both `list.txt` registries,
-`sound/main.mp3`, `sound/select.mp3`). Everything else is a concatenated path proven by code but
-unresolvable statically - exactly as expected for a game that builds names at runtime.
+而这 4 个恰好是主程序中唯一缺失 `_role.as`/`_AI*.as` 的角色，
+且其类**只存在于 EXE 内嵌的 4 个包**里（11480055=Kim、16695748=Moriya、
+18464326=Nameless、8492959=Andy）。
 
----
+**结论：内嵌包与 `char/` 模块是同一批角色的两套实现，设计意图明确。**
+未决的只有交付路径（AS2 无 API 能把内存影片写成磁盘文件）。
+**若 `char/` 缺失，受影响的只有这 4 个角色，其余 21 个不受影响。**
 
-## 7. External resources and configuration files
+### `[更正]` 引擎副本不是"高度分歧"
 
-Three registries, all Flash `loadVariables()` format (`&key=value&`):
+初版称 `HitCheck.as` 与主程序版本差异 97.15%。**该结论错误**，源于按行号位置比较的
+差异算法缺陷（一处早期插入会让其后全部行错位）。用 `difflib` 重测：
 
-| File | Pairs | Status |
-| --- | ---: | --- |
-| `stage/list.txt` | 31 | 20/20 `stageBG` items resolve to real `stage/*.swf`. 19 of 30 character→stage entries are stale. |
-| `stage2/list.txt` | 39 | **All 76 entries resolve**, but this file is never read by the boot movie. |
-| `sound/list.txt` | 42 | **41/41 resolve**, plus scalar `musicNum=50`. |
+| 类 | 相似度 | 实际差异 |
+|---|---|---|
+| `role_corn/Role.as` | 99.94% | 主程序少 9 行 |
+| `HitCheck.as` | 99.92% | 主程序少 1 行 |
+| `KeyControl` / `HitCheck_obj` / `Combo_listener` / `FlyingObj` | **100%** | 完全一致 |
 
-Naming rules recovered:
+差异方向一致且均为"主程序更少"，几乎确定是 `trace()` 调试语句。
+**风险等级：低。**
 
-- **Stage module contract** - each stage SWF must export a global `bgArray` of layer records:
-  `isBmd` (bitmap layer), `mc` (MovieClip), `v_rate` (parallax rate), `isBase` (anchor layer).
-  Identical across all 83 files, including multi-layer stages (`stage2/CloneTeam.swf` uses three
-  layers at `v_rate` 0.5 / 0.75 / 1).
-- **Stage path rule** - hard-coded `stage/<name>.swf`. **No fallback directory search exists.**
-- **BGM path rule** - registry value is appended to `sound/`. Extension case matters:
-  `sound/list.txt` requires `ChunLi.MP3` and `Iori3.mp3` exactly as written.
-- **Fallback behaviour** - a failed music load calls `attachSound("blank")`, so bad filenames
-  degrade to silence instead of crashing.
+### `[更正]` `mustDefendSkill` 是死代码
 
----
+`frame_1629:3374-3382` 的必防招式表有 305 处出现，但**全部是赋值，无任何读取**。
+改它不会有任何效果。真正生效的是每个 `<Name>_AI.as:1764+` 自己的
+`checkMustDefendSkill()` 函数及其本地表。
 
-## 8. Findings requiring the owner's input
+### 准确定位的子系统
 
-1. **Is `char/` present in a working install?** The game requires it; it is absent here. If the
-   game currently reaches a match, those files exist in another location.
-2. **What is the schema of `data/skillList.swf`?** The boot movie calls
-   `skList.currentName = <role>; skList.onLoadSkill()`. Whether move data lives there or inside
-   the character modules is unconfirmed - and it blocks confident character-modding work.
-3. **What is `code.swf`?** Loaded into `code_mc` at `frame_1629/DoAction.as:3541`; purpose unknown.
-4. **Is `stage2/` meant to be copied into `stage/`?** The loader only ever reads `stage/`, yet
-   `stage/list.txt` maps characters to files that exist *only* under `stage2/其他地图/静态|动态/`.
-   Either those are copied manually or the mappings are simply broken.
-5. **`musicNum=50` vs 43 MP3 files** - missing tracks, or does the counter mean something else?
-6. **Are the four EXE-embedded character packs still live?** The boot movie carries a newer copy
-   of the same engine; these may be legacy leftovers.
-7. **`fscommand("exec","changedisplay1.exe"/"changedisplay2.exe")`** invokes external binaries
-   that are not in this tree. Where do they come from?
+| 子系统 | 位置 |
+|---|---|
+| 主控制器 | `scripts/frame_1629/DoAction.as`（3,542 行） |
+| 角色状态机 | `__Packages/role_corn/Role.as`（6,978 行） |
+| 判定框 | `__Packages/HitCheck.as`（595 行）、`HitCheck_obj.as` |
+| 输入处理 | `__Packages/role_corn/KeyControl.as`（446 行） |
+| 角色 AI | `__Packages/<Name>_AI.as` + `_AI_Lv1..Lv5.as`，共 252 个类 |
+| 伤害显示 | `__Packages/Life_Power.as` |
+| 音乐管理 | `DefineSprite_1847_bgmControl_mc/frame_1/DoAction.as` |
+| Stage 注册表消费 | `DefineSprite_61566/frame_1/DoAction.as` |
+| Stage 图层控制 | `__Packages/Stage_control2.as` |
+| 难度分派中枢 | `DefineSprite_1321_loaderchar/frame_1/DoAction.as:1-102` |
+| 出招表 | `data/skillList.swf`（已找回） |
+
+**最安全的调试插入点：`frame_1629:720` 的 `out(str)` 函数体是空的**，
+全代码高频调用，插入打印零行为风险。
 
 ---
 
-## 9. Parse failures, gaps and caveats
+## 5. 结论四：统计口径（`[更正]`）
 
-- **4 files rejected** (false positives) - cause identified and proven; no action needed beyond
-  not trusting them.
-- **89 files carry a stale `FileLength`** - harmless for JPEXS, but any other tool that trusts
-  the header will mis-parse them. Do not "repair" in place without keeping an original copy.
-- **6 duplicate groups** - both copies kept, nothing overwritten. Only one needs editing.
-- **JPEXS script export** completed with **0 errors** on the boot movie (27,122 files) and on
-  every valid stage SWF. The only recorded errors belong to the four rejected files.
-- **No FLA/XFL export was performed.** It was unnecessary for the questions asked, and per your
-  instruction it would be an approximation, not a recovered project. If you later want one, it
-  belongs in a separate `fla_export/` folder.
-- **`_reverse/analysis/_test/`** is a leftover 4-file smoke-test folder from validating the
-  pipeline. It is not part of the results. The deletion launcher was unavailable in this
-  environment, so please remove it manually.
+所有头条数字经 `tools/stats.py` 复算，`python -m unittest discover -s tests -t .` → **46 tests, OK**。
 
----
+| 指标 | 值 | 口径 |
+|---|---:|---|
+| SWF 候选 | 97 | 全部 `.swf` |
+| 结构有效 | **93** | 签名+解压+标签流走到 `End` |
+| 被拒（误识别） | **4** | 签名真但标签流是垃圾 |
+| FileLength 过期 | 89 | 警告，非损坏 |
+| 含 AS2 | 82 | 仅有效 SWF |
+| 含 AS3 | **0** | 仅有效 SWF |
+| 含声音标签 | **5** | `[更正]` 初版记 6 —— 统计包含了被拒文件 |
+| AS2 类 | 427 | 主影片 `__Packages/` |
+| 导出脚本 | 31,215 | 全部 SWF 合计 |
 
-## 10. Recommended next steps
+**4 个被拒文件**是主影片 LZMA 流里的偶然字节序列（签名 `GFX` 而非 `FWS`），
+占总体积 60% 以上。它们在所有下游统计中均已排除。
 
-1. **Obtain the missing runtime directories** (`char/`, `data/skillList.swf`, `code.swf`,
-   `stage/weather/`) before attempting any character-level work. Everything about character
-   moves and hitboxes is gated on these.
-2. **Back up the game tree**, then experiment only on copies.
-3. **Start with `list.txt` edits** - adding a BGM track or a stage entry needs no tooling at all
-   and validates the whole chain end to end.
-4. **Then edit AS2 in JPEXS** - start with a low-risk constant such as the roster array at
-   `frame_1629/DoAction.as:3348` or the key bindings at lines 3383-3386.
-5. **When touching the shared engine**, remember the five copies: boot movie plus the Kim,
-   Moriya, Nameless and Andy packs.
-6. **Reuse this workspace** - every step is scripted in `_reverse/tools/` and re-runnable
-   against a corrected or completed directory tree.
+**未修复的已知弱点：** `classify.py` 的规则表无法输出 `main_program` 角色，
+主程序被标成 `combat_engine_module` 与 4 个角色包并列。
+"主程序是 21256864.swf" 这一结论目前在 `build_graph.mmd` 和
+`build_code_index.py:39` 中**硬编码**，而非从规则推导。
 
 ---
 
-## Appendix - workspace layout
+## 6. 结论五：能否修改并重新保存
+
+实验报告：`reports/modding_pipeline_validation.md`
+
+### 6.1 脚本能修改 —— **已证明**
+
+在 125 MB 主影片副本上实测：
+- 用 `-importScript` 重新编译 AS2 源码
+- 重新打开保存后的 SWF，`HitCounter.as:55` 的 `"Perfect"` 已变为 `"PerfectJPEXS"`
+- **27,122 个脚本中 27,121 个字节完全一致，仅 1 个改变，0 个丢失**
+- 全量 553,260 行标签转储对比：**仅 1 个标签改变** ——
+  `DoInitAction (sid: 61775)`，`len 2320 → 2902`（+582 字节，与 FileLength 增量精确吻合）
+
+### 6.2 SWF 能重新保存 —— **已证明**
+
+解压→重压缩往返后标签转储**字节完全一致**（SHA-256 `AEDBD7D3…`）；
+独立解析器确认 71,378 个标签、`End` 有效、尾部 0 字节残留。
+`FileLength` 声明值 150,847,814 精确保留（LZMA），存储大小 125,442,502 → 128,688,308（+2.59%）。
+
+### 6.3 游戏运行通过 —— **未验证**
+
+**本环境无法运行 Flash Projector，因此没有启动过游戏。**
+需要你在本机执行验证，步骤见第 10 节。
+
+### 6.4 EXE 重新打包 —— **未打通**
+
+`kofwing/21256864.swf` 与 `EXE[21,256,864..EOF]` **字节完全一致**，
+即主影片精确占据 EXE 末尾。但要替换它，需要同时满足（**7 项均未验证**）：
+
+1. Projector 尾部定位结构的准确格式
+2. 新的 LZMA 流能否被 Flash 运行时接受
+3. `FileLength` 与存储长度的关系处理
+4. 是否存在校验和
+5. 替换后资源是否仍能按相对路径加载（`char/`、`stage/`、`sound/`）
+6. Flash 运行时对 SWF v15 LZMA 的支持边界
+7. Projector 是否校验主影片长度
+
+**不要直接对 EXE 做字节替换。**
+
+### 6.5 是否需要 Flash Professional CS6
+
+| 操作 | 需要 CS6？ |
+|---|---|
+| 修改 AS1/AS2 脚本逻辑 | **不需要** —— JPEXS 已证明可行 |
+| 改常量、开关、字符串 | **不需要** |
+| 改 `list.txt`、替换 MP3/SWF 资源 | **不需要** |
+| 编辑时间轴、图层、元件结构 | 需要，或接受 JPEXS 的 FLA/XFL **近似还原**（非原工程） |
+| 重新打包 Projector EXE | 可能需要，且**未验证** |
+
+---
+
+## 7. 结论六：新增内容需要动哪些地方
+
+### 新增角色
+
+1. `data/skillList.swf` —— 加一个 `new XML("<char>…</char>")` 变量，命名 `<角色><模式>`
+2. `char/<角色>.swf` —— 角色模块；若走内联路线则改为在主影片加 `<角色>_role.as` / `_AI*.as`
+3. `frame_1629:3348` `cpuNormal_list` —— 加入名册
+4. `frame_1629:730` `["Kim","Nameless","Moriya","Andy"]` —— **仅当走外部加载路径时需要加**
+5. `sound/list.txt` + `stage/list.txt` —— BGM 与专属舞台
+
+### 新增/修改招式
+
+1. **出招表**（显示层）：`data/skillList.swf` 的内联 XML
+2. **实际执行**：`<角色>_role.as` 的 `toSkill` 分派器
+3. **判定/伤害**：`HitCheck.as` + `<角色>_AI.as:checkMustDefendSkill()`
+4. **⚠️ 不要动** `frame_1629:3374-3382` 的 `mustDefendSkill` —— 死代码
+
+### 新增 Stage
+
+1. SWF 导出全局 `bgArray`（`{isBmd, mc, v_rate, isBase}`），83 个现有 Stage 全部遵循此契约
+2. `stage/list.txt` 的 `stageBG=` 候选池加入文件名
+3. 若为角色专属，同时加 `&角色=地图&` 绑定
+
+---
+
+## 8. 结论七：需要你手动验证的事项
+
+| # | 验证内容 | 方法 |
+|---|---|---|
+| V1 | `char/` 是否存在 | 查游戏根目录 `char\Kim.swf` 等；比对 SHA-256 与 `file_inventory.csv` |
+| V2 | Kim/Nameless/Moriya/Andy 能否正常对战 | 进游戏选这 4 人各打一局；若这 4 人坏了而其余 21 人正常，则确认内嵌包是死代码 |
+| V3 | JPEXS 改后的 SWF 能否运行 | 拿 `experiments/` 里的 `edited.swf`，配合完整 `char/`、`stage/`、`sound/` 目录实测 |
+| V4 | Stage 配置是否为设计意图 | 见第 3 节 S1/S2 的三种可能 |
+| V5 | `stage2/` 是否应复制进 `stage/` | 同上，先只复制 1 个文件试 |
+| V6 | `code.swf` 的作用 | 代码里加载后完全未使用；实机观察是否影响启动 |
+| V7 | `musicNum=50` 与文件数不符是否正常 | 已知无代码消费者，实机验证即可确认 |
+| V8 | `fscommand("exec","changedisplay1.exe")` 的外部程序 | 这两个 EXE 不在游戏目录中，需查明来源 |
+| V9 | 原版 `stage/` `sound/` 资源补回 | 补回后跑 `python tools/parse_registries.py <root> reports` 补齐文件侧校验 |
+
+---
+
+## 9. JPEXS CLI 已知问题（实测发现的坑）
+
+1. **`-compress` 参数顺序与自身 `-help` 矛盾** —— 实际是 `-compress <method> <infile> <outfile>`，
+   method 在前。
+2. **`-compress` 失败时仍返回退出码 0** —— 不能以退出码判断成功，必须验证产物。
+3. **`-dumpSWF` 的行数不等于标签数** —— 它会递归进嵌套 Sprite 并复用索引，
+   本例输出 553,260 行但真实标签数为 71,378。
+4. **`-replace <scriptName>` 的命名规则未确定** —— 4 种候选写法均被拒，
+   改用已验证的 `-importScript` 路径。
+5. JPEXS 控制台输出**非 ASCII 路径会乱码**（`ȭ��`），但不影响文件读写。
+
+---
+
+## 10. 剩余问题清单（按优先级）
+
+### 🔴 必须先解决
+
+| 问题 | 说明 |
+|---|---|
+| 游戏目录不完整 | `stage/` `stage2/` `sound/` 资源缺失，`char/` `code.swf` `stage/weather/` 未找到 |
+| 无法运行验证 | 本环境不能启动 Flash Projector，所有运行期结论均未证实 |
+| 清单溯源已断 | `_struct.json` 记录的是最初提取物（主程序 125,450,217 B），磁盘上是重新切出的 125,442,502 B。**不要重跑 `swf_struct.py`**，否则会覆盖这条历史记录 |
+
+### 🟡 可以安全实验
+
+| 问题 | 说明 |
+|---|---|
+| JPEXS 脚本编辑 | 已在副本上证明可行，可继续在实验目录做低风险改动 |
+| 出招表编辑 | `data/skillList.swf` 已找回并解析，结构完全已知，是最安全的改动目标 |
+| `list.txt` 调整 | 纯文本，但**当前 `stage/` `sound/` 是你的修改版**，先确认基线 |
+| `out()` 调试插桩 | `frame_1629:720` 函数体为空，零行为风险 |
+
+### 🟢 仅影响特定资源
+
+| 问题 | 说明 |
+|---|---|
+| Stage 绑定失效 | 只影响那 19+7 个绑定，不影响其余角色 |
+| `musicNum` 不一致 | 无代码消费者，不影响运行 |
+| 扩展名大小写 | 只在区分大小写的系统上暴露 |
+| 内嵌包是否同步修改 | 引擎副本差异仅 1–9 行，实际影响极小 |
+
+### 🔵 需要你提供额外文件
+
+| 问题 | 需要什么 |
+|---|---|
+| `char/` 的真实形态 | `char\Kim.swf` 等 4 个文件 |
+| `code.swf` 的功能 | 该文件本体 |
+| Stage 天气覆盖 | `stage/weather/*.swf` |
+| 原版资源基线 | 完整的 `stage/` `stage2/` `sound/` |
+| `changedisplay*.exe` | 这两个被 `fscommand` 调用的外部程序 |
+
+---
+
+## 11. 仓库状态与复现
 
 ```
 _reverse/
-├── tools/                        re-runnable analysis scripts
-│   ├── swf_struct.py             SWF header + tag-walk validator (no JPEXS needed)
-│   ├── jpexs_batch.py            per-SWF JPEXS dumpSWF + script export
-│   ├── parse_registries.py       list.txt parsing + on-disk resolution check
-│   ├── classify.py               evidence-based role assignment
-│   ├── build_graph.py            dependency edges + Mermaid graph
-│   ├── build_inventory.py        file_inventory.csv / .md
-│   ├── build_code_index.py       code_index.csv / .md
-│   ├── find_boot_swf.py          EXE signature scan + SHA-256 correlation
-│   └── inspect_out.py, stats.py, find_classes.py, _check_offsets.py
-├── analysis/<id>/                one directory per SWF
-│   ├── metadata.json  dumpSWF.txt  assets.json
-│   ├── strings.txt    errors.txt
-│   └── scripts/       JPEXS-exported ActionScript
-└── reports/
-    ├── file_inventory.csv / .md
-    ├── dependency_edges.csv  dependency_graph.mmd  dependency_graph.md
-    ├── code_index.csv / .md
-    ├── registries.json  registry_entries.csv
-    └── modding_assessment.md  final_report.md
+├── tools/          分析管线（Python 3.11，仅标准库）
+├── tests/          46 个自动化测试
+├── experiments/    JPEXS 流程实验（work/logs 已 gitignore，约 978 MB）
+├── analysis/       每个 SWF 的元数据、脚本、资源索引
+└── reports/        全部报告
 ```
 
-Each `analysis/<id>` is named from its relative path (e.g. `stage2__其他地图__动态__007`), so
-same-named files in different directories never collide and original paths are preserved in
-`metadata.json`.
+- `experiments/work/` `experiments/logs/` 共 978 MB / 27,177 文件，**已 gitignore**，
+  可由实验脚本重新生成；`experiments/tools/` `experiments/help/` 保留以便复现。
+- 跑测试：`python -m unittest discover -s tests -t .`
+
+**重要：本仓库不包含原始 EXE、游戏安装包或重复资源副本。**

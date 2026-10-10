@@ -1,0 +1,184 @@
+{
+ "stage": {
+  "registry": "stage/list.txt",
+  "pairs": 31,
+  "stagebg_candidates": 19,
+  "character_bindings": 30,
+  "stage2_pairs": 39,
+  "stage2_consumers_found": 0,
+  "embedded_stage_symbols_in_main": 2,
+  "embedded_stage_symbols_named_stage_xxx": 0,
+  "consumer_sites": [
+   {
+    "script": "scripts/DefineSprite_61566/frame_1/DoAction.as",
+    "line": 16,
+    "code": "_level0.bgMapping[bgName] = _loc2_;"
+   },
+   {
+    "script": "scripts/DefineSprite_61566/frame_1/DoAction.as",
+    "line": 30,
+    "code": "_level0.bgMapping[name] = getRandomBg();"
+   },
+   {
+    "script": "scripts/DefineSprite_61566/frame_1/DoAction.as",
+    "line": 33,
+    "code": "for(var _loc4_ in _level0.bgMapping)"
+   },
+   {
+    "script": "scripts/DefineSprite_61566/frame_1/DoAction.as",
+    "line": 37,
+    "code": "function getDefault()"
+   },
+   {
+    "script": "scripts/DefineSprite_61566/frame_1/DoAction.as",
+    "line": 39,
+    "code": "bgInf = _root.bgMappingDefault;"
+   },
+   {
+    "script": "scripts/DefineSprite_61566/frame_1/DoAction.as",
+    "line": 58,
+    "code": "_level0.bgMapping = {};"
+   },
+   {
+    "script": "scripts/DefineSprite_61566/frame_1/DoAction.as",
+    "line": 67,
+    "code": "getDefault();"
+   },
+   {
+    "script": "scripts/DefineSprite_61566/frame_4/DoAction.as",
+    "line": 4,
+    "code": "getDefault();"
+   },
+   {
+    "script": "scripts/DefineSprite_61566/frame_4/DoAction.as",
+    "line": 8,
+    "code": "bgInf.load(\"stage/list.txt\");"
+   },
+   {
+    "script": "scripts/frame_1629/DoAction.as",
+    "line": 3362,
+    "code": "var bgMappingDefault = new LoadVars();"
+   },
+   {
+    "script": "scripts/frame_1629/DoAction.as",
+    "line": 3363,
+    "code": "bgMappingDefault.stageBG = \"moonbridge,factory,gym,palace,earth\";"
+   },
+   {
+    "script": "scripts/frame_1629/DoAction.as",
+    "line": 3364,
+    "code": "bgMappingDefault.Kyo = \"factory\";"
+   },
+   {
+    "script": "scripts/frame_1629/DoAction.as",
+    "line": 3365,
+    "code": "bgMappingDefault.Iori = \"moonbridge\";"
+   },
+   {
+    "script": "scripts/frame_1629/DoAction.as",
+    "line": 3366,
+    "code": "bgMappingDefault.K = \"palace\";"
+   },
+   {
+    "script": "scripts/frame_1629/DoAction.as",
+    "line": 3367,
+    "code": "bgMappingDefault.Kula = \"palace\";"
+   },
+   {
+    "script": "scripts/frame_1629/DoAction.as",
+    "line": 3368,
+    "code": "bgMappingDefault.Orochi = \"earth\";"
+   },
+   {
+    "script": "scripts/frame_1629/DoAction.as",
+    "line": 3369,
+    "code": "bgMappingDefault.Mai = \"gym\";"
+   },
+   {
+    "script": "scripts/frame_1629/DoAction.as",
+    "line": 3370,
+    "code": "bgMappingDefault.Terry = \"factory\";"
+   },
+   {
+    "script": "scripts/frame_1629/DoAction.as",
+    "line": 3371,
+    "code": "bgMappingDefault.Ryo = \"gym\";"
+   },
+   {
+    "script": "scripts/frame_1629/DoAction.as",
+    "line": 3372,
+    "code": "bgMappingDefault.Athena = \"palace\";"
+   },
+   {
+    "script": "scripts/frame_1629/DoAction.as",
+    "line": 3373,
+    "code": "bgMappingDefault.Ash = \"factory\";"
+   }
+  ],
+  "loader_sites": [
+   {
+    "script": "scripts/DefineSprite_2659/frame_1/DoAction.as",
+    "line": 29,
+    "code": "_loc2_.loadClip(\"stage/\" + bgID + \".swf\",loader);"
+   },
+   {
+    "script": "scripts/frame_1638/DoAction.as",
+    "line": 67,
+    "code": "stage_loader.loadClip(\"stage/\" + bgID + \".swf\",stage_mc);"
+   }
+  ],
+  "embedded_sites": [
+   {
+    "script": "scripts/DefineSprite_2659/frame_1/DoAction.as",
+    "line": 13,
+    "code": "stage_mc = loader.attachMovie(\"stage_\" + bgID,\"stage_mc\",depth);"
+   },
+   {
+    "script": "scripts/frame_1638/DoAction.as",
+    "line": 39,
+    "code": "stage_mc = attachMovie(\"stage_\" + bgID,\"stage_mc\",depth_stage);"
+   }
+  ]
+ },
+ "bgm": {
+  "registry": "sound/list.txt",
+  "pairs": 42,
+  "character_bgm": 41,
+  "scalars": [
+   {
+    "key": "musicNum",
+    "value": "50"
+   }
+  ],
+  "musicnum_code_references": 0,
+  "musicnum_ref_sites": [],
+  "stageN_slot_refs": 2435,
+  "consumer_sites": [
+   {
+    "script": "scripts/DefineSprite_1847_bgmControl_mc/frame_1/DoAction.as",
+    "line": 48,
+    "code": "stageSound.loadSound(\"sound/\" + _loc2_,false);"
+   },
+   {
+    "script": "scripts/DefineSprite_1847_bgmControl_mc/frame_1/DoAction.as",
+    "line": 52,
+    "code": "stageSound.loadSound(\"sound/\" + _loc3_,false);"
+   },
+   {
+    "script": "scripts/DefineSprite_1847_bgmControl_mc/frame_4/DoAction.as",
+    "line": 4,
+    "code": "soundInf.load(\"sound/list.txt\");"
+   },
+   {
+    "script": "scripts/DefineSprite_2732_char_select_mc/frame_2/DoAction.as",
+    "line": 12,
+    "code": "selectChar.loadSound(\"sound/select.mp3\",false);"
+   },
+   {
+    "script": "scripts/frame_1629/DoAction.as",
+    "line": 3413,
+    "code": "option_snd.loadSound(\"sound/main.mp3\");"
+   }
+  ]
+ }
+}

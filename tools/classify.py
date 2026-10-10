@@ -269,7 +269,12 @@ def main() -> int:
     (reports / "classification.json").write_text(
         json.dumps(classifications, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    with (reports / "dependency_edges.csv").open("w", newline="", encoding="utf-8-sig") as fh:
+    # NOTE: dependency_edges.csv is owned by build_graph.py, which emits the
+    # graded schema (CONFIRMED/PATTERN/MISSING/INFERRED) that the reports cite.
+    # Writing here too used to silently clobber it with a different schema.
+    # This tool's coarser edge list goes to a separate, clearly-named file.
+    legacy_edges = reports / "dependency_edges_classify_legacy.csv"
+    with legacy_edges.open("w", newline="", encoding="utf-8-sig") as fh:
         w = csv.DictWriter(fh, fieldnames=["source_swf", "target", "api", "location",
                                            "evidence", "confidence", "note"])
         w.writeheader()

@@ -1,0 +1,126 @@
+﻿registry,entry_kind,key,value,original_resolved_path,file_check_now,note
+stage/list.txt,stageBG_candidate_pool,stageBG,密涅瓦号帆船,stage/密涅瓦号帆船.swf,SKIPPED,候选舞台池；被角色绑定后从池中移除
+stage/list.txt,stageBG_candidate_pool,stageBG,阿万特村,stage/阿万特村.swf,SKIPPED,候选舞台池；被角色绑定后从池中移除
+stage/list.txt,stageBG_candidate_pool,stageBG,暗影之主,stage/暗影之主.swf,SKIPPED,候选舞台池；被角色绑定后从池中移除
+stage/list.txt,stageBG_candidate_pool,stageBG,冰墓,stage/冰墓.swf,SKIPPED,候选舞台池；被角色绑定后从池中移除
+stage/list.txt,stageBG_candidate_pool,stageBG,城门外,stage/城门外.swf,SKIPPED,候选舞台池；被角色绑定后从池中移除
+stage/list.txt,stageBG_candidate_pool,stageBG,地下巫术实验室,stage/地下巫术实验室.swf,SKIPPED,候选舞台池；被角色绑定后从池中移除
+stage/list.txt,stageBG_candidate_pool,stageBG,地狱炎窟,stage/地狱炎窟.swf,SKIPPED,候选舞台池；被角色绑定后从池中移除
+stage/list.txt,stageBG_candidate_pool,stageBG,狄恩斯赫特大教堂,stage/狄恩斯赫特大教堂.swf,SKIPPED,候选舞台池；被角色绑定后从池中移除
+stage/list.txt,stageBG_candidate_pool,stageBG,东方实验室,stage/东方实验室.swf,SKIPPED,候选舞台池；被角色绑定后从池中移除
+stage/list.txt,stageBG_candidate_pool,stageBG,寂静花园,stage/寂静花园.swf,SKIPPED,候选舞台池；被角色绑定后从池中移除
+stage/list.txt,stageBG_candidate_pool,stageBG,禁忌的地下水洞,stage/禁忌的地下水洞.swf,SKIPPED,候选舞台池；被角色绑定后从池中移除
+stage/list.txt,stageBG_candidate_pool,stageBG,里弗人工意识,stage/里弗人工意识.swf,SKIPPED,候选舞台池；被角色绑定后从池中移除
+stage/list.txt,stageBG_candidate_pool,stageBG,秘密巫术实验室,stage/秘密巫术实验室.swf,SKIPPED,候选舞台池；被角色绑定后从池中移除
+stage/list.txt,stageBG_candidate_pool,stageBG,入口,stage/入口.swf,SKIPPED,候选舞台池；被角色绑定后从池中移除
+stage/list.txt,stageBG_candidate_pool,stageBG,双龙之塔,stage/双龙之塔.swf,SKIPPED,候选舞台池；被角色绑定后从池中移除
+stage/list.txt,stageBG_candidate_pool,stageBG,隧道,stage/隧道.swf,SKIPPED,候选舞台池；被角色绑定后从池中移除
+stage/list.txt,stageBG_candidate_pool,stageBG,邪恶之桥,stage/邪恶之桥.swf,SKIPPED,候选舞台池；被角色绑定后从池中移除
+stage/list.txt,stageBG_candidate_pool,stageBG,终焉之间,stage/终焉之间.swf,SKIPPED,候选舞台池；被角色绑定后从池中移除
+stage/list.txt,stageBG_candidate_pool,stageBG,练习加大版,stage/练习加大版.swf,SKIPPED,候选舞台池；被角色绑定后从池中移除
+stage/list.txt,character_binding,Kyo,Railway,stage2/其他地图/静态/Railway.swf,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,KyoW,Raining street,,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Kusanagi,cloneTeam,stage2/CloneTeam.swf,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Kula,iceLab,,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,K,Factory,,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Iori,Moon bridge,,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Iori3,Moon2,,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Ryu,Gym,,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Moriya,Moon,stage2/其他地图/静态/Moon.swf,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Mai,Platform,stage2/其他地图/静态/Platform.swf,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Chunli,China,,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Terry,America,,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Haohmaru,Raining village,,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Athena,piazza,stage2/其他地图/静态/piazza.swf,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Ryo,Japan,stage2/其他地图/动态/Japan.swf,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Nameless,Lab,stage2/其他地图/静态/Lab.swf,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Ash,Night,,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Ash2,Diablosis,,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Rugal,Rugal02um,,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Zero,Zero,stage2/Zero.swf,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Zero2,cZero,stage2/CZero.swf,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Igniz,Igniz2k1,,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Igniz2,Lords of Shadow,,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Orochi,earth,stage2/其他地图/动态/earth.swf,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Krizalid,downEdge,,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Orochi2,Mizuchi,stage2/Mizuchi.swf,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Kim,1,,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Goenitz,ochris,,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Andy,Snow,,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage/list.txt,character_binding,Oswald,Church14,,SKIPPED,角色专属舞台；绑定后独占，不参与随机
+stage2/list.txt,stageBG_candidate_pool,stageBG,Black,stage2/Black.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Ash,stage2/Ash.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Athena,stage2/Athena.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Chunli,stage2/Chunli.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,CZero,stage2/CZero.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,E_Ash,stage2/E_Ash.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Goenitz,stage2/Goenitz.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Haohmaru,stage2/Haohmaru.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Igniz_01,stage2/Igniz_01.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Igniz_02um,stage2/Igniz_02um.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Iori,stage2/Iori.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Iori2,stage2/Iori2.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Iori3,stage2/Iori3.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,K,stage2/K.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,K2,stage2/K2.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Kim,stage2/Kim.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Krizalid,stage2/Krizalid.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Kula,stage2/Kula.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Kula2,stage2/Kula2.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Kyo,stage2/Kyo.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Kyo2,stage2/Kyo2.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,KyoW,stage2/KyoW.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Mai,stage2/Mai.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Mizuchi,stage2/Mizuchi.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Moriya,stage2/Moriya.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Orochi,stage2/Orochi.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Oswald,stage2/Oswald.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Rugal_02um,stage2/Rugal_02um.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Rugal_02,stage2/Rugal_02.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Rugal_98,stage2/Rugal_98.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Ryo,stage2/Ryo.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Ryu,stage2/Ryu.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Terry,stage2/Terry.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Zero,stage2/Zero.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Orochi Yashiro,stage2/Orochi Yashiro.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,Orochi Chris,stage2/Orochi Chris.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,longStage,stage2/longStage.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,stageBG_candidate_pool,stageBG,练习,stage2/练习.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Kyo,Kyo,stage2/Kyo.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Kyo2,Kyo2,stage2/Kyo2.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,KyoW,KyoW,stage2/KyoW.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Kusanagi,cloneTeam,stage2/CloneTeam.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Kula,Kula,stage2/Kula.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Kula2,Kula2,stage2/Kula2.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,K,K,stage2/K.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,K2,K2,stage2/K2.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Iori,Iori,stage2/Iori.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Iori2,Iori2,stage2/Iori2.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Iori3,Iori3,stage2/Iori3.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Ryu,Ryu,stage2/Ryu.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Ryu2,Ryu,stage2/Ryu.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Moriya,Moriya,stage2/Moriya.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Mai,Mai,stage2/Mai.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Chunli,Chunli,stage2/Chunli.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Terry,Terry,stage2/Terry.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Haohmaru,Haohmaru,stage2/Haohmaru.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Athena,Athena,stage2/Athena.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Ryo,Ryo,stage2/Ryo.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Nameless,cloneTeam,stage2/CloneTeam.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Ash,Ash,stage2/Ash.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Ash2,E_Ash,stage2/E_Ash.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Rugal,Rugal_98,stage2/Rugal_98.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Rugal2,Rugal_02,stage2/Rugal_02.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Zero,Zero,stage2/Zero.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Zero2,CZero,stage2/CZero.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Igniz,Igniz_01,stage2/Igniz_01.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Igniz2,Igniz_02um,stage2/Igniz_02um.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Orochi,Orochi,stage2/Orochi.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Orochi2,Mizuchi,stage2/Mizuchi.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Oswald,Oswald,stage2/Oswald.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Krizalid,Krizalid,stage2/Krizalid.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Krizalid2,Krizalid,stage2/Krizalid.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Andy,Mai,stage2/Mai.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Goenitz,Goenitz,stage2/Goenitz.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Kim,Kim,stage2/Kim.swf,SKIPPED,主程序无任何 stage2/ 引用
+stage2/list.txt,character_binding,Kim2,Kim,stage2/Kim.swf,SKIPPED,主程序无任何 stage2/ 引用

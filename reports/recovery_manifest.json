@@ -1,0 +1,147 @@
+{
+ "exe": "D:\\拳皇\\拳皇WingEX1.2前瞻版\\wingex1.2.exe",
+ "exe_size": 146699366,
+ "note": "kofwing/* rebuilt from the EXE; stage/stage2/sound are NOT in the EXE",
+ "results": [
+  {
+   "file": "11480055.swf",
+   "offset": 11480055,
+   "manifest_bytes": 5215693,
+   "written": 5215693,
+   "truncated_at_eof": false,
+   "sha256_match": true,
+   "signature": "CWS",
+   "version": 8
+  },
+  {
+   "file": "16695748.swf",
+   "offset": 16695748,
+   "manifest_bytes": 1768578,
+   "written": 1768578,
+   "truncated_at_eof": false,
+   "sha256_match": true,
+   "signature": "CWS",
+   "version": 8
+  },
+  {
+   "file": "18464326.swf",
+   "offset": 18464326,
+   "manifest_bytes": 2353548,
+   "written": 2353548,
+   "truncated_at_eof": false,
+   "sha256_match": true,
+   "signature": "CWS",
+   "version": 8
+  },
+  {
+   "file": "20817874.swf",
+   "offset": 20817874,
+   "manifest_bytes": 29157,
+   "written": 29157,
+   "truncated_at_eof": false,
+   "sha256_match": true,
+   "signature": "CWS",
+   "version": 15
+  },
+  {
+   "file": "21256864.swf",
+   "offset": 21256864,
+   "manifest_bytes": 125450217,
+   "written": 125442502,
+   "truncated_at_eof": true,
+   "sha256_match": false,
+   "signature": "ZWS",
+   "version": 15
+  },
+  {
+   "file": "27969957.swf",
+   "offset": 27969957,
+   "manifest_bytes": 118729409,
+   "written": 118729409,
+   "truncated_at_eof": false,
+   "sha256_match": false,
+   "signature": "FWS",
+   "version": 4
+  },
+  {
+   "file": "40440656.swf",
+   "offset": 40440656,
+   "manifest_bytes": 106258710,
+   "written": 106258710,
+   "truncated_at_eof": false,
+   "sha256_match": false,
+   "signature": "GFX",
+   "version": 47
+  },
+  {
+   "file": "6148152.swf",
+   "offset": 6148152,
+   "manifest_bytes": 40171,
+   "written": 40171,
+   "truncated_at_eof": false,
+   "sha256_match": true,
+   "signature": "FWS",
+   "version": 8
+  },
+  {
+   "file": "6230976.swf",
+   "offset": 6230976,
+   "manifest_bytes": 4271,
+   "written": 4271,
+   "truncated_at_eof": false,
+   "sha256_match": true,
+   "signature": "FWS",
+   "version": 8
+  },
+  {
+   "file": "6235248.swf",
+   "offset": 6235248,
+   "manifest_bytes": 968,
+   "written": 968,
+   "truncated_at_eof": false,
+   "sha256_match": true,
+   "signature": "CWS",
+   "version": 7
+  },
+  {
+   "file": "7298128.swf",
+   "offset": 7298128,
+   "manifest_bytes": 34199,
+   "written": 34199,
+   "truncated_at_eof": false,
+   "sha256_match": true,
+   "signature": "CWS",
+   "version": 6
+  },
+  {
+   "file": "74424254.swf",
+   "offset": 74424254,
+   "manifest_bytes": 72275112,
+   "written": 72275112,
+   "truncated_at_eof": false,
+   "sha256_match": false,
+   "signature": "GFX",
+   "version": 15
+  },
+  {
+   "file": "84187910.swf",
+   "offset": 84187910,
+   "manifest_bytes": 62511456,
+   "written": 62511456,
+   "truncated_at_eof": false,
+   "sha256_match": false,
+   "signature": "FWS",
+   "version": 24
+  },
+  {
+   "file": "8492959.swf",
+   "offset": 8492959,
+   "manifest_bytes": 2987096,
+   "written": 2987096,
+   "truncated_at_eof": false,
+   "sha256_match": true,
+   "signature": "CWS",
+   "version": 8
+  }
+ ]
+}

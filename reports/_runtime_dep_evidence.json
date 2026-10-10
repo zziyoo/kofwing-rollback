@@ -1,0 +1,3292 @@
+{
+ "dependencies": [
+  {
+   "dependency": "char/<role>.swf",
+   "purpose": "per-character module loaded into the player's empty movie clip",
+   "call_sites": 4,
+   "path_is_dynamic": true,
+   "sites": [
+    {
+     "script": "scripts/scripts/frame_1629/DoAction.as",
+     "line": 792,
+     "code": "_loc2_.loadClip(\"char/\" + _loc1_ + \".swf\",P1_mc);"
+    },
+    {
+     "script": "scripts/scripts/frame_1629/DoAction.as",
+     "line": 812,
+     "code": "_loc2_.loadClip(\"char/\" + _loc1_ + \".swf\",P2_mc);"
+    },
+    {
+     "script": "scripts/scripts/frame_1629/DoAction.as",
+     "line": 915,
+     "code": "P1_mc.loadMovie(\"char/\" + roleName + \".swf\");"
+    },
+    {
+     "script": "scripts/scripts/frame_1629/DoAction.as",
+     "line": 919,
+     "code": "P2_mc.loadMovie(\"char/\" + roleName + \".swf\");"
+    }
+   ]
+  },
+  {
+   "dependency": "data/skillList.swf",
+   "purpose": "move/command table, driven via onLoadSkill()",
+   "call_sites": 1,
+   "path_is_dynamic": false,
+   "sites": [
+    {
+     "script": "scripts/scripts/DefineSprite_60324/frame_1/DoAction.as",
+     "line": 15,
+     "code": "loadMovie(\"data/skillList.swf\",skList);"
+    }
+   ]
+  },
+  {
+   "dependency": "code.swf",
+   "purpose": "loaded into code_mc at the top level",
+   "call_sites": 1,
+   "path_is_dynamic": false,
+   "sites": [
+    {
+     "script": "scripts/scripts/frame_1629/DoAction.as",
+     "line": 3541,
+     "code": "loadMovie(\"code.swf\",code_mc);"
+    }
+   ]
+  },
+  {
+   "dependency": "stage/weather/<tq>.swf",
+   "purpose": "weather overlay selected by the stage module via _root.tq",
+   "call_sites": 1,
+   "path_is_dynamic": true,
+   "sites": [
+    {
+     "script": "scripts/scripts/DefineSprite_3266/frame_1/DoAction.as",
+     "line": 1,
+     "code": "this.loadMovie(\"stage/weather/\" + _root.tq + \".swf\");"
+    }
+   ]
+  }
+ ],
+ "post_load": {
+  "data/skillList.swf": [
+   {
+    "symbol": "skList",
+    "uses": 7,
+    "sites": [
+     {
+      "script": "scripts/scripts/DefineSprite_60324/frame_1/DoAction.as",
+      "line": 14,
+      "code": "var skList = createEmptyMovieClip(\"skillList\",0);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_60324/frame_1/DoAction.as",
+      "line": 15,
+      "code": "loadMovie(\"data/skillList.swf\",skList);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_60324/frame_1/DoAction.as",
+      "line": 18,
+      "code": "if(skList.getBytesLoaded() >= skList.getBytesTotal() && skList.getBytesTotal() > 0)"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_60324/frame_1/DoAction.as",
+      "line": 20,
+      "code": "skList._visible = false;"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_60324/frame_1/DoAction.as",
+      "line": 22,
+      "code": "skList.currentName = _level0.charSelect_P1;"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_60324/frame_1/DoAction.as",
+      "line": 23,
+      "code": "skList.currentMode = _level0.mode_role_P1;"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_60324/frame_1/DoAction.as",
+      "line": 24,
+      "code": "skList.onLoadSkill();"
+     }
+    ]
+   },
+   {
+    "symbol": "onLoadSkill",
+    "uses": 1,
+    "sites": [
+     {
+      "script": "scripts/scripts/DefineSprite_60324/frame_1/DoAction.as",
+      "line": 24,
+      "code": "skList.onLoadSkill();"
+     }
+    ]
+   },
+   {
+    "symbol": "currentName",
+    "uses": 1,
+    "sites": [
+     {
+      "script": "scripts/scripts/DefineSprite_60324/frame_1/DoAction.as",
+      "line": 22,
+      "code": "skList.currentName = _level0.charSelect_P1;"
+     }
+    ]
+   },
+   {
+    "symbol": "currentMode",
+    "uses": 1,
+    "sites": [
+     {
+      "script": "scripts/scripts/DefineSprite_60324/frame_1/DoAction.as",
+      "line": 23,
+      "code": "skList.currentMode = _level0.mode_role_P1;"
+     }
+    ]
+   }
+  ],
+  "code.swf": [
+   {
+    "symbol": "code_mc",
+    "uses": 2,
+    "sites": [
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 3540,
+      "code": "var code_mc = attachMovie(\"code_mc\",\"code_mc\",this.getNextHighestDepth());"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 3541,
+      "code": "loadMovie(\"code.swf\",code_mc);"
+     }
+    ]
+   }
+  ],
+  "char/<role>.swf": [
+   {
+    "symbol": "P1_mc",
+    "uses": 17,
+    "sites": [
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 725,
+      "code": "P1_mc.addPlayer(P1_type,mode_role_P1);"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 790,
+      "code": "P1_mc = char_mc.createEmptyMovieClip(\"P1_mc\",depth_P1);"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 791,
+      "code": "P1_mc._lockroot = true;"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 792,
+      "code": "_loc2_.loadClip(\"char/\" + _loc1_ + \".swf\",P1_mc);"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 868,
+      "code": "P1_mc = char_mc.attachMovie(\"role_\" + roleNameP1,\"P1_mc\",depth_P1);"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 870,
+      "code": "P1_mc._lockroot = true;"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 901,
+      "code": "if(P2_mc.role_mc.status_1 == \"stand\" && P1_mc.role_mc.status_1 == \"stand\")"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 915,
+      "code": "P1_mc.loadMovie(\"char/\" + roleName + \".swf\");"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 988,
+      "code": "P1_mc.addPlayer(P1_type,mode_role_P1);"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 990,
+      "code": "P1_role = P1_mc.role_mc;"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 1068,
+      "code": "P1_mc.addPlayer(\"demo\");"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 1070,
+      "code": "P1_role = P1_mc.role_mc;"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 3007,
+      "code": "P1_mc.addPlayer(P1_type,roleModeP1);"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 3009,
+      "code": "P1_role = P1_mc.role_mc;"
+     },
+     {
+      "script": "scripts/scripts/frame_1635/DoAction.as",
+      "line": 5,
+      "code": "P1_mc = char_mc.attachMovie(\"role_\" + charSelect_P1,\"P1_mc\",depth_P1);"
+     },
+     {
+      "script": "scripts/scripts/frame_1635/DoAction.as",
+      "line": 7,
+      "code": "P1_mc._lockroot = true;"
+     },
+     {
+      "script": "scripts/scripts/__Packages/Stage_effect.as",
+      "line": 554,
+      "code": "this.changeColor(_level0.P1_mc,\"normal\");"
+     }
+    ]
+   },
+   {
+    "symbol": "P2_mc",
+    "uses": 18,
+    "sites": [
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 726,
+      "code": "P2_mc.addPlayer(P2_type,mode_role_P2);"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 810,
+      "code": "P2_mc = char_mc.createEmptyMovieClip(\"P2_mc\",depth_P2);"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 811,
+      "code": "P2_mc._lockroot = true;"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 812,
+      "code": "_loc2_.loadClip(\"char/\" + _loc1_ + \".swf\",P2_mc);"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 869,
+      "code": "P2_mc = char_mc.attachMovie(\"role_\" + roleNameP2,\"P2_mc\",depth_P2);"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 871,
+      "code": "P2_mc._lockroot = true;"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 901,
+      "code": "if(P2_mc.role_mc.status_1 == \"stand\" && P1_mc.role_mc.status_1 == \"stand\")"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 919,
+      "code": "P2_mc.loadMovie(\"char/\" + roleName + \".swf\");"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 983,
+      "code": "_level0.out(\"初始化角色1111:\" + P2_mc + \"   \" + P2_mc.role_mc + \"   \" + charSelect_P2 + \"  \" + mode_role_P2);"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 989,
+      "code": "P2_mc.addPlayer(P2_type,mode_role_P2);"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 991,
+      "code": "P2_role = P2_mc.role_mc;"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 1069,
+      "code": "P2_mc.addPlayer(\"demo\");"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 1071,
+      "code": "P2_role = P2_mc.role_mc;"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 3008,
+      "code": "P2_mc.addPlayer(P2_type,roleModeP2);"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 3010,
+      "code": "P2_role = P2_mc.role_mc;"
+     },
+     {
+      "script": "scripts/scripts/frame_1635/DoAction.as",
+      "line": 6,
+      "code": "P2_mc = char_mc.attachMovie(\"role_\" + charSelect_P2,\"P2_mc\",depth_P2);"
+     },
+     {
+      "script": "scripts/scripts/frame_1635/DoAction.as",
+      "line": 8,
+      "code": "P2_mc._lockroot = true;"
+     },
+     {
+      "script": "scripts/scripts/__Packages/Stage_effect.as",
+      "line": 555,
+      "code": "this.changeColor(_level0.P2_mc,\"normal\");"
+     }
+    ]
+   },
+   {
+    "symbol": "_lockroot",
+    "uses": 8,
+    "sites": [
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 791,
+      "code": "P1_mc._lockroot = true;"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 811,
+      "code": "P2_mc._lockroot = true;"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 870,
+      "code": "P1_mc._lockroot = true;"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 871,
+      "code": "P2_mc._lockroot = true;"
+     },
+     {
+      "script": "scripts/scripts/frame_1635/DoAction.as",
+      "line": 7,
+      "code": "P1_mc._lockroot = true;"
+     },
+     {
+      "script": "scripts/scripts/frame_1635/DoAction.as",
+      "line": 8,
+      "code": "P2_mc._lockroot = true;"
+     },
+     {
+      "script": "scripts/scripts/__Packages/AD_loading.as",
+      "line": 104,
+      "code": "this.ad_mc._lockroot = true;"
+     },
+     {
+      "script": "scripts/scripts/__Packages/Stage_control2.as",
+      "line": 24,
+      "code": "this._lockroot = true;"
+     }
+    ]
+   },
+   {
+    "symbol": "roleName",
+    "uses": 490,
+    "sites": [
+     {
+      "script": "scripts/scripts/DefineSprite_10238/frame_1/DoAction.as",
+      "line": 14,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_10241/frame_3/PlaceObject2_10238_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryu\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_10259/frame_3/PlaceObject2_10238_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryu\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_10279/frame_1/PlaceObject2_10238_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryu\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_10283/frame_1/PlaceObject2_10238_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryu\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_10283/frame_32/PlaceObject2_10238_15/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_10285/frame_2/PlaceObject2_10238_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryu\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_10312/frame_2/PlaceObject2_10238_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryu\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_10312/frame_32/PlaceObject2_10238_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryu\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_10341/frame_1/PlaceObject2_10238_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryu\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_10342/frame_1/PlaceObject2_10238_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryu\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_10509/frame_2/PlaceObject2_10238_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryu\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_10537/frame_6/PlaceObject2_10238_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryu\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_10538/frame_1/PlaceObject2_10238_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryu\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_10539/frame_6/PlaceObject2_10238_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryu\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_10540/frame_1/PlaceObject2_10238_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryu\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_10585/frame_1/PlaceObject2_10238_5/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryu\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_10590/frame_1/PlaceObject2_10238_5/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryu\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_10591/frame_3/PlaceObject2_10238_8/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryu\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_10592/frame_2/PlaceObject2_10238_5/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryu\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_11647/frame_1/DoAction.as",
+      "line": 16,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_12121/frame_1/DoAction.as",
+      "line": 14,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_12144/frame_2/PlaceObject2_12121_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_12167/frame_2/PlaceObject2_12121_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_12220/frame_145/PlaceObject2_12121_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_12220/frame_2/PlaceObject2_12121_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_12222/frame_137/PlaceObject2_12121_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_12222/frame_37/PlaceObject2_12121_8/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_12225/frame_1/PlaceObject2_12121_5/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_12227/frame_1/PlaceObject2_12121_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_12230/frame_1/PlaceObject2_12121_5/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_12231/frame_1/PlaceObject2_12121_5/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_12455/frame_1/PlaceObject2_12121_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_12455/frame_77/PlaceObject2_12121_11/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_12567/frame_1/PlaceObject2_12121_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_12843/frame_1/PlaceObject2_12121_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_12844/frame_1/PlaceObject2_12121_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_12906/frame_1/PlaceObject2_12121_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_12907/frame_3/PlaceObject2_12121_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ryo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_14246/frame_1/DoAction.as",
+      "line": 16,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_14757/frame_31/DoAction.as",
+      "line": 2,
+      "code": "if((_root.role_mc.opp._roleName == \"Ash\" || _root.role_mc.opp.roleName == \"Ash\") && _root.role_mc.opp.roleMode == 2)"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_14934/frame_1/DoAction.as",
+      "line": 14,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_14947/frame_4/PlaceObject2_14934_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Rugal\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_14948/frame_1/DoAction.as",
+      "line": 7,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_14963/frame_4/PlaceObject2_14948_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Rugal\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_15044/frame_1/PlaceObject2_14934_4/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Rugal\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_15056/frame_2/PlaceObject2_14934_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Rugal\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_15063/frame_5/PlaceObject2_14934_5/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Rugal\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_15218/frame_5/PlaceObject2_14934_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Rugal\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_15614/frame_31/DoAction.as",
+      "line": 2,
+      "code": "if((_root.role_mc.opp._roleName == \"Ash\" || _root.role_mc.opp.roleName == \"Ash\") && _root.role_mc.opp.roleMode == 2)"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_15659/frame_2/PlaceObject2_14934_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Rugal\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_15660/frame_2/PlaceObject2_14934_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Rugal\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_15794/frame_3/PlaceObject2_14934_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Rugal\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_15795/frame_3/PlaceObject2_14934_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Rugal\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_15863/frame_3/PlaceObject2_14934_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Rugal\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_15959/frame_2/PlaceObject2_14934_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Rugal\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_15961/frame_1/PlaceObject2_14934_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Rugal\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_15973/frame_2/PlaceObject2_14934_5/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Rugal\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_15973/frame_215/PlaceObject2_14934_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_16007/frame_4/PlaceObject2_14934_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Rugal\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_16007/frame_87/PlaceObject2_14934_13/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_16854/frame_1/DoAction.as",
+      "line": 16,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_17244/frame_1/DoAction.as",
+      "line": 14,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_17246/frame_34/PlaceObject2_17244_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_17258/frame_34/PlaceObject2_17244_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_17503/frame_1/PlaceObject2_17244_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Oswald\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_17504/frame_1/PlaceObject2_17244_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Oswald\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_17642/frame_1/PlaceObject2_17244_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Oswald\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_17643/frame_1/PlaceObject2_17244_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Oswald\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_17645/frame_1/PlaceObject2_17244_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Oswald\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_17645/frame_232/PlaceObject2_17244_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Oswald\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_17731/frame_1/PlaceObject2_17244_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Oswald\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_17746/frame_1/PlaceObject2_17244_9/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Oswald\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_19547/frame_4/PlaceObject2_12121_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Orochi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_19548/frame_4/PlaceObject2_12121_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Orochi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_19577/frame_2/PlaceObject2_12121_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Orochi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_19578/frame_3/PlaceObject2_12121_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Orochi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_19663/frame_109/PlaceObject2_12121_10/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_19663/frame_5/PlaceObject2_12121_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Orochi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_19725/frame_120/PlaceObject2_12121_12/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_19725/frame_173/PlaceObject2_12121_10/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_19725/frame_2/PlaceObject2_12121_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Orochi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_19745/frame_136/PlaceObject2_12121_13/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_19745/frame_2/PlaceObject2_12121_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Orochi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_19746/frame_101/PlaceObject2_12121_10/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_19746/frame_2/PlaceObject2_12121_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Orochi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_19767/frame_2/PlaceObject2_12121_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Orochi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_19767/frame_56/PlaceObject2_12121_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_20474/frame_3/PlaceObject2_12121_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mizuchi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_20476/frame_3/PlaceObject2_12121_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mizuchi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_20477/frame_5/PlaceObject2_12121_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mizuchi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_20507/frame_42/PlaceObject2_12121_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_20507/frame_5/PlaceObject2_12121_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mizuchi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_20528/frame_4/PlaceObject2_12121_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mizuchi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_20529/frame_4/PlaceObject2_12121_8/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mizuchi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_20607/frame_1/PlaceObject2_12121_7/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mizuchi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_20610/frame_2/PlaceObject2_12121_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mizuchi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_20614/frame_3/PlaceObject2_12121_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mizuchi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_20617/frame_2/PlaceObject2_12121_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mizuchi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_21654/frame_1/DoAction.as",
+      "line": 16,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_22203/frame_1/DoAction.as",
+      "line": 14,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_22231/frame_3/PlaceObject2_22203_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mai\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_22232/frame_3/PlaceObject2_22203_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mai\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_22264/frame_1/PlaceObject2_22203_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mai\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_22265/frame_2/PlaceObject2_22203_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mai\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_22342/frame_2/PlaceObject2_22203_5/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mai\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_22342/frame_44/PlaceObject2_22203_5/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mai\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_22343/frame_2/PlaceObject2_22203_5/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mai\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_22473/frame_109/PlaceObject2_22203_5/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_22473/frame_2/PlaceObject2_22203_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mai\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_22604/frame_2/PlaceObject2_22203_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mai\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_22604/frame_59/PlaceObject2_22203_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_22604/frame_59/PlaceObject2_22203_5/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_22619/frame_2/PlaceObject2_22203_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mai\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_22620/frame_2/PlaceObject2_22203_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mai\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_22674/frame_2/PlaceObject2_22203_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mai\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_22675/frame_2/PlaceObject2_22203_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mai\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_22712/frame_3/PlaceObject2_22203_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mai\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_22712/frame_36/PlaceObject2_22203_8/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_22832/frame_2/PlaceObject2_22203_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mai\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_22834/frame_3/PlaceObject2_22203_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mai\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_22843/frame_3/PlaceObject2_22203_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Mai\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_24789/frame_1/DoAction.as",
+      "line": 16,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_25546/frame_1/DoAction.as",
+      "line": 14,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_25627/frame_3/PlaceObject2_25546_8/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"KyoW\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_25640/frame_3/PlaceObject2_25546_12/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"KyoW\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_25658/frame_3/PlaceObject2_25546_15/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"KyoW\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_25704/frame_2/PlaceObject2_25546_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"KyoW\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_25809/frame_141/PlaceObject2_25546_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_25809/frame_2/PlaceObject2_25546_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"KyoW\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_25810/frame_4/PlaceObject2_25546_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"KyoW\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_25881/frame_3/PlaceObject2_25546_8/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"KyoW\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_26027/frame_2/PlaceObject2_25546_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"KyoW\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_26107/frame_2/PlaceObject2_25546_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"KyoW\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_26108/frame_2/PlaceObject2_25546_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"KyoW\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_27000/frame_3/PlaceObject2_25546_8/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"KyoXI\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_27004/frame_2/PlaceObject2_25546_10/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"KyoXI\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_27013/frame_3/PlaceObject2_25546_14/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"KyoXI\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_27017/frame_1/PlaceObject2_25546_14/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"KyoXI\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_27102/frame_1/PlaceObject2_25546_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"KyoXI\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_27226/frame_2/PlaceObject2_25546_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"KyoXI\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_27226/frame_78/PlaceObject2_25546_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"KyoXI\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_27338/frame_2/PlaceObject2_25546_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"KyoXI\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_27340/frame_127/PlaceObject2_25546_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_27340/frame_2/PlaceObject2_25546_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"KyoXI\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_27340/frame_81/PlaceObject2_25546_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_27470/frame_3/PlaceObject2_25546_8/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"KyoXI\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_27471/frame_3/PlaceObject2_25546_13/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"KyoXI\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_29021/frame_3/PlaceObject2_25546_8/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"kyo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_29022/frame_3/PlaceObject2_25546_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"kyo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_29041/frame_3/PlaceObject2_25546_15/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"kyo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_29048/frame_1/PlaceObject2_25546_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"kyo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_29050/frame_1/PlaceObject2_25546_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"kyo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_29101/frame_3/PlaceObject2_25546_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"kyo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_29101/frame_98/PlaceObject2_25546_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_29133/frame_4/PlaceObject2_25546_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"kyo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_29226/frame_2/PlaceObject2_25546_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kyo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_29256/frame_2/PlaceObject2_25546_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kyo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_29333/frame_2/PlaceObject2_25546_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kyo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_29334/frame_2/PlaceObject2_25546_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kyo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_29336/frame_3/PlaceObject2_25546_13/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"kyo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_29379/frame_3/PlaceObject2_25546_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"kyo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_29381/frame_5/PlaceObject2_25546_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kyo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_29406/frame_3/PlaceObject2_25546_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"kyo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_29417/frame_117/PlaceObject2_25546_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_29417/frame_165/PlaceObject2_25546_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_29417/frame_3/PlaceObject2_25546_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"kyo\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_29418/frame_2/PlaceObject2_25546_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_29419/frame_2/PlaceObject2_25546_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_30484/frame_3/PlaceObject2_25546_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kusanagi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_30493/frame_3/PlaceObject2_25546_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kusanagi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_30494/frame_3/PlaceObject2_25546_13/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kusanagi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_30500/frame_3/PlaceObject2_25546_5/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kusanagi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_30591/frame_3/PlaceObject2_25546_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kusanagi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_30670/frame_2/PlaceObject2_25546_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kusanagi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_30672/frame_2/PlaceObject2_25546_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kusanagi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_30744/frame_2/PlaceObject2_25546_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kusanagi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_30824/frame_2/PlaceObject2_25546_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kusanagi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_30831/frame_2/PlaceObject2_25546_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kusanagi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_30854/frame_2/PlaceObject2_25546_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kusanagi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_30910/frame_2/PlaceObject2_25546_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kusanagi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_30911/frame_2/PlaceObject2_25546_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kusanagi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_30911/frame_208/PlaceObject2_25546_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_30919/frame_2/PlaceObject2_25546_5/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kusanagi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_30920/frame_1/PlaceObject2_25546_5/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kusanagi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_30976/frame_3/PlaceObject2_25546_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kusanagi\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_3211_battle_start/frame_1/DoAction.as",
+      "line": 1,
+      "code": "P1_role.roleName = P1_role._roleName;"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_3211_battle_start/frame_1/DoAction.as",
+      "line": 2,
+      "code": "P2_role.roleName = P2_role._roleName;"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_32424/frame_1/DoAction.as",
+      "line": 16,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33225/frame_1/DoAction.as",
+      "line": 14,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33241/frame_2/PlaceObject2_33225_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kula\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33242/frame_2/PlaceObject2_33225_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kula\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33245/frame_2/PlaceObject2_33225_10/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kula\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33246/frame_2/PlaceObject2_33225_10/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kula\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33297/frame_2/PlaceObject2_33225_5/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kula\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33297/frame_86/PlaceObject2_33225_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33373/frame_2/PlaceObject2_33225_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kula\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33373/frame_20/PlaceObject2_33225_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33392/frame_1/PlaceObject2_33225_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kula\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33392/frame_14/DoAction.as",
+      "line": 2,
+      "code": "if((_root.role_mc.opp._roleName == \"Ash\" || _root.role_mc.opp.roleName == \"Ash\") && _root.role_mc.opp.roleMode == 2)"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33394/frame_1/PlaceObject2_33225_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kula\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33394/frame_10/DoAction.as",
+      "line": 2,
+      "code": "if((_root.role_mc.opp._roleName == \"Ash\" || _root.role_mc.opp.roleName == \"Ash\") && _root.role_mc.opp.roleMode == 2)"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33472/frame_2/PlaceObject2_33225_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kula\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33473/frame_2/PlaceObject2_33225_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kula\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33473/frame_38/PlaceObject2_33225_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33475/frame_2/PlaceObject2_33225_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kula\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33476/frame_2/PlaceObject2_33225_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kula\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33477/frame_2/PlaceObject2_33225_8/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kula\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33507/frame_2/PlaceObject2_33225_8/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kula\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33507/frame_54/PlaceObject2_33225_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33612/frame_28/PlaceObject2_33225_8/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kula\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33612/frame_4/PlaceObject2_33225_8/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kula\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33652/frame_3/PlaceObject2_33225_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kula\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33732/frame_2/PlaceObject2_33225_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Kula\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_33732/frame_72/PlaceObject2_33225_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_34791/frame_1/DoAction.as",
+      "line": 16,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_35265/frame_1/DoAction.as",
+      "line": 14,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_35376/frame_1/PlaceObject2_35265_3/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Krizalid\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_35520/frame_1/PlaceObject2_35265_3/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Krizalid\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_35647/frame_2/PlaceObject2_35265_3/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Krizalid\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_35756/frame_2/PlaceObject2_35265_3/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Krizalid\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_35801/frame_1/PlaceObject2_35265_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Krizalid\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_35954/frame_11/PlaceObject2_35265_9/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Krizalid\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_35959/frame_1/PlaceObject2_35265_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Krizalid\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_37535/frame_1/DoAction.as",
+      "line": 16,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38148/frame_1/DoAction.as",
+      "line": 14,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38163/frame_2/PlaceObject2_38148_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"K\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38184/frame_106/PlaceObject2_38148_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"K\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38184/frame_156/PlaceObject2_38148_8/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"K\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38184/frame_2/PlaceObject2_38148_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"K\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38185/frame_1/PlaceObject2_38148_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"K\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38204/frame_4/PlaceObject2_38148_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"K\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38206/frame_4/PlaceObject2_38148_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"K\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38213/frame_127/PlaceObject2_38148_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38213/frame_2/PlaceObject2_38148_9/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"K\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38236/frame_1/PlaceObject2_38148_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"K\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38236/frame_25/PlaceObject2_38148_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38269/frame_2/PlaceObject2_38148_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"K\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38270/frame_119/PlaceObject2_38148_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38270/frame_186/PlaceObject2_38148_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38270/frame_2/PlaceObject2_38148_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"K\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38273/frame_1/PlaceObject2_38148_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"K\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38274/frame_1/PlaceObject2_38148_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"K\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38501/frame_2/PlaceObject2_38148_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"K\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38547/frame_186/PlaceObject2_38148_11/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38547/frame_2/PlaceObject2_38148_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"K\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38550/frame_1/PlaceObject2_38148_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"K\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38550/frame_26/PlaceObject2_38148_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38594/frame_66/PlaceObject2_38148_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"K\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38595/frame_113/PlaceObject2_38148_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"K\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_38705/frame_2/PlaceObject2_38148_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"K\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_40625/frame_1/DoAction.as",
+      "line": 16,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_41109/frame_1/DoAction.as",
+      "line": 14,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_41131/frame_2/PlaceObject2_41109_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_41137/frame_2/PlaceObject2_41109_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_41144/frame_1/PlaceObject2_41109_7/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_41145/frame_1/PlaceObject2_41109_7/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_41213/frame_4/PlaceObject2_41109_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_41213/frame_72/PlaceObject2_41109_11/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_41227/frame_2/PlaceObject2_41109_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_41309/frame_2/PlaceObject2_41109_8/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_41311/frame_2/PlaceObject2_41109_8/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_41411/frame_2/PlaceObject2_41109_5/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_41411/frame_202/PlaceObject2_41109_9/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_41480/frame_2/PlaceObject2_41109_7/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"iori\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_42449/frame_2/PlaceObject2_41109_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori3\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_42507/frame_2/PlaceObject2_41109_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori3\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_42510/frame_161/PlaceObject2_41109_9/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_42510/frame_2/PlaceObject2_41109_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori3\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_42521/frame_33/PlaceObject2_41109_15/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori3\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_42522/frame_24/PlaceObject2_41109_15/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori3\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_42522/frame_50/PlaceObject2_41109_13/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_42599/frame_2/PlaceObject2_41109_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori3\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_42599/frame_79/PlaceObject2_41109_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_42667/frame_150/PlaceObject2_41109_10/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_42667/frame_85/PlaceObject2_41109_16/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori3\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_42703/frame_1/PlaceObject2_41109_7/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_42704/frame_1/PlaceObject2_41109_7/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_42711/frame_5/PlaceObject2_41109_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori3\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_42984/frame_2/PlaceObject2_41109_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_43044/frame_2/PlaceObject2_41109_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_43094/frame_2/PlaceObject2_41109_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_43094/frame_59/PlaceObject2_41109_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_43185/frame_3/PlaceObject2_41109_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_43188/frame_3/PlaceObject2_41109_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_43235/frame_167/PlaceObject2_41109_15/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_43235/frame_2/PlaceObject2_41109_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_43236/frame_2/PlaceObject2_41109_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_43237/frame_3/PlaceObject2_41109_8/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_44383/frame_1/DoAction.as",
+      "line": 16,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_44697/frame_1/DoAction.as",
+      "line": 14,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role,charmax);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_44729/frame_1/PlaceObject2_44697_3/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Igniz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_44730/frame_1/PlaceObject2_44697_3/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Igniz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_44797/frame_1/PlaceObject2_44697_3/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Igniz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_44799/frame_1/PlaceObject2_44697_3/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Igniz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_44931/frame_1/PlaceObject2_44697_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Igniz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_44954/frame_1/PlaceObject2_44697_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Igniz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_45186/frame_1/PlaceObject2_44697_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Igniz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_45186/frame_43/PlaceObject2_44697_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_45186/frame_43/PlaceObject2_44697_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_45186/frame_43/PlaceObject2_44697_8/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_45191/frame_1/PlaceObject2_44697_7/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Igniz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_46106/frame_2/PlaceObject2_44697_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Igniz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_46108/frame_2/PlaceObject2_44697_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Igniz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_46164/frame_1/DoAction.as",
+      "line": 14,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_46165/frame_3/PlaceObject2_46164_7/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Igniz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_46166/frame_3/PlaceObject2_46164_7/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Igniz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_46167/frame_3/PlaceObject2_46164_11/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Igniz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_46334/frame_2/PlaceObject2_44697_5/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"igniz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_46441/frame_1/DoAction.as",
+      "line": 7,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_46574/frame_1/PlaceObject2_46441_6/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Igniz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_46574/frame_1/PlaceObject2_46441_6/CLIPACTIONRECORD on(construct)_2.as",
+      "line": 5,
+      "code": "roleName = \"Igniz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_46579/frame_3/PlaceObject2_44697_14/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Igniz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_46581/frame_2/PlaceObject2_44697_3/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Igniz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_47087/frame_1/DoAction.as",
+      "line": 16,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_47580/frame_1/DoAction.as",
+      "line": 14,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_47585/frame_1/PlaceObject2_47580_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Haohmaru\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_47586/frame_1/PlaceObject2_47580_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Haohmaru\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_47617/frame_2/PlaceObject2_47580_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Haohmaru\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_47641/frame_2/PlaceObject2_47580_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Haohmaru\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_47658/frame_1/PlaceObject2_47580_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Haohmaru\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_47659/frame_1/PlaceObject2_47580_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Haohmaru\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_47662/frame_1/PlaceObject2_47580_4/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Haohmaru\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_47663/frame_1/PlaceObject2_47580_4/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Haohmaru\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_47682/frame_1/PlaceObject2_47580_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Haohmaru\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_47877/frame_1/PlaceObject2_47580_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Haohmaru\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_47879/frame_1/PlaceObject2_47580_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Haohmaru\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_48049/frame_2/PlaceObject2_47580_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Haohmaru\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_4834/frame_1/DoAction.as",
+      "line": 16,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_48661/frame_1/DoAction.as",
+      "line": 9,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_49446/frame_4/PlaceObject2_8693_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Goenitz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_49447/frame_1/DoAction.as",
+      "line": 7,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_49453/frame_4/PlaceObject2_49447_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Goenitz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_49454/frame_4/PlaceObject2_8693_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Goenitz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_49501/frame_4/PlaceObject2_8693_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Goenitz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_49502/frame_4/PlaceObject2_8693_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Goenitz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_49538/frame_2/PlaceObject2_8693_7/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Goenitz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_49540/frame_2/PlaceObject2_8693_7/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Goenitz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_49543/frame_9/PlaceObject2_8693_11/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Goenitz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_49559/frame_4/PlaceObject2_8693_15/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Goenitz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_49566/frame_4/PlaceObject2_8693_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Goenitz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_49580/frame_5/PlaceObject2_8693_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Iori3\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_49581/frame_1/PlaceObject2_49447_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_49582/frame_2/PlaceObject2_8693_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_49709/frame_4/PlaceObject2_8693_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Goenitz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_49710/frame_4/PlaceObject2_8693_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Goenitz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_49711/frame_4/PlaceObject2_8693_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Goenitz\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_50561/frame_1/DoAction.as",
+      "line": 16,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_51331/frame_1/DoAction.as",
+      "line": 14,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_51349/frame_2/PlaceObject2_51331_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Chunli\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_51350/frame_2/PlaceObject2_51331_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Chunli\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_51387/frame_4/PlaceObject2_51331_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Chunli\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_51392/frame_4/PlaceObject2_51331_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Chunli\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_51489/frame_19/PlaceObject2_51331_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_51489/frame_3/PlaceObject2_51331_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Chunli\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_51489/frame_67/PlaceObject2_51331_13/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_51549/frame_3/PlaceObject2_51331_3/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Chunli\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_51626/frame_2/PlaceObject2_51331_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Chunli\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_51627/frame_2/PlaceObject2_51331_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Chunli\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_51641/frame_1/PlaceObject2_51331_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Chunli\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_51642/frame_1/PlaceObject2_51331_10/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Chunli\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_51643/frame_1/PlaceObject2_51331_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Chunli\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_51644/frame_1/PlaceObject2_51331_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Chunli\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_51645/frame_1/PlaceObject2_51331_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Chunli\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_51918/frame_100/PlaceObject2_51331_3/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_51918/frame_100/PlaceObject2_51331_7/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_51918/frame_3/PlaceObject2_51331_18/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Chunli\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_51981/frame_3/PlaceObject2_51331_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Chunli\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_5215/frame_1/DoAction.as",
+      "line": 14,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_5219/frame_2/PlaceObject2_5215_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Zero\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_5222/frame_2/PlaceObject2_5215_4/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Zero\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_53184/frame_2/PlaceObject2_12121_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_53413/frame_20/DoAction.as",
+      "line": 3,
+      "code": "if((_root.role_mc.opp._roleName == \"Ash\" || _root.role_mc.opp.roleName == \"Ash\") && _root.role_mc.opp.roleMode == 2)"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_53444/frame_130/PlaceObject2_12121_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_53444/frame_4/PlaceObject2_12121_10/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_53470/frame_130/PlaceObject2_12121_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_53470/frame_4/PlaceObject2_12121_10/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_53510/frame_109/PlaceObject2_12121_7/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_53510/frame_4/PlaceObject2_12121_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_53512/frame_117/PlaceObject2_12121_7/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_53512/frame_4/PlaceObject2_12121_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_53554/frame_7/PlaceObject2_12121_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_53555/frame_6/PlaceObject2_12121_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_53556/frame_2/PlaceObject2_12121_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_53557/frame_2/PlaceObject2_12121_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_5360/frame_1/PlaceObject2_5215_5/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Zero\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_53770/frame_1/PlaceObject2_12121_10/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_5390/frame_1/PlaceObject2_5215_3/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Zero\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_53923/frame_2/PlaceObject2_12121_11/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_5405/frame_5/PlaceObject2_5215_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Zero\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_5406/frame_1/DoAction.as",
+      "line": 14,
+      "code": "var roleName = _root.role_mc.roleName;"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_5406/frame_1/DoAction.as",
+      "line": 19,
+      "code": "roleName = _root.role_mc.opp.objRoleName;"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_5406/frame_1/DoAction.as",
+      "line": 28,
+      "code": "if(roleName = \"Mizuchi\")"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_5406/frame_1/DoAction.as",
+      "line": 32,
+      "code": "else if(roleName == \"Zero\" || roleName == \"Athena\" || roleName == \"Krizalid\" || roleName == \"KyoW\")"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_5406/frame_1/DoAction.as",
+      "line": 34,
+      "code": "_root.role_mc.opp.addSkill_opp(\"role\" + roleName + \"2\",this,Vx,Va);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_5406/frame_1/DoAction.as",
+      "line": 38,
+      "code": "_root.role_mc.opp.addSkill_opp(\"role\" + roleName,this,Vx,Va);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_5406/frame_1/DoAction.as",
+      "line": 43,
+      "code": "_root.role_mc.opp.addSkill_opp(\"role\" + roleName + \"3\",this,Vx,Va);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_5406/frame_1/DoAction.as",
+      "line": 47,
+      "code": "_root.role_mc.opp.addSkill_opp(\"role\" + roleName + \"2\",this,Vx,Va);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_5406/frame_1/DoAction.as",
+      "line": 51,
+      "code": "_root.role_mc.opp.addSkill_opp(\"role\" + roleName,this,Vx,Va);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_5411/frame_5/PlaceObject2_5215_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Zero\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_54174/frame_1/PlaceObject2_12121_10/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_54174/frame_136/PlaceObject2_12121_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_5507/frame_2/PlaceObject2_5215_7/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Zero\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_55222/frame_20/DoAction.as",
+      "line": 3,
+      "code": "if((_root.role_mc.opp._roleName == \"Ash\" || _root.role_mc.opp.roleName == \"Ash\") && _root.role_mc.opp.roleMode == 2)"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_55297/frame_130/PlaceObject2_12121_7/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena2\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_55297/frame_4/PlaceObject2_12121_12/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena2\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_55361/frame_130/PlaceObject2_12121_7/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena2\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_55361/frame_4/PlaceObject2_12121_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena2\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_55421/frame_109/PlaceObject2_12121_7/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena2\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_55421/frame_4/PlaceObject2_12121_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena2\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_55506/frame_117/PlaceObject2_12121_7/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena2\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_55506/frame_4/PlaceObject2_12121_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena2\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_55507/frame_7/PlaceObject2_12121_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_55510/frame_2/PlaceObject2_12121_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena2\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_55511/frame_2/PlaceObject2_12121_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena2\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_55512/frame_2/PlaceObject2_12121_8/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena2\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_55548/frame_1/PlaceObject2_12121_10/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Athena2\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_55548/frame_129/PlaceObject2_12121_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_58190/frame_1/DoAction.as",
+      "line": 30,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_58429/frame_1/PlaceObject2_41109_4/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Ash\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_58430/frame_1/PlaceObject2_41109_4/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Ash\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_58458/frame_3/PlaceObject2_41109_8/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Ash\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_58461/frame_3/PlaceObject2_41109_7/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Ash\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_58462/frame_3/PlaceObject2_41109_8/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Ash\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_58463/frame_3/PlaceObject2_41109_7/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Ash\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_58478/frame_2/PlaceObject2_41109_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ash\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_58478/frame_53/PlaceObject2_41109_8/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_58481/frame_2/PlaceObject2_41109_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"EvilAsh\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_58515/frame_169/PlaceObject2_41109_12/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ash\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_58515/frame_2/PlaceObject2_41109_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ash\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_58516/frame_2/PlaceObject2_41109_10/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ash\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_58534/frame_166/PlaceObject2_41109_12/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"EvilAsh\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_58534/frame_2/PlaceObject2_41109_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"EvilAsh\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_58535/frame_2/PlaceObject2_41109_10/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"EvilAsh\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_58537/frame_1/PlaceObject2_41109_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ash\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_58539/frame_1/PlaceObject2_41109_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"EvilAsh\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_58623/frame_1/PlaceObject2_41109_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Ash\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_58625/frame_1/PlaceObject2_41109_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"EvilAsh\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_6698/frame_2/PlaceObject2_5215_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"CZero\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_6699/frame_2/PlaceObject2_5215_4/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"CZero\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_6841/frame_1/PlaceObject2_5215_3/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"CZero\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_6843/frame_2/PlaceObject2_5215_6/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"CZero\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_7024/frame_1/PlaceObject2_5215_4/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"CZero\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_7025/frame_5/PlaceObject2_5215_5/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"CZero\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_8077/frame_1/DoAction.as",
+      "line": 16,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_8693/frame_1/DoAction.as",
+      "line": 14,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_8712/frame_2/PlaceObject2_8693_3/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Terry\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_8743/frame_2/PlaceObject2_8693_3/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Terry\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_8744/frame_3/PlaceObject2_8693_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Terry\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_8769/frame_3/PlaceObject2_8693_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Terry\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_8770/frame_3/PlaceObject2_8693_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"Terry\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_8833/frame_3/PlaceObject2_8693_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Terry\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_8834/frame_3/PlaceObject2_8693_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Terry\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_9105/frame_3/PlaceObject2_8693_2/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Terry\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_9105/frame_64/PlaceObject2_8693_15/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_9174/frame_2/PlaceObject2_8693_6/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Terry\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_9189/frame_2/PlaceObject2_8693_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Terry\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_9207/frame_104/PlaceObject2_8693_2/CLIPACTIONRECORD on(construct).as",
+      "line": 4,
+      "code": "roleName = \"\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_9207/frame_2/PlaceObject2_8693_3/CLIPACTIONRECORD on(construct).as",
+      "line": 5,
+      "code": "roleName = \"Terry\";"
+     },
+     {
+      "script": "scripts/scripts/DefineSprite_9865/frame_1/DoAction.as",
+      "line": 16,
+      "code": "_level0.effect_mc.superStart(s_type,f_time,dx,dy,bgType,roleName,dir,this,role);"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 814,
+      "code": "function role_mode(role, modes, roleX, toStatus, roleName, isCon)"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 863,
+      "code": "if(roleName != undefined)"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 915,
+      "code": "P1_mc.loadMovie(\"char/\" + roleName + \".swf\");"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 919,
+      "code": "P2_mc.loadMovie(\"char/\" + roleName + \".swf\");"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 1023,
+      "code": "P1_role.roleName = charSelect_P1;"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 1024,
+      "code": "P2_role.roleName = charSelect_P2;"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 1629,
+      "code": "P1_role.roleName = charSelect_P12;"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 1634,
+      "code": "P1_role.roleName = charSelect_P13;"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 1643,
+      "code": "P2_role.roleName = charSelect_P22;"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 1648,
+      "code": "P2_role.roleName = charSelect_P23;"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 2779,
+      "code": "P1_role.roleName = charSelect_P12;"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 2784,
+      "code": "P1_role.roleName = charSelect_P13;"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 2791,
+      "code": "P2_role.roleName = charSelect_P22;"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 2796,
+      "code": "P2_role.roleName = charSelect_P23;"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 3025,
+      "code": "P1_role.roleName = roleNameP1;"
+     },
+     {
+      "script": "scripts/scripts/frame_1629/DoAction.as",
+      "line": 3026,
+      "code": "P2_role.roleName = roleNameP2;"
+     },
+     {
+      "script": "scripts/scripts/__Packages/Mai_role.as",
+      "line": 94,
+      "code": "if(opponent.roleName == \"Chunli\")"
+     },
+     {
+      "script": "scripts/scripts/__Packages/Mai_role.as",
+      "line": 98,
+      "code": "else if(opponent.roleName == \"Andy\")"
+     },
+     {
+      "script": "scripts/scripts/__Packages/Stage_effect.as",
+      "line": 138,
+      "code": "function superStart(s_type, time_f, dx, dy, bgType, roleName, dir, fromMC, role, charmax)"
+     },
+     {
+      "script": "scripts/scripts/__Packages/Stage_effect.as",
+      "line": 166,
+      "code": "var _loc9_ = \"superface_\" + roleName + bgType;"
+     },
+     {
+      "script": "scripts/scripts/__Packages/Stage_effect.as",
+      "line": 200,
+      "code": "function superStart2(s_type, time_f, dx, dy, bgType, roleName, dir, fromMC, role)"
+     },
+     {
+      "script": "scripts/scripts/__Packages/Stage_effect.as",
+      "line": 224,
+      "code": "var _loc7_ = \"superface_\" + roleName + bgType;"
+     },
+     {
+      "script": "scripts/scripts/__Packages/role_corn/Role.as",
+      "line": 96,
+      "code": "var roleName;"
+     },
+     {
+      "script": "scripts/scripts/__Packages/role_corn/Role.as",
+      "line": 4972,
+      "code": "if(this.roleName == \"Ash\" && this.roleMode == 2)"
+     },
+     {
+      "script": "scripts/scripts/__Packages/role_corn/Role.as",
+      "line": 5009,
+      "code": "if(this.roleName != \"Ash\" && this.roleMode != 2 && !_level0.ashShadow)"
+     },
+     {
+      "script": "scripts/scripts/__Packages/role_corn/Role.as",
+      "line": 5420,
+      "code": "this.hurt1_snd.attachSound(\"hurt1_snd_\" + this.roleName);"
+     },
+     {
+      "script": "scripts/scripts/__Packages/role_corn/Role.as",
+      "line": 5422,
+      "code": "this.hurt2_snd.attachSound(\"hurt2_snd_\" + this.roleName);"
+     },
+     {
+      "script": "scripts/scripts/__Packages/role_corn/Role.as",
+      "line": 5424,
+      "code": "this.lose_snd.attachSound(\"lose_snd_\" + this.roleName);"
+     },
+     {
+      "script": "scripts/scripts/__Packages/role_corn/Role.as",
+      "line": 5443,
+      "code": "if(this._roleName != this.roleName)"
+     },
+     {
+      "script": "scripts/scripts/__Packages/role_corn/Role.as",
+      "line": 6380,
+      "code": "if((this.roleName == \"Aah\" || this._roleName == \"Ash\") && this.roleMode == 2)"
+     }
+    ]
+   }
+  ]
+ },
+ "engine_diff": [
+  {
+   "class": "role_corn/Role.as",
+   "copies": 5,
+   "distinct_variants": 2,
+   "identical_across_all": false,
+   "per_module": {
+    "kofwing__21256864": {
+     "bytes": 198416,
+     "sha256": "a55c61e150f94be2d73707bde2316037d024dfabe4ac9d7355c48e1ac92d1cfc",
+     "lines": 6979
+    },
+    "kofwing__11480055": {
+     "bytes": 198796,
+     "sha256": "69544721bf46ed4773367bdfc3cfc42ca7d8b2c88d8eeaee2f0dcc0288d26eff",
+     "lines": 6988
+    },
+    "kofwing__16695748": {
+     "bytes": 198796,
+     "sha256": "69544721bf46ed4773367bdfc3cfc42ca7d8b2c88d8eeaee2f0dcc0288d26eff",
+     "lines": 6988
+    },
+    "kofwing__18464326": {
+     "bytes": 198796,
+     "sha256": "69544721bf46ed4773367bdfc3cfc42ca7d8b2c88d8eeaee2f0dcc0288d26eff",
+     "lines": 6988
+    },
+    "kofwing__8492959": {
+     "bytes": 198796,
+     "sha256": "69544721bf46ed4773367bdfc3cfc42ca7d8b2c88d8eeaee2f0dcc0288d26eff",
+     "lines": 6988
+    }
+   }
+  },
+  {
+   "class": "role_corn/KeyControl.as",
+   "copies": 5,
+   "distinct_variants": 1,
+   "identical_across_all": true,
+   "per_module": {
+    "kofwing__21256864": {
+     "bytes": 12278,
+     "sha256": "70bb67be38a9c26dadffd1540fa89ca866e76fd666f75b6cdef7d54d3ae3e5f0",
+     "lines": 447
+    },
+    "kofwing__11480055": {
+     "bytes": 12278,
+     "sha256": "70bb67be38a9c26dadffd1540fa89ca866e76fd666f75b6cdef7d54d3ae3e5f0",
+     "lines": 447
+    },
+    "kofwing__16695748": {
+     "bytes": 12278,
+     "sha256": "70bb67be38a9c26dadffd1540fa89ca866e76fd666f75b6cdef7d54d3ae3e5f0",
+     "lines": 447
+    },
+    "kofwing__18464326": {
+     "bytes": 12278,
+     "sha256": "70bb67be38a9c26dadffd1540fa89ca866e76fd666f75b6cdef7d54d3ae3e5f0",
+     "lines": 447
+    },
+    "kofwing__8492959": {
+     "bytes": 12278,
+     "sha256": "70bb67be38a9c26dadffd1540fa89ca866e76fd666f75b6cdef7d54d3ae3e5f0",
+     "lines": 447
+    }
+   }
+  },
+  {
+   "class": "HitCheck.as",
+   "copies": 5,
+   "distinct_variants": 2,
+   "identical_across_all": false,
+   "per_module": {
+    "kofwing__21256864": {
+     "bytes": 20018,
+     "sha256": "d62b979f22ba05be2d925a6a903fd8148ab24a82db871149e40c6bec9196546f",
+     "lines": 596
+    },
+    "kofwing__11480055": {
+     "bytes": 20057,
+     "sha256": "f44419da99262b5b84d40d3c0682613c42030d4da8b28f65b72c7f715cbed75c",
+     "lines": 597
+    },
+    "kofwing__16695748": {
+     "bytes": 20057,
+     "sha256": "f44419da99262b5b84d40d3c0682613c42030d4da8b28f65b72c7f715cbed75c",
+     "lines": 597
+    },
+    "kofwing__18464326": {
+     "bytes": 20057,
+     "sha256": "f44419da99262b5b84d40d3c0682613c42030d4da8b28f65b72c7f715cbed75c",
+     "lines": 597
+    },
+    "kofwing__8492959": {
+     "bytes": 20057,
+     "sha256": "f44419da99262b5b84d40d3c0682613c42030d4da8b28f65b72c7f715cbed75c",
+     "lines": 597
+    }
+   }
+  },
+  {
+   "class": "HitCheck_obj.as",
+   "copies": 5,
+   "distinct_variants": 1,
+   "identical_across_all": true,
+   "per_module": {
+    "kofwing__21256864": {
+     "bytes": 21127,
+     "sha256": "50446127dca9ba667be79077a34754155baa50759760e340c433cd54b6cc22fa",
+     "lines": 669
+    },
+    "kofwing__11480055": {
+     "bytes": 21127,
+     "sha256": "50446127dca9ba667be79077a34754155baa50759760e340c433cd54b6cc22fa",
+     "lines": 669
+    },
+    "kofwing__16695748": {
+     "bytes": 21127,
+     "sha256": "50446127dca9ba667be79077a34754155baa50759760e340c433cd54b6cc22fa",
+     "lines": 669
+    },
+    "kofwing__18464326": {
+     "bytes": 21127,
+     "sha256": "50446127dca9ba667be79077a34754155baa50759760e340c433cd54b6cc22fa",
+     "lines": 669
+    },
+    "kofwing__8492959": {
+     "bytes": 21127,
+     "sha256": "50446127dca9ba667be79077a34754155baa50759760e340c433cd54b6cc22fa",
+     "lines": 669
+    }
+   }
+  },
+  {
+   "class": "role_corn/Combo_listener.as",
+   "copies": 5,
+   "distinct_variants": 1,
+   "identical_across_all": true,
+   "per_module": {
+    "kofwing__21256864": {
+     "bytes": 4642,
+     "sha256": "3a1f2e9ce7a6337c987afe790b059a8d779cdc333d20ca5489ffa392fd3bcf85",
+     "lines": 183
+    },
+    "kofwing__11480055": {
+     "bytes": 4642,
+     "sha256": "3a1f2e9ce7a6337c987afe790b059a8d779cdc333d20ca5489ffa392fd3bcf85",
+     "lines": 183
+    },
+    "kofwing__16695748": {
+     "bytes": 4642,
+     "sha256": "3a1f2e9ce7a6337c987afe790b059a8d779cdc333d20ca5489ffa392fd3bcf85",
+     "lines": 183
+    },
+    "kofwing__18464326": {
+     "bytes": 4642,
+     "sha256": "3a1f2e9ce7a6337c987afe790b059a8d779cdc333d20ca5489ffa392fd3bcf85",
+     "lines": 183
+    },
+    "kofwing__8492959": {
+     "bytes": 4642,
+     "sha256": "3a1f2e9ce7a6337c987afe790b059a8d779cdc333d20ca5489ffa392fd3bcf85",
+     "lines": 183
+    }
+   }
+  },
+  {
+   "class": "skill/FlyingObj.as",
+   "copies": 4,
+   "distinct_variants": 1,
+   "identical_across_all": true,
+   "per_module": {
+    "kofwing__21256864": {
+     "bytes": 7951,
+     "sha256": "f47edef9d958cdb556df445027f0ddbf77cd268d76eb3b111c34563c559b5be1",
+     "lines": 318
+    },
+    "kofwing__16695748": {
+     "bytes": 7951,
+     "sha256": "f47edef9d958cdb556df445027f0ddbf77cd268d76eb3b111c34563c559b5be1",
+     "lines": 318
+    },
+    "kofwing__18464326": {
+     "bytes": 7951,
+     "sha256": "f47edef9d958cdb556df445027f0ddbf77cd268d76eb3b111c34563c559b5be1",
+     "lines": 318
+    },
+    "kofwing__8492959": {
+     "bytes": 7951,
+     "sha256": "f47edef9d958cdb556df445027f0ddbf77cd268d76eb3b111c34563c559b5be1",
+     "lines": 318
+    }
+   }
+  }
+ ],
+ "engine_line_diff": {
+  "role_corn/Role.as": {
+   "class": "role_corn/Role.as",
+   "comparisons": [
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__11480055",
+     "base_lines": 6978,
+     "module_lines": 6987,
+     "identical_lines": 744,
+     "differing_lines": 6243,
+     "pct_identical": 10.65
+    },
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__16695748",
+     "base_lines": 6978,
+     "module_lines": 6987,
+     "identical_lines": 744,
+     "differing_lines": 6243,
+     "pct_identical": 10.65
+    },
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__18464326",
+     "base_lines": 6978,
+     "module_lines": 6987,
+     "identical_lines": 744,
+     "differing_lines": 6243,
+     "pct_identical": 10.65
+    },
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__8492959",
+     "base_lines": 6978,
+     "module_lines": 6987,
+     "identical_lines": 744,
+     "differing_lines": 6243,
+     "pct_identical": 10.65
+    }
+   ]
+  },
+  "role_corn/KeyControl.as": {
+   "class": "role_corn/KeyControl.as",
+   "comparisons": [
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__11480055",
+     "base_lines": 446,
+     "module_lines": 446,
+     "identical_lines": 446,
+     "differing_lines": 0,
+     "pct_identical": 100.0
+    },
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__16695748",
+     "base_lines": 446,
+     "module_lines": 446,
+     "identical_lines": 446,
+     "differing_lines": 0,
+     "pct_identical": 100.0
+    },
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__18464326",
+     "base_lines": 446,
+     "module_lines": 446,
+     "identical_lines": 446,
+     "differing_lines": 0,
+     "pct_identical": 100.0
+    },
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__8492959",
+     "base_lines": 446,
+     "module_lines": 446,
+     "identical_lines": 446,
+     "differing_lines": 0,
+     "pct_identical": 100.0
+    }
+   ]
+  },
+  "HitCheck.as": {
+   "class": "HitCheck.as",
+   "comparisons": [
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__11480055",
+     "base_lines": 595,
+     "module_lines": 596,
+     "identical_lines": 17,
+     "differing_lines": 579,
+     "pct_identical": 2.85
+    },
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__16695748",
+     "base_lines": 595,
+     "module_lines": 596,
+     "identical_lines": 17,
+     "differing_lines": 579,
+     "pct_identical": 2.85
+    },
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__18464326",
+     "base_lines": 595,
+     "module_lines": 596,
+     "identical_lines": 17,
+     "differing_lines": 579,
+     "pct_identical": 2.85
+    },
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__8492959",
+     "base_lines": 595,
+     "module_lines": 596,
+     "identical_lines": 17,
+     "differing_lines": 579,
+     "pct_identical": 2.85
+    }
+   ]
+  },
+  "HitCheck_obj.as": {
+   "class": "HitCheck_obj.as",
+   "comparisons": [
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__11480055",
+     "base_lines": 668,
+     "module_lines": 668,
+     "identical_lines": 668,
+     "differing_lines": 0,
+     "pct_identical": 100.0
+    },
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__16695748",
+     "base_lines": 668,
+     "module_lines": 668,
+     "identical_lines": 668,
+     "differing_lines": 0,
+     "pct_identical": 100.0
+    },
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__18464326",
+     "base_lines": 668,
+     "module_lines": 668,
+     "identical_lines": 668,
+     "differing_lines": 0,
+     "pct_identical": 100.0
+    },
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__8492959",
+     "base_lines": 668,
+     "module_lines": 668,
+     "identical_lines": 668,
+     "differing_lines": 0,
+     "pct_identical": 100.0
+    }
+   ]
+  },
+  "role_corn/Combo_listener.as": {
+   "class": "role_corn/Combo_listener.as",
+   "comparisons": [
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__11480055",
+     "base_lines": 182,
+     "module_lines": 182,
+     "identical_lines": 182,
+     "differing_lines": 0,
+     "pct_identical": 100.0
+    },
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__16695748",
+     "base_lines": 182,
+     "module_lines": 182,
+     "identical_lines": 182,
+     "differing_lines": 0,
+     "pct_identical": 100.0
+    },
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__18464326",
+     "base_lines": 182,
+     "module_lines": 182,
+     "identical_lines": 182,
+     "differing_lines": 0,
+     "pct_identical": 100.0
+    },
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__8492959",
+     "base_lines": 182,
+     "module_lines": 182,
+     "identical_lines": 182,
+     "differing_lines": 0,
+     "pct_identical": 100.0
+    }
+   ]
+  },
+  "skill/FlyingObj.as": {
+   "class": "skill/FlyingObj.as",
+   "comparisons": [
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__16695748",
+     "base_lines": 317,
+     "module_lines": 317,
+     "identical_lines": 317,
+     "differing_lines": 0,
+     "pct_identical": 100.0
+    },
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__18464326",
+     "base_lines": 317,
+     "module_lines": 317,
+     "identical_lines": 317,
+     "differing_lines": 0,
+     "pct_identical": 100.0
+    },
+    {
+     "compared_against": "kofwing__21256864",
+     "module": "kofwing__8492959",
+     "base_lines": 317,
+     "module_lines": 317,
+     "identical_lines": 317,
+     "differing_lines": 0,
+     "pct_identical": 100.0
+    }
+   ]
+  }
+ }
+}
