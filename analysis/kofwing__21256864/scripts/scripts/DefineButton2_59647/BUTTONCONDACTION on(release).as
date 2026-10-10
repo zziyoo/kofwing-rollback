@@ -1,0 +1,12 @@
+on(release){
+   if(trialVer)
+   {
+      gotoAndStop("in");
+      play();
+   }
+   else
+   {
+      gotoAndStop("op");
+      play();
+   }
+}

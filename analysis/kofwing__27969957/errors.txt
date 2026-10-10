@@ -1,0 +1,37 @@
+tag 596 declares 2128240566 bytes but only 118727852 remain
+tag stream ended WITHOUT an End tag - structure is truncated
+dumpSWF stderr: Oct 10, 2026 9:12:10 PM com.jpexs.decompiler.flash.SWFInputStream resolveTag
+dumpSWF stderr: SEVERE: Error during tag reading. SWF: _ ID: 46 name: Unresolved (tcl: DefineMorphShape, tid: 46) pos: 176
+dumpSWF stderr: com.jpexs.decompiler.flash.EndOfStreamException: Premature end of the stream reached
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWFInputStream.readNoBitReset(SWFInputStream.java:616)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWFInputStream.readEx(SWFInputStream.java:596)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWFInputStream.readUI8(SWFInputStream.java:632)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWFInputStream.readMORPHFILLSTYLE(SWFInputStream.java:3456)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWFInputStream.readMORPHFILLSTYLEARRAY(SWFInputStream.java:3504)
+dumpSWF stderr: at com.jpexs.decompiler.flash.tags.DefineMorphShapeTag.readData(DefineMorphShapeTag.java:83)
+dumpSWF stderr: at com.jpexs.decompiler.flash.tags.DefineMorphShapeTag.<init>(DefineMorphShapeTag.java:74)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWFInputStream.resolveTag(SWFInputStream.java:1716)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWFInputStream.readTagList(SWFInputStream.java:1499)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWF.<init>(SWF.java:2488)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWF.<init>(SWF.java:2182)
+dumpSWF stderr: at com.jpexs.decompiler.flash.console.CommandLineArgumentParser.parseDumpSwf(CommandLineArgumentParser.java:4665)
+dumpSWF stderr: at com.jpexs.decompiler.flash.console.CommandLineArgumentParser.parseArgumentsInternal(CommandLineArgumentParser.java:728)
+dumpSWF stderr: at com.jpexs.decompiler.flash.console.CommandLineArgumentParser.parseArguments(CommandLineArgumentParser.java:477)
+dumpSWF stderr: at com.jpexs.decompiler.flash.gui.Main.main(Main.java:3697)
+export stderr: Oct 10, 2026 9:12:12 PM com.jpexs.decompiler.flash.SWFInputStream resolveTag
+export stderr: SEVERE: Error during tag reading. SWF: 27969957.swf ID: 46 name: Unresolved (tcl: DefineMorphShape, tid: 46) pos: 176
+export stderr: com.jpexs.decompiler.flash.EndOfStreamException: Premature end of the stream reached
+export stderr: at com.jpexs.decompiler.flash.SWFInputStream.readNoBitReset(SWFInputStream.java:616)
+export stderr: at com.jpexs.decompiler.flash.SWFInputStream.readEx(SWFInputStream.java:596)
+export stderr: at com.jpexs.decompiler.flash.SWFInputStream.readUI8(SWFInputStream.java:632)
+export stderr: at com.jpexs.decompiler.flash.SWFInputStream.readMORPHFILLSTYLE(SWFInputStream.java:3456)
+export stderr: at com.jpexs.decompiler.flash.SWFInputStream.readMORPHFILLSTYLEARRAY(SWFInputStream.java:3504)
+export stderr: at com.jpexs.decompiler.flash.tags.DefineMorphShapeTag.readData(DefineMorphShapeTag.java:83)
+export stderr: at com.jpexs.decompiler.flash.tags.DefineMorphShapeTag.<init>(DefineMorphShapeTag.java:74)
+export stderr: at com.jpexs.decompiler.flash.SWFInputStream.resolveTag(SWFInputStream.java:1716)
+export stderr: at com.jpexs.decompiler.flash.SWFInputStream$TagResolutionTask.call(SWFInputStream.java:1446)
+export stderr: at com.jpexs.decompiler.flash.SWFInputStream$TagResolutionTask.call(SWFInputStream.java:1385)
+export stderr: at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+export stderr: at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+export stderr: at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+export stderr: at java.base/java.lang.Thread.run(Thread.java:842)

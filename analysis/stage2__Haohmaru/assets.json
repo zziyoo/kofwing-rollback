@@ -1,0 +1,32 @@
+{
+ "relative_path": "stage2/Haohmaru.swf",
+ "analysis_id": "stage2__Haohmaru",
+ "tag_counts": {
+  "D": 129,
+  "S": 92,
+  "P": 64,
+  "E": 2,
+  "R": 2,
+  "F": 1,
+  "M": 1
+ },
+ "unknown_tag_ids": {},
+ "n_export_assets": 1,
+ "export_names": [
+  "raining"
+ ],
+ "export_assets": [
+  {
+   "char_id": 63,
+   "export_name": "raining"
+  }
+ ],
+ "sounds": [],
+ "sprites": [],
+ "images": [],
+ "fonts": [],
+ "frame_label_lines": [],
+ "script_files_exported": 3,
+ "string_count": 26157,
+ "path_like_strings": []
+}

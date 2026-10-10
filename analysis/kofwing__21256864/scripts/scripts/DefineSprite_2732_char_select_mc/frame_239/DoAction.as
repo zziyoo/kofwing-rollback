@@ -1,0 +1,15 @@
+stop();
+char_p1 = _level0.charSelect_P1_origin;
+char_p2 = _level0.charSelect_P2;
+char_p12 = _level0.charSelect_P12_origin;
+char_p22 = _level0.charSelect_P22;
+char_p13 = _level0.charSelect_P13_origin;
+char_p23 = _level0.charSelect_P23;
+mode_p1 = _level0.mode_role_P1_origin;
+mode_p2 = _level0.mode_role_P1;
+mode_p12 = _level0.mode_role_P12_origin;
+mode_p22 = _level0.mode_role_P22;
+mode_p13 = _level0.mode_role_P13_origin;
+mode_p23 = _level0.mode_role_P23;
+var data = {char_p1:char_p1,char_p2:char_p2,mode_p1:mode_p1,mode_p2:mode_p2,char_p12:char_p12,char_p22:char_p22,mode_p12:mode_p12,mode_p22:mode_p22,char_p13:char_p13,char_p23:char_p23,mode_p13:mode_p13,mode_p23:mode_p23,targetInit:"p1"};
+_level0.selectOK(data);

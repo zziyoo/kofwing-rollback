@@ -1,0 +1,24 @@
+{
+ "relative_path": "stage2/Moriya.swf",
+ "analysis_id": "stage2__Moriya",
+ "tag_counts": {
+  "S": 105,
+  "D": 76,
+  "P": 41,
+  "F": 1,
+  "M": 1,
+  "E": 1
+ },
+ "unknown_tag_ids": {},
+ "n_export_assets": 0,
+ "export_names": [],
+ "export_assets": [],
+ "sounds": [],
+ "sprites": [],
+ "images": [],
+ "fonts": [],
+ "frame_label_lines": [],
+ "script_files_exported": 3,
+ "string_count": 1589,
+ "path_like_strings": []
+}

@@ -1,0 +1,21 @@
+tag 175 declares 3625605677 bytes but only 62510876 remain
+tag stream ended WITHOUT an End tag - structure is truncated
+dumpSWF stderr: Oct 10, 2026 9:12:20 PM com.jpexs.decompiler.flash.SWFInputStream resolveTag
+dumpSWF stderr: SEVERE: Error during tag reading. SWF: _ ID: 32 name: Unresolved (tcl: DefineShape3, tid: 32) pos: 194
+dumpSWF stderr: com.jpexs.decompiler.flash.EndOfStreamException: Premature end of the stream reached
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWFInputStream.readNoBitReset(SWFInputStream.java:616)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWFInputStream.readEx(SWFInputStream.java:596)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWFInputStream.readUI8(SWFInputStream.java:632)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWFInputStream.readFILLSTYLE(SWFInputStream.java:2960)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWFInputStream.readFILLSTYLEARRAY(SWFInputStream.java:3011)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWFInputStream.readSHAPEWITHSTYLE(SWFInputStream.java:3217)
+dumpSWF stderr: at com.jpexs.decompiler.flash.tags.DefineShape3Tag.readData(DefineShape3Tag.java:63)
+dumpSWF stderr: at com.jpexs.decompiler.flash.tags.DefineShape3Tag.<init>(DefineShape3Tag.java:55)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWFInputStream.resolveTag(SWFInputStream.java:1672)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWFInputStream.readTagList(SWFInputStream.java:1499)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWF.<init>(SWF.java:2488)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWF.<init>(SWF.java:2182)
+dumpSWF stderr: at com.jpexs.decompiler.flash.console.CommandLineArgumentParser.parseDumpSwf(CommandLineArgumentParser.java:4665)
+dumpSWF stderr: at com.jpexs.decompiler.flash.console.CommandLineArgumentParser.parseArgumentsInternal(CommandLineArgumentParser.java:728)
+dumpSWF stderr: at com.jpexs.decompiler.flash.console.CommandLineArgumentParser.parseArguments(CommandLineArgumentParser.java:477)
+dumpSWF stderr: at com.jpexs.decompiler.flash.gui.Main.main(Main.java:3697)

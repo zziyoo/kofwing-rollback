@@ -1,0 +1,26 @@
+{
+ "relative_path": "stage2/Kula.swf",
+ "analysis_id": "stage2__Kula",
+ "tag_counts": {
+  "S": 69,
+  "P": 36,
+  "D": 12,
+  "R": 2,
+  "F": 1,
+  "M": 1,
+  "J": 1,
+  "E": 1
+ },
+ "unknown_tag_ids": {},
+ "n_export_assets": 0,
+ "export_names": [],
+ "export_assets": [],
+ "sounds": [],
+ "sprites": [],
+ "images": [],
+ "fonts": [],
+ "frame_label_lines": [],
+ "script_files_exported": 3,
+ "string_count": 1956,
+ "path_like_strings": []
+}

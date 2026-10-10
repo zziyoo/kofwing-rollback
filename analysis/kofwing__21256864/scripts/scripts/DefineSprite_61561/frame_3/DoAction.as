@@ -1,0 +1,10 @@
+_level0.transIn();
+if(_level0.SE_old)
+{
+   _level0.mainTitle_snd.stop();
+}
+else
+{
+   _level0.mainTitle02um_snd.stop();
+}
+_level0.ok_snd.start();

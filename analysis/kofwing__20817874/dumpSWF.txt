@@ -1,0 +1,297 @@
+00000015:    0. FileAttributes            tagId= 69 len=       4  10 00 00 00
+0000001b:    1. Metadata                  tagId= 77 len=    1296  3c 72 64 66 3a 52 44 46 20 78 6d 6c 6e 73 3a 72 64 66 3d 22 68 74 74 70 3a 2f 2f 77 77 77 2e 77 ... 20 3c 2f 72 64 66 3a 44 65 73 63 72 69 70 74 69 6f 6e 3e 20 3c 2f 72 64 66 3a 52 44 46 3e 20 00
+00000531:    2. SetBackgroundColor        tagId=  9 len=       3  00 00 00
+00000536:    3. DoAction                  tagId= 12 len=      62  96 10 00 07 e8 03 00 00 07 01 00 00 00 00 74 68 69 73 00 1c 96 0c 00 00 73 77 61 70 44 65 70 74 68 73 00 52 17 96 04 00 00 6d 63 00 1c 96 0c 00 00 5f 76 69 73 69 62 6c 65 00 05 00 4f 00
+0000057a:    4. DefineFont3 (chid: 1, fn: "SimSun") tagId= 75 len=      14  01 00 04 04 07 53 69 6d 53 75 6e 00 00 00
+0000058e:    5. DefineFontAlignZones (fid: 1) tagId= 73 len=       3  01 00 00
+00000597:    6. DefineEditText (chid: 2, vn: "p1status_1") tagId= 37 len=      48  02 00 77 fb 0d a0 ff b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 00 00 00 00 00 00 00 28 00 70 31 73 74 61 74 75 73 5f 31 00 e7 8a b6 e6 80 81 31 00
+000005cd:    7. DefineEditText (chid: 3, vn: "p1status_2") tagId= 37 len=      48  03 00 77 fb 0d 82 ff b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 00 00 00 00 00 00 00 28 00 70 31 73 74 61 74 75 73 5f 32 00 e7 8a b6 e6 80 81 32 00
+00000603:    8. DefineEditText (chid: 4, vn: "p1status_3") tagId= 37 len=      48  04 00 77 fb 0d 32 ff b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 00 00 00 00 00 00 00 28 00 70 31 73 74 61 74 75 73 5f 33 00 e7 8a b6 e6 80 81 33 00
+00000639:    9. DefineEditText (chid: 5, vn: "p1status_4") tagId= 37 len=      48  05 00 77 fb 0d 32 ff b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 00 00 00 00 00 00 00 28 00 70 31 73 74 61 74 75 73 5f 34 00 e7 8a b6 e6 80 81 34 00
+0000066f:   10. DefineEditText (chid: 6, vn: "p1status_5") tagId= 37 len=      48  06 00 77 fb 0d 78 ff b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 00 00 00 00 00 00 00 28 00 70 31 73 74 61 74 75 73 5f 35 00 e7 8a b6 e6 80 81 35 00
+000006a5:   11. DefineEditText (chid: 7, vn: "p2status_1") tagId= 37 len=      48  07 00 77 fb 0e 71 ff b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 01 00 00 00 00 00 00 28 00 70 32 73 74 61 74 75 73 5f 31 00 e7 8a b6 e6 80 81 31 00
+000006db:   12. DefineEditText (chid: 8, vn: "p2status_2") tagId= 37 len=      48  08 00 77 fb 0e 7b ff b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 01 00 00 00 00 00 00 28 00 70 32 73 74 61 74 75 73 5f 32 00 e7 8a b6 e6 80 81 32 00
+00000711:   13. DefineEditText (chid: 9, vn: "p2status_3") tagId= 37 len=      48  09 00 77 fb 0e 85 ff b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 01 00 00 00 00 00 00 28 00 70 32 73 74 61 74 75 73 5f 33 00 e7 8a b6 e6 80 81 33 00
+00000747:   14. DefineEditText (chid: 10, vn: "p2status_4") tagId= 37 len=      48  0a 00 77 fb 0e 7b ff b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 01 00 00 00 00 00 00 28 00 70 32 73 74 61 74 75 73 5f 34 00 e7 8a b6 e6 80 81 34 00
+0000077d:   15. DefineEditText (chid: 11, vn: "p2status_5") tagId= 37 len=      48  0b 00 77 fb 0e 7b ff b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 01 00 00 00 00 00 00 28 00 70 32 73 74 61 74 75 73 5f 35 00 e7 8a b6 e6 80 81 35 00
+000007b3:   16. DefineEditText (chid: 12, vn: "p1status_6") tagId= 37 len=      48  0c 00 77 fb 0d 8c ff b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 00 00 00 00 00 00 00 28 00 70 31 73 74 61 74 75 73 5f 36 00 e7 8a b6 e6 80 81 36 00
+000007e9:   17. DefineEditText (chid: 13, vn: "p1status_7") tagId= 37 len=      48  0d 00 77 fb 0b d4 ff b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 00 00 00 00 00 00 00 28 00 70 31 73 74 61 74 75 73 5f 37 00 e7 8a b6 e6 80 81 37 00
+0000081f:   18. DefineEditText (chid: 14, vn: "p2status_6") tagId= 37 len=      48  0e 00 6f f6 1e f3 fd 80 dc 00 ed 30 01 00 90 01 ff ff ff ff 01 00 00 00 00 00 00 28 00 70 32 73 74 61 74 75 73 5f 36 00 e7 8a b6 e6 80 81 36 00
+00000855:   19. DefineEditText (chid: 15, vn: "p2status_7") tagId= 37 len=      48  0f 00 77 fb 0a 4d ff b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 01 00 00 00 00 00 00 28 00 70 32 73 74 61 74 75 73 5f 37 00 e7 8a b6 e6 80 81 37 00
+0000088b:   20. DefineEditText (chid: 16, vn: "p1onhit") tagId= 37 len=      44  10 00 77 fb 0d 46 ff b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 00 00 00 00 00 00 00 28 00 70 31 6f 6e 68 69 74 00 e5 87 bb e4 b8 ad 00
+000008bd:   21. DefineEditText (chid: 17, vn: "p1hitID") tagId= 37 len=      47  11 00 77 fb 0d 28 ff b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 00 00 00 00 00 00 00 28 00 70 31 68 69 74 49 44 00 e8 a7 92 e8 89 b2 e5 90 8d 00
+000008f2:   22. DefineEditText (chid: 18, vn: "p2onhit") tagId= 37 len=      44  12 00 77 fb 0e 36 7f b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 01 00 00 00 00 00 00 28 00 70 32 6f 6e 68 69 74 00 e5 87 bb e4 b8 ad 00
+00000924:   23. DefineEditText (chid: 19, vn: "p2hitID") tagId= 37 len=      47  13 00 77 fb 0e 22 7f b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 01 00 00 00 00 00 00 28 00 70 32 68 69 74 49 44 00 e8 a7 92 e8 89 b2 e5 90 8d 00
+00000959:   24. DefineEditText (chid: 20, vn: "p1skimmnow") tagId= 37 len=      53  14 00 77 fb 0d 69 ff b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 00 00 00 00 00 00 00 28 00 70 31 73 6b 69 6d 6d 6e 6f 77 00 e5 bd 93 e5 89 8d e7 bb 9d e6 8a 80 00
+00000994:   25. DefineEditText (chid: 21, vn: "p1skimmlast") tagId= 37 len=      57  15 00 77 fb 0d 69 ff b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 00 00 00 00 00 00 00 28 00 70 31 73 6b 69 6d 6d 6c 61 73 74 00 e4 b8 8a e4 b8 80 e4 b8 aa e7 bb 9d e6 8a 80 00
+000009d3:   26. DefineEditText (chid: 22, vn: "p2skimmnow") tagId= 37 len=      53  16 00 77 fb 0e 2a ff b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 01 00 00 00 00 00 00 28 00 70 32 73 6b 69 6d 6d 6e 6f 77 00 e5 bd 93 e5 89 8d e7 bb 9d e6 8a 80 00
+00000a0e:   27. DefineEditText (chid: 23, vn: "p2skimmlast") tagId= 37 len=      57  17 00 77 fb 0e 34 ff b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 01 00 00 00 00 00 00 28 00 70 32 73 6b 69 6d 6d 6c 61 73 74 00 e4 b8 8a e4 b8 80 e4 b8 aa e7 bb 9d e6 8a 80 00
+00000a4d:   28. DefineEditText (chid: 24, vn: "p1test") tagId= 37 len=      49  18 00 77 fb 0d 7d ff b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 00 00 00 00 00 00 00 28 00 70 31 74 65 73 74 00 e5 bd 93 e5 89 8d e7 bb 9d e6 8a 80 00
+00000a84:   29. DefineEditText (chid: 25, vn: "p2test") tagId= 37 len=      49  19 00 77 fb 0e 20 ff b0 0d c0 ed 30 01 00 90 01 ff ff ff ff 01 00 00 00 00 00 00 28 00 70 32 74 65 73 74 00 e5 bd 93 e5 89 8d e7 bb 9d e6 8a 80 00
+00000abb:   30. DefineEditText (chid: 26, vn: "cpulist") tagId= 37 len=      38  1a 00 7f fd 87 f5 7f f6 02 d0 00 65 20 01 00 90 01 ff ff ff ff 00 00 00 00 00 00 00 28 00 63 70 75 6c 69 73 74 00
+00000ae7:   31. DefineShape (chid: 31)    tagId=  2 len=      37  1f 00 60 00 3e 80 00 3e 80 01 00 ff ff ff 01 01 00 66 66 66 11 35 8f a0 fa 1f 44 18 74 c1 87 43 e8 74 be 80 00
+00000b12:   32. DefineSprite (chid: 32)   tagId= 39 len=      16  20 00 01 00 86 06 06 01 00 1f 00 00 40 00 00 00
+00000b1c:      0. PlaceObject2 (chid: 31, dpt: 1) tagId= 26 len=       6  06 01 00 1f 00 00
+00000b24:      1. ShowFrame               tagId=  1 len=       0  
+00000b28:   33. ExportAssets (chid: 32, exp: "BoundingBox") tagId= 56 len=      16  01 00 20 00 42 6f 75 6e 64 69 6e 67 42 6f 78 00
+00000b3e:   34. DefineShape (chid: 33)    tagId=  2 len=      24  21 00 30 0a 00 a0 01 00 84 84 84 00 10 14 c0 29 d1 b3 41 4d 15 34 2c 00
+00000b5c:   35. DefineSprite (chid: 34)   tagId= 39 len=     114  22 00 01 00 3f 03 5c 00 00 00 96 13 00 00 73 68 61 64 6f 77 43 6f 6c 6f 72 00 00 74 68 69 73 00 ... 0f 00 00 73 65 74 43 6f 6c 6f 72 53 74 79 6c 65 00 52 17 00 86 06 06 01 00 21 00 00 40 00 00 00
+00000b66:      0. DoAction                tagId= 12 len=      92  96 13 00 00 73 68 61 64 6f 77 43 6f 6c 6f 72 00 00 74 68 69 73 00 1c 96 09 00 07 02 00 00 00 00 ... 69 6e 45 6c 65 6d 65 6e 74 00 4e 96 0f 00 00 73 65 74 43 6f 6c 6f 72 53 74 79 6c 65 00 52 17 00
+00000bc8:      1. PlaceObject2 (chid: 33, dpt: 1) tagId= 26 len=       6  06 01 00 21 00 00
+00000bd0:      2. ShowFrame               tagId=  1 len=       0  
+00000bd4:   36. ExportAssets (chid: 34, exp: "BrdrShdw") tagId= 56 len=      13  01 00 22 00 42 72 64 72 53 68 64 77 00
+00000be7:   37. DefineShape (chid: 35)    tagId=  2 len=      24  23 00 30 0a 00 a0 01 00 ef eb ef 00 10 14 ca 29 d0 b3 46 cd 05 34 54 00
+00000c05:   38. DefineSprite (chid: 36)   tagId= 39 len=     114  24 00 01 00 3f 03 5c 00 00 00 96 13 00 00 62 75 74 74 6f 6e 43 6f 6c 6f 72 00 00 74 68 69 73 00 ... 0f 00 00 73 65 74 43 6f 6c 6f 72 53 74 79 6c 65 00 52 17 00 86 06 06 01 00 23 00 00 40 00 00 00
+00000c0f:      0. DoAction                tagId= 12 len=      92  96 13 00 00 62 75 74 74 6f 6e 43 6f 6c 6f 72 00 00 74 68 69 73 00 1c 96 09 00 07 02 00 00 00 00 ... 69 6e 45 6c 65 6d 65 6e 74 00 4e 96 0f 00 00 73 65 74 43 6f 6c 6f 72 53 74 79 6c 65 00 52 17 00
+00000c71:      1. PlaceObject2 (chid: 35, dpt: 1) tagId= 26 len=       6  06 01 00 23 00 00
+00000c79:      2. ShowFrame               tagId=  1 len=       0  
+00000c7d:   39. ExportAssets (chid: 36, exp: "BrdrFace") tagId= 56 len=      13  01 00 24 00 42 72 64 72 46 61 63 65 00
+00000c90:   40. DefineSprite (chid: 37)   tagId= 39 len=      45  25 00 01 00 8e 06 26 01 00 22 00 d9 00 00 04 00 00 00 62 00 93 06 26 03 00 24 00 d5 c0 00 8e 00 04 19 45 00 66 61 63 65 00 40 00 00 00
+00000c9a:      0. PlaceObject2 (chid: 34, dpt: 1, nm: "b") tagId= 26 len=      14  26 01 00 22 00 d9 00 00 04 00 00 00 62 00
+00000caa:      1. PlaceObject2 (chid: 36, dpt: 3, nm: "face") tagId= 26 len=      19  26 03 00 24 00 d5 c0 00 8e 00 04 19 45 00 66 61 63 65 00
+00000cbf:      2. ShowFrame               tagId=  1 len=       0  
+00000cc3:   41. ExportAssets (chid: 37, exp: "SimpleButtonDown") tagId= 56 len=      21  01 00 25 00 53 69 6d 70 6c 65 42 75 74 74 6f 6e 44 6f 77 6e 00
+00000cde:   42. DefineShape (chid: 38)    tagId=  2 len=      24  26 00 30 0a 00 a0 01 00 00 00 00 00 10 14 ca 01 d1 53 42 cd 1b 34 14 00
+00000cfc:   43. DefineSprite (chid: 39)   tagId= 39 len=     114  27 00 01 00 3f 03 5c 00 00 00 96 13 00 00 62 6f 72 64 65 72 43 6f 6c 6f 72 00 00 74 68 69 73 00 ... 0f 00 00 73 65 74 43 6f 6c 6f 72 53 74 79 6c 65 00 52 17 00 86 06 06 01 00 26 00 00 40 00 00 00
+00000d06:      0. DoAction                tagId= 12 len=      92  96 13 00 00 62 6f 72 64 65 72 43 6f 6c 6f 72 00 00 74 68 69 73 00 1c 96 09 00 07 02 00 00 00 00 ... 69 6e 45 6c 65 6d 65 6e 74 00 4e 96 0f 00 00 73 65 74 43 6f 6c 6f 72 53 74 79 6c 65 00 52 17 00
+00000d68:      1. PlaceObject2 (chid: 38, dpt: 1) tagId= 26 len=       6  06 01 00 26 00 00
+00000d70:      2. ShowFrame               tagId=  1 len=       0  
+00000d74:   44. ExportAssets (chid: 39, exp: "BrdrBlk") tagId= 56 len=      12  01 00 27 00 42 72 64 72 42 6c 6b 00
+00000d86:   45. DefineShape (chid: 40)    tagId=  2 len=      32  28 00 60 00 3e 80 00 3e 80 01 00 ff ff ff 00 10 15 8f a0 00 1e 97 d0 e8 83 0e 98 30 e8 7d 00 00
+00000dac:   46. DefineSprite (chid: 41)   tagId= 39 len=     121  29 00 01 00 3f 03 5f 00 00 00 96 16 00 00 68 69 67 68 6c 69 67 68 74 43 6f 6c 6f 72 00 00 74 68 ... 65 74 43 6f 6c 6f 72 53 74 79 6c 65 00 52 17 00 8a 06 06 01 00 28 00 ad 47 a8 f0 00 40 00 00 00
+00000db6:      0. DoAction                tagId= 12 len=      95  96 16 00 00 68 69 67 68 6c 69 67 68 74 43 6f 6c 6f 72 00 00 74 68 69 73 00 1c 96 09 00 07 02 00 ... 69 6e 45 6c 65 6d 65 6e 74 00 4e 96 0f 00 00 73 65 74 43 6f 6c 6f 72 53 74 79 6c 65 00 52 17 00
+00000e1b:      1. PlaceObject2 (chid: 40, dpt: 1) tagId= 26 len=      10  06 01 00 28 00 ad 47 a8 f0 00
+00000e27:      2. ShowFrame               tagId=  1 len=       0  
+00000e2b:   47. ExportAssets (chid: 41, exp: "BrdrHilght") tagId= 56 len=      15  01 00 29 00 42 72 64 72 48 69 6c 67 68 74 00
+00000e40:   48. DefineSprite (chid: 42)   tagId= 39 len=      82  2a 00 01 00 8e 06 26 01 00 27 00 d8 ff ff c4 00 00 00 62 00 91 06 26 03 00 29 00 d5 e0 00 4f 00 ... 00 00 19 45 00 67 00 93 06 26 07 00 24 00 d5 9f ff 8c ff fc 1d 42 80 66 61 63 65 00 40 00 00 00
+00000e4a:      0. PlaceObject2 (chid: 39, dpt: 1, nm: "b") tagId= 26 len=      14  26 01 00 27 00 d8 ff ff c4 00 00 00 62 00
+00000e5a:      1. PlaceObject2 (chid: 41, dpt: 3, nm: "it") tagId= 26 len=      17  26 03 00 29 00 d5 e0 00 4f 00 00 19 45 00 69 74 00
+00000e6d:      2. PlaceObject2 (chid: 34, dpt: 5, nm: "g") tagId= 26 len=      16  26 05 00 22 00 d5 bf ff ae 00 00 19 45 00 67 00
+00000e7f:      3. PlaceObject2 (chid: 36, dpt: 7, nm: "face") tagId= 26 len=      19  26 07 00 24 00 d5 9f ff 8c ff fc 1d 42 80 66 61 63 65 00
+00000e94:      4. ShowFrame               tagId=  1 len=       0  
+00000e98:   49. ExportAssets (chid: 42, exp: "SimpleButtonIn") tagId= 56 len=      19  01 00 2a 00 53 69 6d 70 6c 65 42 75 74 74 6f 6e 49 6e 00
+00000eb1:   50. DefineSprite (chid: 43)   tagId= 39 len=     101  2b 00 01 00 8f 06 26 01 00 27 00 d9 00 00 04 00 00 00 6f 62 00 8f 06 26 03 00 24 00 d5 e0 00 0f ... 00 19 45 00 69 6c 00 93 06 26 09 00 24 00 d5 80 00 0c 00 00 1d 42 80 66 61 63 65 00 40 00 00 00
+00000ebb:      0. PlaceObject2 (chid: 39, dpt: 1, nm: "ob") tagId= 26 len=      15  26 01 00 27 00 d9 00 00 04 00 00 00 6f 62 00
+00000ecc:      1. PlaceObject2 (chid: 36, dpt: 3, nm: "ol") tagId= 26 len=      15  26 03 00 24 00 d5 e0 00 0f 00 00 00 6f 6c 00
+00000edd:      2. PlaceObject2 (chid: 34, dpt: 5, nm: "ib") tagId= 26 len=      17  26 05 00 22 00 d5 c0 00 0e 00 00 19 45 00 69 62 00
+00000ef0:      3. PlaceObject2 (chid: 41, dpt: 7, nm: "il") tagId= 26 len=      17  26 07 00 29 00 d5 a0 00 0d 00 00 19 45 00 69 6c 00
+00000f03:      4. PlaceObject2 (chid: 36, dpt: 9, nm: "face") tagId= 26 len=      19  26 09 00 24 00 d5 80 00 0c 00 00 1d 42 80 66 61 63 65 00
+00000f18:      5. ShowFrame               tagId=  1 len=       0  
+00000f1c:   51. ExportAssets (chid: 43, exp: "SimpleButtonUp") tagId= 56 len=      19  01 00 2b 00 53 69 6d 70 6c 65 42 75 74 74 6f 6e 55 70 00
+00000f35:   52. DefineSprite (chid: 44)   tagId= 39 len=       8  2c 00 01 00 40 00 00 00
+00000f3f:      0. ShowFrame               tagId=  1 len=       0  
+00000f43:   53. ExportAssets (chid: 44, exp: "Defaults") tagId= 56 len=      13  01 00 2c 00 44 65 66 61 75 6c 74 73 00
+00000f56:   54. DefineSprite (chid: 45)   tagId= 39 len=       8  2d 00 01 00 40 00 00 00
+00000f60:      0. ShowFrame               tagId=  1 len=       0  
+00000f64:   55. ExportAssets (chid: 45, exp: "UIObjectExtensions") tagId= 56 len=      23  01 00 2d 00 55 49 4f 62 6a 65 63 74 45 78 74 65 6e 73 69 6f 6e 73 00
+00000f81:   56. DefineSprite (chid: 46)   tagId= 39 len=      44  2e 00 02 00 3f 03 02 00 00 00 07 00 40 00 8b 06 16 01 00 2c 00 12 d9 30 80 01 00 8b 06 16 03 00 2d 00 14 1c b6 a0 01 00 40 00 00 00
+00000f8b:      0. DoAction                tagId= 12 len=       2  07 00
+00000f93:      1. ShowFrame               tagId=  1 len=       0  
+00000f95:      2. PlaceObject2 (chid: 44, dpt: 1) tagId= 26 len=      11  16 01 00 2c 00 12 d9 30 80 01 00
+00000fa2:      3. PlaceObject2 (chid: 45, dpt: 3) tagId= 26 len=      11  16 03 00 2d 00 14 1c b6 a0 01 00
+00000faf:      4. ShowFrame               tagId=  1 len=       0  
+00000fb3:   57. ExportAssets (chid: 46, exp: "UIObject") tagId= 56 len=      13  01 00 2e 00 55 49 4f 62 6a 65 63 74 00
+00000fc6:   58. DefineShape (chid: 47)    tagId=  2 len=      33  2f 00 5f f6 44 df d9 13 00 01 00 00 00 00 01 14 00 00 ff 00 11 33 e4 43 9c a8 73 92 f2 72 de 40 00
+00000fed:   59. DefineShape (chid: 48)    tagId=  2 len=      36  30 00 5f f6 44 df d9 13 00 01 00 00 00 00 01 14 00 ff 33 ff 11 35 68 70 00 7c a8 73 92 f2 72 de 4e 44 38 00
+00001017:   60. DefineButton2 (chid: 49)  tagId= 34 len=      61  31 00 00 11 00 03 2f 00 01 00 00 04 0c 30 00 01 00 00 04 00 00 00 00 24 96 0f 00 06 00 00 00 00 00 00 00 00 00 74 68 69 73 00 1c 96 0c 00 00 74 61 62 48 61 6e 64 6c 65 72 00 52 17 00
+0000105a:   61. DefineSprite (chid: 50)   tagId= 39 len=      15  32 00 01 00 3f 03 01 00 00 00 00 40 00 00 00
+00001064:      0. DoAction                tagId= 12 len=       1  00
+0000106b:      1. ShowFrame               tagId=  1 len=       0  
+0000106f:   62. DefineSprite (chid: 51)   tagId= 39 len=      31  33 00 01 00 95 06 26 01 00 20 00 00 62 6f 75 6e 64 69 6e 67 42 6f 78 5f 6d 63 00 40 00 00 00
+00001079:      0. PlaceObject2 (chid: 32, dpt: 1, nm: "boundingBox_mc") tagId= 26 len=      21  26 01 00 20 00 00 62 6f 75 6e 64 69 6e 67 42 6f 78 5f 6d 63 00
+00001090:      1. ShowFrame               tagId=  1 len=       0  
+00001094:   63. ExportAssets (chid: 51, exp: "FocusRect") tagId= 56 len=      14  01 00 33 00 46 6f 63 75 73 52 65 63 74 00
+000010a8:   64. DefineSprite (chid: 52)   tagId= 39 len=      78  34 00 02 00 3f 03 02 00 00 00 07 00 91 06 26 01 00 31 00 00 74 61 62 43 61 70 74 75 72 65 00 86 ... 07 03 00 8b 06 16 01 00 33 00 18 a9 81 10 01 00 8a 06 16 03 00 2e 00 10 9a 72 01 00 40 00 00 00
+000010b2:      0. DoAction                tagId= 12 len=       2  07 00
+000010ba:      1. PlaceObject2 (chid: 49, dpt: 1, nm: "tabCapture") tagId= 26 len=      17  26 01 00 31 00 00 74 61 62 43 61 70 74 75 72 65 00
+000010cd:      2. PlaceObject2 (chid: 50, dpt: 3) tagId= 26 len=       6  06 03 00 32 00 00
+000010d5:      3. ShowFrame               tagId=  1 len=       0  
+000010d7:      4. RemoveObject2 (dpt: 1)  tagId= 28 len=       2  01 00
+000010db:      5. RemoveObject2 (dpt: 3)  tagId= 28 len=       2  03 00
+000010df:      6. PlaceObject2 (chid: 51, dpt: 1) tagId= 26 len=      11  16 01 00 33 00 18 a9 81 10 01 00
+000010ec:      7. PlaceObject2 (chid: 46, dpt: 3) tagId= 26 len=      10  16 03 00 2e 00 10 9a 72 01 00
+000010f8:      8. ShowFrame               tagId=  1 len=       0  
+000010fc:   65. ExportAssets (chid: 52, exp: "FocusManager") tagId= 56 len=      17  01 00 34 00 46 6f 63 75 73 4d 61 6e 61 67 65 72 00
+00001113:   66. DefineSprite (chid: 53)   tagId= 39 len=       8  35 00 01 00 40 00 00 00
+0000111d:      0. ShowFrame               tagId=  1 len=       0  
+00001121:   67. ExportAssets (chid: 53, exp: "UIComponentExtensions") tagId= 56 len=      26  01 00 35 00 55 49 43 6f 6d 70 6f 6e 65 6e 74 45 78 74 65 6e 73 69 6f 6e 73 00
+00001141:   68. DefineSprite (chid: 54)   tagId= 39 len=      57  36 00 02 00 3f 03 02 00 00 00 07 00 40 00 8b 06 16 01 00 2e 00 12 b1 4e 80 01 00 8b 06 16 05 00 34 00 14 fd 80 e0 01 00 8b 06 16 09 00 35 00 16 31 51 68 01 00 40 00 00 00
+0000114b:      0. DoAction                tagId= 12 len=       2  07 00
+00001153:      1. ShowFrame               tagId=  1 len=       0  
+00001155:      2. PlaceObject2 (chid: 46, dpt: 1) tagId= 26 len=      11  16 01 00 2e 00 12 b1 4e 80 01 00
+00001162:      3. PlaceObject2 (chid: 52, dpt: 5) tagId= 26 len=      11  16 05 00 34 00 14 fd 80 e0 01 00
+0000116f:      4. PlaceObject2 (chid: 53, dpt: 9) tagId= 26 len=      11  16 09 00 35 00 16 31 51 68 01 00
+0000117c:      5. ShowFrame               tagId=  1 len=       0  
+00001180:   69. ExportAssets (chid: 54, exp: "UIComponent") tagId= 56 len=      16  01 00 36 00 55 49 43 6f 6d 70 6f 6e 65 6e 74 00
+00001196:   70. DefineSprite (chid: 55)   tagId= 39 len=     101  37 00 02 00 3f 03 02 00 00 00 07 00 9a 06 26 01 00 20 00 bd 47 b2 8f 60 00 62 6f 75 6e 64 69 6e ... 01 00 8b 06 16 0d 00 2b 00 14 bc ff a0 01 00 8b 06 16 17 00 36 00 16 f4 43 a8 01 00 40 00 00 00
+000011a0:      0. DoAction                tagId= 12 len=       2  07 00
+000011a8:      1. PlaceObject2 (chid: 32, dpt: 1, nm: "boundingBox_mc") tagId= 26 len=      26  26 01 00 20 00 bd 47 b2 8f 60 00 62 6f 75 6e 64 69 6e 67 42 6f 78 5f 6d 63 00
+000011c4:      2. ShowFrame               tagId=  1 len=       0  
+000011c6:      3. RemoveObject2 (dpt: 1)  tagId= 28 len=       2  01 00
+000011ca:      4. PlaceObject2 (chid: 37, dpt: 1) tagId= 26 len=      10  16 01 00 25 00 11 5b fa 01 00
+000011d6:      5. PlaceObject2 (chid: 42, dpt: 5) tagId= 26 len=      11  16 05 00 2a 00 17 50 7f e8 01 00
+000011e3:      6. PlaceObject2 (chid: 43, dpt: 13) tagId= 26 len=      11  16 0d 00 2b 00 14 bc ff a0 01 00
+000011f0:      7. PlaceObject2 (chid: 54, dpt: 23) tagId= 26 len=      11  16 17 00 36 00 16 f4 43 a8 01 00
+000011fd:      8. ShowFrame               tagId=  1 len=       0  
+00001201:   71. ExportAssets (chid: 55, exp: "SimpleButton") tagId= 56 len=      17  01 00 37 00 53 69 6d 70 6c 65 42 75 74 74 6f 6e 00
+00001218:   72. DefineSprite (chid: 56)   tagId= 39 len=      30  38 00 02 00 3f 03 02 00 00 00 07 00 40 00 8a 06 16 01 00 2e 00 10 72 9a 01 00 40 00 00 00
+00001222:      0. DoAction                tagId= 12 len=       2  07 00
+0000122a:      1. ShowFrame               tagId=  1 len=       0  
+0000122c:      2. PlaceObject2 (chid: 46, dpt: 1) tagId= 26 len=      10  16 01 00 2e 00 10 72 9a 01 00
+00001238:      3. ShowFrame               tagId=  1 len=       0  
+0000123c:   73. ExportAssets (chid: 56, exp: "Border") tagId= 56 len=      11  01 00 38 00 42 6f 72 64 65 72 00
+0000124d:   74. DefineSprite (chid: 57)   tagId= 39 len=      30  39 00 02 00 3f 03 02 00 00 00 07 00 40 00 8a 06 16 01 00 38 00 10 9a c2 01 00 40 00 00 00
+00001257:      0. DoAction                tagId= 12 len=       2  07 00
+0000125f:      1. ShowFrame               tagId=  1 len=       0  
+00001261:      2. PlaceObject2 (chid: 56, dpt: 1) tagId= 26 len=      10  16 01 00 38 00 10 9a c2 01 00
+0000126d:      3. ShowFrame               tagId=  1 len=       0  
+00001271:   75. ExportAssets (chid: 57, exp: "RectBorder") tagId= 56 len=      15  01 00 39 00 52 65 63 74 42 6f 72 64 65 72 00
+00001286:   76. DefineSprite (chid: 58)   tagId= 39 len=       8  3a 00 01 00 40 00 00 00
+00001290:      0. ShowFrame               tagId=  1 len=       0  
+00001294:   77. ExportAssets (chid: 58, exp: "ButtonSkin") tagId= 56 len=      15  01 00 3a 00 42 75 74 74 6f 6e 53 6b 69 6e 00
+000012a9:   78. DefineSprite (chid: 59)   tagId= 39 len=     231  3b 00 02 00 3f 03 02 00 00 00 07 00 9a 06 26 01 00 20 00 c9 00 00 0e 14 80 62 6f 75 6e 64 69 6e ... 01 00 8b 06 16 1b 00 39 00 14 c6 aa 20 01 00 8b 06 16 1d 00 3a 00 14 c6 aa 20 01 00 40 00 00 00
+000012b3:      0. DoAction                tagId= 12 len=       2  07 00
+000012bb:      1. PlaceObject2 (chid: 32, dpt: 1, nm: "boundingBox_mc") tagId= 26 len=      26  26 01 00 20 00 c9 00 00 0e 14 80 62 6f 75 6e 64 69 6e 67 42 6f 78 5f 6d 63 00
+000012d7:      2. ShowFrame               tagId=  1 len=       0  
+000012d9:      3. RemoveObject2 (dpt: 1)  tagId= 28 len=       2  01 00
+000012dd:      4. PlaceObject2 (chid: 55, dpt: 1) tagId= 26 len=     136  96 01 00 37 00 10 9a 22 01 00 00 00 00 02 00 00 00 02 00 00 6c 00 00 00 96 0c 00 00 73 65 6c 65 ... 00 00 00 1d 96 13 00 00 6d 69 6e 57 69 64 74 68 00 06 00 00 00 00 00 00 00 00 1d 00 00 00 00 00
+0000136b:      5. PlaceObject2 (chid: 56, dpt: 25) tagId= 26 len=      11  16 19 00 38 00 14 c6 82 20 01 00
+00001378:      6. PlaceObject2 (chid: 57, dpt: 27) tagId= 26 len=      11  16 1b 00 39 00 14 c6 aa 20 01 00
+00001385:      7. PlaceObject2 (chid: 58, dpt: 29) tagId= 26 len=      11  16 1d 00 3a 00 14 c6 aa 20 01 00
+00001392:      8. ShowFrame               tagId=  1 len=       0  
+00001396:   79. ExportAssets (chid: 59, exp: "Button") tagId= 56 len=      11  01 00 3b 00 42 75 74 74 6f 6e 00
+000013a7:   80. DefineEditText (chid: 80, vn: "dis") tagId= 37 len=      46  50 00 6f f6 14 c9 fd 81 04 00 ed 30 01 00 90 01 ff ff ff ff 00 00 00 00 00 00 00 28 00 64 69 73 00 e5 8f 8c e6 96 b9 e8 b7 9d e7 a6 bb 00
+000013db:   81. DefineEditText (chid: 81) tagId= 37 len=      29  51 00 67 ec 3f c7 ec 0d c0 6d 30 01 00 90 01 ff ff ff ff 00 00 00 00 00 00 00 28 00 00
+000013fe:   82. DefineEditText (chid: 82) tagId= 37 len=      29  52 00 67 ec 3f c7 ec 0d c0 6d 30 01 00 90 01 ff ff ff ff 00 00 00 00 00 00 00 28 00 00
+00001421:   83. DefineEditText (chid: 83, vn: "p1div") tagId= 37 len=      48  53 00 77 fb 0d 91 ff b0 0d c0 e5 20 01 00 90 01 ff ff ff ff 00 00 00 00 00 00 00 28 00 70 31 64 69 76 00 e5 bd 93 e5 89 8d e7 bb 9d e6 8a 80 00
+00001457:   84. DefineEditText (chid: 84, vn: "p2div") tagId= 37 len=      48  54 00 77 fb 0e 34 ff b0 0d c0 e5 20 01 00 90 01 ff ff ff ff 01 00 00 00 00 00 00 28 00 70 32 64 69 76 00 e5 bd 93 e5 89 8d e7 bb 9d e6 8a 80 00
+0000148d:   85. DefineEditText (chid: 85, vn: "skill_now") tagId= 37 len=      52  55 00 77 fb 0d af ff b0 0d c0 e5 20 01 00 90 01 ff ff ff ff 00 00 00 00 00 00 00 28 00 73 6b 69 6c 6c 5f 6e 6f 77 00 e5 bd 93 e5 89 8d e7 bb 9d e6 8a 80 00
+000014c7:   86. DefineEditText (chid: 86, vn: "skill_now2") tagId= 37 len=      53  56 00 77 fb 0e 34 ff b0 0d c0 e5 20 01 00 90 01 ff ff ff ff 01 00 00 00 00 00 00 28 00 73 6b 69 6c 6c 5f 6e 6f 77 32 00 e5 bd 93 e5 89 8d e7 bb 9d e6 8a 80 00
+00001502:   87. DefineSprite (chid: 87)   tagId= 39 len=    2247  57 00 01 00 3f 03 99 01 00 00 88 6e 00 0e 00 5f 72 6f 6f 74 00 64 65 62 75 67 00 74 68 69 73 00 ... 00 bf 06 15 00 00 00 26 23 00 56 00 1e 9a 1c df 18 73 6b 69 6c 6c 5f 6e 6f 77 32 00 40 00 00 00
+0000150c:      0. DoAction                tagId= 12 len=     409  88 6e 00 0e 00 5f 72 6f 6f 74 00 64 65 62 75 67 00 74 68 69 73 00 5f 76 69 73 69 62 6c 65 00 66 ... 08 08 4e 96 02 00 08 0d 52 17 96 04 00 04 01 08 03 4e 12 12 9d 02 00 05 00 96 01 00 03 3e 1d 00
+000016ab:      1. PlaceObject2 (chid: 2, dpt: 1, nm: "p1status_1") tagId= 26 len=      19  26 01 00 02 00 10 a6 50 70 31 73 74 61 74 75 73 5f 31 00
+000016c4:      2. PlaceObject2 (chid: 3, dpt: 2, nm: "p1status_2") tagId= 26 len=      20  26 02 00 03 00 16 14 d2 20 70 31 73 74 61 74 75 73 5f 32 00
+000016de:      3. PlaceObject2 (chid: 4, dpt: 3, nm: "p1status_3") tagId= 26 len=      20  26 03 00 04 00 18 0a 69 10 70 31 73 74 61 74 75 73 5f 33 00
+000016f8:      4. PlaceObject2 (chid: 5, dpt: 4, nm: "p1status_4") tagId= 26 len=      20  26 04 00 05 00 18 0a 6d 20 70 31 73 74 61 74 75 73 5f 34 00
+00001712:      5. PlaceObject2 (chid: 6, dpt: 5, nm: "p1status_5") tagId= 26 len=      21  26 05 00 06 00 1a 05 34 56 00 70 31 73 74 61 74 75 73 5f 35 00
+0000172d:      6. PlaceObject2 (chid: 7, dpt: 6, nm: "p2status_1") tagId= 26 len=      21  26 06 00 07 00 1e 97 e0 02 80 70 32 73 74 61 74 75 73 5f 31 00
+00001748:      7. PlaceObject2 (chid: 8, dpt: 7, nm: "p2status_2") tagId= 26 len=      21  26 07 00 08 00 1e 97 90 13 60 70 32 73 74 61 74 75 73 5f 32 00
+00001763:      8. PlaceObject2 (chid: 9, dpt: 8, nm: "p2status_3") tagId= 26 len=      21  26 08 00 09 00 1e 97 40 25 80 70 32 73 74 61 74 75 73 5f 33 00
+0000177e:      9. PlaceObject2 (chid: 10, dpt: 9, nm: "p2status_4") tagId= 26 len=      21  26 09 00 0a 00 1e 97 90 35 c0 70 32 73 74 61 74 75 73 5f 34 00
+00001799:     10. PlaceObject2 (chid: 11, dpt: 10, nm: "p2status_5") tagId= 26 len=      21  26 0a 00 0b 00 1e 97 90 46 a0 70 32 73 74 61 74 75 73 5f 35 00
+000017b4:     11. PlaceObject2 (chid: 12, dpt: 11, nm: "p1status_6") tagId= 26 len=      21  26 0b 00 0c 00 1a 05 35 50 00 70 31 73 74 61 74 75 73 5f 36 00
+000017cf:     12. PlaceObject2 (chid: 13, dpt: 12, nm: "p1status_7") tagId= 26 len=      21  26 0c 00 0d 00 1a 05 36 5e 00 70 31 73 74 61 74 75 73 5f 37 00
+000017ea:     13. PlaceObject2 (chid: 14, dpt: 13, nm: "p2status_6") tagId= 26 len=      21  26 0d 00 0e 00 1e cd 88 56 e0 70 32 73 74 61 74 75 73 5f 36 00
+00001805:     14. PlaceObject2 (chid: 15, dpt: 14, nm: "p2status_7") tagId= 26 len=      21  26 0e 00 0f 00 1e b9 00 67 c0 70 32 73 74 61 74 75 73 5f 37 00
+00001820:     15. PlaceObject2 (chid: 16, dpt: 15, nm: "p1onhit") tagId= 26 len=      18  26 0f 00 10 00 1a 05 37 44 00 70 31 6f 6e 68 69 74 00
+00001838:     16. PlaceObject2 (chid: 17, dpt: 16, nm: "p1hitID") tagId= 26 len=      18  26 10 00 11 00 1c 02 9a 14 80 70 31 68 69 74 49 44 00
+00001850:     17. PlaceObject2 (chid: 18, dpt: 17, nm: "p2onhit") tagId= 26 len=      18  26 11 00 12 00 1e 9a 10 77 f8 70 32 6f 6e 68 69 74 00
+00001868:     18. PlaceObject2 (chid: 19, dpt: 18, nm: "p2hitID") tagId= 26 len=      18  26 12 00 13 00 1e 9a b0 88 d8 70 32 68 69 74 49 44 00
+00001880:     19. PlaceObject2 (chid: 20, dpt: 19, nm: "p1skimmnow") tagId= 26 len=      21  26 13 00 14 00 1c 02 4a 95 20 70 31 73 6b 69 6d 6d 6e 6f 77 00
+0000189b:     20. PlaceObject2 (chid: 21, dpt: 20, nm: "p1skimmlast") tagId= 26 len=      22  26 14 00 15 00 1c 02 4a 54 20 70 31 73 6b 69 6d 6d 6c 61 73 74 00
+000018b7:     21. PlaceObject2 (chid: 22, dpt: 21, nm: "p2skimmnow") tagId= 26 len=      21  26 15 00 16 00 1e 9b 00 a7 c8 70 32 73 6b 69 6d 6d 6e 6f 77 00
+000018d2:     22. PlaceObject2 (chid: 23, dpt: 22, nm: "p2skimmlast") tagId= 26 len=      22  26 16 00 17 00 1e 9a b0 97 88 70 32 73 6b 69 6d 6d 6c 61 73 74 00
+000018ee:     23. PlaceObject2 (chid: 24, dpt: 23, nm: "p1skimmnow") tagId= 26 len=      21  26 17 00 18 00 1c 02 4a d8 a0 70 31 73 6b 69 6d 6d 6e 6f 77 00
+00001909:     24. PlaceObject2 (chid: 25, dpt: 24, nm: "p2skimmnow") tagId= 26 len=      21  26 18 00 19 00 1e 9b 50 b7 18 70 32 73 6b 69 6d 6d 6e 6f 77 00
+00001924:     25. PlaceObject2 (chid: 26, dpt: 25, nm: "cpulist") tagId= 26 len=      18  26 19 00 1a 00 1c 06 43 c2 60 63 70 75 6c 69 73 74 00
+0000193c:     26. PlaceObject2 (chid: 59, dpt: 26) tagId= 26 len=     346  86 1a 00 3b 00 1e 52 a9 20 b0 00 00 01 00 04 00 00 00 04 00 a6 00 00 00 96 08 00 00 69 63 6f 6e ... 69 73 00 1c 96 12 00 00 61 64 64 45 76 65 6e 74 4c 69 73 74 65 6e 65 72 00 52 17 00 00 00 00 00
+00001a9c:     27. PlaceObject2 (chid: 59, dpt: 27) tagId= 26 len=     310  86 1b 00 3b 00 1e 2a 81 20 10 00 00 01 00 04 00 00 00 04 00 a5 00 00 00 96 08 00 00 69 63 6f 6e ... 69 73 00 1c 96 12 00 00 61 64 64 45 76 65 6e 74 4c 69 73 74 65 6e 65 72 00 52 17 00 00 00 00 00
+00001bd8:     28. PlaceObject2 (chid: 59, dpt: 28) tagId= 26 len=     352  86 1c 00 3b 00 1e 04 11 20 10 00 00 01 00 04 00 00 00 04 00 a5 00 00 00 96 08 00 00 69 63 6f 6e ... 4f 96 02 00 08 01 1c 96 09 00 08 02 07 02 00 00 00 08 03 1c 96 02 00 08 04 52 17 00 00 00 00 00
+00001d3e:     29. PlaceObject2 (chid: 80, dpt: 29, nm: "dis") tagId= 26 len=      14  26 1d 00 50 00 1c da c0 96 00 64 69 73 00
+00001d52:     30. PlaceObject2 (chid: 81, dpt: 30) tagId= 26 len=      10  06 1e 00 51 00 20 c4 8e 01 60
+00001d5e:     31. PlaceObject2 (chid: 82, dpt: 31) tagId= 26 len=      10  06 1f 00 52 00 1f 67 84 eb 80
+00001d6a:     32. PlaceObject2 (chid: 83, dpt: 32, nm: "p1div") tagId= 26 len=      16  26 20 00 53 00 1c 02 4b 28 a0 70 31 64 69 76 00
+00001d80:     33. PlaceObject2 (chid: 84, dpt: 33, nm: "p2div") tagId= 26 len=      16  26 21 00 54 00 1e 9a b0 c9 38 70 32 64 69 76 00
+00001d96:     34. PlaceObject2 (chid: 85, dpt: 34, nm: "skill_now") tagId= 26 len=      20  26 22 00 55 00 1c 00 6b 86 60 73 6b 69 6c 6c 5f 6e 6f 77 00
+00001db0:     35. PlaceObject2 (chid: 86, dpt: 35, nm: "skill_now2") tagId= 26 len=      21  26 23 00 56 00 1e 9a 1c df 18 73 6b 69 6c 6c 5f 6e 6f 77 32 00
+00001dcb:     36. ShowFrame               tagId=  1 len=       0  
+00001dcf:   88. PlaceObject2 (chid: 87, dpt: 1, nm: "mc") tagId= 26 len=      11  26 01 00 57 00 0e 9f 60 6d 63 00
+00001de0:   89. DefineEditText (chid: 88) tagId= 37 len=      29  58 00 67 ec 3f c7 ec 0d c0 6d 30 01 00 90 01 ff ff ff ff 00 00 00 00 00 00 00 28 00 00
+00001e03:   90. PlaceObject2 (chid: 88, dpt: 37) tagId= 26 len=      10  06 25 00 58 00 1f 70 94 d4 f8
+00001e0f:   91. DefineSprite (chid: 27)   tagId= 39 len=       6  1b 00 01 00 00 00
+00001e1b:   92. ExportAssets (chid: 27, exp: __Packages.mx.core.UIObject) tagId= 56 len=      32  01 00 1b 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 63 6f 72 65 2e 55 49 4f 62 6a 65 63 74 00
+00001e41:   93. DoInitAction (sid: 27)    tagId= 59 len=    9139  1b 00 88 ba 07 b8 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 63 6f 72 65 00 55 49 ... 1c 96 02 00 08 03 4e 96 02 00 08 04 4e 96 02 00 08 06 4e 96 07 00 07 03 00 00 00 08 b7 3d 17 00
+000041fa:   94. DefineSprite (chid: 28)   tagId= 39 len=       6  1c 00 01 00 00 00
+00004206:   95. ExportAssets (chid: 28, exp: __Packages.mx.core.UIComponent) tagId= 56 len=      35  01 00 1c 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 63 6f 72 65 2e 55 49 43 6f 6d 70 6f 6e 65 6e 74 00
+0000422f:   96. DoInitAction (sid: 28)    tagId= 59 len=    2833  1c 00 88 06 03 46 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 63 6f 72 65 00 55 49 ... 1c 96 02 00 08 03 4e 96 02 00 08 04 4e 96 02 00 08 05 4e 96 07 00 07 03 00 00 00 08 45 3d 17 00
+00004d46:   97. DefineSprite (chid: 29)   tagId= 39 len=       6  1d 00 01 00 00 00
+00004d52:   98. ExportAssets (chid: 29, exp: __Packages.mx.controls.SimpleButton) tagId= 56 len=      40  01 00 1d 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 63 6f 6e 74 72 6f 6c 73 2e 53 69 6d 70 6c 65 42 75 74 74 6f 6e 00
+00004d80:   99. DoInitAction (sid: 29)    tagId= 59 len=    8787  1d 00 88 2a 07 b6 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 63 6f 6e 74 72 6f 6c ... 1c 96 02 00 08 03 4e 96 02 00 08 04 4e 96 02 00 08 05 4e 96 07 00 07 03 00 00 00 08 b5 3d 17 00
+00006fd9:  100. DefineSprite (chid: 30)   tagId= 39 len=       6  1e 00 01 00 00 00
+00006fe5:  101. ExportAssets (chid: 30, exp: __Packages.mx.controls.Button) tagId= 56 len=      34  01 00 1e 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 63 6f 6e 74 72 6f 6c 73 2e 42 75 74 74 6f 6e 00
+0000700d:  102. DoInitAction (sid: 30)    tagId= 59 len=    5607  1e 00 88 0f 05 7d 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 63 6f 6e 74 72 6f 6c ... 1c 96 02 00 08 03 4e 96 02 00 08 04 4e 96 02 00 08 05 4e 96 07 00 07 03 00 00 00 08 7c 3d 17 00
+000085fa:  103. DefineSprite (chid: 60)   tagId= 39 len=       6  3c 00 01 00 00 00
+00008606:  104. ExportAssets (chid: 60, exp: __Packages.mx.skins.SkinElement) tagId= 56 len=      36  01 00 3c 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 73 6b 69 6e 73 2e 53 6b 69 6e 45 6c 65 6d 65 6e 74 00
+00008630:  105. DoInitAction (sid: 60)    tagId= 59 len=     683  3c 00 88 ae 00 13 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 73 6b 69 6e 73 00 53 ... 1c 96 02 00 08 03 4e 96 02 00 08 04 4e 96 02 00 08 05 4e 96 07 00 07 03 00 00 00 08 12 3d 17 00
+000088e1:  106. DefineSprite (chid: 61)   tagId= 39 len=       6  3d 00 01 00 00 00
+000088ed:  107. ExportAssets (chid: 61, exp: __Packages.mx.styles.CSSTextStyles) tagId= 56 len=      39  01 00 3d 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 73 74 79 6c 65 73 2e 43 53 53 54 65 78 74 53 74 79 6c 65 73 00
+0000891a:  108. DoInitAction (sid: 61)    tagId= 59 len=    1952  3d 00 88 29 01 20 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 73 74 79 6c 65 73 00 ... 1c 96 02 00 08 03 4e 96 02 00 08 04 4e 96 02 00 08 05 4e 96 07 00 07 03 00 00 00 08 1f 3d 17 00
+000090c0:  109. DefineSprite (chid: 62)   tagId= 39 len=       6  3e 00 01 00 00 00
+000090cc:  110. ExportAssets (chid: 62, exp: __Packages.mx.styles.StyleManager) tagId= 56 len=      38  01 00 3e 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 73 74 79 6c 65 73 2e 53 74 79 6c 65 4d 61 6e 61 67 65 72 00
+000090f8:  111. DoInitAction (sid: 62)    tagId= 59 len=    1953  3e 00 88 84 03 4b 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 73 74 79 6c 65 73 00 ... 1c 96 02 00 08 03 4e 96 02 00 08 04 4e 96 02 00 08 05 4e 96 07 00 07 03 00 00 00 08 4a 3d 17 00
+0000989f:  112. DefineSprite (chid: 63)   tagId= 39 len=       6  3f 00 01 00 00 00
+000098ab:  113. ExportAssets (chid: 63, exp: __Packages.mx.styles.CSSStyleDeclaration) tagId= 56 len=      45  01 00 3f 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 73 74 79 6c 65 73 2e 43 53 53 53 74 79 6c 65 44 65 63 6c 61 72 61 74 69 6f 6e 00
+000098de:  114. DoInitAction (sid: 63)    tagId= 59 len=     968  3f 00 88 e8 00 12 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 73 74 79 6c 65 73 00 ... 1c 96 02 00 08 03 4e 96 02 00 08 04 4e 96 02 00 08 05 4e 96 07 00 07 03 00 00 00 08 11 3d 17 00
+00009cac:  115. DefineSprite (chid: 64)   tagId= 39 len=       6  40 00 01 00 00 00
+00009cb8:  116. ExportAssets (chid: 64, exp: __Packages.mx.events.EventDispatcher) tagId= 56 len=      41  01 00 40 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 65 76 65 6e 74 73 2e 45 76 65 6e 74 44 69 73 70 61 74 63 68 65 72 00
+00009ce7:  117. DoInitAction (sid: 64)    tagId= 59 len=    1686  40 00 88 26 01 1e 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 65 76 65 6e 74 73 00 ... 1c 96 02 00 08 03 4e 96 02 00 08 04 4e 96 02 00 08 05 4e 96 07 00 07 03 00 00 00 08 19 3d 17 00
+0000a383:  118. DefineSprite (chid: 65)   tagId= 39 len=       6  41 00 01 00 00 00
+0000a38f:  119. ExportAssets (chid: 65, exp: __Packages.mx.events.UIEventDispatcher) tagId= 56 len=      43  01 00 41 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 65 76 65 6e 74 73 2e 55 49 45 76 65 6e 74 44 69 73 70 61 74 63 68 65 72 00
+0000a3c0:  120. DoInitAction (sid: 65)    tagId= 59 len=    2789  41 00 88 48 02 35 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 65 76 65 6e 74 73 00 ... 1c 96 02 00 08 03 4e 96 02 00 08 04 4e 96 02 00 08 05 4e 96 07 00 07 03 00 00 00 08 34 3d 17 00
+0000aeab:  121. DefineSprite (chid: 66)   tagId= 39 len=       6  42 00 01 00 00 00
+0000aeb7:  122. ExportAssets (chid: 66, exp: __Packages.mx.skins.ColoredSkinElement) tagId= 56 len=      43  01 00 42 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 73 6b 69 6e 73 2e 43 6f 6c 6f 72 65 64 53 6b 69 6e 45 6c 65 6d 65 6e 74 00
+0000aee8:  123. DoInitAction (sid: 66)    tagId= 59 len=     791  42 00 88 a3 00 11 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 73 6b 69 6e 73 00 43 ... 1c 96 02 00 08 03 4e 96 02 00 08 04 4e 96 02 00 08 05 4e 96 07 00 07 03 00 00 00 08 10 3d 17 00
+0000b205:  124. DefineSprite (chid: 67)   tagId= 39 len=       6  43 00 01 00 00 00
+0000b211:  125. ExportAssets (chid: 67, exp: __Packages.mx.core.ext.UIObjectExtensions) tagId= 56 len=      46  01 00 43 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 63 6f 72 65 2e 65 78 74 2e 55 49 4f 62 6a 65 63 74 45 78 74 65 6e 73 69 6f 6e 73 00
+0000b245:  126. DoInitAction (sid: 67)    tagId= 59 len=    4037  43 00 88 6e 04 65 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 63 6f 72 65 00 65 78 ... 4e 96 02 00 08 04 4e 96 02 00 08 05 4e 96 02 00 08 06 4e 96 07 00 07 03 00 00 00 08 2f 3d 17 00
+0000c210:  127. DefineSprite (chid: 68)   tagId= 39 len=       6  44 00 01 00 00 00
+0000c21c:  128. ExportAssets (chid: 68, exp: __Packages.mx.skins.halo.Defaults) tagId= 56 len=      38  01 00 44 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 73 6b 69 6e 73 2e 68 61 6c 6f 2e 44 65 66 61 75 6c 74 73 00
+0000c248:  129. DoInitAction (sid: 68)    tagId= 59 len=    5630  44 00 88 eb 05 84 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 73 6b 69 6e 73 00 68 ... 4e 96 02 00 08 04 4e 96 02 00 08 05 4e 96 02 00 08 06 4e 96 07 00 07 03 00 00 00 08 83 3d 17 00
+0000d84c:  130. DefineSprite (chid: 69)   tagId= 39 len=       6  45 00 01 00 00 00
+0000d858:  131. ExportAssets (chid: 69, exp: __Packages.mx.managers.DepthManager) tagId= 56 len=      40  01 00 45 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 6d 61 6e 61 67 65 72 73 2e 44 65 70 74 68 4d 61 6e 61 67 65 72 00
+0000d886:  132. DoInitAction (sid: 69)    tagId= 59 len=    7102  45 00 88 82 02 3a 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 6d 61 6e 61 67 65 72 ... 1c 96 02 00 08 03 4e 96 02 00 08 04 4e 96 02 00 08 06 4e 96 07 00 07 03 00 00 00 08 10 3d 17 00
+0000f44a:  133. DefineSprite (chid: 70)   tagId= 39 len=       6  46 00 01 00 00 00
+0000f456:  134. ExportAssets (chid: 70, exp: __Packages.mx.managers.SystemManager) tagId= 56 len=      41  01 00 46 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 6d 61 6e 61 67 65 72 73 2e 53 79 73 74 65 6d 4d 61 6e 61 67 65 72 00
+0000f485:  135. DoInitAction (sid: 70)    tagId= 59 len=    2279  46 00 88 17 02 38 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 6d 61 6e 61 67 65 72 ... 1c 96 02 00 08 03 4e 96 02 00 08 04 4e 96 02 00 08 05 4e 96 07 00 07 03 00 00 00 08 37 3d 17 00
+0000fd72:  136. DefineSprite (chid: 71)   tagId= 39 len=       6  47 00 01 00 00 00
+0000fd7e:  137. ExportAssets (chid: 71, exp: __Packages.mx.managers.FocusManager) tagId= 56 len=      40  01 00 47 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 6d 61 6e 61 67 65 72 73 2e 46 6f 63 75 73 4d 61 6e 61 67 65 72 00
+0000fdac:  138. DoInitAction (sid: 71)    tagId= 59 len=   10877  47 00 88 c7 06 95 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 6d 61 6e 61 67 65 72 ... 1c 96 02 00 08 03 4e 96 02 00 08 04 4e 96 02 00 08 05 4e 96 07 00 07 03 00 00 00 08 2d 3d 17 00
+0001282f:  139. DefineSprite (chid: 72)   tagId= 39 len=       6  48 00 01 00 00 00
+0001283b:  140. ExportAssets (chid: 72, exp: __Packages.mx.skins.halo.FocusRect) tagId= 56 len=      39  01 00 48 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 73 6b 69 6e 73 2e 68 61 6c 6f 2e 46 6f 63 75 73 52 65 63 74 00
+00012868:  141. DoInitAction (sid: 72)    tagId= 59 len=    3615  48 00 88 28 02 3b 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 73 6b 69 6e 73 00 68 ... 4e 96 02 00 08 04 4e 96 02 00 08 05 4e 96 02 00 08 0a 4e 96 07 00 07 03 00 00 00 08 3a 3d 17 00
+0001368d:  142. DefineSprite (chid: 73)   tagId= 39 len=       6  49 00 01 00 00 00
+00013699:  143. ExportAssets (chid: 73, exp: __Packages.mx.managers.OverlappedWindows) tagId= 56 len=      45  01 00 49 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 6d 61 6e 61 67 65 72 73 2e 4f 76 65 72 6c 61 70 70 65 64 57 69 6e 64 6f 77 73 00
+000136cc:  144. DoInitAction (sid: 73)    tagId= 59 len=    3786  49 00 88 07 02 2c 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 6d 61 6e 61 67 65 72 ... 1c 96 02 00 08 03 4e 96 02 00 08 04 4e 96 02 00 08 05 4e 96 07 00 07 03 00 00 00 08 2b 3d 17 00
+0001459c:  145. DefineSprite (chid: 74)   tagId= 39 len=       6  4a 00 01 00 00 00
+000145a8:  146. ExportAssets (chid: 74, exp: __Packages.mx.styles.CSSSetStyle) tagId= 56 len=      37  01 00 4a 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 73 74 79 6c 65 73 2e 43 53 53 53 65 74 53 74 79 6c 65 00
+000145d3:  147. DoInitAction (sid: 74)    tagId= 59 len=    4183  4a 00 88 54 02 30 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 73 74 79 6c 65 73 00 ... 1c 96 02 00 08 03 4e 96 02 00 08 04 4e 96 02 00 08 05 4e 96 07 00 07 03 00 00 00 08 2c 3d 17 00
+00015630:  148. DefineSprite (chid: 75)   tagId= 39 len=       6  4b 00 01 00 00 00
+0001563c:  149. ExportAssets (chid: 75, exp: __Packages.mx.core.ext.UIComponentExtensions) tagId= 56 len=      49  01 00 4b 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 63 6f 72 65 2e 65 78 74 2e 55 49 43 6f 6d 70 6f 6e 65 6e 74 45 78 74 65 6e 73 69 6f 6e 73 00
+00015673:  150. DoInitAction (sid: 75)    tagId= 59 len=    1376  4b 00 88 a8 01 20 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 63 6f 72 65 00 65 78 ... 4e 96 02 00 08 04 4e 96 02 00 08 05 4e 96 02 00 08 06 4e 96 07 00 07 03 00 00 00 08 1f 3d 17 00
+00015bd9:  151. DefineSprite (chid: 76)   tagId= 39 len=       6  4c 00 01 00 00 00
+00015be5:  152. ExportAssets (chid: 76, exp: __Packages.mx.skins.Border) tagId= 56 len=      31  01 00 4c 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 73 6b 69 6e 73 2e 42 6f 72 64 65 72 00
+00015c0a:  153. DoInitAction (sid: 76)    tagId= 59 len=     546  4c 00 88 90 00 11 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 73 6b 69 6e 73 00 42 ... 1c 96 02 00 08 03 4e 96 02 00 08 04 4e 96 02 00 08 05 4e 96 07 00 07 03 00 00 00 08 10 3d 17 00
+00015e32:  154. DefineSprite (chid: 77)   tagId= 39 len=       6  4d 00 01 00 00 00
+00015e3e:  155. ExportAssets (chid: 77, exp: __Packages.mx.skins.RectBorder) tagId= 56 len=      35  01 00 4d 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 73 6b 69 6e 73 2e 52 65 63 74 42 6f 72 64 65 72 00
+00015e67:  156. DoInitAction (sid: 77)    tagId= 59 len=    1441  4d 00 88 f7 01 2e 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 73 6b 69 6e 73 00 52 ... 1c 96 02 00 08 03 4e 96 02 00 08 04 4e 96 02 00 08 05 4e 96 07 00 07 03 00 00 00 08 2d 3d 17 00
+0001640e:  157. DefineSprite (chid: 78)   tagId= 39 len=       6  4e 00 01 00 00 00
+0001641a:  158. ExportAssets (chid: 78, exp: __Packages.mx.skins.halo.RectBorder) tagId= 56 len=      40  01 00 4e 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 73 6b 69 6e 73 2e 68 61 6c 6f 2e 52 65 63 74 42 6f 72 64 65 72 00
+00016448:  159. DoInitAction (sid: 78)    tagId= 59 len=    5058  4e 00 88 24 03 4b 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 73 6b 69 6e 73 00 68 ... 4e 96 02 00 08 04 4e 96 02 00 08 05 4e 96 02 00 08 06 4e 96 07 00 07 03 00 00 00 08 4a 3d 17 00
+00017810:  160. DefineSprite (chid: 79)   tagId= 39 len=       6  4f 00 01 00 00 00
+0001781c:  161. ExportAssets (chid: 79, exp: __Packages.mx.skins.halo.ButtonSkin) tagId= 56 len=      40  01 00 4f 00 5f 5f 50 61 63 6b 61 67 65 73 2e 6d 78 2e 73 6b 69 6e 73 2e 68 61 6c 6f 2e 42 75 74 74 6f 6e 53 6b 69 6e 00
+0001784a:  162. DoInitAction (sid: 79)    tagId= 59 len=    6538  4f 00 88 ea 01 2d 00 5f 67 6c 6f 62 61 6c 00 6d 78 00 4f 62 6a 65 63 74 00 73 6b 69 6e 73 00 68 ... 4e 96 02 00 08 04 4e 96 02 00 08 05 4e 96 02 00 08 06 4e 96 07 00 07 03 00 00 00 08 2c 3d 17 00
+000191da:  163. DoInitAction (sid: 44)    tagId= 59 len=      78  2c 00 96 18 00 00 6d 78 2e 73 6b 69 6e 73 2e 68 61 6c 6f 2e 44 65 66 61 75 6c 74 73 00 1c 96 17 ... 00 00 00 4f 62 6a 65 63 74 00 1c 96 0f 00 00 72 65 67 69 73 74 65 72 43 6c 61 73 73 00 52 17 00
+0001922e:  164. DoInitAction (sid: 45)    tagId= 59 len=      96  2d 00 96 20 00 00 6d 78 2e 63 6f 72 65 2e 65 78 74 2e 55 49 4f 62 6a 65 63 74 45 78 74 65 6e 73 ... 00 00 00 4f 62 6a 65 63 74 00 1c 96 0f 00 00 72 65 67 69 73 74 65 72 43 6c 61 73 73 00 52 17 00
+00019294:  165. DoInitAction (sid: 46)    tagId= 59 len=      72  2e 00 96 12 00 00 6d 78 2e 63 6f 72 65 2e 55 49 4f 62 6a 65 63 74 00 1c 96 17 00 00 55 49 4f 62 ... 00 00 00 4f 62 6a 65 63 74 00 1c 96 0f 00 00 72 65 67 69 73 74 65 72 43 6c 61 73 73 00 52 17 00
+000192e2:  166. DoInitAction (sid: 50)    tagId= 59 len=     286  32 00 88 6f 00 0a 00 6d 78 00 6d 61 6e 61 67 65 72 73 00 46 6f 63 75 73 4d 61 6e 61 67 65 72 00 ... 1c 96 02 00 08 01 4e 96 02 00 08 02 4e 96 07 00 07 03 00 00 00 08 05 1c 96 02 00 08 09 52 17 00
+00019406:  167. DoInitAction (sid: 51)    tagId= 59 len=      80  33 00 96 19 00 00 6d 78 2e 73 6b 69 6e 73 2e 68 61 6c 6f 2e 46 6f 63 75 73 52 65 63 74 00 1c 96 ... 00 00 00 4f 62 6a 65 63 74 00 1c 96 0f 00 00 72 65 67 69 73 74 65 72 43 6c 61 73 73 00 52 17 00
+0001945c:  168. DoInitAction (sid: 52)    tagId= 59 len=      84  34 00 96 1a 00 00 6d 78 2e 6d 61 6e 61 67 65 72 73 2e 46 6f 63 75 73 4d 61 6e 61 67 65 72 00 1c ... 00 00 00 4f 62 6a 65 63 74 00 1c 96 0f 00 00 72 65 67 69 73 74 65 72 43 6c 61 73 73 00 52 17 00
+000194b6:  169. DoInitAction (sid: 53)    tagId= 59 len=     102  35 00 96 23 00 00 6d 78 2e 63 6f 72 65 2e 65 78 74 2e 55 49 43 6f 6d 70 6f 6e 65 6e 74 45 78 74 ... 00 00 00 4f 62 6a 65 63 74 00 1c 96 0f 00 00 72 65 67 69 73 74 65 72 43 6c 61 73 73 00 52 17 00
+00019522:  170. DoInitAction (sid: 54)    tagId= 59 len=      78  36 00 96 15 00 00 6d 78 2e 63 6f 72 65 2e 55 49 43 6f 6d 70 6f 6e 65 6e 74 00 1c 96 1a 00 00 55 ... 00 00 00 4f 62 6a 65 63 74 00 1c 96 0f 00 00 72 65 67 69 73 74 65 72 43 6c 61 73 73 00 52 17 00
+00019576:  171. DoInitAction (sid: 55)    tagId= 59 len=      84  37 00 96 1a 00 00 6d 78 2e 63 6f 6e 74 72 6f 6c 73 2e 53 69 6d 70 6c 65 42 75 74 74 6f 6e 00 1c ... 00 00 00 4f 62 6a 65 63 74 00 1c 96 0f 00 00 72 65 67 69 73 74 65 72 43 6c 61 73 73 00 52 17 00
+000195d0:  172. DoInitAction (sid: 56)    tagId= 59 len=      69  38 00 96 11 00 00 6d 78 2e 73 6b 69 6e 73 2e 42 6f 72 64 65 72 00 1c 96 15 00 00 42 6f 72 64 65 ... 00 00 00 4f 62 6a 65 63 74 00 1c 96 0f 00 00 72 65 67 69 73 74 65 72 43 6c 61 73 73 00 52 17 00
+0001961b:  173. DoInitAction (sid: 57)    tagId= 59 len=     236  39 00 88 44 00 07 00 6d 78 00 73 6b 69 6e 73 00 52 65 63 74 42 6f 72 64 65 72 00 4f 62 6a 65 63 ... 00 00 00 4f 62 6a 65 63 74 00 1c 96 0f 00 00 72 65 67 69 73 74 65 72 43 6c 61 73 73 00 52 17 00
+0001970d:  174. DoInitAction (sid: 58)    tagId= 59 len=      82  3a 00 96 1a 00 00 6d 78 2e 73 6b 69 6e 73 2e 68 61 6c 6f 2e 42 75 74 74 6f 6e 53 6b 69 6e 00 1c ... 00 00 00 4f 62 6a 65 63 74 00 1c 96 0f 00 00 72 65 67 69 73 74 65 72 43 6c 61 73 73 00 52 17 00
+00019765:  175. DoInitAction (sid: 59)    tagId= 59 len=      72  3b 00 96 14 00 00 6d 78 2e 63 6f 6e 74 72 6f 6c 73 2e 42 75 74 74 6f 6e 00 1c 96 15 00 00 42 75 ... 00 00 00 4f 62 6a 65 63 74 00 1c 96 0f 00 00 72 65 67 69 73 74 65 72 43 6c 61 73 73 00 52 17 00
+000197b3:  176. ShowFrame                 tagId=  1 len=       0  
+000197b5:  177. End                       tagId=  0 len=       0  

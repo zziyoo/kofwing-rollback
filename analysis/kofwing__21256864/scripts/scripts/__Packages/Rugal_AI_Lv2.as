@@ -1,0 +1,442 @@
+class Rugal_AI_Lv2 extends Rugal_AI
+{
+   var attack_rate0;
+   var combo_rate0;
+   var delayTimer;
+   var dir;
+   var dis_array;
+   var dis_num;
+   var hold_rate0;
+   var mc;
+   var objName;
+   var opp;
+   var skill_dis;
+   var wait_frame0;
+   function Rugal_AI_Lv2()
+   {
+      super();
+      this.skill_init();
+      this.combo_init();
+      this.combo_rate0 = 38;
+      this.attack_rate0 = 48;
+      this.hold_rate0 = 48;
+      this.attack_s0 = 22;
+      this.wait_frame0 = 15;
+      this.combo_risk0 = 40;
+   }
+   function skill_init()
+   {
+      this.dis_array[0] = 100;
+      this.dis_array[1] = 200;
+      this.dis_array[2] = 250;
+      this.dis_array[3] = 300;
+      this.dis_array[4] = 400;
+      this.dis_array[5] = 660;
+      this.dis_array[6] = 1000;
+      this.skill_dis[0] = ["walk_b","squatPunch_l","squatKick_l","squatPunch","squatKick","punch_l","kick_l","fdf_k3","dfdf_k","dfdf_k_EX","dfdf_kl_EX","dfdf_p_EX","db_o","df_o"];
+      this.skill_dis[1] = ["walk_f","squatPunch_l","squatKick_l","squatPunch","squatKick","punch_l","kick_l","fdf_k3","dfdf_k","dfdf_k_EX","dfdf_p_EX","db_o","df_o"];
+      this.skill_dis[2] = ["bdf_k","fdb_p_EX","fdf_k3","dfdf_k","dfdf_k_EX","dfdf_p_EX","db_o","df_o"];
+      this.skill_dis[3] = ["bdf_k","df_pl","fdb_p_EX2","roll_b"];
+      this.skill_dis[4] = ["bdf_k","walk_f","fbdf_p","df_pl","jump_b","fdb_p_EX2","roll_b"];
+      this.skill_dis[5] = ["walk_f","roll_b","fbdf_p","db_p","df_ph","jump_b","fdb_p_EX2"];
+      this.skill_dis[6] = ["walk_f","fbdf_p","db_p","df_ph","jump","roll_b"];
+      this.dis_num = this.dis_array.length;
+   }
+   function combo_init()
+   {
+      this.combo_1 = new Object();
+      this.combo_land = new Object();
+      this.combo_auto = new Object();
+      this.combo_burst = new Object();
+      this.delay_frames = new Object();
+      this.combo_1.punch = ["fbdf_p"];
+      this.combo_1.punch2 = ["f_kl"];
+      this.combo_1.kick = ["fbdf_p"];
+      this.combo_1.kick2 = ["f_kl"];
+      this.combo_1.squatKick_l = ["punch2","kick2","f_kl"];
+      this.comboDis.squatKick_l = [110,130,180];
+      this.combo_1.f_kl = ["df_pl","df_pl","df_ph","df_ph","fdb_p_EX2","db_o","fdb_p_EX2"];
+      this.combo_1.fdb_p_EX2 = ["dash_b"];
+      this.comboDis.fdb_p_EX2 = [400];
+      this.combo_1.df_pl = ["f_kl","dfdf_k","dfdf_p_EX","fbdf_p"];
+      this.comboDis.df_pl = [150,200,350,1000];
+      this.combo_1.df_ph = ["f_kl","dfdf_k","dfdf_p_EX","fbdf_p"];
+      this.comboDis.df_ph = [150,200,350,1000];
+      this.combo_land.jumpSkill_heavyHit = ["dfdf_k","fdf_k2","dfdf_p_EX"];
+      this.comboDis.jumpSkill_heavyHit = [150,250,500];
+      this.comboHeightL.jumpSkill_heavyHit = [40,75,75];
+      this.comboHeightH.jumpSkill_heavyHit = [75,500,150];
+      this.combo_land.jumpSkill_kick = ["squatPunch_l","squatKick_l"];
+      this.comboDis.jumpSkill_kick = [150,200];
+      this.combo_land.jumpSkill_kick_l = ["squatPunch_l","squatKick_l"];
+      this.comboDis.jumpSkill_kick_l = [150,200];
+      this.combo_1.df_o = ["fbdf_p"];
+      this.combo_burst.fbdf_p = ["fbdf_p","dash_f"];
+      this.combo_burst.fdf_k1 = ["df_p_air_EX"];
+      this.delay_frames.fdf_k1 = [16];
+      this.combo_burst.punch2 = ["db_o","fbdf_p","fdb_p_EX"];
+      this.combo_burst.kick2 = ["db_o","fbdf_p","fdb_p_EX"];
+      this.combo_burst.dfdf_p_EX = ["db_o"];
+      this.combo_oppOnEgde.fbdf_p = [true,true];
+      this.action_1 = new Object();
+      this.action_1.airAttack = [["dfdf_k"],["db_p","fdf_k2","jump"],["db_p","jump"],["dash_f"],["fdf_k2","db_p"],["jump_f"],["dfdf_p_EX"],["bdf_k","fbdf_p"]];
+      this.delay_frames.airAttack = [150,150,150,280,280,400,400,1000];
+      this.delay_framesL.airAttack = [80,100,150,350,100,350,60,175];
+      this.delay_framesH.airAttack = [110,150,225,500,150,500,80,250];
+      this.action_1.downMove = [["dash_b"],["dash_f"]];
+      this.delay_frames.downMove = [250,1000];
+      this.action_1.down = [["dash_b"],["df_pl"],["df_ph"],["dash_f"]];
+      this.delay_frames.down = [250,300,500,1000];
+      this.action_1.getup = [["dash_b","jump_f","squatKick_l"],["df_ph","walk_f"],["df_ph","dash_f","bdf_k"]];
+      this.delay_frames.getup = [200,450,1000];
+      this.action_1.oppRoll = [["squatKick_l","squatPunch_l","bdf_k","bdf_p"],["squatKick_l","kick_l","jump","bdf_k"],["df_pl","dash_b"],["roll_b","dash_b","jump_f","db_p"],["db_p","jump_f","df_ph","jump_b"],["dash_f","fbdf_p","db_p","jump"]];
+      this.delay_frames.oppRoll = [100,200,400,450,660,1000];
+      this.action_1.oppRollDown = [["squatKick_l","squatKick_l","dash_b","jump_f"],["dash_b"],["df_pl"]];
+      this.delay_frames.oppRollDown = [200,250,350];
+      this.action_1.oppLandHurt = [["squatPunch_l","f_kl"],["squatKick_l","f_kl"],["dash_f"],["fbdf_p"]];
+      this.delay_frames.oppLandHurt = [130,160,350,1000];
+      this.action_1.oppLand = [["squatKick_l","squatPunch_l","bdf_p"],["squatKick_l","jump_f"],["dash_f","df_ph","bdf_k"],["dash_f","df_ph"]];
+      this.delay_frames.oppLand = [100,200,350,1000];
+      this.action_1.oppJump = [["dfdf_kl_EX","punch_l"],["dfdf_k_EX","fdf_k2","fdf_k1","dfdf_k"],["dfdf_k_EX","dfdf_p_EX","bdf_k","bdf_k","dfdf_k","db_p"],["jump_b","df_pl","db_p"],["fbdf_p"]];
+      this.delay_frames.oppJump = [100,250,300,350,1000];
+      this.action_1.wander = [["roll_b","jump_b"],["wait","jump_b","walk_f"],["dash_f"]];
+      this.delay_frames.wander = [150,300,1000];
+      this.action_1.defend = [["walk_b","walk_b","roll_f"],["walk_b","roll_b"],["walk_b","dash_b","jump_b","roll_b"],["walk_b"]];
+      this.delay_frames.defend = [130,200,400,1000];
+      this.action_1.defendAttack = [["fdf_k1","fdf_k2","dfdf_p_EX"],["bdf_k","dfdf_p_EX"],["fbdf_p","dfdf_p_EX"]];
+      this.delay_frames.defendAttack = [250,300,450];
+      this.action_1.defend_f = [["squatKick_l"],["dash_b","bdf_k"],["fbdf_p"],["fbdf_p"]];
+      this.delay_frames.defend_f = [200,300,450,1000];
+      this.action_1.defend_dashf = [["squatKick_l"],["df_pl","bdf_k"],["fbdf_p"]];
+      this.delay_frames.defend_dashf = [275,350,500];
+      this.action_1.defend_h = [["hold_u","hold_u","roll_f"],["hold_u","roll_b","bdf_k"],["hold_u"]];
+      this.delay_frames.defend_h = [130,200,1000];
+      this.action_1.onEgde = [["hold_u","roll_f","bdf_k"],["jump_f","dash_f"],["hold_u","jump_b"]];
+      this.delay_frames.onEgde = [100,250,300];
+      this.action_1.pos_down = [["squatKick_l","squatKick_l","squatKick_l","squatKick","dash_b","jump_f","dash_f"],["jump_f","dash_f"]];
+      this.delay_frames.pos_down = [250,350];
+      this.action_1.pos_up = [["jump","f_kl","dash_f","dash_b"],["jump_f","dash_f"]];
+      this.delay_frames.pos_up = [175,350];
+   }
+   function move_hold()
+   {
+      clearInterval(this.delayTimer);
+      var opp = this.opp;
+      var _loc15_ = this.dir;
+      var owner = this;
+      this.mc.onEnterFrame = function()
+      {
+         if(_level0.inPause)
+         {
+            return undefined;
+         }
+         if(owner.inFreeze)
+         {
+            return undefined;
+         }
+         if(owner.check_special_defend())
+         {
+            return undefined;
+         }
+         if(opp.status_8 == "jingling")
+         {
+            owner.check_jingling();
+            return undefined;
+         }
+         if(opp.status_8 == "yingzi")
+         {
+            owner.check_yingzi();
+            return undefined;
+         }
+         var _loc14_ = int(Math.random() * 100);
+         if((opp.mc.hitPos == "up" || opp.status_2 == "air") && owner.status_1 != "hold_u" && owner.status_1 != "hold_d")
+         {
+            owner.hold_u();
+            return undefined;
+         }
+         if((opp.mc.hitPos == "up" || opp.status_2 == "air") && owner.status_1 == "hold_d" && _loc14_ < 18 * _level0.level)
+         {
+            owner.hold_u();
+            return undefined;
+         }
+         if((opp.status_1.indexOf("squat") > -1 || opp.mc.hitPos == "down") && owner.status_1 != "hold_u" && owner.status_1 != "hold_d")
+         {
+            owner.hold_d();
+            return undefined;
+         }
+         if((opp.status_1.indexOf("squat") > -1 || opp.mc.hitPos == "down") && owner.status_1 == "hold_u" && _loc14_ < 18 * _level0.level)
+         {
+            owner.hold_d();
+            return undefined;
+         }
+         if(owner.checkMustDefendSkill(opp.status_1))
+         {
+            return undefined;
+         }
+         var _loc2_;
+         _loc2_ = Math.random();
+         var _loc8_;
+         var _loc9_;
+         var _loc6_;
+         var _loc5_;
+         var _loc13_;
+         var _loc7_;
+         var _loc12_;
+         var _loc4_;
+         var _loc3_;
+         var _loc10_;
+         var _loc11_;
+         if(opp.hasObj())
+         {
+            if(opp.status_3 == "hurt")
+            {
+               if(owner.combo_check2())
+               {
+                  return undefined;
+               }
+               if(owner.combo_check())
+               {
+                  return undefined;
+               }
+               if(owner.checkAction())
+               {
+                  return undefined;
+               }
+            }
+            if((opp.status_1.indexOf("squat") > -1 || opp.mc.hitPos == "down") && owner.status_1 != "hold_d")
+            {
+               owner.hold_d();
+               return undefined;
+            }
+            if((opp.mc.hitPos == "up" || opp.status_2 == "air") && owner.status_1 != "hold_u")
+            {
+               owner.hold_u();
+               return undefined;
+            }
+            if(opp.status_6 == "catch" && this.getDis() < 250)
+            {
+               owner.toSkill("jump_b");
+               return undefined;
+            }
+            _loc8_ = 1000;
+            _loc4_ = opp.getObjDis();
+            _loc3_ = opp.getObjs();
+            _loc2_ = 0;
+            while(_loc2_ < _loc3_.length)
+            {
+               this.objName = _loc3_[_loc2_].objName;
+               if(this.objName == "black_dot")
+               {
+                  if(_loc4_ <= 175 && _loc4_ > 130)
+                  {
+                     owner.roll_b();
+                  }
+                  else if(_loc4_ <= 250 && _loc4_ > 175)
+                  {
+                     owner.roll_f();
+                  }
+               }
+               if(_loc3_[_loc2_].area.obj_level != "undefined")
+               {
+                  _loc8_ = _loc3_[_loc2_].area.obj_level;
+                  _loc9_ = _loc3_[_loc2_].area._width;
+                  _loc6_ = _loc3_[_loc2_].area._height;
+                  _loc5_ = _loc3_[_loc2_].area.obj_Vx;
+                  _loc7_ = _loc3_[_loc2_].area._y;
+                  _loc12_ = _loc3_[_loc2_].area.breakDefend;
+                  _loc10_ = _loc3_[_loc2_].area._x;
+                  _loc11_ = _loc3_[_loc2_].area.hitPos;
+               }
+               _loc2_ = _loc2_ + 1;
+            }
+            _loc2_ = Math.random();
+            _loc2_ = Math.random();
+            if(_loc9_ > 250)
+            {
+               return undefined;
+            }
+            if(_loc4_ < 130)
+            {
+               return undefined;
+            }
+            if(_loc4_ <= 180 && _loc4_ > 130 && _loc2_ < 0.1)
+            {
+               owner.roll_f();
+               return undefined;
+            }
+            if(_loc13_ == "undefined" || _loc8_ == 1000)
+            {
+               return undefined;
+            }
+            if(_loc4_ <= 350 && _loc4_ > 250 && !_loc13_ && _loc2_ < 0.18 * _level0.level)
+            {
+               owner.toSkill("df_k");
+               return undefined;
+            }
+            if(_loc4_ <= 550 && _loc4_ > 350 && _loc2_ < 0.18 * _level0.level)
+            {
+               if(_loc8_ < 1 && !_loc13_ && _loc2_ <= 0.5)
+               {
+                  owner.toSkill("fbdf_p");
+                  return undefined;
+               }
+               if(_loc8_ < 1 && !_loc13_ && _loc2_ <= 0.75)
+               {
+                  owner.toSkill("df_ph");
+                  return undefined;
+               }
+               if(_loc8_ < 1 && !_loc13_ && _loc2_ <= 1)
+               {
+                  owner.toSkill("db_p");
+                  return undefined;
+               }
+            }
+            if(opp.getObjNum() > 1)
+            {
+               return undefined;
+            }
+            if(_loc2_ < 0.05 * _level0.level && (_loc6_ < 100 && _loc7_ < 100 && _level0.cpu_op_mode !== "defend" || _loc6_ < 75 && _loc7_ < 75 && _level0.cpu_op_mode === "defend"))
+            {
+               if(_loc5_ > 30 && _loc5_ <= 50 && _loc4_ < 225)
+               {
+                  owner.jump();
+               }
+               if(_loc5_ > 20 && _loc5_ <= 30 && _loc4_ < 175)
+               {
+                  owner.jump();
+               }
+               if(_loc5_ > 10 && _loc5_ <= 20 && _loc4_ < 125)
+               {
+                  owner.jump();
+               }
+            }
+            if(_loc4_ > 300 && _loc4_ < 450 && _loc5_ > 20 && _loc5_ <= 40 && _loc2_ < 0.18 * _level0.level && (_loc6_ < 100 && _loc7_ < 100 && _level0.cpu_op_mode !== "defend" || _loc6_ < 75 && _loc7_ < 75 && _level0.cpu_op_mode === "defend"))
+            {
+               owner.jump_f();
+               return undefined;
+            }
+            if(_loc4_ > 200 && _loc4_ < 250 && _loc5_ > 12 && _loc5_ <= 20 && _loc2_ < 0.18 * _level0.level && (_loc6_ < 100 && _loc7_ < 100 && _level0.cpu_op_mode !== "defend" || _loc6_ < 75 && _loc7_ < 75 && _level0.cpu_op_mode === "defend"))
+            {
+               owner.jump_f();
+               return undefined;
+            }
+            if(_loc4_ > 150 && _loc4_ < 200 && _loc5_ > 8 && _loc5_ <= 12 && _loc2_ < 0.18 * _level0.level && (_loc6_ < 100 && _loc7_ < 100 && _level0.cpu_op_mode !== "defend" || _loc6_ < 75 && _loc7_ < 75 && _level0.cpu_op_mode === "defend"))
+            {
+               owner.jump_f();
+               return undefined;
+            }
+            if(_loc4_ > 400 && _loc4_ <= 500 && _loc5_ > 30 && _loc5_ <= 50 && _loc2_ < 0.18 * _level0.level && (_loc6_ < 100 && _loc7_ < 100 && _level0.cpu_op_mode !== "defend" || _loc6_ < 75 && _loc7_ < 75 && _level0.cpu_op_mode === "defend"))
+            {
+               owner.jump_f();
+               return undefined;
+            }
+            if(_loc4_ > 325 && _loc4_ <= 400 && _loc5_ > 20 && _loc5_ <= 30 && _loc2_ < 0.18 * _level0.level && (_loc6_ < 100 && _loc7_ < 100 && _level0.cpu_op_mode !== "defend" || _loc6_ < 75 && _loc7_ < 75 && _level0.cpu_op_mode === "defend"))
+            {
+               owner.jump_f();
+               return undefined;
+            }
+            if(_loc4_ > 250 && _loc4_ <= 325 && _loc5_ > 10 && _loc5_ <= 20 && _loc2_ < 0.18 * _level0.level && (_loc6_ < 100 && _loc7_ < 100 && _level0.cpu_op_mode !== "defend" || _loc6_ < 75 && _loc7_ < 75 && _level0.cpu_op_mode === "defend"))
+            {
+               owner.jump_f();
+               return undefined;
+            }
+            if(_loc5_ == 0 && _loc2_ < 0.18 * _level0.level)
+            {
+               if(_loc4_ <= 25)
+               {
+                  owner.roll_f();
+               }
+               else if(_loc4_ <= 200)
+               {
+                  owner.dash_b();
+               }
+            }
+            if(_loc5_ <= 12 && _loc4_ < 500 && _loc4_ >= 150 && _loc2_ < 0.18 * _level0.level)
+            {
+               if(_loc4_ < 350)
+               {
+                  owner.roll_f();
+               }
+               else if(_loc4_ > 350)
+               {
+                  owner.roll_b();
+               }
+            }
+            if(_loc5_ > 25 && _loc5_ < 40 && _loc4_ >= 150 && _loc2_ < 0.18 * _level0.level)
+            {
+               if(_loc4_ <= 200 && this.getDis() > 450)
+               {
+                  owner.roll_f();
+               }
+            }
+            if(_loc5_ > 40 && _loc5_ < 70 && _loc4_ >= 150 && _loc2_ < 0.18 * _level0.level)
+            {
+               if(_loc4_ <= 200)
+               {
+                  owner.roll_b();
+               }
+               else if(_loc4_ <= 350)
+               {
+                  owner.roll_f();
+               }
+            }
+            if(_loc5_ > 70 && _loc4_ >= 150 && _loc2_ < 0.18 * _level0.level)
+            {
+               if(_loc4_ <= 250)
+               {
+                  owner.roll_b();
+               }
+               else if(_loc4_ >= 450)
+               {
+                  owner.roll_f();
+               }
+            }
+            owner.move_hold();
+            if(_loc5_ < 25 && _loc5_ > 12 && _loc4_ >= 150 && _loc2_ < 0.18 * _level0.level)
+            {
+               if(_loc4_ <= 200 && this.getDis() > 450)
+               {
+                  owner.roll_f();
+               }
+            }
+            return undefined;
+         }
+         _loc2_ = int(Math.random() * 100);
+         if((opp.mc.hitPos == "up" || opp.status_2 == "air") && owner.status_1 != "hold_u" && _loc2_ < 18 * _level0.level)
+         {
+            owner.hold_u();
+            return undefined;
+         }
+         if((opp.status_1.indexOf("squat") > -1 || opp.mc.hitPos == "down") && owner.status_1 != "hold_d" && _loc2_ < 18 * _level0.level)
+         {
+            owner.hold_d();
+            return undefined;
+         }
+         if(opp.status_3 != "attack" && !opp.hasObj() && owner.holdFreeze == false)
+         {
+            if(owner.status_1 == "hold_d")
+            {
+               owner.squat();
+            }
+            else
+            {
+               owner.stand();
+            }
+         }
+         else if(owner.holdFreeze == false && opp.hit_over())
+         {
+            if(!owner.checkAttack())
+            {
+               if(owner.status_1 == "hold_d")
+               {
+                  owner.squat();
+               }
+               else
+               {
+                  owner.stand();
+               }
+            }
+         }
+      };
+   }
+}

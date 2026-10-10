@@ -1,0 +1,133 @@
+class Nameless_AI_Lv1 extends Nameless_AI
+{
+   var attack_rate0;
+   var combo_rate0;
+   var dis_array;
+   var dis_num;
+   var hold_rate0;
+   var skill_dis;
+   var wait_frame0;
+   function Nameless_AI_Lv1()
+   {
+      super();
+      this.skill_init();
+      this.combo_init();
+      this.combo_rate0 = 20;
+      this.attack_rate0 = 22;
+      this.hold_rate0 = 20;
+      this.attack_s0 = 8;
+      this.wait_frame0 = 100;
+      this.combo_risk0 = 100;
+   }
+   function skill_init()
+   {
+      this.dis_array[0] = 100;
+      this.dis_array[1] = 150;
+      this.dis_array[2] = 200;
+      this.dis_array[3] = 300;
+      this.dis_array[4] = 400;
+      this.dis_array[5] = 450;
+      this.dis_array[6] = 550;
+      this.dis_array[7] = 1000;
+      this.skill_dis[0] = ["walk_b","squatKick_l","squatPunch","squatKick","squatPunch_l","punch_l","punch","kick","kick_l","dfdf_p","dfdf_k"];
+      this.skill_dis[1] = ["walk_b","squatKick_l","squatPunch","squatKick","squatPunch_l","punch_l","punch","kick","kick_l","dfdf_p","dfdf_k"];
+      this.skill_dis[2] = ["walk_f","squatKick_l","squatPunch","squatKick","squatPunch_l","punch_l","punch","kick","kick_l","dfdf_p","dfdf_k"];
+      this.skill_dis[3] = ["walk_f","walk_f","roll_f","db_kl","jump_f","dfdf_p","dfdf_k"];
+      this.skill_dis[4] = ["df_ph","walk_f","dfdf_p","dfdf_k"];
+      this.skill_dis[5] = ["df_ph","df_pl","roll_f","walk_f","dfdf_p","dfdf_k"];
+      this.skill_dis[6] = ["walk_f","walk_f","walk_f","walk_f","roll_f","dfdf_p","dfdf_k"];
+      this.skill_dis[7] = ["df_ph","walk_f","walk_f","walk_f","walk_f","walk_f","df_k","dfdf_p","dfdf_k"];
+      this.dis_num = this.dis_array.length;
+   }
+   function combo_init()
+   {
+      this.combo_1 = new Object();
+      this.combo_land = new Object();
+      this.combo_auto = new Object();
+      this.combo_burst = new Object();
+      this.delay_frames = new Object();
+      this.combo_1.punch_l = ["punch2","punch"];
+      this.comboDis.punch_l = [130,200];
+      this.combo_1.squatPunch_l = ["punch2","f_k"];
+      this.comboDis.squatPunch_l = [130,200];
+      this.combo_1.punch2 = ["f_k","f_k","f_k","df_k"];
+      this.combo_1.squatKick_l = ["punch2","f_p","df_k"];
+      this.comboDis.squatKick_l = [130,180,350];
+      this.combo_1.kick = ["f_p","df_k","df_k"];
+      this.combo_1.kick2 = ["df_o"];
+      this.combo_1.kick_l = ["punch2","f_p","df_k"];
+      this.comboDis.kick_l = [130,170,1000];
+      this.combo_1.f_k = ["df_k","df_k","df_k","df_k","df_k","df_k","f_p","df_pl","df_pl","df_pl"];
+      this.combo_1.df_k = ["db_kl","f_p","df_pl","df_pl","df_pl"];
+      this.combo_1.fdf_pl = ["dfdf_p_can"];
+      this.combo_1.f_p = ["dfdf_p_can","walk_f"];
+      this.comboDis.f_p = [180,500];
+      this.combo_power.f_p = ["dfdf_p_max_can","walk_f"];
+      this.comboDis.f_p = [180,500];
+      this.combo_1.squatPunch = ["f_k","f_p","f_k","df_k","f_k"];
+      this.combo_1.db_kl = ["kick2","fdf_ph","dfdf_k","dfdf_p"];
+      this.combo_land.jumpSkill_punch = ["squatKick_l","punch2","squatPunch","df_k"];
+      this.comboDis.jumpSkill_kick = [80,120,260,350];
+      this.combo_land.jumpSkill_punch_l = ["squatKick_l","punch2","squatPunch","df_k"];
+      this.comboDis.jumpSkill_punch_l = [80,120,260,350];
+      this.combo_land.jumpSkill_kick_l = ["squatKick_l","punch2","squatPunch","df_k"];
+      this.comboDis.jumpSkill_kick_l = [80,120,260,350];
+      this.combo_land.jump = ["squatKick_l"];
+      this.comboDis.jump = [150];
+      this.combo_land.jump_f = ["squatKick_l"];
+      this.comboDis.jump_f = [150];
+      this.combo_land.jumpSkill_heavyHit = ["dfdf_k"];
+      this.comboDis.jumpSkill_heavyHit = [1000];
+      this.comboHeightL.jumpSkill_heavyHit = [75];
+      this.comboHeightH.jumpSkill_heavyHit = [500];
+      this.combo_burst.df_k = ["f_p","db_k","db_k"];
+      this.combo_burst.f_p = ["db_k","df_k","df_pl"];
+      this.combo_burst.db_k = ["df_k","df_k","fdf_ph"];
+      this.combo_burst.fdf_ph = ["dfdf_p"];
+      this.combo_burst.dfdf_p = ["dfdf_k","db_o"];
+      this.combo_burst.dbdf_k = ["dfdf_p","df_o"];
+      this.combo_oppOnEgde.dfdf_p = [true,true];
+      this.combo_oppOnEgde.dbdf_k = [true,true];
+      this.action_1 = new Object();
+      this.action_1.airAttack = [["dfdf_p"],["db_o","fdf_ph"],["fdf_ph","db_kl"],["fdf_pl"],["dfdf_k","dfdf_k","db_k"]];
+      this.delay_frames.airAttack = [150,150,280,300,1000];
+      this.delay_framesL.airAttack = [150,125,100,75,125];
+      this.delay_framesH.airAttack = [500,200,200,125,200];
+      this.action_1.downMovePower = [["df_o","walk_f"]];
+      this.delay_frames.downMovePower = [1000];
+      this.action_1.downMove = [["df_o","walk_f"]];
+      this.delay_frames.downMove = [1000];
+      this.action_1.down = [["df_o","walk_f"]];
+      this.delay_frames.down = [1000];
+      this.action_1.downPower = [["df_o","walk_f"]];
+      this.delay_frames.downPower = [1000];
+      this.action_1.getup = [["jump_b","jump_f","jump","squatKick_l","squatPunch_l","roll_f","roll_b","roll_f"],["roll_f","jump","jump_f","walk_f"],["df_pl","walk_f"],["df_k","df_ph","walk_f"],["walk_f"]];
+      this.delay_frames.getup = [150,200,250,380,550];
+      this.action_1.oppRollDown = [["roll_f","squatKick_l"],["roll_f","db_kl"],["df_pl","db_kl"],["df_ph","db_k"]];
+      this.delay_frames.oppRollDown = [150,200,250,380];
+      this.action_1.oppLandHurt = [["punch_l","squatPunch_l","squatKick_l"],["punch2"],["kick"],["f_p"]];
+      this.delay_frames.oppLandHurt = [80,110,160,280];
+      this.action_1.oppLand = [["squatKick_l","squatPunch_l","kick_l","punch_l"],["kick_l"]];
+      this.delay_frames.oppLand = [150,200];
+      this.action_1.oppRoll = [["squatPunch_l","punch_l","squatKick_l","roll_f"],["jump_b","jump","jump_f","dfdf_k"],["df_pl","jump_b","roll_f","db_kl","df_k"],["df_ph","jump_b","db_k"],["dfdf_k","roll_f","roll_b"]];
+      this.delay_frames.oppRoll = [150,400,500,600,1000];
+      this.action_1.oppJump = [["fdf_ph","dfdf_p","fdf_pl"],["db_o","fdf_ph","dfdf_p","fdf_pl","db_kl"],["fdf_ph","fdf_pl","db_kl"],["fdf_pl","fdf_pl","db_k"],["dfdf_k"]];
+      this.delay_frames.oppJump = [230,250,280,300,1000];
+      this.action_1.wander = [["roll_b","jump_b"],["jump_b","walk_f"],["walk_f"]];
+      this.delay_frames.wander = [150,300,1000];
+      this.action_1.defend = [["walk_b","walk_b","roll_f"],["walk_b","roll_b"],["walk_b","roll_f","jump_b","roll_b"],["walk_b"]];
+      this.delay_frames.defend = [130,200,400,1000];
+      this.action_1.defendAttack = [["fdf_ph","dfdf_p","fdf_pl","dfdf_k","df_o"],["db_o","fdf_ph","dfdf_p","fdf_pl","dfdf_k","df_o","db_kl"],["fdf_ph","fdf_pl","dfdf_k","df_o","db_kl","db_k"],["fdf_pl","dfdf_k","df_o","db_k"],["dfdf_k","df_o"]];
+      this.delay_frames.defendAttack = [230,250,280,300,1000];
+      this.action_1.defend_f = [["squatKick_l","kick_l"],["jump_b"],["roll_f"]];
+      this.delay_frames.defend_f = [150,250,1000];
+      this.action_1.defend_dashf = [["roll_f","squatPunch_l","squatKick_l"],["squatPunch_l"],["jump_f"],["roll_f"]];
+      this.delay_frames.defend_dashf = [150,200,350,1000];
+      this.action_1.defend_h = [["hold_u","hold_u","hold_u","hold_u","roll_f"],["hold_u","hold_u","hold_u","roll_b"],["hold_u"]];
+      this.delay_frames.defend_h = [130,400,1000];
+      this.action_1.pos_down = [["squatKick_l","jump","walk_f"],["squatKick","jump_b","walk_f","kick"],["walk_f"],["df_k"],["jump_f","walk_f","walk_f"]];
+      this.delay_frames.pos_down = [150,180,260,310,450];
+      this.action_1.pos_up = [["jump","jump_b","walk_f"],["jump_f","walk_f"],["jump_f","jump","walk_f","walk_f"]];
+      this.delay_frames.pos_up = [150,250,450];
+   }
+}

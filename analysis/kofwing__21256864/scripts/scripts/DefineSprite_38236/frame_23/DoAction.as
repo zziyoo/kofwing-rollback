@@ -1,0 +1,2 @@
+stop();
+_parent.countEnd();

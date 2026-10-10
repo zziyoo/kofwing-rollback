@@ -1,0 +1,2724 @@
+               _loc4_ = _loc1_;
+               _loc5_ = _loc1_;
+               break;
+            AlertResponse = 0;
+            _loc3_ = _loc1_;
+            _loc6_ = _loc1_;
+            _parent.localinformationSetting.text = _root.ls.storageLevels[i].label;
+            _root.changeKlimit(_root.ls.storageLevels[i].value);
+            _root.errorCode = _loc2_.error != 3 ? 2 : 3;
+            break;
+            gotoAndStop("DP_error");
+            if(_loc1_.attributes.param == "default" || _loc1_.attributes.param == undefined)
+            if(_loc1_.attributes.param == inputState.param)
+            myKb = ls.displayAs[_loc1_];
+            this._x = eval("mark" + i + "Xpos") + _parent.crib._x;
+            this._x = markXpos + _parent.crib._x;
+            {
+            }
+         AlertResponse = _loc2_;
+         _loc1_ = _loc1_ + 1;
+         _loc1_ = _loc1_.nextSibling;
+         _loc2_ = _loc1_.attributes.id;
+         _loc2_ = ls.storageLevels[i].value;
+         _loc2_ = true;
+         _loc2_.finish = true;
+         break;
+         camMsg._visible = false;
+         clearInterval(checkIt);
+         clearInterval(visInterval);
+         else
+         g = 0;
+         g = 100;
+         i++;
+         if(_loc1_.attributes.lang == "en-US")
+         if(_loc1_.attributes.lang == _loc7_)
+         if(_loc1_.nodeName == "FlashDownloadStrings")
+         if(_loc2_.error)
+         if(_root.ls.storageLevels[i].value == radVal)
+         if(ls.available[_loc1_] == domainSettings.data.klimit)
+         if(this._x - _parent.crib._x / 2 > markXpos - snapDistance && this._x - _parent.crib._x / 2 <= markXpos + snapDistance)
+         kb = "Ko";
+         language = "CHS";
+         language = "CHT";
+         language = "cs";
+         language = "english_us";
+         language = "french";
+         language = "german";
+         language = "italian";
+         language = "japanese";
+         language = "korean";
+         language = "nl";
+         language = "pl";
+         language = "pt";
+         language = "ru";
+         language = "spanish";
+         language = "sv";
+         language = "tr";
+         level = 100;
+         ls[_loc2_] = txt;
+         markXpos = eval("mark" + i + "Xpos");
+         myDef = _loc1_;
+         myRoot[btn].gotoAndStop(1);
+         myRoot[btn].gotoAndStop(2);
+         myRoot[i].useHandCursor = false;
+         myStyle = "altStyle";
+         myStyle = "defStyle";
+         removeMovieClip(par[_loc1_]);
+         success = this.owner.extractStringsFromXML();
+         this.owner.errorCode = 2;
+         this.owner.gotoAndStop("DP_dialog");
+         this.owner.gotoAndStop("DP_error");
+         txt = _loc1_.firstChild.nodeValue;
+         visInterval = true;
+         {
+         }
+      AlertResponse = "always";
+      AlertResponse = "echosuppression";
+      AlertResponse = "klimit";
+      AlertResponse = "safefullscreen";
+      Cancel.label.text = ls.Cancel;
+      Never.gotoAndStop(1);
+      Never.gotoAndStop(2);
+      OK.label.text = ls.OK;
+      UpdateGain();
+      _loc1_ += 1;
+      _loc1_ = 0;
+      _loc1_ = _loc1_.nextSibling;
+      _loc1_ = translation.firstChild;
+      _loc2_ = 4;
+      _loc2_ = _loc2_ - 1;
+      _loc2_ = input.substr(0,_loc1_) + _loc2_;
+      _loc3_ = System.security.escapeDomain(inputState.domain);
+      _loc3_ = _loc6_;
+      _loc3_ = new Object();
+      _loc3_.query = "defaultMicrophone";
+      _loc4_ = _loc5_;
+      _parent.AlertResponse = "allow";
+      _parent.AlertResponse = "always_allow";
+      _parent.AlertResponse = "always_deny";
+      _parent.AlertResponse = "deny";
+      _parent.AlertResponse = "gain";
+      _parent._parent.showSel(this,_parent);
+      _parent.changeKlimit(-1);
+      _parent.changeKlimit(0);
+      _parent.crib._alpha = 100;
+      _parent.crib._alpha = 30;
+      _parent.localinformationSetting.text = _parent.ls.storageLevels[1].label;
+      _parent.meter.gmask._width = 0;
+      _parent.meter.gmask._width = level;
+      _parent.onSel = false;
+      _parent.playerSettings.data.gain = 75;
+      _parent.playerSettings.data.gain = g;
+      _parent.setText(1);
+      _parent.setText(2);
+      _parent.setText(3);
+      _parent.setText(4);
+      _parent.setText(5);
+      _parent.setText(6);
+      _parent.slider._alpha = 100;
+      _parent.slider._alpha = 75;
+      _parent.slider._x = _parent.crib._x;
+      _parent.slider.active = false;
+      _parent.slider.active = true;
+      _parent.tout("psd2 " + _parent.domainSettings.data.klimit);
+      _root.changeKlimit(ls.storageLevels[n].value);
+      _root.errorCode = 2;
+      activeMenu = null;
+      bev._visible = true;
+      camBorder._visible = false;
+      camMsg._visible = true;
+      camMsg.text = ls.noCam;
+      cameraSettings._x = localinformation._x;
+      cammenu.myList[i] = camList[i];
+      case "cs":
+      case "de":
+      case "en-US":
+      case "es":
+      case "fr":
+      case "it":
+      case "ja":
+      case "ko":
+      case "nl":
+      case "pl":
+      case "pt":
+      case "pt-BR":
+      case "ru":
+      case "sv":
+      case "tr":
+      case "zh-CN":
+      case "zh-TW":
+      changeKlimit(-1);
+      checkIt = setInterval(this.download,200,this);
+      clearInterval(checkIt);
+      clearInterval(p.intid);
+      crib._alpha = 100;
+      crib._alpha = 30;
+      default:
+      delete this.owner.translation;
+      domainSettings.data.always = a;
+      domainSettings.data.klimit = val;
+      domainStyle = "<font color=\'#0066CC\'>" + _loc3_ + "</font>";
+      drawMenu(obj._parent);
+      else
+      else if(g >= 100)
+      fSize = 10;
+      fSize = 11;
+      g = this._x - this.left + 1;
+      gotoAndStop("DP_download");
+      gotoAndStop("DP_error");
+      gotoAndStop("DP_init");
+      gotoAndStop("_dispatch");
+      gotoAndStop("_localinformation");
+      gotoAndStop("alert_error");
+      gotoAndStop("alert_storage");
+      gotoAndStop("pop_crossdomain");
+      gotoAndStop("pop_p2p");
+      gotoAndStop("pop_privacy");
+      gotoAndStop("pop_screenshare");
+      gotoAndStop("pop_storage");
+      gotoAndStop(1);
+      gotoAndStop(2);
+      i = -1;
+      i = 1;
+      i++;
+      if(_loc1_ == camList[i])
+      if(_loc1_ == micList[i])
+      if(_loc1_.nodeName == "string")
+      if(_loc1_.nodeName == "translation")
+      if(_loc2_.position == _loc2_.length)
+      if(g <= 0.2)
+      if(inputState.krequest <= ls.available[s])
+      if(kc <= ls.storageLevels[i].value && kc != -2)
+      if(level > 100)
+      if(ls.available[s] == -2)
+      if(myRoot[btn]._currentframe == 1)
+      if(myRoot[i] instanceof Button || myRoot[i] instanceof MovieClip)
+      if(success && this.status == 0)
+      if(visInterval != null)
+      kbStyle = myKb;
+      killClips(obj._parent);
+      localinformation._visible = false;
+      localinformationSetting.text = ls.storageLevels[1].label;
+      localinformationSetting.text = ls.storageLevels[n].label;
+      ls.installerConnecting = english_usStrings.installerConnecting;
+      markList[i] = (i - 1) * ((_parent.crib._width - this._width) / (markers - 1));
+      micmenu.myList[i] = micList[i];
+      microphoneSettings._x = privacy._x;
+      myDef = _loc3_.response;
+      myDef = camList[0];
+      myRoot.AlertResponse = "defaultCamera";
+      myRoot.AlertResponse = "defaultMicrophone";
+      myRoot.AlertResponse = _loc3_;
+      myRoot.playerSettings.data.defaultCamera = val;
+      myRoot.playerSettings.data.defaultMicrophone = val;
+      myview.Clear();
+      newVal = null;
+      newVal = val;
+      p.attachMovie("item",i,i);
+      p.displayAs[i] = p.myList[i];
+      p.visibleCount = 0;
+      p.visibleCount = p.visibleCount + 1;
+      p[i]._x = 0;
+      p[i]._y = p.sel._height + p.sel._height * i;
+      p[i].title.text = p.displayAs[i];
+      par.menu = false;
+      playerSettings.data.echosuppression = a;
+      playerSettings.data.safefullscreen = a;
+      pop_crossdomain_msg._y -= 2;
+      pressed = false;
+      pressed = true;
+      privacy._visible = System.capabilities.hasAudioEncoder || System.capabilities.hasVideoEncoder;
+      privacy._visible = false;
+      progBar.bar._width = _loc2_.position / _loc2_.length * progBar.rect._width;
+      removeMovieClip(o[i]);
+      return false;
+      return input;
+      return undefined;
+      s++;
+      securityRemember._visible = false;
+      securityRemember.msg.text = ls.Remember;
+      sentence = Substitute(sentence,"%1",domainStyle);
+      sentence = Substitute(sentence,"%2",kbStyle);
+      sentence = ls.storageAlert;
+      set("mark" + i + "Xpos",(i - 1) * ((_parent.crib._width - this._width) / (markers - 1)));
+      setStyle(Cancel.label);
+      setStyle(OK.label);
+      setStyle(Remember.msg);
+      setStyle(camMsg);
+      setStyle(t_msg);
+      slider._alpha = 100;
+      slider._alpha = 75;
+      slider._x = _parent.crib._x;
+      slider._x = crib._x;
+      slider._x = slider.markList[n] + crib._x;
+      slider.active = false;
+      slider.active = true;
+      startDrag(this,0,left,top,right,bottom);
+      stopDrag();
+      t_msg.htmlText = ls.storageError;
+      t_msg.htmlText = sentence;
+      this._visible = 0;
+      this._visible = 1;
+      this._x = -210;
+      this._x = 0;
+      this._x = _parent.crib._x;
+      this.always = _parent.domainSettings.data.always;
+      this.always = false;
+      this.echosuppression = _parent.playerSettings.data.echosuppression;
+      this.echosuppression = false;
+      this.gotoAndStop(1);
+      this.gotoAndStop(2);
+      this.gotoAndStop(3);
+      this.safefullscreen = _parent.playerSettings.data.safefullscreen;
+      this.safefullscreen = false;
+      title.textColor = 16777215;
+      titles.label._y -= 1;
+      translation.load(inputState.url + "&what=descr");
+      translation.load(inputState.url);
+      var radVal = _root.getAppropriateLevel(_root.domainSettings.data.klimit);
+      while(_loc1_ !== null)
+      while(_loc1_ < ls.available.length)
+      while(_loc1_ < par.myList.length)
+      while(i < _root.ls.storageLevels.length)
+      while(i <= markers)
+      winmenu.myList[_loc1_] = inputState.windowList[_loc1_];
+      {
+      }
+   ASNative(2107,99)(cont,System.capabilities.language);
+   AlertResponse = "klimit";
+   AlertResponse = "layout";
+   AlertResponse = "ok";
+   AlertResponse = 1;
+   AlertResponse = _loc1_;
+   AlertResponse = _loc2_;
+   Allow.label.text = ls.Allow;
+   CHSStrings = new Object();
+   CHSStrings.Advanced = "
+   CHSStrings.Allow = "
+   CHSStrings.Cancel = "
+   CHSStrings.Close = "
+   CHSStrings.Current = "
+   CHSStrings.DP_error_1 = inputState.name;
+   CHSStrings.DP_error_2 = "
+   CHSStrings.DP_error_3 = "
+   CHSStrings.Deny = "
+   CHSStrings.Echo = "
+   CHSStrings.Never = "
+   CHSStrings.No = "
+   CHSStrings.OK = "
+   CHSStrings.P2PPrivacyMsgText = "%1 
+   CHSStrings.PrivacyMsgText = "
+   CHSStrings.PrivacyPopMsgText = "%1 
+   CHSStrings.Remember = "
+   CHSStrings.Retry = "
+   CHSStrings.ScreenPrivacyMsgText = "
+   CHSStrings.StorageMsgText = "%1 
+   CHSStrings.Volume = "
+   CHSStrings.Yes = "
+   CHSStrings.available = new Array(0,10,100,1024,10240,-2);
+   CHSStrings.displayAs = new Array("0 KB","10 KB","100 KB","1 MB","10 MB","
+   CHSStrings.installerConnecting = "
+   CHSStrings.installerTitle = "Adobe Flash";
+   CHSStrings.kb = "KB";
+   CHSStrings.local = "
+   CHSStrings.noCam = "
+   CHSStrings.popUp_StorageData = "
+   CHSStrings.popUp_StorageText = "%1 
+   CHSStrings.securityMsg = "%1 
+   CHSStrings.securityRemember = "
+   CHSStrings.storageAlert = "
+   CHSStrings.storageError = "
+   CHSStrings.storageLevels = new Array({label:"
+   CHSStrings.titles = new Array("
+   CHSStrings.videoSafe = "
+   CHSStrings.waitMsg = "
+   CHSStrings.windowTitle = "Adobe Flash Player 
+   CHTStrings = new Object();
+   CHTStrings.Advanced = "
+   CHTStrings.Allow = "
+   CHTStrings.Cancel = "
+   CHTStrings.Close = "
+   CHTStrings.Current = "
+   CHTStrings.DP_error_1 = inputState.name;
+   CHTStrings.DP_error_2 = "
+   CHTStrings.DP_error_3 = "
+   CHTStrings.Deny = "
+   CHTStrings.Echo = "
+   CHTStrings.Never = "
+   CHTStrings.No = "
+   CHTStrings.OK = "
+   CHTStrings.P2PPrivacyMsgText = "%1 
+   CHTStrings.PrivacyMsgText = "
+   CHTStrings.PrivacyPopMsgText = "%1 
+   CHTStrings.Remember = "
+   CHTStrings.Retry = "
+   CHTStrings.ScreenPrivacyMsgText = "
+   CHTStrings.StorageMsgText = "%1 
+   CHTStrings.Volume = "
+   CHTStrings.Yes = "
+   CHTStrings.available = new Array(0,10,100,1024,10240,-2);
+   CHTStrings.displayAs = new Array("0 KB","10 KB","100 KB","1 MB","10 MB","
+   CHTStrings.installerConnecting = "
+   CHTStrings.installerTitle = "Adobe Flash";
+   CHTStrings.kb = "KB";
+   CHTStrings.local = "
+   CHTStrings.noCam = "
+   CHTStrings.popUp_StorageData = "
+   CHTStrings.popUp_StorageText = "%1 
+   CHTStrings.securityMsg = "%1 
+   CHTStrings.securityRemember = "
+   CHTStrings.storageAlert = "
+   CHTStrings.storageError = "
+   CHTStrings.storageLevels = new Array({label:"
+   CHTStrings.titles = new Array("
+   CHTStrings.videoSafe = "
+   CHTStrings.waitMsg = "
+   CHTStrings.windowTitle = "Adobe Flash Player 
+   Cancel.label.text = ls.Cancel;
+   Close.label.text = ls.Close;
+   Current.text = ls.Current + " " + inputState.kcurrent + kb;
+   DP_msg.htmlText = ec[this.errorCode];
+   DP_msg.htmlText = ls.installMsg_progress;
+   DP_msg.htmlText = sentence;
+   DP_msg.text = ls.installerConnecting;
+   Deny.label.text = ls.Deny;
+   Echo.msg.text = ls.Echo;
+   Never.hilite.gotoAndStop(1);
+   Never.msg.text = ls.Never;
+   No.label.text = ls.No;
+   Remember.msg.text = ls.Remember;
+   Retry.label.text = ls.Retry;
+   UpdateGain();
+   Volume.text = ls.Volume;
+   Yes.label.text = ls.Yes;
+   _global.lang = System.capabilities.language;
+   _loc1_ = Substitute(_loc1_,"%1",domainStyle);
+   _loc1_ = Substitute(_loc1_,"%2",_loc2_);
+   _loc1_ = _loc3_.firstChild;
+   _loc1_ = _loc4_.firstChild;
+   _loc1_.start = true;
+   _loc3_.x = obj._xmouse;
+   _loc3_.y = obj._ymouse;
+   _parent.AlertResponse = "allow";
+   _parent.AlertResponse = "ok";
+   _parent.AlertResponse = 0;
+   _parent.AlertResponse = 1;
+   _parent.Allow.gotoAndStop(1);
+   _parent.DP_dl_deny();
+   _parent.DP_dl_retry();
+   _parent.Deny.gotoAndStop(1);
+   _parent._parent.arrowAction(this);
+   _parent._parent.outsideMenu(this,_parent);
+   _parent.allowStorageChange();
+   _parent.checkIt = setInterval(_parent.download,200);
+   _parent.denyStorageChange();
+   _parent.doTab(_name);
+   _parent.domainSettings.data.allow = false;
+   _parent.domainSettings.data.allow = true;
+   _parent.getHelpURL();
+   _parent.gotoAndStop("DP_download");
+   _parent.itabs[0] = this._name;
+   _parent.itabs[1] = this._name;
+   _parent.itabs[2] = this._name;
+   _parent.itabs[3] = this._name;
+   _parent.itabs[4] = this._name;
+   _parent.onChange(this._name,this.always);
+   _parent.onChange(this._name,this.echosuppression);
+   _parent.onChange(this._name,this.safefullscreen);
+   _parent.onSel = false;
+   _parent.onSel = true;
+   _parent.pop_changeKlimit();
+   _parent.pressSnap(1);
+   _parent.pressSnap(2);
+   _parent.pressSnap(3);
+   _parent.pressSnap(4);
+   _parent.pressSnap(5);
+   _parent.pressSnap(6);
+   _parent.showVid();
+   _parent.storageErrorOK();
+   _parent.tout("psd " + _parent.domainSettings.data.klimit);
+   activeMenu = null;
+   activeMenu = p;
+   bev._visible = false;
+   block._height = 4000;
+   block._width = 4000;
+   bottom = top;
+   busy_mc._visible = false;
+   busy_mc._visible = true;
+   butt_Advanced.label.text = ls.Advanced + "...";
+   camBorder_butt.vidCover._visible = false;
+   camList = Camera.names;
+   camList = new Array();
+   camMsg._visible = false;
+   camMsg.borderColor = 16777215;
+   camMsg.text = ls.waitMsg;
+   cameraSettings._visible = System.capabilities.hasVideoEncoder;
+   cameraSettings._x = microphoneSettings._x + spacing;
+   cameraSettings.gotoAndStop("off");
+   cameraSettings.gotoAndStop("on");
+   cammenu.myList = new Array();
+   changeKlimit(_loc1_);
+   checkIt = setInterval(this.download,200,this);
+   checkPort(windowTitle);
+   clearInterval(visInterval);
+   cont = "camera";
+   cont = "localinfo";
+   cont = "microphone";
+   cont = "pop_crossdomain";
+   cont = "pop_localinfo";
+   cont = "pop_p2p";
+   cont = "pop_privacy";
+   cont = "pop_screenshare";
+   cont = "privacy";
+   cont = "video";
+   csStrings = new Object();
+   csStrings.Advanced = "Dal
+   csStrings.Allow = "Povolit";
+   csStrings.Cancel = "Zru
+   csStrings.Close = "Zav
+   csStrings.Current = "Pou
+   csStrings.DP_error_1 = inputState.name;
+   csStrings.DP_error_2 = "P
+   csStrings.DP_error_3 = "Nelze zapsat aplikaci na pevn
+   csStrings.Deny = "Odm
+   csStrings.Echo = "Potla
+   csStrings.Never = "Znovu se nedotazovat";
+   csStrings.No = "Ne";
+   csStrings.OK = "OK";
+   csStrings.P2PPrivacyMsgText = "%1 sm
+   csStrings.PrivacyMsgText = "Povolit %1 p
+   csStrings.PrivacyPopMsgText = "%1 po
+   csStrings.Remember = "Zapamatovat";
+   csStrings.Retry = "Zkusit znovu";
+   csStrings.ScreenPrivacyMsgText = "Povolit %1 sd
+   csStrings.StorageMsgText = "Jak
+   csStrings.Volume = "Hlasitost nahr
+   csStrings.Yes = "Ano";
+   csStrings.available = new Array(0,10,100,1024,10240,-2);
+   csStrings.displayAs = new Array("0 kB","10 kB","100 kB","1 MB","10 MB","Neomezeno");
+   csStrings.installerConnecting = "P
+   csStrings.installerTitle = "Adobe Flash";
+   csStrings.kb = "kB";
+   csStrings.local = "m
+   csStrings.noCam = "Nelze naj
+   csStrings.popUp_StorageData = "Po
+   csStrings.popUp_StorageText = "%1 po
+   csStrings.securityMsg = "%1 se pokou
+   csStrings.securityRemember = "Znovu se nedotazovat";
+   csStrings.storageAlert = "Sn
+   csStrings.storageError = "Ne v
+   csStrings.storageLevels = new Array({label:"Nikdy",value:-1},{label:"
+   csStrings.titles = new Array("Ochrana osobn
+   csStrings.videoSafe = "Zapnout hardwarovou akceleraci";
+   csStrings.waitMsg = "Prob
+   csStrings.windowTitle = "Nastaven
+   currentKvalue = inputState.kcurrent + " " + kb;
+   domainSettings.data.klimit = newSetting;
+   domainSettings.data.klimit = newVal;
+   domainStyle = "<font color=\'#0066CC\'>" + _loc1_ + "</font>";
+   domainStyle = "<font color=\'#0066CC\'>" + _loc2_ + "</font>";
+   ec = new Array();
+   ec[0] = ls.DP_error_0;
+   ec[1] = ls.DP_error_1;
+   ec[2] = ls.DP_error_2;
+   ec[3] = ls.DP_error_3;
+   ec[4] = ls.DP_error_4;
+   else
+   else if(_loc2_.length != 0)
+   else if(btn == "Echo")
+   else if(btn == "videoSafe")
+   else if(inputState.Mode == 1)
+   else if(inputState.Mode == 2)
+   else if(inputState.Mode == 3)
+   else if(inputState.Mode == 4)
+   else if(inputState.Mode == 5)
+   else if(inputState.Mode == 7)
+   else if(parent._name == "micmenu")
+   else if(videoSettingsPanelNumber <= _loc2_)
+   english_usStrings = new Object();
+   english_usStrings.Advanced = "Advanced";
+   english_usStrings.Allow = "Allow";
+   english_usStrings.Cancel = "Cancel";
+   english_usStrings.Close = "Close";
+   english_usStrings.Current = "Currently used:";
+   english_usStrings.DP_error_1 = inputState.name;
+   english_usStrings.DP_error_2 = "A download error occurred. Try to download again?";
+   english_usStrings.DP_error_3 = "Couldn\'t write the application to the hard disk. Please verify the hard disk is available and try again.";
+   english_usStrings.Deny = "Deny";
+   english_usStrings.Echo = "Reduce Echo";
+   english_usStrings.Never = "Never Ask Again";
+   english_usStrings.No = "No";
+   english_usStrings.OK = "OK";
+   english_usStrings.P2PPrivacyMsgText = "%1 may use peer assisted networking. Do you want to allow access to your upload bandwidth?";
+   english_usStrings.PrivacyMsgText = "Allow %1 to access your camera and microphone?";
+   english_usStrings.PrivacyPopMsgText = "%1 is requesting access to your camera and microphone. If you click Allow, you may be recorded.";
+   english_usStrings.Remember = "Remember";
+   english_usStrings.Retry = "Retry";
+   english_usStrings.ScreenPrivacyMsgText = "Allow %1 to share your computer screen?";
+   english_usStrings.StorageMsgText = "How much information can %1 store on your computer?";
+   english_usStrings.Volume = "Record Volume:";
+   english_usStrings.Yes = "Yes";
+   english_usStrings.available = new Array(0,10,100,1024,10240,-2);
+   english_usStrings.displayAs = new Array("zero KB","10 KB","100 KB","1 MB","10 MB","unlimited");
+   english_usStrings.installerConnecting = "Connecting...";
+   english_usStrings.installerTitle = "Adobe Flash";
+   english_usStrings.kb = "KB";
+   english_usStrings.local = "local";
+   english_usStrings.noCam = "Cannot find camera";
+   english_usStrings.popUp_StorageData = "Requested: up to %2<br>Currently Used: %3";
+   english_usStrings.popUp_StorageText = "%1 is requesting permission to store information on your computer.";
+   english_usStrings.securityMsg = "%1 is attempting to read from %2. This is a potentially insecure operation. Do you want to allow it?";
+   english_usStrings.securityRemember = "Never ask again";
+   english_usStrings.storageAlert = "Decreasing the amount below %2 will cause all information for %1 to be removed.";
+   english_usStrings.storageError = "Not all stored data could be removed.";
+   english_usStrings.storageLevels = new Array({label:"Never",value:-1},{label:"None",value:0},{label:"10 KB",value:10},{label:"100 KB",value:100},{label:"1 MB",value:1024},{label:"10 MB",value:10240},{label:"Unlimited",value:-2});
+   english_usStrings.titles = new Array("Privacy","Local Storage","Microphone","Camera","Start Screen Sharing","Security","Camera and Microphone Access","Display","Peer Assisted Networking");
+   english_usStrings.videoSafe = "Enable hardware acceleration";
+   english_usStrings.waitMsg = "Detecting cameras...";
+   english_usStrings.windowTitle = "Adobe Flash Player Settings";
+   field.setTextFormat(theStyle);
+   for(i in myRoot)
+   foundCams = false;
+   foundCams = true;
+   frenchStrings = new Object();
+   frenchStrings.Advanced = "Avanc
+   frenchStrings.Allow = "Autoriser";
+   frenchStrings.Cancel = "Annuler";
+   frenchStrings.Close = "Fermer";
+   frenchStrings.Current = "Actuellement utilis
+   frenchStrings.DP_error_1 = inputState.name;
+   frenchStrings.DP_error_2 = "Une erreur de t
+   frenchStrings.DP_error_3 = "Impossible d
+   frenchStrings.Deny = "Refuser";
+   frenchStrings.Echo = "R
+   frenchStrings.Never = "Jamais";
+   frenchStrings.No = "Non";
+   frenchStrings.OK = "OK";
+   frenchStrings.P2PPrivacyMsgText = "%1 peut utiliser la mise en r
+   frenchStrings.PrivacyMsgText = "Autoriser %1 
+   frenchStrings.PrivacyPopMsgText = "%1 demande l\'acc
+   frenchStrings.Remember = "M
+   frenchStrings.Retry = "R
+   frenchStrings.ScreenPrivacyMsgText = "Voulez-vous permettre 
+   frenchStrings.StorageMsgText = "Quelle est la quantit
+   frenchStrings.Volume = "Volume d
+   frenchStrings.Yes = "Oui";
+   frenchStrings.available = new Array(0,10,100,1024,10240,-2);
+   frenchStrings.displayAs = new Array("0 Ko","10 Ko","100 Ko","1 Mo","10 Mo","illimit
+   frenchStrings.installerConnecting = "Connexion en cours...";
+   frenchStrings.installerTitle = "Adobe Flash";
+   frenchStrings.kb = "Ko";
+   frenchStrings.local = "local(e)";
+   frenchStrings.noCam = "Aucune cam
+   frenchStrings.popUp_StorageData = "Demand
+   frenchStrings.popUp_StorageText = "%1 demande la permission d
+   frenchStrings.securityMsg = "%1 tente de lire 
+   frenchStrings.securityRemember = "Ne plus demander";
+   frenchStrings.storageAlert = "Un niveau inf
+   frenchStrings.storageError = "Toutes les donn
+   frenchStrings.storageLevels = new Array({label:"Jamais",value:-1},{label:"Aucun",value:0},{label:"10 Ko",value:10},{label:"100 Ko",value:100},{label:"1 Mo",value:1024},{label:"10 Mo",value:10240},{label:"Illimit
+   frenchStrings.titles = new Array("Confidentialit
+   frenchStrings.videoSafe = "Activer l\'acc
+   frenchStrings.waitMsg = "D
+   frenchStrings.windowTitle = "Param
+   function UpdateGain()
+   germanStrings = new Object();
+   germanStrings.Advanced = "Erweitert";
+   germanStrings.Allow = "Zulassen";
+   germanStrings.Cancel = "Abbrechen";
+   germanStrings.Close = "Schlie
+   germanStrings.Current = "Gegenw
+   germanStrings.DP_error_1 = inputState.name;
+   germanStrings.DP_error_2 = "Downloadfehler aufgetreten. Bitte versuchen Sie es erneut.";
+   germanStrings.DP_error_3 = "Die Anwendung konnte nicht auf die Festplatte geschrieben werden. Bitte 
+   germanStrings.Deny = "Verweigern";
+   germanStrings.Echo = "Echo reduzieren";
+   germanStrings.Never = "Nie";
+   germanStrings.No = "Nein";
+   germanStrings.OK = "OK";
+   germanStrings.P2PPrivacyMsgText = "%1 kann Peer-Assisted-Networking verwenden. M
+   germanStrings.PrivacyMsgText = "%1 den Zugriff auf Ihre Kamera und Ihr Mikrofon gestatten?";
+   germanStrings.PrivacyPopMsgText = "%1 fordert den Zugriff auf Ihre Kamera und Ihr Mikrofon an. Wenn Sie auf \'Zulassen\' klicken, werden Sie evtl. aufgezeichnet.";
+   germanStrings.Remember = "Speichern";
+   germanStrings.Retry = "Wiederholen";
+   germanStrings.ScreenPrivacyMsgText = "M
+   germanStrings.StorageMsgText = "Wie viele Informationen darf %1 auf Ihrem Computer speichern?";
+   germanStrings.Volume = "Aufnahmelautst
+   germanStrings.Yes = "Ja";
+   germanStrings.available = new Array(0,10,100,1024,10240,-2);
+   germanStrings.displayAs = new Array("0 KB","10 KB","100 KB","1 MB","10 MB","unbegrenzt");
+   germanStrings.installerConnecting = "Verbindung wird hergestellt...";
+   germanStrings.installerTitle = "Adobe Flash";
+   germanStrings.kb = "KB";
+   germanStrings.local = "Lokal";
+   germanStrings.noCam = "Es wurde keine Kamera gefunden.";
+   germanStrings.popUp_StorageData = "Angefordert: bis zu %2<br>Gegenw
+   germanStrings.popUp_StorageText = "%1 bittet um Genehmigung zur Speicherung von Informationen auf Ihrem Computer.";
+   germanStrings.securityMsg = "%1 versucht, von %2 zu lesen. Dieser Vorgang ist unter Umst
+   germanStrings.securityRemember = "Nicht mehr fragen";
+   germanStrings.storageAlert = "Wenn Sie den Wert so weit reduzieren, dass er unter %2 liegt, werden alle Informationen f
+   germanStrings.storageError = "Nicht alle gespeicherten Daten konnten entfernt werden.";
+   germanStrings.storageLevels = new Array({label:"Nie",value:-1},{label:"Keine",value:0},{label:"10 KB",value:10},{label:"100 KB",value:100},{label:"1 MB",value:1024},{label:"10 MB",value:10240},{label:"Unbegrenzt",value:-2});
+   germanStrings.titles = new Array("Zugriffsschutz","Lokaler Speicher","Mikrofon","Kamera","Gemeinsames Verwenden des Bildschirms beginnen","Sicherheit","Kamera- und Mikrofonzugriff","Anzeige","Peer-Assisted-Networking");
+   germanStrings.videoSafe = "Hardwarebeschleunigung aktivieren";
+   germanStrings.waitMsg = "Kameras werden erfasst...";
+   germanStrings.windowTitle = "Einstellungen f
+   getURL(_parent.inputState.url + "&what=help","");
+   goPanel();
+   gotoAndStop("DP_download");
+   gotoAndStop("_localInformation");
+   gotoAndStop("_localinformation");
+   i = 0;
+   i = 1;
+   iHi.gotoAndStop("i_" + obj);
+   iHi.gotoAndStop(_loc2_ + tOffset);
+   if(!_loc2_)
+   if(!obj._parent.menu)
+   if(!obj.hitTest(_loc3_.x,_loc3_.y,false) && par.onSel == false && activeMenu != null)
+   if(String(p._root) == "")
+   if(_loc1_ < 0)
+   if(_loc1_ > 0)
+   if(_loc2_ == undefined)
+   if(_loc2_ === false)
+   if(_loc2_.length == -1)
+   if(_loc3_ === null)
+   if(_loc4_ == null)
+   if(_parent.domainSettings.data.allow == false || _parent.domainSettings.data.allow == undefined)
+   if(_parent.domainSettings.data.allow == true)
+   if(_parent.domainSettings.data.always == undefined)
+   if(_parent.domainSettings.data.klimit == -1)
+   if(_parent.playerSettings.data.echosuppression == undefined)
+   if(_parent.playerSettings.data.gain == undefined)
+   if(_parent.playerSettings.data.safefullscreen == undefined)
+   if(_parent.securityRemember.always)
+   if(_parent.slider.active == false)
+   if(_root.doVisibilityCheck())
+   if(btn == "Remember")
+   if(camList.length == 0)
+   if(domainSettings.data.klimit == -1)
+   if(hitTest(_parent.slider))
+   if(inputState.Mode == 0)
+   if(inputState.isPrivate && (_loc3_ == _loc5_ || _loc3_ == _loc4_))
+   if(inputState.isPrivate)
+   if(inputState.kcurrent != 0)
+   if(inputState.param != undefined && inputState.param.length > 0)
+   if(inputState.useCGI)
+   if(level == -1)
+   if(ls.installerConnecting === undefined)
+   if(myStyle == "altStyle")
+   if(myobj.visibleCount < 10)
+   if(needTwitch)
+   if(parent._name == "cammenu")
+   if(slider.active == false)
+   if(slider.active == true)
+   if(this._currentframe != 3)
+   if(this._name != "sel")
+   if(this.active)
+   if(this.always == true)
+   if(this.always)
+   if(this.echosuppression == true)
+   if(this.pressed)
+   if(this.safefullscreen == true)
+   if(translation.firstChild.nodeName != "FlashDownloadStrings")
+   if(userAccepted)
+   if(v === false)
+   inputState = new Object();
+   inputState.domain = "AOL";
+   inputState.domain = "somesiteintheworld.com";
+   itabs = new Array();
+   italianStrings = new Object();
+   italianStrings.Advanced = "Avanzato";
+   italianStrings.Allow = "Consenti";
+   italianStrings.Cancel = "Annulla";
+   italianStrings.Close = "Chiudi";
+   italianStrings.Current = "Attualmente in uso:";
+   italianStrings.DP_error_1 = inputState.name;
+   italianStrings.DP_error_2 = "Si  
+   italianStrings.DP_error_3 = "Impossibile scrivere l\'applicazione sul disco rigido. Controllare se il disco rigido 
+   italianStrings.Deny = "Nega";
+   italianStrings.Echo = "Riduci eco";
+   italianStrings.Never = "Mai";
+   italianStrings.No = "No";
+   italianStrings.OK = "OK";
+   italianStrings.P2PPrivacyMsgText = "%1 pu
+   italianStrings.PrivacyMsgText = "Consentire a %1 di accedere alla videocamera e al microfono in uso?";
+   italianStrings.PrivacyPopMsgText = "%1 richiede di accedere alla videocamera e al microfono. Se si fa clic su Consenti, si potrebbe essere oggetto di una registrazione.";
+   italianStrings.Remember = "Ricorda";
+   italianStrings.Retry = "Riprova";
+   italianStrings.ScreenPrivacyMsgText = "Consentire a %1 di condividere lo schermo del computer?";
+   italianStrings.StorageMsgText = "Quanti dati pu
+   italianStrings.Volume = "Volume di registrazione";
+   italianStrings.Yes = "S
+   italianStrings.available = new Array(0,10,100,1024,10240,-2);
+   italianStrings.displayAs = new Array("zero KB","10 KB","100 KB","1 MB","10 MB","illimitata");
+   italianStrings.installerConnecting = "Connessione...";
+   italianStrings.installerTitle = "Adobe Flash";
+   italianStrings.kb = "KB";
+   italianStrings.local = "locale";
+   italianStrings.noCam = "Nessuna videocamera trovata.";
+   italianStrings.popUp_StorageData = "Richiesti: fino a  %2<br>Attualmente in uso: %3";
+   italianStrings.popUp_StorageText = "%1 sta chiedendo il permesso di archiviare informazioni sul computer in uso.";
+   italianStrings.securityMsg = "%1 sta tentando di leggere da %2. Questa operazione 
+   italianStrings.securityRemember = "Non chiedere pi
+   italianStrings.storageAlert = "Riducendo questa cifra al di sotto di %2 tutte le informazioni relative a %1 verranno eliminate.";
+   italianStrings.storageError = "Non 
+   italianStrings.storageLevels = new Array({label:"Mai",value:-1},{label:"Nessuno",value:0},{label:"10 KB",value:10},{label:"100 KB",value:100},{label:"1 MB",value:1024},{label:"10 MB",value:10240},{label:"Illimitati",value:-2});
+   italianStrings.titles = new Array("Privacy","Memorizzazione locale","Microfono","Videocamera","Avvia condivisione schermo","Sicurezza","Accesso a videocamera e microfono","Visualizzazione","Connettivit
+   italianStrings.videoSafe = "Abilita accelerazione hardware";
+   italianStrings.waitMsg = "Rilevamento videocamere in corso...";
+   italianStrings.windowTitle = "Impostazioni di Adobe Flash Player";
+   japaneseStrings = new Object();
+   japaneseStrings.Advanced = "
+   japaneseStrings.Allow = "
+   japaneseStrings.Cancel = "
+   japaneseStrings.Close = "
+   japaneseStrings.Current = "
+   japaneseStrings.DP_error_1 = inputState.name;
+   japaneseStrings.DP_error_2 = "
+   japaneseStrings.DP_error_3 = "
+   japaneseStrings.Deny = "
+   japaneseStrings.Echo = "
+   japaneseStrings.Never = "
+   japaneseStrings.No = "
+   japaneseStrings.OK = "OK";
+   japaneseStrings.P2PPrivacyMsgText = "%1 
+   japaneseStrings.PrivacyMsgText = "%1 
+   japaneseStrings.PrivacyPopMsgText = "%1 
+   japaneseStrings.Remember = "
+   japaneseStrings.Retry = "
+   japaneseStrings.ScreenPrivacyMsgText = "%1 
+   japaneseStrings.StorageMsgText = "%1 
+   japaneseStrings.Volume = "
+   japaneseStrings.Yes = "
+   japaneseStrings.available = new Array(0,10,100,1024,10240,-2);
+   japaneseStrings.displayAs = new Array("0 KB","10 KB","100 KB","1 MB","10 MB","
+   japaneseStrings.installerConnecting = "
+   japaneseStrings.installerTitle = "Adobe Flash";
+   japaneseStrings.kb = "KB";
+   japaneseStrings.local = "
+   japaneseStrings.noCam = "
+   japaneseStrings.popUp_StorageData = "
+   japaneseStrings.popUp_StorageText = "%1 
+   japaneseStrings.securityMsg = "%1 
+   japaneseStrings.securityRemember = "
+   japaneseStrings.storageAlert = "%2 
+   japaneseStrings.storageError = "
+   japaneseStrings.storageLevels = new Array({label:"
+   japaneseStrings.titles = new Array("
+   japaneseStrings.videoSafe = "
+   japaneseStrings.waitMsg = "
+   japaneseStrings.windowTitle = "Adobe Flash Player 
+   kb = "KB";
+   kb = ls.kb;
+   kbStyle = ls.displayAs[s];
+   killClips(parent);
+   killHand();
+   koreanStrings = new Object();
+   koreanStrings.Advanced = "
+   koreanStrings.Allow = "
+   koreanStrings.Cancel = "
+   koreanStrings.Close = "
+   koreanStrings.Current = "
+   koreanStrings.DP_error_1 = inputState.name;
+   koreanStrings.DP_error_2 = "
+   koreanStrings.DP_error_3 = "
+   koreanStrings.Deny = "
+   koreanStrings.Echo = "
+   koreanStrings.Never = "
+   koreanStrings.No = "
+   koreanStrings.OK = "
+   koreanStrings.P2PPrivacyMsgText = "%1
+   koreanStrings.PrivacyMsgText = "%1
+   koreanStrings.PrivacyPopMsgText = "%1 
+   koreanStrings.Remember = "
+   koreanStrings.Retry = "
+   koreanStrings.ScreenPrivacyMsgText = "%1
+   koreanStrings.StorageMsgText = "%1
+   koreanStrings.Volume = "
+   koreanStrings.Yes = "
+   koreanStrings.available = new Array(0,10,100,1024,10240,-2);
+   koreanStrings.displayAs = new Array("0 KB","10 KB","100 KB","1 MB","10 MB","
+   koreanStrings.installerConnecting = "
+   koreanStrings.installerTitle = "Adobe Flash";
+   koreanStrings.kb = "KB";
+   koreanStrings.local = "
+   koreanStrings.noCam = "
+   koreanStrings.popUp_StorageData = "
+   koreanStrings.popUp_StorageText = "%1
+   koreanStrings.securityMsg = "%1
+   koreanStrings.securityRemember = "
+   koreanStrings.storageAlert = "
+   koreanStrings.storageError = "
+   koreanStrings.storageLevels = new Array({label:"
+   koreanStrings.titles = new Array("
+   koreanStrings.videoSafe = "
+   koreanStrings.waitMsg = "
+   koreanStrings.windowTitle = "Adobe Flash Player 
+   label.text = _parent.ls.Echo;
+   label.text = _parent.ls.Remember;
+   left = _parent.crib._x;
+   left = _parent.crib2._x;
+   level = _parent.myMic.activityLevel;
+   localInformation.gotoAndStop("off");
+   localInformation.gotoAndStop("on");
+   localinformation._visible = false;
+   localinformationSetting.text = _root.ls.storageLevels[w].label;
+   ls = eval(language + "Strings");
+   markList = new Array();
+   markers = 6;
+   menu = "defaultValue";
+   menuObj.displayAs = new Array();
+   menuObj.menu = false;
+   menuObj.onSel = false;
+   menuObj.sel.title.text = menuObj.selected;
+   menuObj.selected = myDef;
+   meter.attachAudio(myMic);
+   mg = _parent.playerSettings.data.gain;
+   micList = Microphone.names;
+   micmenu.myList = new Array();
+   microphoneSettings._visible = System.capabilities.hasAudioEncoder;
+   microphoneSettings._x = localinformation._x;
+   microphoneSettings.gotoAndStop("off");
+   microphoneSettings.gotoAndStop("on");
+   myCam = Camera["get"]();
+   myDef = winmenu.myList[0];
+   myMic = Microphone["get"]();
+   myRoot.gotoAndPlay(_loc3_);
+   myRoot.gotoAndStop("_" + obj);
+   myView.attachVideo(myCam);
+   needTwitch = val == -1 && inputState.kcurrent > 0 || val >= 0 && val < inputState.kcurrent;
+   newSetting = ls.available[s];
+   newVal = null;
+   nlStrings = new Object();
+   nlStrings.Advanced = "Geavanceerd";
+   nlStrings.Allow = "Toestaan";
+   nlStrings.Cancel = "Annuleren";
+   nlStrings.Close = "Sluiten";
+   nlStrings.Current = "In gebruik:";
+   nlStrings.DP_error_1 = inputState.name;
+   nlStrings.DP_error_2 = "Er is een downloadfout opgetreden. Downloaden opnieuw proberen?";
+   nlStrings.DP_error_3 = "Kan de toepassing niet naar de vaste schijf schrijven. Controleer of de vaste schijf beschikbaar is en probeer het opnieuw.";
+   nlStrings.Deny = "Weigeren";
+   nlStrings.Echo = "Echo beperken";
+   nlStrings.Never = "Niet meer vragen";
+   nlStrings.No = "Nee";
+   nlStrings.OK = "OK";
+   nlStrings.P2PPrivacyMsgText = "%1 kan peer-ondersteund netwerken gebruiken. Wilt u toegang tot uw uploadbandbreedte toestaan?";
+   nlStrings.PrivacyMsgText = "%1 toegang verlenen tot uw camera en microfoon?";
+   nlStrings.PrivacyPopMsgText = "%1 vraagt toegang tot uw camera en microfoon. Als u op Toestaan klikt, wordt u mogelijk opgenomen.";
+   nlStrings.Remember = "Onthoud";
+   nlStrings.Retry = "Opnieuw";
+   nlStrings.ScreenPrivacyMsgText = "%1 toestaan ook gebruik van uw computerscherm te maken?";
+   nlStrings.StorageMsgText = "Hoeveel informatie kan %1 opslaan op uw computer?";
+   nlStrings.Volume = "Opnamevolume:";
+   nlStrings.Yes = "Ja";
+   nlStrings.available = new Array(0,10,100,1024,10240,-2);
+   nlStrings.displayAs = new Array("0 kB","10 kB","100 kB","1 MB","10 MB","onbeperkt");
+   nlStrings.installerConnecting = "Bezig met verbinding maken...";
+   nlStrings.installerTitle = "Adobe Flash";
+   nlStrings.kb = "kB";
+   nlStrings.local = "lokaal";
+   nlStrings.noCam = "Kan geen camera vinden";
+   nlStrings.popUp_StorageData = "Gevraagd: tot %2<br>Momenteel gebruikt: %3";
+   nlStrings.popUp_StorageText = "%1 vraagt toestemming om gegevens op uw computer op te slaan.";
+   nlStrings.securityMsg = "%1 probeert te lezen van %2. Dit is een potentieel onveilige bewerking. Wilt u dit toestaan?";
+   nlStrings.securityRemember = "Nooit meer vragen";
+   nlStrings.storageAlert = "Wanneer u de hoeveelheid verlaagt tot minder dan %2, wordt alle informatie voor %1 verwijderd.";
+   nlStrings.storageError = "Niet alle opgeslagen gegevens kunnen worden verwijderd.";
+   nlStrings.storageLevels = new Array({label:"Nooit",value:-1},{label:"Geen",value:0},{label:"10 kB",value:10},{label:"100 KB",value:100},{label:"1 MB",value:1024},{label:"10 MB",value:10240},{label:"Onbeperkt",value:-2});
+   nlStrings.titles = new Array("Privacy","Lokale opslag","Microfoon","Camera","Scherm delen starten","Beveiliging","Toegang tot camera en microfoon","Weergave","Peer-ondersteund netwerken");
+   nlStrings.videoSafe = "Hardwareversnelling inschakelen";
+   nlStrings.waitMsg = "Bezig met detecteren van camera\'s...";
+   nlStrings.windowTitle = "Instellingen Adobe Flash Player";
+   o.menu = false;
+   obj.localToGlobal(_loc3_);
+   out.text += "begin " + lang + "\n";
+   p.lastClip = p.myList.length - 1;
+   p.menu = true;
+   pOffset = 3;
+   panelName = "privacy";
+   panelName = "video";
+   parent.sel.title.text = parent.displayAs[obj._name];
+   plStrings = new Object();
+   plStrings.Advanced = "Zaawansowane";
+   plStrings.Allow = "Zezw
+   plStrings.Cancel = "Anuluj";
+   plStrings.Close = "Zamknij";
+   plStrings.Current = "U
+   plStrings.DP_error_1 = inputState.name;
+   plStrings.DP_error_2 = "Wyst
+   plStrings.DP_error_3 = "Nie mo
+   plStrings.Deny = "Odm
+   plStrings.Echo = "Zmniejsz echo";
+   plStrings.Never = "Nie pytaj ponownie";
+   plStrings.No = "Nie";
+   plStrings.OK = "OK";
+   plStrings.P2PPrivacyMsgText = "%1 mo
+   plStrings.PrivacyMsgText = "Czy %1 mo
+   plStrings.PrivacyPopMsgText = "Strona %1 prosi o dost
+   plStrings.Remember = "Zapami
+   plStrings.Retry = "Pon
+   plStrings.ScreenPrivacyMsgText = "Czy %1 mo
+   plStrings.StorageMsgText = "Jak du
+   plStrings.Volume = "G
+   plStrings.Yes = "Tak";
+   plStrings.available = new Array(0,10,100,1024,10240,-2);
+   plStrings.displayAs = new Array("0 KB","10 KB","100 KB","1 MB","10 MB","Bez ogranicze
+   plStrings.installerConnecting = "
+   plStrings.installerTitle = "Adobe Flash";
+   plStrings.kb = "KB";
+   plStrings.local = "lokalny";
+   plStrings.noCam = "Nie mo
+   plStrings.popUp_StorageData = "
+   plStrings.popUp_StorageText = "Strona %1 prosi o przyzwolenie na przechowywanie informacji na komputerze.";
+   plStrings.securityMsg = "%1 pr
+   plStrings.securityRemember = "Nie pytaj ponownie";
+   plStrings.storageAlert = "Zmniejszenie ilo
+   plStrings.storageError = "Nie mo
+   plStrings.storageLevels = new Array({label:"Nowszy",value:-1},{label:"Brak",value:0},{label:"10 KB",value:10},{label:"100 KB",value:100},{label:"1 MB",value:1024},{label:"10 MB",value:10240},{label:"Bez ogranicze
+   plStrings.titles = new Array("Prywatno
+   plStrings.videoSafe = "W
+   plStrings.waitMsg = "Wykrywanie kamer...";
+   plStrings.windowTitle = "Ustawienia programu Adobe Flash Player";
+   pop_crossdomain_msg.htmlText = _loc1_;
+   pop_p2p_msg.htmlText = _loc1_;
+   pop_priv_msg.htmlText = sentence;
+   pop_screenshare_msg.htmlText = sentence;
+   pressed = false;
+   pressed = true;
+   privacy.gotoAndStop("off");
+   privacy.gotoAndStop("on");
+   ptStrings = new Object();
+   ptStrings.Advanced = "Avan
+   ptStrings.Allow = "Permitir";
+   ptStrings.Cancel = "Cancelar";
+   ptStrings.Close = "Fechar";
+   ptStrings.Current = "Uso atual:";
+   ptStrings.DP_error_1 = inputState.name;
+   ptStrings.DP_error_2 = "Erro de download. Deseja repetir o download?";
+   ptStrings.DP_error_3 = "N
+   ptStrings.Deny = "Negar";
+   ptStrings.Echo = "Reduzir eco";
+   ptStrings.Never = "N
+   ptStrings.No = "N
+   ptStrings.OK = "OK";
+   ptStrings.P2PPrivacyMsgText = "%1 pode usar sistema de redes de pares. Deseja permitir acesso 
+   ptStrings.PrivacyMsgText = "Permitir que %1 acesse a c
+   ptStrings.PrivacyPopMsgText = "%1 est
+   ptStrings.Remember = "Lembrar";
+   ptStrings.Retry = "Repetir";
+   ptStrings.ScreenPrivacyMsgText = "Permitir que %1 compartilhe a tela do computador?";
+   ptStrings.StorageMsgText = "Qual quantidade de informa
+   ptStrings.Volume = "Volume da grava
+   ptStrings.Yes = "Sim";
+   ptStrings.available = new Array(0,10,100,1024,10240,-2);
+   ptStrings.displayAs = new Array("0 KB","10 KB","100 KB","1 MB","10 MB","ilimitado");
+   ptStrings.installerConnecting = "Conectando...";
+   ptStrings.installerTitle = "Adobe Flash";
+   ptStrings.kb = "KB";
+   ptStrings.local = "local";
+   ptStrings.noCam = "N
+   ptStrings.popUp_StorageData = "Solicitado: at
+   ptStrings.popUp_StorageText = "%1 est
+   ptStrings.securityMsg = "%1 est
+   ptStrings.securityRemember = "Nunca perguntar de novo";
+   ptStrings.storageAlert = "Diminuir o valor para menos de %2 far
+   ptStrings.storageError = "N
+   ptStrings.storageLevels = new Array({label:"Nunca",value:-1},{label:"Nenhum",value:0},{label:"10 KB",value:10},{label:"100 KB",value:100},{label:"1 MB",value:1024},{label:"10 MB",value:10240},{label:"Ilimitado",value:-2});
+   ptStrings.titles = new Array("Privacidade","Armazenamento local","Microfone","C
+   ptStrings.videoSafe = "Habilitar acelera
+   ptStrings.waitMsg = "Detectando c
+   ptStrings.windowTitle = "Configura
+   rads = new Object();
+   return _loc2_;
+   return true;
+   right = left + (_parent.crib._width - (this._width - 1));
+   right = left + 100;
+   ruStrings = new Object();
+   ruStrings.Advanced = "
+   ruStrings.Allow = "
+   ruStrings.Cancel = "
+   ruStrings.Close = "
+   ruStrings.Current = "
+   ruStrings.DP_error_1 = inputState.name;
+   ruStrings.DP_error_2 = "
+   ruStrings.DP_error_3 = "
+   ruStrings.Deny = "
+   ruStrings.Echo = "
+   ruStrings.Never = "
+   ruStrings.No = "
+   ruStrings.OK = "OK";
+   ruStrings.P2PPrivacyMsgText = "%1 
+   ruStrings.PrivacyMsgText = "
+   ruStrings.PrivacyPopMsgText = "%1 
+   ruStrings.Remember = "
+   ruStrings.Retry = "
+   ruStrings.ScreenPrivacyMsgText = "
+   ruStrings.StorageMsgText = "
+   ruStrings.Volume = "
+   ruStrings.Yes = "
+   ruStrings.available = new Array(0,10,100,1024,10240,-2);
+   ruStrings.displayAs = new Array("0 
+   ruStrings.installerConnecting = "
+   ruStrings.installerTitle = "Adobe Flash";
+   ruStrings.kb = "
+   ruStrings.local = "
+   ruStrings.noCam = "
+   ruStrings.popUp_StorageData = "
+   ruStrings.popUp_StorageText = "%1 
+   ruStrings.securityMsg = "%1 
+   ruStrings.securityRemember = "
+   ruStrings.storageAlert = "
+   ruStrings.storageError = "
+   ruStrings.storageLevels = new Array({label:"
+   ruStrings.titles = new Array("
+   ruStrings.videoSafe = "
+   ruStrings.waitMsg = "
+   ruStrings.windowTitle = "
+   s = 0;
+   s = new Sound(meter);
+   s.setVolume(0);
+   securityRemember.msg.text = ls.securityRemember;
+   sentence = Substitute(sentence,"%1",domainStyle);
+   sentence = ls.PrivacyPopMsgText;
+   sentence = ls.ScreenPrivacyMsgText;
+   sentence = ls.StorageMsgText;
+   sentence = ls.installMsg_confirm;
+   sentence = ls.popUp_StorageText;
+   sentence = ls.privacyMsgText;
+   sentence2 = Substitute(sentence2,"%2",kbStyle);
+   sentence2 = Substitute(sentence2,"%3",currentKvalue);
+   sentence2 = ls.popUp_StorageData;
+   setPanel(0);
+   setPanel(1);
+   setPanel(2);
+   setPanel(3);
+   setPanel(4);
+   setSo(parent.displayAs[obj._name],parent);
+   setStyle(Allow.label);
+   setStyle(Cancel.label);
+   setStyle(Close.label);
+   setStyle(Current);
+   setStyle(DP_msg);
+   setStyle(Deny.label);
+   setStyle(Echo.msg);
+   setStyle(Never.msg);
+   setStyle(No.label);
+   setStyle(Remember.msg);
+   setStyle(Retry.label);
+   setStyle(Volume);
+   setStyle(Yes.label);
+   setStyle(butt_Advanced.label);
+   setStyle(pop_crossdomain_msg);
+   setStyle(pop_priv_msg);
+   setStyle(pop_screenshare_msg);
+   setStyle(securityRemember.msg);
+   setStyle(t_msg);
+   setStyle(t_privacy);
+   setStyle(t_storage);
+   setStyle(t_storageData);
+   setStyle(titles.label);
+   setStyle(usedBox);
+   setStyle(videoSafe.msg);
+   setStyle(windowTitle);
+   setTitle(0);
+   setTitle(1);
+   setTitle(2);
+   setTitle(3);
+   setTitle(4);
+   setTitle(5);
+   setTitle(6);
+   setTitle(7);
+   setTitle(8);
+   settings_helper._visible = false;
+   snapDistance = (_parent.crib._width - this._width) / markers - 1;
+   spanishStrings = new Object();
+   spanishStrings.Advanced = "Avanzado";
+   spanishStrings.Allow = "Permitir";
+   spanishStrings.Cancel = "Cancelar";
+   spanishStrings.Close = "Cerrar";
+   spanishStrings.Current = "Actualmente usado:";
+   spanishStrings.DP_error_1 = inputState.name;
+   spanishStrings.DP_error_2 = "Error al descargar. 
+   spanishStrings.DP_error_3 = "No se pudo grabar la aplicacin en el disco duro. Compruebe el disco duro disponible y vuelva a intentarlo.";
+   spanishStrings.Deny = "Denegar";
+   spanishStrings.Echo = "Reducir eco";
+   spanishStrings.Never = "Nunca";
+   spanishStrings.No = "No";
+   spanishStrings.OK = "Aceptar";
+   spanishStrings.P2PPrivacyMsgText = "%1 puede usar redes asistidas por pares. 
+   spanishStrings.PrivacyMsgText = "
+   spanishStrings.PrivacyPopMsgText = "%1 solicita el acceso a su c
+   spanishStrings.Remember = "Recordar";
+   spanishStrings.Retry = "Reintentar";
+   spanishStrings.ScreenPrivacyMsgText = "
+   spanishStrings.StorageMsgText = "
+   spanishStrings.Volume = "Volumen de registro:";
+   spanishStrings.Yes = "S
+   spanishStrings.available = new Array(0,10,100,1024,10240,-2);
+   spanishStrings.displayAs = new Array("0 KB","10 KB","100 KB","1 MB","10 MB","ilimitado");
+   spanishStrings.installerConnecting = "Conectando...";
+   spanishStrings.installerTitle = "Adobe Flash";
+   spanishStrings.kb = "KB";
+   spanishStrings.local = "local";
+   spanishStrings.noCam = "No se ha encontrado ninguna c
+   spanishStrings.popUp_StorageData = "Solicitado: hasta %2<br>Actualmente usado: %3";
+   spanishStrings.popUp_StorageText = "%1 solicita autorizaci
+   spanishStrings.securityMsg = "%1 est
+   spanishStrings.securityRemember = "No volver a preguntar";
+   spanishStrings.storageAlert = "Si disminuye a menos de %2 se quitar
+   spanishStrings.storageError = "No se pudieron quitar todos los datos almacenados.";
+   spanishStrings.storageLevels = new Array({label:"Nunca",value:-1},{label:"Ninguno",value:0},{label:"10 KB",value:10},{label:"100 KB",value:100},{label:"1 MB",value:1024},{label:"10 MB",value:10240},{label:"Ilimitado",value:-2});
+   spanishStrings.titles = new Array("Privacidad","Almacenamiento local","Micr
+   spanishStrings.videoSafe = "Activar aceleraci
+   spanishStrings.waitMsg = "Detectando c
+   spanishStrings.windowTitle = "Configuraci
+   startDrag(this,0,left,top,right,bottom);
+   stop();
+   stopDrag();
+   svStrings = new Object();
+   svStrings.Advanced = "Avancerat";
+   svStrings.Allow = "Till
+   svStrings.Cancel = "Avbryt";
+   svStrings.Close = "St
+   svStrings.Current = "Anv
+   svStrings.DP_error_1 = inputState.name;
+   svStrings.DP_error_2 = "Ett h
+   svStrings.DP_error_3 = "Det gick inte att skriva programmet till h
+   svStrings.Deny = "Neka";
+   svStrings.Echo = "Minska eko";
+   svStrings.Never = "Fr
+   svStrings.No = "Nej";
+   svStrings.OK = "OK";
+   svStrings.P2PPrivacyMsgText = "%1 kanske anv
+   svStrings.PrivacyMsgText = "Ska %1 f
+   svStrings.PrivacyPopMsgText = "%1 beg
+   svStrings.Remember = "Kom ih
+   svStrings.Retry = "F
+   svStrings.ScreenPrivacyMsgText = "Ska %1 f
+   svStrings.StorageMsgText = "Hur mycket information f
+   svStrings.Volume = "Inspelningsvolym:";
+   svStrings.Yes = "Ja";
+   svStrings.available = new Array(0,10,100,1024,10240,-2);
+   svStrings.displayAs = new Array("0 kB","10 kB","100 kB","1 MB","10 MB","obegr
+   svStrings.installerConnecting = "Ansluter...";
+   svStrings.installerTitle = "Adobe Flash";
+   svStrings.kb = "kB";
+   svStrings.local = "lokal";
+   svStrings.noCam = "Det g
+   svStrings.popUp_StorageData = "Beg
+   svStrings.popUp_StorageText = "%1 beg
+   svStrings.securityMsg = "%1 f
+   svStrings.securityRemember = "Fr
+   svStrings.storageAlert = "Om du minskar m
+   svStrings.storageError = "Det gick inte att ta bort alla lagrade data.";
+   svStrings.storageLevels = new Array({label:"Aldrig",value:-1},{label:"Ingen",value:0},{label:"10 kB",value:10},{label:"100 kB",value:100},{label:"1 MB",value:1024},{label:"10 MB",value:10240},{label:"Obegr
+   svStrings.titles = new Array("Sekretess","Lokalt lagringsutrymme","Mikrofon","Kamera","Starta sk
+   svStrings.videoSafe = "Aktivera maskinvaruacceleration";
+   svStrings.waitMsg = "Identifierar kameror...";
+   svStrings.windowTitle = "Adobe Flash Player-inst
+   switch(lang)
+   tOffset = 1;
+   t_msg.htmlText = sentence;
+   t_privacy.htmlText = sentence;
+   t_storage.htmlText = sentence;
+   t_storageData.htmlText = sentence2;
+   theStyle = new TextFormat();
+   theStyle.size = fSize;
+   this._alpha = 0;
+   this._rotation += 12;
+   this._visible = false;
+   this._x = _parent.crib2._x + mg;
+   this._x = xOffset;
+   this._y = yOffset;
+   this.active = false;
+   this.always = !this.always;
+   this.always = false;
+   this.bottom._visible = false;
+   this.echosuppression = !this.echosuppression;
+   this.errorCode = 0;
+   this.gotoAndStop(1);
+   this.gotoAndStop(2);
+   this.gotoAndStop(3);
+   this.hilite.gotoAndStop(1);
+   this.hilite.gotoAndStop(2);
+   this.pHi._visible = false;
+   this.playerSettings.data.panel = x;
+   this.safefullscreen = !this.safefullscreen;
+   this.translation = new XML();
+   this.useHandCursor = false;
+   title.textColor = 0;
+   titles.label.text = ls.titles[frame];
+   top = this._y;
+   trStrings = new Object();
+   trStrings.Advanced = "Geli
+   trStrings.Allow = "
+   trStrings.Cancel = "
+   trStrings.Close = "Kapat";
+   trStrings.Current = "Kullan
+   trStrings.DP_error_1 = inputState.name;
+   trStrings.DP_error_2 = "
+   trStrings.DP_error_3 = "Uygulama sabit diske yaz
+   trStrings.Deny = "Reddet";
+   trStrings.Echo = "Ekoyu Azalt";
+   trStrings.Never = "Tekrar Sorma";
+   trStrings.No = "Hay
+   trStrings.OK = "Tamam";
+   trStrings.P2PPrivacyMsgText = "%1, e
+   trStrings.PrivacyMsgText = "%1 kayna
+   trStrings.PrivacyPopMsgText = "%1, kamera ve mikrofonunuza eri
+   trStrings.Remember = "An
+   trStrings.Retry = "Yeniden Dene";
+   trStrings.ScreenPrivacyMsgText = "%1 kayna
+   trStrings.StorageMsgText = "%1 bilgisayar
+   trStrings.Volume = "Kay
+   trStrings.Yes = "Evet";
+   trStrings.available = new Array(0,10,100,1024,10240,-2);
+   trStrings.displayAs = new Array("0 KB","10 KB","100 KB","1 MB","10 MB","S
+   trStrings.installerConnecting = "Ba
+   trStrings.installerTitle = "Adobe Flash";
+   trStrings.kb = "KB";
+   trStrings.local = "local";
+   trStrings.noCam = "Kamera bulunam
+   trStrings.popUp_StorageData = "
+   trStrings.popUp_StorageText = "%1, bilgisayar
+   trStrings.securityMsg = "%1, %2 kayna
+   trStrings.securityRemember = "Bir daha asla sorma";
+   trStrings.storageAlert = "Miktar
+   trStrings.storageError = "Depolanm
+   trStrings.storageLevels = new Array({label:"Hi
+   trStrings.titles = new Array("Gizlilik","Yerel Depolama","Mikrofon","Kamera","Ba
+   trStrings.videoSafe = "Donan
+   trStrings.waitMsg = "Kameralar alg
+   trStrings.windowTitle = "Adobe Flash Player Ayarlar
+   translation.ignoreWhite = true;
+   translation.onLoad = function(success)
+   translation.owner = this;
+   txt = "";
+   txt = "defaultValue";
+   usedBox.text = inputState.kcurrent;
+   userAccepted = true;
+   var _loc1_ = 0;
+   var _loc1_ = Substitute(ls.securityMsg,"%1",_loc5_);
+   var _loc1_ = System.security.escapeDomain(inputState.domain);
+   var _loc1_ = getAppropriateLevel(inputState.kcurrent);
+   var _loc1_ = input.indexOf(token);
+   var _loc1_ = ls.P2PPrivacyMsgText;
+   var _loc1_ = new Object();
+   var _loc1_ = playerSettings.data.defaultCamera;
+   var _loc1_ = playerSettings.data.defaultMicrophone;
+   var _loc1_;
+   var _loc2_ = "<font color=\'#0066CC\'>" + _loc3_ + "</font>";
+   var _loc2_ = -2;
+   var _loc2_ = System.security.escapeDomain(inputState.domain);
+   var _loc2_ = _root.CheckVisibility(210,130);
+   var _loc2_ = false;
+   var _loc2_ = new Object();
+   var _loc2_ = p._root.CheckVisibility(210,130);
+   var _loc2_ = this.playerSettings.data.panel;
+   var _loc2_ = value + input.substr(_loc1_ + 2);
+   var _loc2_;
+   var _loc3_ = System.security.escapeDomain(inputState.providerDomain);
+   var _loc3_ = _loc2_ + pOffset;
+   var _loc3_ = new Object();
+   var _loc3_ = null;
+   var _loc3_;
+   var _loc4_ = 4;
+   var _loc4_ = System.security.escapeDomain(inputState.accessorDomain);
+   var _loc4_ = null;
+   var _loc5_ = "<font color=\'#0066CC\'>" + _loc4_ + "</font>";
+   var _loc5_ = 3;
+   var _loc5_ = translation.firstChild;
+   var _loc6_ = 7;
+   var _loc6_ = null;
+   var _loc7_ = System.capabilities.language;
+   var spacing = microphoneSettings._x - localinformation._x;
+   var v = _root.CheckVisibility(210,130);
+   var v = _root.doVisibilityCheck();
+   videoSafe.msg.text = ls.videoSafe;
+   videoSettings.gotoAndStop("off");
+   videoSettings.gotoAndStop("on");
+   visInterval = null;
+   visInterval = setInterval(this.busyVisible,1000);
+   while(_loc1_ !== null)
+   while(_loc1_ < inputState.windowList.length)
+   while(i < camList.length)
+   while(i < ls.storageLevels.length)
+   while(i < micList.length)
+   while(i < o.myList.length)
+   while(i < p.mylist.length)
+   while(i <= markers)
+   while(s < ls.available.length)
+   windowTitle._visible = false;
+   windowTitle.text = ls.installerTitle;
+   windowTitle.text = ls.windowTitle;
+   winmenu.myList = new Array();
+   };
+ %1 de partager l'
+ %1 de partager l\'
+ %1.";
+ %2 entra
+ %2. 
+ %2. Ta operacja jest potencjalnie niebezpieczna. Czy zgadzasz si
+ %2<br>
+ %2<br>Actuellement utilis
+ %2<br>Em uso no momento: %3
+ %2<br>Em uso no momento: %3";
+ %2<br>Pr
+ : %3
+ : %3";
+ : jusqu
+ Adobe Flash Player
+ Adobe Flash Player";
+ Destekli A
+ Ekran Payla
+ Till
+ aplikacji na dysku twardym. Sprawd
+ archiviare %1 sul computer in uso?
+ archiviare %1 sul computer in uso?";
+ clicar em Permitir, sua comunica
+ com que todas as informa
+ data lze odstranit.
+ data lze odstranit.";
+ datorn?
+ datorn?";
+ dela din datorsk
+ destekli a
+ detekov
+ din dator.
+ din dator.";
+ disk dostupn
+ disk. Zkontrolujte pros
+ dispon
+ disponibile e ritentare
+ disponibile e ritentare";
+ do va
+ dost
+ dysku twardego i spr
+ ekran komputera?
+ ekran komputera?";
+ ileti
+ informac
+ intentando leer de %2. Esta operaci
+ k ulo
+ kald
+ kame
+ kamer...
+ kamer...";
+ kamery.
+ kamery.";
+ la cam
+ na komputerze?
+ na komputerze?";
+ na ni
+ na u
+ nagrywania:
+ nagrywania:";
+ nebezpe
+ nytt?
+ nytt?";
+ obrazovky
+ obrazovky","Zabezpe
+ odstran
+ partir de %2. Cette op
+ payla
+ peer-assisted
+ peer-assisted");
+ peer-assisted. Chcete povolit p
+ peer-to-peer
+ peer-to-peer");
+ peer-to-peer. Volete consentire l'accesso alla vostra ampiezza di banda in upload?
+ peer-to-peer. Volete consentire l\'accesso alla vostra ampiezza di banda in upload?";
+ pobra
+ pod hodnotu %2 zp
+ ponownie?
+ ponownie?";
+ poss
+ potenzialmente pericolosa. Si desidera consentirla?
+ potenzialmente pericolosa. Si desidera consentirla?";
+ pro %1.
+ pro %1.";
+ pro Adobe Flash Player
+ pro Adobe Flash Player";
+ se o potenci
+ ser grabado.
+ ser grabado.";
+ sieci ze wspomaganiem r
+ solicitando acesso 
+ solicitando permiss
+ stato possibile eliminare tutti i dati archiviati.
+ stato possibile eliminare tutti i dati archiviati.";
+ sua largura de banda de carregamento?
+ sua largura de banda de carregamento?";
+ tentando ler de %2. Trata-se de uma opera
+ toda la informaci
+ usuni
+ utilizzare la connettivit
+ verificato un errore di scaricamento. Scaricare di nuovo?
+ verificato un errore di scaricamento. Scaricare di nuovo?";
+ verilerin t
+ volby
+ volby";
+ votre bande passante de chargement
+ votre cam
+ votre microphone ?
+ votre microphone ?";
+ votre microphone. Si vous cliquez sur Autoriser, vous risquez d'
+ votre microphone. Si vous cliquez sur Autoriser, vous risquez d\'
+ wszystkich przechowywanych danych.
+ wszystkich przechowywanych danych.";
+ ze wspomaganiem r
+ zkusit znovu?
+ zkusit znovu?";
+!E?{9-
+","1 
+","10 
+","100 
+","Acc
+","Magazyn lokalny","Mikrofon","Kamera","Rozpocznij udost
+","Mikrofon","Kamera","Spustit sd
+","Stockage local","Microphone","Cam
+",value:-1},{label:"
+",value:-2});
+",value:0},{label:"10 
+",value:0},{label:"10 KB",value:10},{label:"100 KB",value:100},{label:"1 MB",value:1024},{label:"10 MB",value:10240},{label:"
+",value:0},{label:"10 kB",value:10},{label:"100 kB",value:100},{label:"1 MB",value:1024},{label:"10 MB",value:10240},{label:"Neomezeno",value:-2});
+",value:100},{label:"1 
+",value:10240},{label:"
+",value:1024},{label:"10 
+",value:10},{label:"100 
+"U+&T
+%1 beg
+%1 bilgisayar
+%1 bittet um Genehmigung zur Speicherung von Informationen auf Ihrem Computer.
+%1 demande l'acc
+%1 demande la permission d
+%1 den Zugriff auf Ihre Kamera und Ihr Mikrofon gestatten?
+%1 est
+%1 fordert den Zugriff auf Ihre Kamera und Ihr Mikrofon an. Wenn Sie auf 'Zulassen' klicken, werden Sie evtl. aufgezeichnet.
+%1 is attempting to read from %2. This is a potentially insecure operation. Do you want to allow it?
+%1 is requesting access to your camera and microphone. If you click Allow, you may be recorded.
+%1 is requesting permission to store information on your computer.
+%1 kan peer-ondersteund netwerken gebruiken. Wilt u toegang tot uw uploadbandbreedte toestaan?
+%1 kann Peer-Assisted-Networking verwenden. M
+%1 kanske anv
+%1 kayna
+%1 may use peer assisted networking. Do you want to allow access to your upload bandwidth?
+%1 mo
+%1 peut utiliser la mise en r
+%1 po
+%1 pode usar sistema de redes de pares. Deseja permitir acesso 
+%1 pr
+%1 probeert te lezen van %2. Dit is een potentieel onveilige bewerking. Wilt u dit toestaan?
+%1 pu
+%1 puede usar redes asistidas por pares. 
+%1 richiede di accedere alla videocamera e al microfono. Se si fa clic su Consenti, si potrebbe essere oggetto di una registrazione.
+%1 se pokou
+%1 sm
+%1 solicita autorizaci
+%1 solicita el acceso a su c
+%1 sta chiedendo il permesso di archiviare informazioni sul computer in uso.
+%1 sta tentando di leggere da %2. Questa operazione 
+%1 tente de lire 
+%1 toegang verlenen tot uw camera en microfoon?
+%1 toestaan ook gebruik van uw computerscherm te maken?
+%1 versucht, von %2 zu lesen. Dieser Vorgang ist unter Umst
+%1 vraagt toegang tot uw camera en microfoon. Als u op Toestaan klikt, wordt u mogelijk opgenomen.
+%1 vraagt toestemming om gegevens op uw computer op te slaan.
+%1, %2 kayna
+%1, bilgisayar
+%1, e
+%1, kamera ve mikrofonunuza eri
+&what=descr
+&what=help
+*RoOi
+*t>v"
+, a zkuste to znovu.
+, a zkuste to znovu.";
+. Chcete stahov
+...";
+/settings
+10 KB
+10 Ko
+10 MB
+10 Mo
+10 kB
+100 KB
+100 Ko
+100 kB
+333B<<<
+4block
+4microphoneSettings
+4privacy
+: %3";
+</font>
+<font color='#0066CC'>
+<p align="center"></p>
+<p align="left"></p>
+<p align="left"><font face="_sans" size="10" color="#000000" letterSpacing="0.000000" kerning="0"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+@/Mpx(
+A download error occurred. Try to download again?
+ASNative
+Abbrechen
+Abilita accelerazione hardware
+Acceso a c
+Accesso a videocamera e microfono
+Aceptar
+Acesso a c
+Activar aceleraci
+Activer l'acc
+Actualmente usado:
+Actuellement utilis
+Adobe Flash
+Adobe Flash Player 
+Adobe Flash Player Ayarlar
+Adobe Flash Player Settings
+Adobe Flash Player-inst
+Advanced
+Affichage
+Aktivera maskinvaruacceleration
+Aldrig
+AlertResponse
+Allow
+Allow %1 to access your camera and microphone?
+Allow %1 to share your computer screen?
+Almacenamiento local
+Angefordert: bis zu %2<br>Gegenw
+Annuler
+Annuleren
+Annulla
+Ansluter...
+Anuluj
+Anzeige
+Armazenamento local
+Array
+Attualmente in uso:
+Aucun
+Aucune cam
+Aufnahmelautst
+Autoriser
+Autoriser %1 
+Avanc
+Avancerat
+Avanzado
+Avanzato
+Avbryt
+Avvia condivisione schermo
+Beveiliging
+Bez ogranicze
+Bezig met detecteren van camera's...
+Bezig met verbinding maken...
+Bir daha asla sorma
+Button
+CHSStrings
+CHTStrings
+Camera
+Camera and Microphone Access
+Cancel
+Cancelar
+Cannot find camera
+Cerrar
+CheckVisibility
+Chiudi
+Clear
+Close
+Conectando...
+Confidentialit
+Configura
+Configuraci
+Connecting...
+Connessione...
+Connettivit
+Connexion en cours...
+Consenti
+Consentire a %1 di accedere alla videocamera e al microfono in uso?
+Consentire a %1 di condividere lo schermo del computer?
+Couldn't write the application to the hard disk. Please verify the hard disk is available and try again.
+Current
+Currently used:
+Czy %1 mo
+DP_dialog
+DP_dl_accept
+DP_dl_deny
+DP_dl_retry
+DP_download
+DP_error
+DP_error_0
+DP_error_1
+DP_error_2
+DP_error_3
+DP_error_4
+DP_helper
+DP_init
+DP_msg
+Decreasing the amount below %2 will cause all information for %1 to be removed.
+Demand
+Denegar
+Depolanm
+Desea permitir acceso al ancho de banda de carga?
+Desea permitir acceso al ancho de banda de carga?";
+Desea permitir que %1 comparta su pantalla?
+Desea permitir que %1 comparta su pantalla?";
+Desea permitirla?
+Desea permitirla?";
+Desea que %1 pueda acceder a la c
+Desea volver a intentarlo?
+Desea volver a intentarlo?";
+Det g
+Det gick inte att skriva programmet till h
+Det gick inte att ta bort alla lagrade data.
+Detectando c
+Detecting cameras...
+Die Anwendung konnte nicht auf die Festplatte geschrieben werden. Bitte 
+Diminuir o valor para menos de %2 far
+Display
+Donan
+Downloadfehler aufgetreten. Bitte versuchen Sie es erneut.
+Echo beperken
+Echo reduzieren
+Einstellungen f
+Ekoyu Azalt
+Enable hardware acceleration
+Er is een downloadfout opgetreden. Downloaden opnieuw proberen?
+Erro de download. Deseja repetir o download?
+Error al descargar. 
+Erweitert
+Es wurde keine Kamera gefunden.
+Ett h
+Exibi
+Fechar
+Fermer
+FlashDownloadStrings
+Geavanceerd
+Gegenw
+Gemeinsames Verwenden des Bildschirms beginnen
+Gevraagd: tot %2<br>Momenteel gebruikt: %3
+Gizlilik
+H4cameraSettings
+H4localinformation
+Habilitar acelera
+HardwareAcceleration
+Hardwarebeschleunigung aktivieren
+Hardwareversnelling inschakelen
+Hlasitost nahr
+Hoeveel informatie kan %1 opslaan op uw computer?
+How much information can %1 store on your computer?
+Hur mycket information f
+I?@msg
+Identifierar kameror...
+Ilimitado
+Illimit
+Illimitati
+Impossibile scrivere l'applicazione sul disco rigido. Controllare se il disco rigido 
+Impossible d
+Impostazioni di Adobe Flash Player
+In gebruik:
+Ingen
+Iniciar compartici
+Iniciar compartilhamento de tela
+Inspelningsvolym:
+Instellingen Adobe Flash Player
+J.windowTitle
+Jak du
+Jamais
+Kamera
+Kamera bulunam
+Kamera ve Mikrofon Eri
+Kamera- und Mikrofonzugriff
+Kameralar alg
+Kameras werden erfasst...
+Kan de toepassing niet naar de vaste schijf schrijven. Controleer of de vaste schijf beschikbaar is en probeer het opnieuw.
+Kan geen camera vinden
+Kapat
+Keine
+Kom ih
+Kullan
+Lembrar
+Local Storage
+LocalStorage
+Lokal
+Lokale opslag
+Lokaler Speicher
+Lokalt lagringsutrymme
+Magazyn lokalny
+Memorizzazione locale
+Microfone
+Microfono
+Microfoon
+Microphone
+Mikrofon
+Miktar
+Minska eko
+Mise en r
+MovieClip
+Nastaven
+Ne plus demander
+Negar
+Nelze naj
+Nelze zapsat aplikaci na pevn
+Nenhum
+Neomezeno
+Nessuna videocamera trovata.
+Nessuno
+Never
+Never Ask Again
+Never ask again
+Nicht alle gespeicherten Daten konnten entfernt werden.
+Nicht mehr fragen
+Nie mo
+Nie pytaj ponownie
+Niet alle opgeslagen gegevens kunnen worden verwijderd.
+Niet meer vragen
+Nikdy
+Ninguno
+No se ha encontrado ninguna c
+No se pudieron quitar todos los datos almacenados.
+No se pudo grabar la aplicacin en el disco duro. Compruebe el disco duro disponible y vuelva a intentarlo.
+No volver a preguntar
+Non chiedere pi
+Nooit
+Nooit meer vragen
+Not all stored data could be removed.
+Nowszy
+Nunca
+Nunca perguntar de novo
+Obegr
+Object
+Ochrana osobn
+Om du minskar m
+Onbeperkt
+Onthoud
+Opnamevolume:
+Opnieuw
+P+title
+P2P-n
+P2PPrivacyMsgText
+P4l| 
+P\label
+Param
+Peer Assisted Networking
+Peer-Assisted-Networking
+Peer-ondersteund netwerken
+Permitir
+Permitir que %1 acesse a c
+Permitir que %1 compartilhe a tela do computador?
+Potla
+Povolit
+Povolit %1 p
+Povolit %1 sd
+Privacidad
+Privacidade
+Privacy
+PrivacyMsgText
+PrivacyPopMsgText
+Prywatno
+QReE@
+Qual quantidade de informa
+Quanti dati pu
+Quelle est la quantit
+Record Volume:
+Recordar
+Reddet
+Redes asistidas por pares
+Reduce Echo
+Reducir eco
+Reduzir eco
+Refuser
+Reintentar
+Remember
+Repetir
+Requested: up to %2<br>Currently Used: %3
+Retry
+Richiesti: fino a  %2<br>Attualmente in uso: %3
+Ricorda
+Riducendo questa cifra al di sotto di %2 tutte le informazioni relative a %1 verranno eliminate.
+Riduci eco
+Rilevamento videocamere in corso...
+Riprova
+Rozpocznij udost
+Scherm delen starten
+Schlie
+ScreenPrivacyMsgText
+Security
+Seguran
+Seguridad
+Sekretess
+SharedObject
+Si disminuye a menos de %2 se quitar
+Sicherheit
+Sicurezza
+Sistema de redes de pares
+Ska %1 f
+Sluiten
+Solicitado: at
+Solicitado: hasta %2<br>Actualmente usado: %3
+Souhaitez-vous autoriser l'acc
+Sound
+Speichern
+Spustit sd
+Start Screen Sharing
+Starta sk
+Stockage local
+StorageMsgText
+Strings
+Strona %1 prosi o dost
+Strona %1 prosi o przyzwolenie na przechowywanie informacji na komputerze.
+Substitute
+Symbol_26
+System
+Tamam
+Tekrar Sorma
+TextField345
+TextField352
+TextField9
+TextFormat
+Toegang tot camera en microfoon
+Toestaan
+Toutes les donn
+Un niveau inf
+Unbegrenzt
+Une erreur de t
+Unlimited
+UpdateGain
+Uso atual:
+Ustawienia programu Adobe Flash Player
+Uygulama sabit diske yaz
+Verbindung wird hergestellt...
+Verweigern
+Videocamera
+Visning
+Visualizaci
+Visualizzazione
+Volume
+Volume d
+Volume da grava
+Volume di registrazione
+Volumen de registro:
+Voulez-vous permettre 
+Wanneer u de hoeveelheid verlaagt tot minder dan %2, wordt alle informatie voor %1 verwijderd.
+Webcam
+Weergave
+Weigeren
+Wenn Sie den Wert so weit reduzieren, dass er unter %2 liegt, werden alle Informationen f
+Wie viele Informationen darf %1 auf Ihrem Computer speichern?
+Wiederholen
+Wykrywanie kamer...
+Yeniden Dene
+Yerel Depolama
+Zaawansowane
+Zabezpe
+Zabezpieczenia
+Zamknij
+Zapamatovat
+Zapami
+Zapnout hardwarovou akceleraci
+Zkusit znovu
+Zmniejsz echo
+Zmniejszenie ilo
+Znovu se nedotazovat
+Zobrazen
+Zugriffsschutz
+Zulassen
+_alpha
+_cameraSettings
+_currentframe
+_dispatch
+_down
+_global
+_height
+_localInformation
+_localinformation
+_microphoneSettings
+_name
+_over
+_parent
+_parent.myMenuInit(this);
+_privacy
+_root
+_root.doVisibilityCheck = function()
+_rotation
+_sans
+_videoSettings
+_visible
+_width
+_xmouse
+_ymouse
+`vidCover
+a no ser segura. 
+a","Acesso a c
+accessorDomain
+active
+activeMenu
+activityLevel
+ado";
+aduje p
+aduje povolen
+alert_error
+alert_storage
+allow
+allowStorageChange
+altStyle
+always
+always_allow
+always_deny
+ania?
+ania?";
+application sur le disque dur. V
+arrowAction
+arrowAction = function(obj)
+arrow_mc
+attachAudio
+attachMovie
+attachVideo
+attributes
+available
+begin 
+berpr
+bir zaman
+bir zaman",value:-1},{label:"Yok",value:0},{label:"10 KB",value:10},{label:"100 KB",value:100},{label:"1 MB",value:1024},{label:"10 MB",value:10240},{label:"S
+block
+borderColor
+bottom
+buj ponownie.
+buj ponownie.";
+buje odczyta
+busyVisible
+busy_mc
+butt_Advanced
+butt_cam
+butt_cam.useHandCursor = false;
+butt_mic
+butt_mic.useHandCursor = false;
+butt_privacy
+butt_privacy.useHandCursor = false;
+butt_storage
+butt_storage.useHandCursor = false;
+butt_video
+butt_video.useHandCursor = false;
+camBorder
+camBorder_butt
+camList
+camMsg
+camera
+cameraSettings
+cammenu
+capabilities
+ce %1 zostan
+changeKlimit
+chargement s'est produite. Souhaitez-vous r
+chargement s\'est produite. Souhaitez-vous r
+checkIt
+checkIt = null;
+checkMode
+checkMode();
+checkPort
+checkSlider
+cho";
+chten Sie den Vorgang zulassen?
+chten Sie den Vorgang zulassen?";
+chten Sie den Zugriff auf Ihre Uploadbandbreite zulassen?
+chten Sie den Zugriff auf Ihre Uploadbandbreite zulassen?";
+chten Sie zulassen, dass %1 den Bildschirm mitverwendet?
+chten Sie zulassen, dass %1 den Bildschirm mitverwendet?";
+ci poni
+ci wysy
+cie przycisku Zezw
+clearInterval
+cran de votre ordinateur ?
+cran de votre ordinateur ?";
+cran","S
+crib2
+crire l
+csStrings
+curit
+currentKvalue
+cz przyspieszanie sprz
+czenie...
+czenie...";
+d pobierania. Spr
+dane: do %2<br>Obecnie u
+defStyle
+default
+defaultCamera
+defaultMicrophone
+defaultValue
+denyStorageChange
+displayAs
+dnym");
+dnym. Czy chcesz zezwoli
+doTab
+doVisibilityCheck
+domain
+domainSettings
+domainSettings = SharedObject.getLocal(inputState.domain + "/settings",inputState.scope);
+domainStyle
+download
+drawMenu
+drawMenu = function(p)
+duire l
+e %1 ulo
+e a mikrofonu
+e a mikrofonu","Zobrazen
+e a mikrofonu. Pokud klepnete na tla
+e a mikrofonu?
+e a mikrofonu?";
+e przechowywa
+e uzyska
+e wsp
+e wszystkie informacje dotycz
+e. Souhaitez-vous l'autoriser ?
+e. Souhaitez-vous l\'autoriser ?";
+e5.c`
+ech informac
+echna ulo
+echosuppression
+eho po
+ej %2 spowoduje, 
+en-US
+english_us
+english_usStrings
+enosov
+enregistrement :
+enregistrement :";
+enregistrer des informations sur votre ordinateur.
+enregistrer des informations sur votre ordinateur.";
+error
+errorCode
+es %1 pode armazenar no computador?
+es %1 pode armazenar no computador?";
+es de %1 sejam removidas.
+es de %1 sejam removidas.";
+es do Adobe Flash Player
+es do Adobe Flash Player";
+es enregistr
+es no computador.
+es no computador.";
+es.";
+escapeDomain
+esine y
+espace disque disponible avant de r
+essayer
+essayer ?
+essayer ?";
+essayer";
+essayer.
+essayer.";
+ete b
+extractStringsFromXML
+fSize
+fen Sie die verf
+field
+finish
+firstChild
+fono","C
+fono","Visualizaci
+fono. Si hace clic en Permitir, podr
+fono?
+fono?";
+foundCams
+frame
+frame_DP_dialog
+frame_DP_dialog();
+frame_DP_download
+frame_DP_download();
+frame_DP_error
+frame_DP_error();
+frame_DP_init
+frame_DP_init();
+frame_cameraSettings
+frame_cameraSettings();
+frame_dispatch
+frame_dispatch();
+frame_localInformation
+frame_localInformation();
+frame_microphoneSettings
+frame_microphoneSettings();
+frame_pop_crossdomain
+frame_pop_crossdomain();
+frame_pop_p2p
+frame_pop_p2p();
+frame_pop_privacy
+frame_pop_privacy();
+frame_pop_screenshare
+frame_pop_storage
+frame_pop_storage();
+frame_privacy
+frame_privacy();
+frame_videoSettings
+frame_videoSettings();
+french
+frenchStrings
+function DP_dl_accept()
+function DP_dl_deny()
+function DP_dl_retry()
+function Substitute(input, token, value)
+function allowStorageChange()
+function busyVisible()
+function changeKlimit(val)
+function checkMode()
+function checkSlider()
+function denyStorageChange()
+function doTab(obj)
+function download()
+function extractStringsFromXML()
+function frame_DP_dialog()
+function frame_DP_download()
+function frame_DP_error()
+function frame_DP_init()
+function frame_cameraSettings()
+function frame_dispatch()
+function frame_localInformation()
+function frame_microphoneSettings()
+function frame_pop_crossdomain()
+function frame_pop_p2p()
+function frame_pop_privacy()
+function frame_pop_screenshare()
+function frame_pop_storage()
+function frame_privacy()
+function frame_videoSettings()
+function getAppropriateLevel(kc)
+function getHelpURL()
+function goPanel()
+function killHand()
+function movInit()
+function onChange(btn, a)
+function pop_changeKlimit()
+function pressSnap(n)
+function setPanel(x)
+function setStyle(field)
+function setText(w)
+function setTitle(frame)
+function showVid()
+function storageErrorOK()
+function toggleNever()
+function visibleCheck(p)
+gMask
+ga inte igen
+ga inte igen";
+gbare Festplatte und versuchen Sie es noch einmal.
+gbare Festplatte und versuchen Sie es noch einmal.";
+german
+germanStrings
+getAppropriateLevel
+getHelpURL
+getLocal
+gido est
+gido. Verifique se o disco r
+gmask
+goPanel
+gotoAndPlay
+gotoAndStop
+hasAudioEncoder
+hasVideoEncoder
+hilite
+hitTest
+htmlText
+i stahov
+i_cameraSettings
+i_localInformation
+i_microphoneSettings
+i_privacy
+if(inputState.domain == null)
+if(inputState.isAOL)
+if(this._name != _parent.lastClip)
+if(this._name == "Remember")
+ignoreWhite
+ilimitado
+illimit
+illimitata
+im istiyor. 
+im vermek istiyor musunuz?
+im vermek istiyor musunuz?";
+imi kullanabilir. Y
+imi");
+imi","G
+in izin istiyor.
+in izin istiyor.";
+indexOf
+informations que %1 peut enregistrer sur votre ordinateur ?
+informations que %1 peut enregistrer sur votre ordinateur ?";
+ini etkinle
+inize eri
+input
+inputState
+installMsg_confirm
+installMsg_progress
+installerConnecting
+installerTitle
+intid
+ipojov
+isAOL
+isPrivate
+it na v
+it odezvu
+it odezvu";
+itabs
+italian
+italianStrings
+itemBG
+jWo,Q
+japanese
+japaneseStrings
+k igen
+k igen";
+k igen.
+k igen.";
+kbStyle
+kcurrent
+ker l
+ker. Vill du till
+kerhet
+kerhet","
+killClips
+killClips = function(o)
+killHand
+killHand();
+kleme bant geni
+klimit
+korean
+koreanStrings
+krequest
+ku i obrazu za pomoc
+l umo
+label
+labilir durumda oldu
+lamad
+lan: %3
+lan: %3";
+lan:";
+language
+lastClip
+layout
+lem g
+length
+let obrazovku va
+level
+liwi innym nagrywanie d
+llningar
+llningar";
+lmesi, %1 
+lo k chyb
+local
+local(e)
+localInformation
+localToGlobal
+locale
+localinfo
+localinformation
+localinformationSetting
+lokaal
+lokal
+lokalny
+m bilgilerin kald
+m, zda je pevn
+mara y al micr
+mara y micr
+mara","Iniciar compartici
+mara.
+mara.";
+maras...
+maras...";
+markList
+markXpos
+markers
+marrer le partage de l'
+marrer le partage de l\'
+menuObj
+mera e ao microfone. Se voc
+mera e microfone
+mera e microfone","Exibi
+mera e o microfone?
+mera e o microfone?";
+mera","Iniciar compartilhamento de tela","Seguran
+mera";
+meras...
+meras...";
+mesine izin verilsin mi?
+mesine izin verilsin mi?";
+meter
+mgrad
+mgrad.setMask(gMask);
+micList
+micmenu
+microphone
+microphoneSettings
+moriser
+moriser";
+movInit
+movInit();
+msa";
+mta p
+mtningsfel har uppst
+myCam
+myDef
+myList
+myMenuInit
+myMenuInit = function(menuObj)
+myMic
+myRoot
+myRoot = this;
+myStyle
+myView
+mylist
+myobj
+myobj = new Object();
+myobj._root = _root;
+myobj.intid = setInterval(visibleCheck,100,myobj);
+myobj.visibleCount = 0;
+myview
+n %2 alt
+n %2. Den h
+n bilgisayar ekran
+n de Adobe Flash Player
+n de Adobe Flash Player";
+n de hardware
+n de hardware";
+n de pantalla
+n de pantalla","Seguridad","Acceso a c
+n en su PC.
+n en su PC.";
+n foto
+n para %1.
+n para %1.";
+n para almacenar informaci
+n podr
+n puede almacenar %1 en su PC?
+n puede almacenar %1 en su PC?";
+n ve yeniden deneyin.
+n ve yeniden deneyin.";
+n","Redes asistidas por pares");
+na izin verilsin mi?
+na izin verilsin mi?";
+na neden olur.
+na neden olur.";
+na usun
+na zapisa
+na znale
+names
+ndan okumaya 
+nden nicht sicher. M
+nder P2P-n
+ndirme hatas
+nds f
+nds nu:
+nds nu:";
+needTwitch
+nelik t
+nera la suppression de toutes les informations pour %1.
+nera la suppression de toutes les informations pour %1.";
+newSetting
+newVal
+nextSibling
+ngden till under %2 tas all information f
+nglig och f
+ni.";
+nlStrings
+no: %3
+no: %3";
+no: a
+no:";
+noCam
+nodeName
+nodeValue
+nostem?
+nostem?";
+nou operaci. Chcete to povolit?
+nou operaci. Chcete to povolit?";
+nsat");
+nsat",value:-2});
+nta informaci
+o danych %1 mo
+o de hardware
+o de hardware";
+o foi poss
+o para armazenar informa
+o perguntar de novo
+o perguntar de novo";
+o pode ser gravada.
+o pode ser gravada.";
+o potencialmente insegura. Deseja permiti-la?
+o potencialmente insegura. Deseja permiti-la?";
+o","Sistema de redes de pares");
+obegr
+on(initialize){
+on(press){
+on(release){
+on(releaseOutside){
+on(releaseOutside,release){
+on(rollOut){
+on(rollOut,dragOut){
+on(rollOver){
+onChange
+onClipEvent(enterFrame){
+onClipEvent(load){
+onClipEvent(mouseMove){
+onClipEvent(mouseUp){
+onLoad
+onPress
+onRollOut
+onRollOver
+onSel
+onbeperkt
+ont pas pu 
+outsideMenu
+outsideMenu = function(obj, par)
+owner
+p do kamery i mikrofonu
+p do kamery i mikrofonu","Wy
+p do kamery i mikrofonu. Klikni
+p do kamery i mikrofonu?
+p do kamery i mikrofonu?";
+pOffset
+panel
+panelName
+param
+parent
+plStrings
+playerSettings
+playerSettings = SharedObject.getLocal("settings",inputState.scope);
+pnianie ekranu
+pnianie ekranu","Zabezpieczenia","Dost
+popUp_StorageData
+popUp_StorageText
+pop_changeKlimit
+pop_crossdomain
+pop_crossdomain_msg
+pop_localinfo
+pop_p2p
+pop_p2p_msg
+pop_priv_msg
+pop_privacy
+pop_screenshare
+pop_screenshare_msg
+pop_storage
+position
+pressSnap
+pressed
+privacy
+privacyMsgText
+progBar
+providerDomain
+psd2 
+pt-BR
+ptStrings
+ptal";
+pullArrow
+query
+r %1 bort.
+r %1 bort.";
+r %1 entfernt.
+r %1 entfernt.";
+r %1 lagra p
+r Adobe Flash Player
+r Adobe Flash Player";
+r beh
+r inte att hitta kameran
+r inte att hitta kameran";
+r tillg
+r uppladdning?
+r uppladdning?";
+ra et 
+ra et au microphone
+ra et au microphone","Affichage","Mise en r
+ra","D
+radVal
+raf makinenize ve mikrofonunuza eri
+ras...
+ras...";
+ration mat
+ration peut s'av
+ration peut s\'av
+rative
+rative");
+rative. 
+rative. \nSouhaitez-vous autoriser l\'acc
+rddisken 
+rddisken. Kontrollera att h
+rden kan vara os
+rer risqu
+response
+rielle
+rielle";
+rieur 
+rifiez l
+righet att lagra information p
+right
+rke:";
+rm?";
+rmdelning
+rmdelning","S
+rt: upp till %2<br>Anv
+rtig verwendet:
+rtig verwendet: %3
+rtig verwendet: %3";
+rtig verwendet:";
+ruStrings
+rulay
+rvarande: %3
+rvarande: %3";
+sa fr
+safefullscreen
+scope
+seau coop
+security
+securityMsg
+securityRemember
+selected
+sentence
+sentence2
+setInterval
+setMask
+setPanel
+setSo
+setSo = function(val, parent)
+setStyle
+setText
+setTextFormat
+setTitle
+setVolume
+settings
+settings_helper
+showSel
+showSel = function(obj, parent)
+showVid
+slider
+snapDistance
+somesiteintheworld.com
+spacing
+spanish
+spanishStrings
+st z %2. Jedn
+start
+status
+stenen: En fazla %2<br>
+stop();
+storageAlert
+storageError
+storageErrorOK
+storageLevels
+string
+stup k odchoz
+stup k va
+stup ke kame
+substr
+success
+svStrings
+t Sesi:
+t Sesi:";
+t kameru
+t kameru";
+t kan du bli inspelad.
+t kan du bli inspelad.";
+t nahr
+tOffset
+t_msg
+t_privacy
+t_storage
+t_storageData
+ta den?
+ta den?";
+taj";
+te.";
+tection des cam
+ter du 
+textColor
+tfen sabit diskin kullan
+theStyle
+this.onPress = function()
+this.onRollOut = function()
+this.onRollOver = function()
+this.useHandCursor = false;
+tir";
+title
+titles
+tko Povolit, m
+tkomst till din bandbredd f
+tkomst till din kamera och mikrofon. Om du klickar p
+tkomst till din kamera och mikrofon?
+tkomst till din kamera och mikrofon?";
+tkomst till kamera och mikrofon
+tkomst till kamera och mikrofon","Visning","P2P-n
+tnout
+tnout";
+toggleNever
+token
+towe";
+trStrings
+translation
+tre enregistr
+tre supprim
+tres Adobe Flash Player
+tres Adobe Flash Player";
+tt. Vill du h
+tu. Yeniden indirmeyi dene?
+tu. Yeniden indirmeyi dene?";
+tverk
+tverk");
+tverk. Till
+u Anda Kullan
+unbegrenzt
+unlimited
+unu do
+useCGI
+useHandCursor
+usedBox
+userAccepted
+userAccepted = false;
+value
+vat s
+vel e tente novamente.
+vel e tente novamente.";
+vel encontrar a c
+vel gravar o aplicativo no disco r
+vel remover todos os dados armazenados.
+vel remover todos os dados armazenados.";
+venli olmayabilir. 
+venlik
+venlik","Kamera ve Mikrofon Eri
+vidCover
+video
+videoSafe
+videoSettings
+videoSettingsPanelNumber
+videoSettingsPanelNumber = 5;
+visInterval
+visibleCheck
+visibleCount
+waitMsg
+wietlacz
+wietlacz","Sie
+windowList
+windowTitle
+winmenu
+wnorz
+xOffset
+xY)@)
+yOffset
+yor";
+yor. Bu i
+yor...
+yor...";
+ytkowa
+ywane:
+ywane: %3
+ywane: %3";
+ywane:";
+ywanie swojej przepustowo
+z ve sesiniz kaydedilebilir.
+z ve sesiniz kaydedilebilir.";
+z",value:-2});
+za bilgi depolamak i
+za ne kadar bilgi depolayabilir?
+za ne kadar bilgi depolayabilir?";
+zelli
+zero KB
+zh-CN
+zh-TW
+zin Ver
+zin Ver";
+zin Ver'i t
+zin Ver\'i t
+zin vermek istiyor musunuz?
+zin vermek istiyor musunuz?";
+zland

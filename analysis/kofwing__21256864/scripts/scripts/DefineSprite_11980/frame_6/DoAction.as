@@ -1,0 +1,1 @@
+mc.gotoAndPlay(2);

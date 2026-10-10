@@ -1,0 +1,72 @@
+{
+ "relative_path": "kofwing/6235248.swf",
+ "filename": "6235248.swf",
+ "extension": ".swf",
+ "bytes": 968,
+ "sha256": "fc38dc6b97fb706142dd57f22396e014b39ef25eb905694de5e83bd265ade08c",
+ "is_swf_signature": true,
+ "valid_swf": true,
+ "compression": "zlib",
+ "swf_version": 7,
+ "declared_length": 2018,
+ "actual_length": 968,
+ "length_match": false,
+ "frame_rate": 12.0,
+ "declared_frame_count": 1,
+ "showframe_count": 1,
+ "canvas_twips": [
+  -1024,
+  8192
+ ],
+ "canvas_px_1440dpi": [
+  -51.2,
+  409.6
+ ],
+ "tag_total": 4,
+ "tag_histogram": {
+  "0": 1,
+  "1": 1,
+  "9": 1,
+  "12": 1
+ },
+ "tag_histogram_named": {
+  "End": 1,
+  "ShowFrame": 1,
+  "SetBackgroundColor": 1,
+  "DoAction": 1
+ },
+ "has_do_action": true,
+ "has_do_init_action": false,
+ "has_do_abc": false,
+ "n_do_action": 1,
+ "n_do_init_action": 0,
+ "n_do_abc": 0,
+ "n_sprite": 0,
+ "n_image_tags": 0,
+ "n_sound_tags": 0,
+ "n_font_tags": 0,
+ "n_text_tags": 0,
+ "n_shape_tags": 0,
+ "n_frame_label": 0,
+ "n_symbol_class": 0,
+ "n_export_assets": 0,
+ "n_define_binary": 0,
+ "n_video_stream": 0,
+ "tag_walk_ok": true,
+ "warnings": [
+  "declared length 2018 != actual length 968 (delta +1050)"
+ ],
+ "errors": [],
+ "length_delta": 1050,
+ "bytes_after_end_tag": 0,
+ "analysis_id": "kofwing__6235248",
+ "jpexs_dump_parsed_lines": 4,
+ "jpexs_tag_counts": {
+  "S": 2,
+  "D": 1,
+  "E": 1
+ },
+ "script_files_exported": 1,
+ "string_count": 121,
+ "jpexs_errors": []
+}

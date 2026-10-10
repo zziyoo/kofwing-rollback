@@ -1,0 +1,10 @@
+if(_level0.SE_old)
+{
+   gotoAndStop("ko97");
+   play();
+}
+else
+{
+   gotoAndStop("ko02um");
+   play();
+}

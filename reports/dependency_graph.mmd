@@ -1,0 +1,36 @@
+graph LR
+  subgraph EXE["wingex1.2.exe (Flash Projector)"]
+    BOOT["21256864.swf<br/>MAIN GAME<br/>125 MB / ZWS v15"]
+    ENG["kofwing combat+SFX modules<br/>11480055 / 16695748<br/>18464326 / 8492959"]
+    RT["Flash runtime helpers<br/>6148152 / 6230976 / 6235248<br/>7298128 / 20817874"]
+  end
+  subgraph EXT["External runtime directories"]
+    CH["char/ (MISSING)<br/>character modules"]
+    SK["data/skillList.swf (MISSING)<br/>move tables"]
+    CODE["code.swf (MISSING)"]
+    STG["stage/*.swf<br/>83 stage SWFs"]
+    WTH["stage/weather/*.swf (MISSING)"]
+    SOUND["sound/*.mp3<br/>43 tracks + list.txt"]
+  end
+  REG1["stage/list.txt"]
+  REG2["stage2/list.txt"]
+  REG3["sound/list.txt"]
+  BOOT -->|"loadClip char/&lt;role&gt;.swf"| CH
+  BOOT -->|"loadMovie data/skillList.swf"| SK
+  BOOT -->|"loadMovie code.swf"| CODE
+  BOOT -->|"LoadVars.load stage/list.txt"| REG1
+  BOOT -->|"LoadVars.load sound/list.txt"| REG3
+  REG1 -->|"bgID name list"| BOOT
+  REG3 -->|"char->mp3 map"| BOOT
+  BOOT -->|"loadClip stage/&lt;bgID&gt;.swf"| STG
+  BOOT -->|"loadMovie stage/weather/&lt;tq&gt;.swf"| WTH
+  BOOT -->|"Sound.loadSound sound/&lt;file&gt;.mp3"| SOUND
+  STG -.->|"exports bgArray[] back"| BOOT
+  CH -.->|"if present: role/skill/hitbox"| BOOT
+  ENG -.->|"embedded in EXE"| BOOT
+  RT -.->|"Flash Player runtime"| BOOT
+  classDef ok fill:#d4edda,stroke:#28a745
+  classDef miss fill:#f8d7da,stroke:#dc3545
+  classDef ext fill:#d1ecf1,stroke:#17a2b8
+  class CH,SK,CODE,WTH miss
+  class STG,SOUND,REG1,REG2,REG3 ext

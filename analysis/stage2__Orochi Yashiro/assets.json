@@ -1,0 +1,24 @@
+{
+ "relative_path": "stage2/Orochi Yashiro.swf",
+ "analysis_id": "stage2__Orochi Yashiro",
+ "tag_counts": {
+  "S": 310,
+  "D": 185,
+  "P": 151,
+  "R": 6,
+  "F": 1,
+  "E": 1
+ },
+ "unknown_tag_ids": {},
+ "n_export_assets": 0,
+ "export_names": [],
+ "export_assets": [],
+ "sounds": [],
+ "sprites": [],
+ "images": [],
+ "fonts": [],
+ "frame_label_lines": [],
+ "script_files_exported": 2,
+ "string_count": 2161,
+ "path_like_strings": []
+}

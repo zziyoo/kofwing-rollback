@@ -1,0 +1,126 @@
+{
+ "relative_path": "kofwing/7298128.swf",
+ "analysis_id": "kofwing__7298128",
+ "tag_counts": {
+  "P": 228,
+  "D": 172,
+  "S": 96,
+  "R": 93,
+  "F": 43,
+  "E": 21
+ },
+ "unknown_tag_ids": {},
+ "n_export_assets": 20,
+ "export_names": [
+  "item",
+  "HardwareAcceleration",
+  "Webcam",
+  "Microphone",
+  "LocalStorage",
+  "Privacy",
+  "Privacy",
+  "Privacy",
+  "Privacy",
+  "LocalStorage",
+  "Microphone",
+  "Microphone",
+  "Microphone",
+  "Webcam",
+  "Webcam",
+  "Webcam",
+  "HardwareAcceleration",
+  "item",
+  "Webcam",
+  "Privacy"
+ ],
+ "export_assets": [
+  {
+   "char_id": 6,
+   "export_name": "item"
+  },
+  {
+   "char_id": 8,
+   "export_name": "HardwareAcceleration"
+  },
+  {
+   "char_id": 10,
+   "export_name": "Webcam"
+  },
+  {
+   "char_id": 12,
+   "export_name": "Microphone"
+  },
+  {
+   "char_id": 14,
+   "export_name": "LocalStorage"
+  },
+  {
+   "char_id": 16,
+   "export_name": "Privacy"
+  },
+  {
+   "char_id": 16,
+   "export_name": "Privacy"
+  },
+  {
+   "char_id": 16,
+   "export_name": "Privacy"
+  },
+  {
+   "char_id": 16,
+   "export_name": "Privacy"
+  },
+  {
+   "char_id": 14,
+   "export_name": "LocalStorage"
+  },
+  {
+   "char_id": 12,
+   "export_name": "Microphone"
+  },
+  {
+   "char_id": 12,
+   "export_name": "Microphone"
+  },
+  {
+   "char_id": 12,
+   "export_name": "Microphone"
+  },
+  {
+   "char_id": 10,
+   "export_name": "Webcam"
+  },
+  {
+   "char_id": 10,
+   "export_name": "Webcam"
+  },
+  {
+   "char_id": 10,
+   "export_name": "Webcam"
+  },
+  {
+   "char_id": 8,
+   "export_name": "HardwareAcceleration"
+  },
+  {
+   "char_id": 6,
+   "export_name": "item"
+  },
+  {
+   "char_id": 10,
+   "export_name": "Webcam"
+  },
+  {
+   "char_id": 16,
+   "export_name": "Privacy"
+  }
+ ],
+ "sounds": [],
+ "sprites": [],
+ "images": [],
+ "fonts": [],
+ "frame_label_lines": [],
+ "script_files_exported": 152,
+ "string_count": 2724,
+ "path_like_strings": []
+}

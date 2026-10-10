@@ -1,0 +1,24 @@
+{
+ "relative_path": "stage2/Orochi.swf",
+ "analysis_id": "stage2__Orochi",
+ "tag_counts": {
+  "P": 151,
+  "D": 98,
+  "S": 89,
+  "R": 14,
+  "F": 1,
+  "E": 1
+ },
+ "unknown_tag_ids": {},
+ "n_export_assets": 0,
+ "export_names": [],
+ "export_assets": [],
+ "sounds": [],
+ "sprites": [],
+ "images": [],
+ "fonts": [],
+ "frame_label_lines": [],
+ "script_files_exported": 2,
+ "string_count": 1077,
+ "path_like_strings": []
+}

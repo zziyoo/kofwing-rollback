@@ -1,0 +1,221 @@
+         break;
+         fontName = latinFont;
+         fontSize = 17;
+         fontSize = 18;
+         fontSize = 19;
+         language = "CHS";
+         language = "CHT";
+         language = "cs";
+         language = "english_us";
+         language = "french";
+         language = "german";
+         language = "italian";
+         language = "japanese";
+         language = "korean";
+         language = "nl";
+         language = "pl";
+         language = "pt";
+         language = "ru";
+         language = "spanish";
+         language = "sv";
+         language = "tr";
+      FullScreen_MC.FullScreen_text.text = "";
+      FullScreen_MC.FullScreen_text.text = _root.FullScreenAlertText;
+      FullScreen_MC.FullScreen_text.text = ls.FullScreen;
+      FullScreen_MC._alpha = _loc4_;
+      FullScreen_MC.removeMovieClip();
+      _loc4_ *= 100;
+      _loc4_ = 1 - (_loc3_ - initialDisplayTime) / fadeOutTime;
+      _loc6_ = this.createEmptyMovieClip("empty",this.getNextHighestDepth());
+      _loc6_.swapDepths(FullScreen_MC);
+      _root.AlertResponseOverlayMessage = "close";
+      case "cs":
+      case "de":
+      case "en":
+      case "en-US":
+      case "es":
+      case "fr":
+      case "it":
+      case "ja":
+      case "ko":
+      case "nl":
+      case "pl":
+      case "pt":
+      case "pt-Br":
+      case "ru":
+      case "sv":
+      case "tr":
+      case "zh-CN":
+      case "zh-TW":
+      clearInterval(intervalId);
+      default:
+      isMac = true;
+      isWindows = true;
+      latinFont = "Lucida Grande";
+      latinFont = "Tahoma";
+      ls = eval(language + "Strings");
+   CHSStrings = new Object();
+   CHSStrings.FullScreen = "
+   CHTStrings = new Object();
+   CHTStrings.FullScreen = "
+   FullScreen_MC.FullScreen_text.setTextFormat(theStyle);
+   _root.AlertResponseOverlayMessage = "layout";
+   csStrings = new Object();
+   csStrings.FullScreen = "Re
+   else
+   else if(System.capabilities.os.indexOf("Mac",0) >= 0)
+   else if(_loc3_ > initialDisplayTime)
+   english_usStrings = new Object();
+   english_usStrings.FullScreen = "Press Esc to exit full screen mode.";
+   frenchStrings = new Object();
+   frenchStrings.FullScreen = "Appuyez sur la touche Echap pour quitter le mode plein 
+   germanStrings = new Object();
+   germanStrings.FullScreen = "Dr
+   if(System.capabilities.os.indexOf("Windows",0) >= 0)
+   if(_loc3_ > initialDisplayTime + fadeOutTime)
+   if(_root.FullScreenAlertText == undefined)
+   intervalId = setInterval(this,"constantCallback",timeInterval);
+   italianStrings = new Object();
+   italianStrings.FullScreen = "Premere Esc per uscire dalla modalit
+   japaneseStrings = new Object();
+   japaneseStrings.FullScreen = "
+   koreanStrings = new Object();
+   koreanStrings.FullScreen = "
+   nlStrings = new Object();
+   nlStrings.FullScreen = "Druk op Esc om de modus Volledig scherm af te sluiten.";
+   plStrings = new Object();
+   plStrings.FullScreen = "Naci
+   ptStrings = new Object();
+   ptStrings.FullScreen = "Pressione Esc para sair do modo de tela cheia.";
+   ruStrings = new Object();
+   ruStrings.FullScreen = "
+   spanishStrings = new Object();
+   spanishStrings.FullScreen = "Presione Esc para salir del modo de pantalla completa.";
+   startTime = getTimer();
+   svStrings = new Object();
+   svStrings.FullScreen = "Tryck p
+   switch(lang)
+   theStyle = new TextFormat();
+   theStyle.font = fontName;
+   theStyle.size = fontSize;
+   trStrings = new Object();
+   trStrings.FullScreen = "Tam ekran modundan 
+   var _loc3_ = _loc5_ - startTime;
+   var _loc4_;
+   var _loc5_ = getTimer();
+   var _loc6_;
+   var isMac = false;
+   var isWindows = false;
+   var lang = System.capabilities.language;
+   var language = "english_us";
+   var latinFont = "_sans";
+ Esc 
+ Esc om du vill avsluta helsk
+ Esc, 
+ a schermo intero.
+ a schermo intero.";
+ na celou obrazovku ukon
+ tryb pe
+<p align="center"><font face="Tahoma" size="20" color="#ffffff" letterSpacing="0.000000" kerning="1"><b>Press Esc to exit full screen mode.</b></font></p>
+AlertResponseOverlayMessage
+Appuyez sur la touche Echap pour quitter le mode plein 
+CHSStrings
+CHTStrings
+Druk op Esc om de modus Volledig scherm af te sluiten.
+FullScreen
+FullScreenAlertText
+FullScreen_MC
+FullScreen_text
+Lucida Grande
+Object
+Premere Esc per uscire dalla modalit
+Presione Esc para salir del modo de pantalla completa.
+Press Esc to exit full screen mode.
+Pressione Esc para sair do modo de tela cheia.
+Strings
+System
+Tahoma
+Tam ekran modundan 
+TextFormat
+Tryck p
+Windows
+_alpha
+_root
+_sans
+capabilities
+cken Sie die Esc-Taste, um den Vollbildmodus zu beenden.
+cken Sie die Esc-Taste, um den Vollbildmodus zu beenden.";
+clearInterval
+close
+constantCallback
+cran.
+cran.";
+createEmptyMovieClip
+csStrings
+empty
+en-US
+english_us
+english_usStrings
+fadeOutTime
+fontName
+fontSize
+french
+frenchStrings
+function constantCallback()
+function movInit()
+german
+germanStrings
+get.";
+getNextHighestDepth
+im zobrazen
+in Esc tu
+indexOf
+initialDisplayTime
+intervalID
+intervalId
+isMac
+isWindows
+italian
+italianStrings
+japanese
+japaneseStrings
+kmak i
+korean
+koreanStrings
+language
+latinFont
+layout
+movInit
+movInit();
+nij klawisz Esc, aby wy
+nlStrings
+noekranowy.
+noekranowy.";
+plStrings
+pt-Br
+ptStrings
+removeMovieClip
+ruStrings
+setInterval
+setTextFormat
+spanish
+spanishStrings
+startTime
+svStrings
+swapDepths
+te stisknut
+theStyle
+timeInterval
+trStrings
+una bas
+var fadeOutTime = 1000;
+var fontName = "_sans";
+var fontSize = 20;
+var initialDisplayTime = 3000;
+var intervalID = 0;
+var startTime = 0;
+var timeInterval = 25;
+vesy Esc.
+vesy Esc.";
+zh-CN
+zh-TW

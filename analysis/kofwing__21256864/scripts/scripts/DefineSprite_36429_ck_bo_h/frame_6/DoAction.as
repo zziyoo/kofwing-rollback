@@ -1,0 +1,5 @@
+function hit()
+{
+   play();
+}
+stop();

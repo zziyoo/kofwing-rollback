@@ -1,0 +1,2 @@
+hitPos = "down";
+var lh;

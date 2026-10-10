@@ -1,0 +1,22 @@
+)v}z>
+4N_OE
+;G q1
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> <xmp:CreatorTool>Adobe Flash Professional CS6 - build 481</xmp:CreatorTool> <xmp:CreateDate>2013-07-16T12:45:22+08:00</xmp:CreateDate> <xmp:MetadataDate>2013-07-16T12:55:39+08:00</xmp:MetadataDate> <xmp:ModifyDate>2013-07-16T12:55:39+08:00</xmp:ModifyDate> </rdf:Description> <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> <dc:format>application/x-shockwave-flash</dc:format> </rdf:Description> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"> <xmpMM:InstanceID>xmp.iid:457FEFDAD2EDE211943EE48539DB2CA4</xmpMM:InstanceID> <xmpMM:DocumentID>xmp.did:457FEFDAD2EDE211943EE48539DB2CA4</xmpMM:DocumentID> <xmpMM:OriginalDocumentID>xmp.did:3D7FEFDAD2EDE211943EE48539DB2CA4</xmpMM:OriginalDocumentID> <xmpMM:DerivedFrom rdf:parseType="Resource"> <stRef:instanceID>xmp.iid:3D7FEFDAD2EDE211943EE48539DB2CA4</stRef:instanceID> <stRef:documentID>xmp.did:3D7FEFDAD2EDE211943EE48539DB2CA4</stRef:documentID> <stRef:originalDocumentID>xmp.did:3D7FEFDAD2EDE211943EE48539DB2CA4</stRef:originalDocumentID> </xmpMM:DerivedFrom> </rdf:Description> </rdf:RDF> 
+Sn_<b
+W_<s>
+WkF~l
+WkF~lB
+YC;.f
+a8%gp
+bg0_mc
+bgArray
+isBase
+isBmd
+m>r/?
+ojLyq3
+pwM&D
+stop();
+v_rate
+var bg0 = {isBmd:false,mc:bg0_mc,v_rate:1,isBase:true};
+var bgArray = [bg0];
+}<V<,

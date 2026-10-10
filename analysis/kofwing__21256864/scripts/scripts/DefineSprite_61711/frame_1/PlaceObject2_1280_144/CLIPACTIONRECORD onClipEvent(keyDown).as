@@ -1,0 +1,12 @@
+onClipEvent(keyDown){
+   stopAllSounds();
+   if(_level0.autoSelectRank)
+   {
+      _level0.autoPlayGameGotoMain();
+   }
+   else
+   {
+      _level0.option_snd.start(0,1000);
+      _parent._parent.play();
+   }
+}

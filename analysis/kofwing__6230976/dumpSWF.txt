@@ -1,0 +1,17 @@
+00000015:    0. FileAttributes            tagId= 69 len=       4  00 00 00 00
+0000001b:    1. SetBackgroundColor        tagId=  9 len=       3  ff ff ff
+00000020:    2. DoAction                  tagId= 12 len=    3778  88 f9 06 6e 00 73 74 61 72 74 54 69 6d 65 00 69 6e 69 74 69 61 6c 44 69 73 70 6c 61 79 54 69 6d ... 96 0b 00 08 00 06 00 00 00 00 00 00 00 00 3c 96 0b 00 06 00 00 00 00 00 00 00 00 08 6d 3d 17 00
+00000ee8:    3. DefineShape (chid: 1)     tagId=  2 len=      72  01 00 78 00 05 dc 00 00 82 58 80 01 00 00 00 00 00 10 15 eb 8c c0 59 67 56 ab c0 0f 89 c0 0f 7a ... ab 79 3c 38 01 51 a7 cf 53 a8 00 21 33 80 21 0a da 8c ea da 83 d0 01 e8 a9 12 77 a0 01 5a b0 00
+00000f36:    4. DefineSprite (chid: 2)    tagId= 39 len=      16  02 00 01 00 86 06 06 01 00 01 00 00 40 00 00 00
+00000f40:      0. PlaceObject2 (chid: 1, dpt: 1) tagId= 26 len=       6  06 01 00 01 00 00
+00000f48:      1. ShowFrame               tagId=  1 len=       0  
+00000f4c:    5. DefineFont3 (chid: 3, fn: "Tahoma") tagId= 75 len=      24  03 00 05 01 07 54 61 68 6f 6d 61 00 00 00 02 00 14 50 7c 10 00 00 00 00
+00000f6a:    6. DefineFontAlignZones (fid: 3) tagId= 73 len=       3  03 00 80
+00000f73:    7. DefineEditText (chid: 4)  tagId= 37 len=     186  04 00 7f fb c5 d3 9f f6 01 6d 00 8d 32 03 00 90 01 ff ff ff ff 02 00 00 00 00 00 00 d8 ff 00 3c ... 75 6c 6c 20 73 63 72 65 65 6e 20 6d 6f 64 65 2e 3c 2f 62 3e 3c 2f 66 6f 6e 74 3e 3c 2f 70 3e 00
+00001033:    8. DefineSprite (chid: 5)    tagId= 39 len=      84  05 00 01 00 90 06 0e 01 00 02 00 1d 44 80 00 00 69 00 40 10 02 68 bf 11 34 00 00 00 26 01 03 00 ... 78 74 00 01 00 00 00 00 a5 00 00 03 00 00 00 03 00 1f 92 01 00 00 00 01 00 00 02 21 40 00 00 00
+0000103d:      0. PlaceObject2 (chid: 2, dpt: 1) tagId= 26 len=      16  0e 01 00 02 00 1d 44 80 00 00 69 00 40 10 02 68
+0000104f:      1. PlaceObject3 (chid: 4, dpt: 3, nm: "FullScreen_text") tagId= 70 len=      52  26 01 03 00 04 00 1d 46 a0 2a 80 46 75 6c 6c 53 63 72 65 65 6e 5f 74 65 78 74 00 01 00 00 00 00 a5 00 00 03 00 00 00 03 00 1f 92 01 00 00 00 01 00 00 02 21
+00001089:      2. ShowFrame               tagId=  1 len=       0  
+0000108d:    9. PlaceObject2 (chid: 5, dpt: 1, nm: "FullScreen_MC") tagId= 26 len=      24  26 01 00 05 00 1c bb 80 69 00 46 75 6c 6c 53 63 72 65 65 6e 5f 4d 43 00
+000010ab:   10. ShowFrame                 tagId=  1 len=       0  
+000010ad:   11. End                       tagId=  0 len=       0  

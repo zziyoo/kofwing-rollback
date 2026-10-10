@@ -1,0 +1,2 @@
+stop();
+gotoAndStop("nohit2");

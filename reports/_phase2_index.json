@@ -1,0 +1,879 @@
+{
+ "total": 97,
+ "with_scripts": 93,
+ "results": [
+  {
+   "id": "kofwing__11480055",
+   "rel": "kofwing/11480055.swf",
+   "scripts": 1471,
+   "tags": 43202,
+   "valid": true,
+   "errors": 0,
+   "bytes": 5215693
+  },
+  {
+   "id": "kofwing__16695748",
+   "rel": "kofwing/16695748.swf",
+   "scripts": 956,
+   "tags": 14538,
+   "valid": true,
+   "errors": 0,
+   "bytes": 1768578
+  },
+  {
+   "id": "kofwing__18464326",
+   "rel": "kofwing/18464326.swf",
+   "scripts": 452,
+   "tags": 11434,
+   "valid": true,
+   "errors": 0,
+   "bytes": 2353548
+  },
+  {
+   "id": "kofwing__20817874",
+   "rel": "kofwing/20817874.swf",
+   "scripts": 59,
+   "tags": 297,
+   "valid": true,
+   "errors": 0,
+   "bytes": 29157
+  },
+  {
+   "id": "kofwing__21256864",
+   "rel": "kofwing/21256864.swf",
+   "scripts": 27122,
+   "tags": 553260,
+   "valid": true,
+   "errors": 0,
+   "bytes": 125450217
+  },
+  {
+   "id": "kofwing__27969957",
+   "rel": "kofwing/27969957.swf",
+   "scripts": 0,
+   "tags": 51,
+   "valid": false,
+   "errors": 37,
+   "bytes": 118729409
+  },
+  {
+   "id": "kofwing__40440656",
+   "rel": "kofwing/40440656.swf",
+   "scripts": 0,
+   "tags": 69,
+   "valid": false,
+   "errors": 42,
+   "bytes": 106258710
+  },
+  {
+   "id": "kofwing__6148152",
+   "rel": "kofwing/6148152.swf",
+   "scripts": 1,
+   "tags": 5,
+   "valid": true,
+   "errors": 0,
+   "bytes": 40171
+  },
+  {
+   "id": "kofwing__6230976",
+   "rel": "kofwing/6230976.swf",
+   "scripts": 1,
+   "tags": 17,
+   "valid": true,
+   "errors": 0,
+   "bytes": 4271
+  },
+  {
+   "id": "kofwing__6235248",
+   "rel": "kofwing/6235248.swf",
+   "scripts": 1,
+   "tags": 4,
+   "valid": true,
+   "errors": 0,
+   "bytes": 968
+  },
+  {
+   "id": "kofwing__7298128",
+   "rel": "kofwing/7298128.swf",
+   "scripts": 152,
+   "tags": 653,
+   "valid": true,
+   "errors": 0,
+   "bytes": 34199
+  },
+  {
+   "id": "kofwing__74424254",
+   "rel": "kofwing/74424254.swf",
+   "scripts": 0,
+   "tags": 20,
+   "valid": false,
+   "errors": 2,
+   "bytes": 72275112
+  },
+  {
+   "id": "kofwing__84187910",
+   "rel": "kofwing/84187910.swf",
+   "scripts": 0,
+   "tags": 19,
+   "valid": false,
+   "errors": 21,
+   "bytes": 62511456
+  },
+  {
+   "id": "kofwing__8492959",
+   "rel": "kofwing/8492959.swf",
+   "scripts": 774,
+   "tags": 12035,
+   "valid": true,
+   "errors": 0,
+   "bytes": 2987096
+  },
+  {
+   "id": "stage2__Ash",
+   "rel": "stage2/Ash.swf",
+   "scripts": 3,
+   "tags": 63,
+   "valid": true,
+   "errors": 0,
+   "bytes": 3826773
+  },
+  {
+   "id": "stage2__Athena",
+   "rel": "stage2/Athena.swf",
+   "scripts": 1,
+   "tags": 62,
+   "valid": true,
+   "errors": 0,
+   "bytes": 741240
+  },
+  {
+   "id": "stage2__Bali",
+   "rel": "stage2/Bali.swf",
+   "scripts": 1,
+   "tags": 62,
+   "valid": true,
+   "errors": 0,
+   "bytes": 741240
+  },
+  {
+   "id": "stage2__Black",
+   "rel": "stage2/Black.swf",
+   "scripts": 2,
+   "tags": 20,
+   "valid": true,
+   "errors": 0,
+   "bytes": 16447
+  },
+  {
+   "id": "stage2__CZero",
+   "rel": "stage2/CZero.swf",
+   "scripts": 2,
+   "tags": 188,
+   "valid": true,
+   "errors": 0,
+   "bytes": 122483
+  },
+  {
+   "id": "stage2__Chunli",
+   "rel": "stage2/Chunli.swf",
+   "scripts": 3,
+   "tags": 55,
+   "valid": true,
+   "errors": 0,
+   "bytes": 3018885
+  },
+  {
+   "id": "stage2__CloneTeam",
+   "rel": "stage2/CloneTeam.swf",
+   "scripts": 2,
+   "tags": 416,
+   "valid": true,
+   "errors": 0,
+   "bytes": 102794
+  },
+  {
+   "id": "stage2__E_Ash",
+   "rel": "stage2/E_Ash.swf",
+   "scripts": 4,
+   "tags": 439,
+   "valid": true,
+   "errors": 0,
+   "bytes": 860711
+  },
+  {
+   "id": "stage2__Goenitz",
+   "rel": "stage2/Goenitz.swf",
+   "scripts": 1,
+   "tags": 110,
+   "valid": true,
+   "errors": 0,
+   "bytes": 1305064
+  },
+  {
+   "id": "stage2__Haohmaru",
+   "rel": "stage2/Haohmaru.swf",
+   "scripts": 3,
+   "tags": 291,
+   "valid": true,
+   "errors": 0,
+   "bytes": 8678404
+  },
+  {
+   "id": "stage2__Igniz_01",
+   "rel": "stage2/Igniz_01.swf",
+   "scripts": 1,
+   "tags": 62,
+   "valid": true,
+   "errors": 0,
+   "bytes": 490614
+  },
+  {
+   "id": "stage2__Igniz_02um",
+   "rel": "stage2/Igniz_02um.swf",
+   "scripts": 2,
+   "tags": 110,
+   "valid": true,
+   "errors": 0,
+   "bytes": 98243
+  },
+  {
+   "id": "stage2__Iori",
+   "rel": "stage2/Iori.swf",
+   "scripts": 6,
+   "tags": 6363,
+   "valid": true,
+   "errors": 0,
+   "bytes": 929798
+  },
+  {
+   "id": "stage2__Iori2",
+   "rel": "stage2/Iori2.swf",
+   "scripts": 2,
+   "tags": 236,
+   "valid": true,
+   "errors": 0,
+   "bytes": 102172
+  },
+  {
+   "id": "stage2__Iori3",
+   "rel": "stage2/Iori3.swf",
+   "scripts": 1,
+   "tags": 62,
+   "valid": true,
+   "errors": 0,
+   "bytes": 603629
+  },
+  {
+   "id": "stage2__K",
+   "rel": "stage2/K.swf",
+   "scripts": 1,
+   "tags": 206,
+   "valid": true,
+   "errors": 0,
+   "bytes": 35633
+  },
+  {
+   "id": "stage2__K2",
+   "rel": "stage2/K2.swf",
+   "scripts": 3,
+   "tags": 70,
+   "valid": true,
+   "errors": 0,
+   "bytes": 1135000
+  },
+  {
+   "id": "stage2__Kim",
+   "rel": "stage2/Kim.swf",
+   "scripts": 2,
+   "tags": 308,
+   "valid": true,
+   "errors": 0,
+   "bytes": 164081
+  },
+  {
+   "id": "stage2__Krizalid",
+   "rel": "stage2/Krizalid.swf",
+   "scripts": 3,
+   "tags": 765,
+   "valid": true,
+   "errors": 0,
+   "bytes": 1839564
+  },
+  {
+   "id": "stage2__Kula",
+   "rel": "stage2/Kula.swf",
+   "scripts": 3,
+   "tags": 123,
+   "valid": true,
+   "errors": 0,
+   "bytes": 422621
+  },
+  {
+   "id": "stage2__Kula2",
+   "rel": "stage2/Kula2.swf",
+   "scripts": 3,
+   "tags": 350,
+   "valid": true,
+   "errors": 0,
+   "bytes": 118741
+  },
+  {
+   "id": "stage2__Kyo",
+   "rel": "stage2/Kyo.swf",
+   "scripts": 1,
+   "tags": 62,
+   "valid": true,
+   "errors": 0,
+   "bytes": 760907
+  },
+  {
+   "id": "stage2__Kyo2",
+   "rel": "stage2/Kyo2.swf",
+   "scripts": 5,
+   "tags": 1456,
+   "valid": true,
+   "errors": 0,
+   "bytes": 430398
+  },
+  {
+   "id": "stage2__KyoW",
+   "rel": "stage2/KyoW.swf",
+   "scripts": 2,
+   "tags": 896,
+   "valid": true,
+   "errors": 0,
+   "bytes": 5829080
+  },
+  {
+   "id": "stage2__Mai",
+   "rel": "stage2/Mai.swf",
+   "scripts": 1,
+   "tags": 62,
+   "valid": true,
+   "errors": 0,
+   "bytes": 743603
+  },
+  {
+   "id": "stage2__Mizuchi",
+   "rel": "stage2/Mizuchi.swf",
+   "scripts": 4,
+   "tags": 470,
+   "valid": true,
+   "errors": 0,
+   "bytes": 140423
+  },
+  {
+   "id": "stage2__Moriya",
+   "rel": "stage2/Moriya.swf",
+   "scripts": 3,
+   "tags": 225,
+   "valid": true,
+   "errors": 0,
+   "bytes": 373682
+  },
+  {
+   "id": "stage2__Orochi",
+   "rel": "stage2/Orochi.swf",
+   "scripts": 2,
+   "tags": 354,
+   "valid": true,
+   "errors": 0,
+   "bytes": 248436
+  },
+  {
+   "id": "stage2__Orochi Chris",
+   "rel": "stage2/Orochi Chris.swf",
+   "scripts": 2,
+   "tags": 172,
+   "valid": true,
+   "errors": 0,
+   "bytes": 243855
+  },
+  {
+   "id": "stage2__Orochi Yashiro",
+   "rel": "stage2/Orochi Yashiro.swf",
+   "scripts": 2,
+   "tags": 654,
+   "valid": true,
+   "errors": 0,
+   "bytes": 524505
+  },
+  {
+   "id": "stage2__Oswald",
+   "rel": "stage2/Oswald.swf",
+   "scripts": 3,
+   "tags": 63,
+   "valid": true,
+   "errors": 0,
+   "bytes": 3826773
+  },
+  {
+   "id": "stage2__Rugal_02",
+   "rel": "stage2/Rugal_02.swf",
+   "scripts": 2,
+   "tags": 387,
+   "valid": true,
+   "errors": 0,
+   "bytes": 585909
+  },
+  {
+   "id": "stage2__Rugal_02um",
+   "rel": "stage2/Rugal_02um.swf",
+   "scripts": 2,
+   "tags": 264,
+   "valid": true,
+   "errors": 0,
+   "bytes": 126559
+  },
+  {
+   "id": "stage2__Rugal_98",
+   "rel": "stage2/Rugal_98.swf",
+   "scripts": 3,
+   "tags": 806,
+   "valid": true,
+   "errors": 0,
+   "bytes": 155913
+  },
+  {
+   "id": "stage2__Ryo",
+   "rel": "stage2/Ryo.swf",
+   "scripts": 2,
+   "tags": 161,
+   "valid": true,
+   "errors": 0,
+   "bytes": 115188
+  },
+  {
+   "id": "stage2__Ryu",
+   "rel": "stage2/Ryu.swf",
+   "scripts": 3,
+   "tags": 29,
+   "valid": true,
+   "errors": 0,
+   "bytes": 1228365
+  },
+  {
+   "id": "stage2__Terry",
+   "rel": "stage2/Terry.swf",
+   "scripts": 1,
+   "tags": 861,
+   "valid": true,
+   "errors": 0,
+   "bytes": 232405
+  },
+  {
+   "id": "stage2__Zero",
+   "rel": "stage2/Zero.swf",
+   "scripts": 2,
+   "tags": 2207,
+   "valid": true,
+   "errors": 0,
+   "bytes": 484096
+  },
+  {
+   "id": "stage2__longStage",
+   "rel": "stage2/longStage.swf",
+   "scripts": 3,
+   "tags": 22,
+   "valid": true,
+   "errors": 0,
+   "bytes": 265493
+  },
+  {
+   "id": "stage2__练习",
+   "rel": "stage2/练习.swf",
+   "scripts": 3,
+   "tags": 32,
+   "valid": true,
+   "errors": 0,
+   "bytes": 390513
+  },
+  {
+   "id": "stage__东方实验室",
+   "rel": "stage/东方实验室.swf",
+   "scripts": 3,
+   "tags": 20,
+   "valid": true,
+   "errors": 0,
+   "bytes": 435697
+  },
+  {
+   "id": "stage__入口",
+   "rel": "stage/入口.swf",
+   "scripts": 3,
+   "tags": 20,
+   "valid": true,
+   "errors": 0,
+   "bytes": 426145
+  },
+  {
+   "id": "stage__入口2",
+   "rel": "stage/入口2.swf",
+   "scripts": 3,
+   "tags": 20,
+   "valid": true,
+   "errors": 0,
+   "bytes": 468990
+  },
+  {
+   "id": "stage__冰墓",
+   "rel": "stage/冰墓.swf",
+   "scripts": 3,
+   "tags": 20,
+   "valid": true,
+   "errors": 0,
+   "bytes": 441601
+  },
+  {
+   "id": "stage__双龙之塔",
+   "rel": "stage/双龙之塔.swf",
+   "scripts": 3,
+   "tags": 20,
+   "valid": true,
+   "errors": 0,
+   "bytes": 267966
+  },
+  {
+   "id": "stage__地下巫术实验室",
+   "rel": "stage/地下巫术实验室.swf",
+   "scripts": 3,
+   "tags": 20,
+   "valid": true,
+   "errors": 0,
+   "bytes": 333555
+  },
+  {
+   "id": "stage__地狱炎窟",
+   "rel": "stage/地狱炎窟.swf",
+   "scripts": 3,
+   "tags": 20,
+   "valid": true,
+   "errors": 0,
+   "bytes": 367431
+  },
+  {
+   "id": "stage__城门外",
+   "rel": "stage/城门外.swf",
+   "scripts": 3,
+   "tags": 20,
+   "valid": true,
+   "errors": 0,
+   "bytes": 299093
+  },
+  {
+   "id": "stage__寂静花园",
+   "rel": "stage/寂静花园.swf",
+   "scripts": 3,
+   "tags": 20,
+   "valid": true,
+   "errors": 0,
+   "bytes": 346688
+  },
+  {
+   "id": "stage__密涅瓦号帆船",
+   "rel": "stage/密涅瓦号帆船.swf",
+   "scripts": 3,
+   "tags": 20,
+   "valid": true,
+   "errors": 0,
+   "bytes": 245993
+  },
+  {
+   "id": "stage__暗影之主",
+   "rel": "stage/暗影之主.swf",
+   "scripts": 3,
+   "tags": 20,
+   "valid": true,
+   "errors": 0,
+   "bytes": 77301
+  },
+  {
+   "id": "stage__狄恩斯赫特大教堂",
+   "rel": "stage/狄恩斯赫特大教堂.swf",
+   "scripts": 3,
+   "tags": 20,
+   "valid": true,
+   "errors": 0,
+   "bytes": 404275
+  },
+  {
+   "id": "stage__禁忌的地下水洞",
+   "rel": "stage/禁忌的地下水洞.swf",
+   "scripts": 3,
+   "tags": 21,
+   "valid": true,
+   "errors": 0,
+   "bytes": 742878
+  },
+  {
+   "id": "stage__秘密巫术实验室",
+   "rel": "stage/秘密巫术实验室.swf",
+   "scripts": 3,
+   "tags": 20,
+   "valid": true,
+   "errors": 0,
+   "bytes": 364006
+  },
+  {
+   "id": "stage__练习加大版",
+   "rel": "stage/练习加大版.swf",
+   "scripts": 3,
+   "tags": 19,
+   "valid": true,
+   "errors": 0,
+   "bytes": 390475
+  },
+  {
+   "id": "stage__终焉之间",
+   "rel": "stage/终焉之间.swf",
+   "scripts": 3,
+   "tags": 20,
+   "valid": true,
+   "errors": 0,
+   "bytes": 268620
+  },
+  {
+   "id": "stage__邪恶之桥",
+   "rel": "stage/邪恶之桥.swf",
+   "scripts": 3,
+   "tags": 20,
+   "valid": true,
+   "errors": 0,
+   "bytes": 231735
+  },
+  {
+   "id": "stage__里弗人工意识",
+   "rel": "stage/里弗人工意识.swf",
+   "scripts": 3,
+   "tags": 20,
+   "valid": true,
+   "errors": 0,
+   "bytes": 379191
+  },
+  {
+   "id": "stage__阿万特村",
+   "rel": "stage/阿万特村.swf",
+   "scripts": 3,
+   "tags": 20,
+   "valid": true,
+   "errors": 0,
+   "bytes": 255660
+  },
+  {
+   "id": "stage__隧道",
+   "rel": "stage/隧道.swf",
+   "scripts": 3,
+   "tags": 20,
+   "valid": true,
+   "errors": 0,
+   "bytes": 151073
+  },
+  {
+   "id": "其他地图__马里奥",
+   "rel": "stage2/其他地图/马里奥.swf",
+   "scripts": 1,
+   "tags": 22,
+   "valid": true,
+   "errors": 0,
+   "bytes": 8975
+  },
+  {
+   "id": "动态__Ash2",
+   "rel": "stage2/其他地图/动态/Ash2.swf",
+   "scripts": 3,
+   "tags": 122,
+   "valid": true,
+   "errors": 0,
+   "bytes": 482349
+  },
+  {
+   "id": "动态__Dock",
+   "rel": "stage2/其他地图/动态/Dock.swf",
+   "scripts": 3,
+   "tags": 152,
+   "valid": true,
+   "errors": 0,
+   "bytes": 488072
+  },
+  {
+   "id": "动态__Greece",
+   "rel": "stage2/其他地图/动态/Greece.swf",
+   "scripts": 2,
+   "tags": 267,
+   "valid": true,
+   "errors": 0,
+   "bytes": 323314
+  },
+  {
+   "id": "动态__Japan",
+   "rel": "stage2/其他地图/动态/Japan.swf",
+   "scripts": 3,
+   "tags": 303,
+   "valid": true,
+   "errors": 0,
+   "bytes": 15140751
+  },
+  {
+   "id": "动态__Orochi Chris",
+   "rel": "stage2/其他地图/动态/Orochi Chris.swf",
+   "scripts": 2,
+   "tags": 172,
+   "valid": true,
+   "errors": 0,
+   "bytes": 243855
+  },
+  {
+   "id": "动态__Orochi Yashiro",
+   "rel": "stage2/其他地图/动态/Orochi Yashiro.swf",
+   "scripts": 2,
+   "tags": 654,
+   "valid": true,
+   "errors": 0,
+   "bytes": 524505
+  },
+  {
+   "id": "动态__Rugal_02um",
+   "rel": "stage2/其他地图/动态/Rugal_02um.swf",
+   "scripts": 2,
+   "tags": 264,
+   "valid": true,
+   "errors": 0,
+   "bytes": 126559
+  },
+  {
+   "id": "动态__Saiki",
+   "rel": "stage2/其他地图/动态/Saiki.swf",
+   "scripts": 4,
+   "tags": 1674,
+   "valid": true,
+   "errors": 0,
+   "bytes": 12439656
+  },
+  {
+   "id": "动态__earth",
+   "rel": "stage2/其他地图/动态/earth.swf",
+   "scripts": 6,
+   "tags": 287,
+   "valid": true,
+   "errors": 0,
+   "bytes": 1214836
+  },
+  {
+   "id": "动态__祸忌",
+   "rel": "stage2/其他地图/动态/祸忌.swf",
+   "scripts": 3,
+   "tags": 123,
+   "valid": true,
+   "errors": 0,
+   "bytes": 7235378
+  },
+  {
+   "id": "静态__007",
+   "rel": "stage2/其他地图/静态/007.swf",
+   "scripts": 2,
+   "tags": 27,
+   "valid": true,
+   "errors": 0,
+   "bytes": 787391
+  },
+  {
+   "id": "静态__105",
+   "rel": "stage2/其他地图/静态/105.swf",
+   "scripts": 2,
+   "tags": 27,
+   "valid": true,
+   "errors": 0,
+   "bytes": 96317
+  },
+  {
+   "id": "静态__A8",
+   "rel": "stage2/其他地图/静态/A8.swf",
+   "scripts": 2,
+   "tags": 18,
+   "valid": true,
+   "errors": 0,
+   "bytes": 530826
+  },
+  {
+   "id": "静态__Desert",
+   "rel": "stage2/其他地图/静态/Desert.swf",
+   "scripts": 2,
+   "tags": 22,
+   "valid": true,
+   "errors": 0,
+   "bytes": 314259
+  },
+  {
+   "id": "静态__Lab",
+   "rel": "stage2/其他地图/静态/Lab.swf",
+   "scripts": 6,
+   "tags": 230,
+   "valid": true,
+   "errors": 0,
+   "bytes": 1766989
+  },
+  {
+   "id": "静态__Moon",
+   "rel": "stage2/其他地图/静态/Moon.swf",
+   "scripts": 5,
+   "tags": 159,
+   "valid": true,
+   "errors": 0,
+   "bytes": 259819
+  },
+  {
+   "id": "静态__Palace",
+   "rel": "stage2/其他地图/静态/Palace.swf",
+   "scripts": 3,
+   "tags": 48,
+   "valid": true,
+   "errors": 0,
+   "bytes": 424919
+  },
+  {
+   "id": "静态__Platform",
+   "rel": "stage2/其他地图/静态/Platform.swf",
+   "scripts": 6,
+   "tags": 313,
+   "valid": true,
+   "errors": 0,
+   "bytes": 4389799
+  },
+  {
+   "id": "静态__Railway",
+   "rel": "stage2/其他地图/静态/Railway.swf",
+   "scripts": 2,
+   "tags": 21,
+   "valid": true,
+   "errors": 0,
+   "bytes": 289351
+  },
+  {
+   "id": "静态__piazza",
+   "rel": "stage2/其他地图/静态/piazza.swf",
+   "scripts": 5,
+   "tags": 211,
+   "valid": true,
+   "errors": 0,
+   "bytes": 583256
+  },
+  {
+   "id": "静态__street",
+   "rel": "stage2/其他地图/静态/street.swf",
+   "scripts": 2,
+   "tags": 20,
+   "valid": true,
+   "errors": 0,
+   "bytes": 225181
+  },
+  {
+   "id": "静态__练习",
+   "rel": "stage2/其他地图/静态/练习.swf",
+   "scripts": 3,
+   "tags": 32,
+   "valid": true,
+   "errors": 0,
+   "bytes": 390513
+  }
+ ]
+}

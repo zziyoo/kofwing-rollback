@@ -1,0 +1,2 @@
+stop();
+allowNum = 1;

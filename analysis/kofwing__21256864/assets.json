@@ -1,0 +1,8444 @@
+{
+ "relative_path": "kofwing/21256864.swf",
+ "analysis_id": "kofwing__21256864",
+ "tag_counts": {
+  "S": 322400,
+  "P": 118653,
+  "D": 76167,
+  "R": 26365,
+  "F": 6299,
+  "E": 2106,
+  "V": 1106,
+  "C": 156,
+  "J": 8
+ },
+ "unknown_tag_ids": {},
+ "n_export_assets": 1678,
+ "export_names": [
+  "punch",
+  "kick",
+  "jump_snd",
+  "winnerVoice02um2",
+  "winner13",
+  "winnerVoice02um",
+  "winner02um",
+  "title02um",
+  "title97",
+  "timeOverNotice",
+  "timeover02um",
+  "timeover97",
+  "selectMenu",
+  "select97",
+  "select",
+  "run_snd",
+  "round97",
+  "round02um_5",
+  "round02um_4",
+  "round02um_3",
+  "round02um_2",
+  "round02um_1",
+  "round02um",
+  "randomSelect",
+  "perfect02um",
+  "perfect97",
+  "option",
+  "ok97",
+  "ok",
+  "lastKO",
+  "insertCoin",
+  "fight02um",
+  "fight97",
+  "drawgame97",
+  "drawgame02um",
+  "dizzy",
+  "bossStageFinal",
+  "bossStage97Voice",
+  "bossStage97",
+  "bossStage02um",
+  "arcadeSelect97",
+  "arcadeSelect13",
+  "arcadeSelect02um",
+  "round97_5",
+  "round97_4",
+  "round97_3",
+  "round97_2",
+  "round97_1",
+  "select02um",
+  "run_snd2",
+  "ok02um",
+  "winnerVoice97",
+  "winner97",
+  "ko02um",
+  "ko97",
+  "bgEff_superMC",
+  "bc",
+  "down",
+  "right",
+  "up",
+  "left",
+  "hk",
+  "hp",
+  "AD",
+  "lk",
+  "lp",
+  "AB",
+  "Eff_superSun",
+  "crash_eff",
+  "hitFire_cut_blood2",
+  "hitFire_cut_blood",
+  "hitFire_h3",
+  "hitFire_max",
+  "hitFire1_h",
+  "Iori_hitFire3",
+  "hold.wav",
+  "hitFire2_l",
+  "hitFire2count",
+  "breakDefend_l",
+  "breakDefend",
+  "bgEff_up_break",
+  "bgEff_universe2",
+  "bgEff_universe_break",
+  "bgEff_universe",
+  "bgEff_superAlpha",
+  "bgEff_speed1",
+  "bgEff_speed_red_break",
+  "bgEff_speed_red",
+  "bgEff_red_up_break",
+  "bgEff_red_up",
+  "bgEff_red_o",
+  "bgEff_red_full",
+  "bgEff_red_break",
+  "bgEff_red_add",
+  "bgEff_blue_break",
+  "bgEff_blue",
+  "bgEff_bloodiori_start",
+  "bgEff_blackAlpha",
+  "bgEff_black_super",
+  "bgEff_black_break",
+  "bgEff_redxbreak",
+  "bgEff_bbreakk",
+  "superface_Oswald1",
+  "superface_Kusanagi2",
+  "superface_Kusanagi1",
+  "superface_Krizalid2",
+  "superface_Krizalid1",
+  "superface_Kim2",
+  "superface_Kim1",
+  "superface_CZero2",
+  "superface_CZero1",
+  "superface_Andy2",
+  "superface_Andy1",
+  "superface_Zero2",
+  "superface_Zero1",
+  "superface_Nameless2",
+  "superface_Nameless1",
+  "superface_Mizuchi2",
+  "superface_Mizuchi1",
+  "superface_KyoXI2",
+  "superface_KyoXI1",
+  "superface_Goenitz2",
+  "superface_Goenitz1",
+  "superface_EvilAsh2",
+  "superface_Athena22",
+  "superface_Athena21",
+  "superface_Athena2",
+  "superface_Athena1",
+  "code_mc",
+  "reset_mc",
+  "UI_VS_SINGE",
+  "UI_VS",
+  "Perfect_mc",
+  "UI_service",
+  "menu_bottom_trigger",
+  "bgm_mc",
+  "bgm_rugal",
+  "bgm_igniz",
+  "loaderchar",
+  "fire_m3",
+  "fire_m2",
+  "fire_m1",
+  "Nameless_fire_m1",
+  "kula_jiejie_bg2",
+  "kula_jiejie_bg",
+  "bgEff_superSunMax",
+  "bgEff_superSun",
+  "bgEff_dashe",
+  "mc_keysetting",
+  "bgmControl_mc",
+  "FWAd_AS2",
+  "head",
+  "select_icon1",
+  "char_select_mc",
+  "superface_kyo1",
+  "superface_Kyo2",
+  "superface_Ash2",
+  "superface_Ash1",
+  "superface_Rugal2",
+  "superface_Rugal1",
+  "superface_Haohmaru2",
+  "superface_Haohmaru1",
+  "superface_Igniz2",
+  "superface_Igniz1",
+  "superface_Moriya_Xue1",
+  "superface_Orochi1",
+  "bgm_orochi",
+  "superface_KyoW2",
+  "superface_KyoW1",
+  "s_attack",
+  "count_text",
+  "bgEff_invert_break",
+  "bgEff_break2",
+  "bgEff_yhdw",
+  "bgEff_flashshow",
+  "bgEff_bloodiori",
+  "bgEff_redout",
+  "bgEff_red",
+  "bgEff_redbbreak",
+  "bgEff_speed4",
+  "hit3.wav",
+  "hitFire3_super",
+  "hitfire_l2",
+  "hitFire3",
+  "hitFire2",
+  "hit_l.wav",
+  "hitfire_l",
+  "hitFire_h",
+  "hitFire_cut2",
+  "hitFire_cut",
+  "bgEff_speed3",
+  "mc_fightsetting",
+  "mc_displaysetting",
+  "json",
+  "battle_start",
+  "battle_end",
+  "KO_mc",
+  "lifeBar",
+  "生命能量P2_mc",
+  "生命能量P1_mc",
+  "Defaults",
+  "UIObjectExtensions",
+  "UIObject",
+  "BoundingBox",
+  "FocusRect",
+  "FocusManager",
+  "UIComponentExtensions",
+  "UIComponent",
+  "Label",
+  "BrdrShdw",
+  "BrdrFace",
+  "SimpleButtonDown",
+  "BrdrBlk",
+  "BrdrHilght",
+  "SimpleButtonIn",
+  "SimpleButtonUp",
+  "SimpleButton",
+  "Border",
+  "RectBorder",
+  "TextInput",
+  "ComboBase",
+  "DataProvider",
+  "DataSelector",
+  "SelectableRow",
+  "ButtonSkin",
+  "Button",
+  "CustomBorder",
+  "ScrollTrack",
+  "ScrollDownArrowDisabled",
+  "ScrollThemeColor1",
+  "ScrollThemeColor2",
+  "ScrollDownArrowDown",
+  "ScrollDownArrowOver",
+  "ScrollDownArrowUp",
+  "ScrollThumbBottomDisabled",
+  "ThumbThemeColor1",
+  "ThumbThemeColor3",
+  "ScrollThumbBottomDown",
+  "ScrollThumbBottomOver",
+  "ScrollThumbBottomUp",
+  "ScrollThumbGripDisabled",
+  "ThumbThemeColor2",
+  "ScrollThumbGripDown",
+  "ScrollThumbGripOver",
+  "ScrollThumbGripUp",
+  "ScrollThumbMiddleDisabled",
+  "ScrollThumbMiddleDown",
+  "ScrollThumbMiddleOver",
+  "ScrollThumbMiddleUp",
+  "ScrollThumbTopDisabled",
+  "ScrollThumbTopDown",
+  "ScrollThumbTopOver",
+  "ScrollThumbTopUp",
+  "ScrollTrackDisabled",
+  "ScrollUpArrowDisabled",
+  "ScrollUpArrowDown",
+  "ScrollUpArrowOver",
+  "ScrollUpArrowUp",
+  "BtnDownArrow",
+  "BtnUpArrow",
+  "ScrollBarAssets",
+  "HScrollBar",
+  "VScrollBar",
+  "View",
+  "ScrollView",
+  "ScrollSelectList",
+  "List",
+  "ComboDownArrowUp",
+  "ComboDownArrowDisabled",
+  "ComboThemeColor1",
+  "ComboDownArrowDown",
+  "ComboDownArrowOver",
+  "ComboAssets",
+  "ComboBox",
+  "life_power",
+  "ScrollPane",
+  "Zero_player",
+  "Zero_cpu1",
+  "Zero_cpu2",
+  "Zero_cpu3",
+  "Zero_cpu4",
+  "Zero_cpu5",
+  "CZero_Player",
+  "CZero_cpu1",
+  "CZero_cpu2",
+  "CZero_cpu3",
+  "CZero_cpu4",
+  "CZero_cpu5",
+  "HitCheck_mc",
+  "hitCheck_obj",
+  "class_ColorEffect",
+  "class_Func",
+  "class_ExtMath",
+  "flyingOb2",
+  "KeyControl",
+  "CZhurt2",
+  "CZhurt4",
+  "zero_long",
+  "zero_lion",
+  "zero_krizalid",
+  "Zero_itemEff1",
+  "CZhurt1",
+  "krizalid_wind",
+  "earthquake",
+  "Zero_skillX",
+  "max2_eff",
+  "CZhurt3",
+  "zero_max_hit_m1",
+  "zero_dfdfk",
+  "zero_dfdfk_s",
+  "zero_jumpShadow",
+  "zero_jumpShadow2",
+  "bz",
+  "zero2_jumpShadow",
+  "zero2_jumpShadow2",
+  "zero_dfdfk_s2",
+  "zero_dfdfk2",
+  "Rugal_shanzi1",
+  "over_hitchek",
+  "zeroqzz",
+  "zeroqz",
+  "zeroqzzz",
+  "bailuo_R",
+  "bailuo_R2",
+  "bailuo_R_s",
+  "bailuo_R2_s",
+  "bailuo_L",
+  "bailuo_L2",
+  "bailuo_L_s",
+  "bailuo_L2_s",
+  "zero_bailuo",
+  "zero_bailuo_s",
+  "cbailuo_R",
+  "cbailuo_R2",
+  "cbailuo_R_s",
+  "cbailuo_R2_s",
+  "cbailuo_L",
+  "cbailuo_L2",
+  "cbailuo_L_s",
+  "cbailuo_L2_s",
+  "czero_dfdfk",
+  "czero_bailuo",
+  "czero_bailuo_s",
+  "zlqing",
+  "zlzhong",
+  "Zhit_h",
+  "sk_Wolfpower1",
+  "sk_Wolfpower2",
+  "roleZero",
+  "CZhit_h",
+  "roleZero2",
+  "ko_snd_Zero",
+  "role_Zero",
+  "Terry_cpu1",
+  "Terry_cpu2",
+  "Terry_cpu3",
+  "Terry_cpu4",
+  "Terry_cpu5",
+  "Terry_player",
+  "Type2_Terry_cpu1",
+  "Type2_Terry_cpu2",
+  "Type2_Terry_cpu3",
+  "Type2_Terry_cpu4",
+  "Type2_Terry_cpu5",
+  "Type2_Terry_player",
+  "Terry_fire_m3",
+  "terry_shanzi3",
+  "terry_shanzi4",
+  "terry_shanzi6",
+  "terry_shanzi7",
+  "terry_shanzi8",
+  "terry_jumpShadow",
+  "terry_jumpShadow2",
+  "Terry_hurt1",
+  "Terry_hurt2",
+  "Terry_hurt3",
+  "Terry_hurt4",
+  "sk_roundwave1",
+  "sk_powerwave1",
+  "Terry_powerwave",
+  "Terry_roundwave",
+  "Geyser",
+  "terry_fireEff2",
+  "terry_shanzi1",
+  "terry_shanzi2",
+  "terry_slowwave",
+  "terry_Rock1",
+  "Terry_dodge",
+  "Terry_hit2",
+  "Terry_hit1",
+  "Terry_hith",
+  "Terry_dunk",
+  "Terry_heycomeon",
+  "Terry_CrackShoot",
+  "sk_CrackShoot1",
+  "Terry_BurningKnuckles",
+  "sk_BurningKnuckles1",
+  "Terry_RisingTackle",
+  "sk_RisingTackle1",
+  "sk_powerdunk1",
+  "Terry_powerdunk",
+  "sk_powerdunk2",
+  "Terry_powercharge",
+  "Terry_powerd",
+  "Terry_Geyser",
+  "sk_powerGeyser1",
+  "Terry_overangle",
+  "Terry_areyouok",
+  "Terry_BusterWolf",
+  "sk_BusterWolf1",
+  "Terry_Wolfpower",
+  "sk_BusterWolf2",
+  "roleTerry",
+  "ko_snd_Terry",
+  "terry_shanzi5",
+  "terry_shanzi4-1",
+  "terry_shanzi4-2",
+  "role_Terry",
+  "Ryu_cpu1",
+  "Ryu_cpu2",
+  "Ryu_cpu3",
+  "Ryu_cpu4",
+  "Ryu_cpu5",
+  "Ryu_Player",
+  "Type2_Ryu_cpu1",
+  "Type2_Ryu_cpu2",
+  "Type2_Ryu_cpu3",
+  "Type2_Ryu_cpu4",
+  "Type2_Ryu_cpu5",
+  "Type2_Ryu_Player",
+  "ryu_dragon",
+  "ryu_eff_tian",
+  "ryu_hitTest_sys",
+  "wave_head",
+  "waveCannon",
+  "wave",
+  "wave_air",
+  "wave_air2_s",
+  "wave_h",
+  "wave_l",
+  "wave_s",
+  "wave_ss",
+  "wave_s2",
+  "roleRyu",
+  "skill_content",
+  "lose",
+  "ko_snd_Ryu",
+  "ryu_dragon_s",
+  "ryu_hurt1_snd",
+  "ryu_hurt2_snd",
+  "wave_air2",
+  "ken_waveCannon",
+  "ryu_exXie",
+  "ryu_assist_ken",
+  "wave_s3",
+  "Ryu_asuraSKshadow",
+  "Ryu_asuraSKshadow2",
+  "wave_air3",
+  "sys_shadow",
+  "ryu_jumpShadow",
+  "ryu_jumpShadow2",
+  "Ryu_4abshadow1",
+  "Ryu_4abshadow2",
+  "Ryu_6abshadow1",
+  "Ryu_6abshadow2",
+  "Ryu_hurt1",
+  "Ryu_hurt2",
+  "Ryu_hurt3",
+  "Ryu_hurt4",
+  "Ryu_hurt5",
+  "role_Ryu",
+  "ryo_jumpShadow",
+  "ryo_264a_shadow",
+  "ryo_wave",
+  "ryo_wave_ex",
+  "ryo_wave_air",
+  "wave_ss_max",
+  "wave_ss_max2",
+  "wave_ss_l",
+  "wave_s_l",
+  "ryo_wave_l",
+  "ryo_wave_s",
+  "ryo_wave_ss",
+  "ryo_wave_s2",
+  "ryo_wave_s10",
+  "roleRyo",
+  "ryo_neoMax_eff1",
+  "ryo_neoMax_eff",
+  "ryo_max_smoke",
+  "max_up_eff",
+  "ko_snd_Ryo",
+  "Ryo_hur1",
+  "ryo_hurt1_snd",
+  "ryo_hurt2_snd",
+  "Ryo_hur2",
+  "Ryo_hur3",
+  "Type2_Ryo_Player",
+  "Type2_Ryo_cpu5",
+  "Type2_Ryo_cpu4",
+  "Type2_Ryo_cpu3",
+  "Type2_Ryo_cpu2",
+  "Type2_Ryo_cpu1",
+  "Ryo_Player",
+  "Ryo_cpu5",
+  "Ryo_cpu4",
+  "Ryo_cpu3",
+  "Ryo_cpu2",
+  "Ryo_cpu1",
+  "role_Ryo",
+  "Rugal_cpu1",
+  "Rugal_cpu2",
+  "Rugal_cpu3",
+  "Rugal_cpu4",
+  "Rugal_cpu5",
+  "Rugal_player",
+  "Type2_Rugal_cpu1",
+  "Type2_Rugal_cpu2",
+  "Type2_Rugal_cpu3",
+  "Type2_Rugal_cpu4",
+  "Type2_Rugal_cpu5",
+  "Type2_Rugal_player",
+  "Rugal_fire_m3",
+  "rugal EF16",
+  "rugal EF16X",
+  "rugal EF18X",
+  "Rugal_moon",
+  "Rugal_shadow",
+  "Rugal_shanzi13",
+  "Rugal_moon copy",
+  "Rugal_wind",
+  "Rugal_wind2",
+  "Rugal_wind3",
+  "rugal EF17",
+  "Rugal_ppeff",
+  "Rugal_dwys1",
+  "Rugal_asuraSKshadow2",
+  "Rugal_dwys2",
+  "Rugal_dwys3",
+  "rugal_jumpShadow2",
+  "rugal_jumpShadow",
+  "Rugal_shanzi2",
+  "Rugal_shanzi3",
+  "Rugal_shanzi4",
+  "Rugal_shanzi4_1",
+  "Rugal_shanzi5",
+  "Rugal_shanzi5_1",
+  "Rugal_shanzi6",
+  "Rugal_shanzi6 copy",
+  "Rugal_shanzi6_1",
+  "Rugal_shanzi7",
+  "Rugal_shanzi8",
+  "Rugal_shanzi8_1",
+  "Rugal_shanzi8_1 copy2",
+  "Rugal_shanzi8_1 copy",
+  "Rugal_shanzi9",
+  "Rugal_shanzi9_1",
+  "Rugal_shanzi9_1 copy",
+  "Rugal_shanzi10",
+  "Rugal_shanzi10_1",
+  "Rugal_shanzi10_2",
+  "Rugal_shanzi11",
+  "Rugal_shanzi12",
+  "Rugal_shanzi10_3",
+  "Rugal_shanzi100",
+  "Rugal_shanzi9_3",
+  "Rugal_hit_m2",
+  "Rugal_hit_m3",
+  "Rugal_hit_m1",
+  "m_hitFire_light",
+  "02Rugal_hit_h2",
+  "Rugal_run",
+  "Igniz_hitFire3",
+  "02laugh",
+  "roleRugal2",
+  "02umab",
+  "02umhurt3",
+  "02umhurt4",
+  "98Rugal_storage",
+  "roleRugal",
+  "ko_snd_Rugal",
+  "bsp2",
+  "bsp1",
+  "02umhurt1",
+  "02umhurt2",
+  "02Rugal_hit_h",
+  "02Rugal_storage",
+  "02Giggle",
+  "02wild_laugh",
+  "02hurt1",
+  "02hurt2",
+  "02hurt3",
+  "role_Rugal",
+  "Oswald_cpu1",
+  "Oswald_cpu2",
+  "Oswald_cpu3",
+  "Oswald_cpu4",
+  "Oswald_cpu5",
+  "Oswald_Player",
+  "card0",
+  "roleOswald",
+  "flash_24a",
+  "flash_26b",
+  "ace",
+  "J_card",
+  "J_card2",
+  "os_bg_ctrl",
+  "flash_26a",
+  "flash_24b",
+  "cards",
+  "card4",
+  "card3",
+  "card2",
+  "card1",
+  "flash_ao",
+  "dust_1",
+  "dust_2",
+  "dust_3",
+  "card_a",
+  "card_b",
+  "card_c",
+  "card_d",
+  "card_a2",
+  "card_b2",
+  "card_c2",
+  "card_d2",
+  "card_fall",
+  "flash_24aa",
+  "flash_26aa",
+  "card_sss",
+  "card_sss2",
+  "ko_snd_Oswald",
+  "card5",
+  "os_snd_l",
+  "os_snd_h",
+  "role_Oswald",
+  "Orochi_cpu1",
+  "Orochi_cpu2",
+  "Orochi_cpu3",
+  "Orochi_cpu4",
+  "Orochi_cpu5",
+  "Orochi_player",
+  "Type2_Orochi_cpu1",
+  "Type2_Orochi_cpu2",
+  "Type2_Orochi_cpu3",
+  "Type2_Orochi_cpu4",
+  "Type2_Orochi_cpu5",
+  "Type2_Orochi_player",
+  "hit_m2",
+  "hit_roll1",
+  "hit_roll2",
+  "hitCombo2",
+  "orochi_fallBomb",
+  "sunshine_hit",
+  "blackDot",
+  "powerHit_m_all",
+  "powerHit_m_left",
+  "powerHit_m_right",
+  "powerHit_m1",
+  "powerHit1",
+  "sk_chilun1",
+  "orochi_objBack",
+  "obj_eballl",
+  "obj_chilun1",
+  "orochi_sk_boom",
+  "orochi_sk_boom2",
+  "orochi_sk_boom4",
+  "sk_shinning_l",
+  "orochi_sk_boom5",
+  "sunshine_hit_s",
+  "kick_flash",
+  "kick_flash2",
+  "dfk_att",
+  "roleOrochi",
+  "powerBlood1",
+  "roleMizuchi",
+  "orochi_s_aureole",
+  "orochi_jumpShadow2",
+  "orochi_jumpShadow",
+  "objBackEff",
+  "flying_s1_l",
+  "flying2",
+  "flying_s1",
+  "flying_s2",
+  "flying_s3",
+  "black_dot",
+  "jiaohurt1",
+  "jiaohurt2",
+  "jiaohurt3",
+  "ko_snd_Orochi2",
+  "hit_roll4",
+  "sk_shinning",
+  "sk_chilun2",
+  "sk_shinning2",
+  "sk_shinning22",
+  "orochi_fallBoom",
+  "orochi_jiguang",
+  "role_Orochi",
+  "Mai_cpu1",
+  "Mai_cpu2",
+  "Mai_cpu3",
+  "Mai_cpu4",
+  "Mai_cpu5",
+  "Mai_player",
+  "Type2_Mai_cpu1",
+  "Type2_Mai_cpu2",
+  "Type2_Mai_cpu3",
+  "Type2_Mai_cpu4",
+  "Type2_Mai_cpu5",
+  "Type2_Mai_player",
+  "kula_ice_freeze",
+  "mai_shanzi1",
+  "mai_att_m2",
+  "mai_att_l2",
+  "mai_att_l1",
+  "fire_m4",
+  "roleMai",
+  "hitTest_jiejie",
+  "kula_ice_freeze2",
+  "ko_snd_Mai",
+  "mai_shanzipo",
+  "mai_hulu_shadow",
+  "mai_hualan1_shadow",
+  "mai_jumpShadow",
+  "mai_jumpShadow2",
+  "mai_jumpShadow3",
+  "mai_jumpShadow4",
+  "mai_fensenShinning",
+  "mai_huoniao1",
+  "mai_shanzi1_s",
+  "mai_shanzi2",
+  "mai_shanzi2_s",
+  "mai_shanzi3",
+  "mai_shanzi3_s",
+  "mai_fire_longyanwu",
+  "mai_fireEff2",
+  "mai_fenshen",
+  "mai_fenshenAir",
+  "mai_fire_longyanzhen",
+  "mai_hualan_shadow",
+  "mai_hualan2_shadow",
+  "mai_hualan3_shadow",
+  "mai_shanzi1_h",
+  "Mai_hurt1",
+  "Mai_hurt2",
+  "Mai_hurt3",
+  "role_Mai",
+  "KyoW_cpu1",
+  "KyoW_cpu2",
+  "KyoW_cpu3",
+  "KyoW_cpu4",
+  "KyoW_cpu5",
+  "KyoW_Player",
+  "Type2_KyoW_cpu1",
+  "Type2_KyoW_cpu2",
+  "Type2_KyoW_cpu3",
+  "Type2_KyoW_cpu4",
+  "Type2_KyoW_cpu5",
+  "Type2_KyoW_Player",
+  "fire02",
+  "bomb",
+  "kyo_hurt1",
+  "fire11",
+  "fire_s1",
+  "fire_s3",
+  "fire_s4",
+  "fire_s6",
+  "fire_s7",
+  "kyo_shuotie_fire",
+  "fire05",
+  "fire",
+  "kyo_v3",
+  "dashezhi",
+  "dashezhi_2",
+  "dashezhi_max",
+  "dashezhi_max2",
+  "kyo_df_p_shadow",
+  "yangyan",
+  "yangyanBomb",
+  "kyo_eff4",
+  "fire8_2",
+  "lose.wav",
+  "bomb_sk_s3",
+  "boom1_mc",
+  "fireBoom",
+  "kyo_boomPos",
+  "ko_snd_KyoW",
+  "kyo_neoMax_eff02",
+  "kyo_neoMax_eff01",
+  "kyo_neoMax_fire01",
+  "neoMax_skyFire",
+  "combo_mc",
+  "kyo_slash_fire",
+  "roleKyoW",
+  "helai_wav",
+  "roleKyoW2",
+  "kyo_huo off",
+  "kyow_zhuoyan_boom",
+  "kyow_zhuoyan_s_boom",
+  "bomb4",
+  "zy_boom",
+  "dashezhi_sc",
+  "neoMax_skyFire_atk",
+  "kyow2_jumpShadow",
+  "kyow2_jumpShadow2",
+  "kyow2_jumpShadow3",
+  "kyow2_jumpShadow4",
+  "kyow_jumpShadow",
+  "kyow_jumpShadow2",
+  "kyow_jumpShadow3",
+  "kyow_jumpShadow4",
+  "wushiCC",
+  "role_KyoW",
+  "Kyo_cpu1",
+  "Kyo_cpu2",
+  "Kyo_cpu3",
+  "Kyo_cpu4",
+  "Kyo_cpu5",
+  "Kyo_player2",
+  "Type2_Kyo_cpu1",
+  "Type2_Kyo_cpu2",
+  "Type2_Kyo_cpu3",
+  "Type2_Kyo_cpu4",
+  "Type2_Kyo_cpu5",
+  "Type2_Kyo_player",
+  "bomb3",
+  "yangyan_land",
+  "ko_snd_Kyo",
+  "kyo_att1",
+  "kyo_att2",
+  "kyo_att3",
+  "kyo_att21",
+  "kyo_att22",
+  "kyo_att23",
+  "kyoHit_h",
+  "kyo_v4",
+  "roleKyo",
+  "kyo_624a_boom_mc",
+  "kyo_jumpShadow3",
+  "kyo_jumpShadow",
+  "kyo_jumpShadow2",
+  "fire04",
+  "fire_s2",
+  "yangyan2_land",
+  "kyo_fire_st",
+  "yangyanBomb2",
+  "fire_s5",
+  "fire_m",
+  "dashezi_air",
+  "kyo_fire_caihua",
+  "kyo_wuyan_s_boom",
+  "ztf",
+  "ztf_2",
+  "bomb0",
+  "fire_ztf",
+  "kyo_fire_st2",
+  "role_Kyo",
+  "Kusanagi_cpu1",
+  "Kusanagi_cpu2",
+  "Kusanagi_cpu3",
+  "Kusanagi_cpu4",
+  "Kusanagi_cpu5",
+  "Kusanagi_player2",
+  "dashezhi233",
+  "kyo_624a_boom_mc2",
+  "dashezhi_233",
+  "kusanagi_boomPos",
+  "ko_snd_Kusanagi",
+  "kusanagi_hurt2",
+  "kyo_v33",
+  "roleKusanagi",
+  "kyok_jumpShadow2",
+  "kyo_fire_caihua2",
+  "yangyan2",
+  "role_Kusanagi",
+  "Kula_cpu1",
+  "Kula_cpu2",
+  "Kula_cpu3",
+  "Kula_cpu4",
+  "Kula_cpu5",
+  "Kula_player2",
+  "Type2_Kula_cpu1",
+  "Type2_Kula_cpu2",
+  "Type2_Kula_cpu3",
+  "Type2_Kula_cpu4",
+  "Type2_Kula_cpu5",
+  "Type2_Kula_player",
+  "kula_slashEff2",
+  "kula_slashEff1",
+  "kula_iceFire",
+  "kula_hit_m4",
+  "kula_storm",
+  "hitEff_ice1",
+  "kula_snow_sheji3",
+  "storm_eff",
+  "kula_ice_sheji1",
+  "kula_ice_sheji2",
+  "kula_ice_qixi",
+  "kula_jiejie_char",
+  "kula_iceFall",
+  "kula_ice_xingchen",
+  "kula_ice_xingchen_end",
+  "kula_iceFall_big",
+  "kula_iceFall_big2",
+  "kula_iceFall_still",
+  "kula_iceKick",
+  "kula_iceKick_big",
+  "kula_ice_dongjie",
+  "kula_ice_2",
+  "kula_ice_2_max",
+  "kula_wuyayao",
+  "shield",
+  "shield_s",
+  "kula_s6",
+  "kula_skill_s1",
+  "kula_att_v1",
+  "kula_att_v2",
+  "kula_att_v3",
+  "kula_throw",
+  "TMP838v8q5ngk",
+  "kula_att_v5",
+  "kula_skill1",
+  "kula_skill4",
+  "kula_s3_2",
+  "kula_att_v6",
+  "kula_skill2",
+  "kula_skill3",
+  "kula_skill_s2",
+  "kula_att_v4",
+  "kula_skill_s3",
+  "ice_defXIII",
+  "ice_def",
+  "ice_def_big",
+  "kula_s5",
+  "kula_s4_2",
+  "roleKula",
+  "kula_hit_m5",
+  "bingren_tx",
+  "bingren_add",
+  "bingren_add_s",
+  "kula_debuff",
+  "ko_snd_Kula",
+  "ko_snd_Kula2",
+  "kula_ice_qixi2",
+  "kula_ice_qixi3",
+  "stand_XIII",
+  "kula_snow_sheji1",
+  "kula_snow_sheji2",
+  "kula_jumpShadow4",
+  "kula_jumpShadow",
+  "kula_jumpShadow2",
+  "kula_jumpShadow3",
+  "2626ac_tx",
+  "lacachora",
+  "kula_hurt1",
+  "kula_hurt2",
+  "kula_hurt3",
+  "kula_hurt4",
+  "kula_hurt5",
+  "kula_hurt6",
+  "kula_hurt7",
+  "kula_hurt8",
+  "role_Kula",
+  "Krizalid_player",
+  "Krizalid_cpu1",
+  "Krizalid_cpu2",
+  "Krizalid_cpu3",
+  "Krizalid_cpu4",
+  "Krizalid_cpu5",
+  "CKrizalid_Player",
+  "CKrizalid_cpu1",
+  "CKrizalid_cpu2",
+  "CKrizalid_cpu3",
+  "CKrizalid_cpu4",
+  "CKrizalid_cpu5",
+  "long",
+  "lion",
+  "krizalid",
+  "fire1_k",
+  "krizalid_wind1",
+  "krizalid_wind2",
+  "krizalid_jumpShadow",
+  "krizalid_jumpShadow2",
+  "krizalid2_jumpShadow",
+  "krizalid2_jumpShadow2",
+  "ko_snd_Krizalid",
+  "krizalid2_jumpShadow3",
+  "fmxx",
+  "fmxx_eff",
+  "krizalid_long1",
+  "bshuo",
+  "krizalid_long2",
+  "xx1",
+  "xx2",
+  "xx3",
+  "xx4",
+  "xx5",
+  "xx6",
+  "xx7",
+  "xx8",
+  "krizalid_abShadow",
+  "krizalid_4abShadow",
+  "att_h",
+  "roleKrizalid",
+  "krizalid_buff",
+  "krizalid_buff2",
+  "roleKrizalid2",
+  "Krizalid_powerFire",
+  "c_4abShadow",
+  "c_abShadow",
+  "ck_bo_l",
+  "ck_bo_h",
+  "armor_eff",
+  "att_eff",
+  "krizalid_boom1",
+  "ko_snd_Krizalid2",
+  "krizalid_hurt1",
+  "krizalid_hurt2",
+  "krizalid_hurt3",
+  "krizalid_hurt4",
+  "role_Krizalid",
+  "K_cpu1",
+  "K_cpu2",
+  "K_cpu4",
+  "K_cpu3",
+  "K_cpu5",
+  "K_player2",
+  "Type2_K_cpu1",
+  "Type2_K_cpu2",
+  "Type2_K_cpu4",
+  "Type2_K_cpu3",
+  "Type2_K_cpu5",
+  "Type2_K_player",
+  "k_fire_land",
+  "k_boom1_mc",
+  "boom_redongMax",
+  "boom_airDash",
+  "hitCombo1",
+  "hitCombo3",
+  "k_hit_m4",
+  "k_hit_m4_s",
+  "k_shadow1",
+  "k_shadow6",
+  "k_shadow7",
+  "k_fire2",
+  "k_fire2_s",
+  "k_glass",
+  "k_fire9",
+  "k_fire9_s",
+  "fire9_3",
+  "fire9_4",
+  "fire9_2",
+  "k_fire1",
+  "k_fire1_s",
+  "k_fire3",
+  "k_fire5",
+  "fire10",
+  "k_fire6",
+  "k_fire7",
+  "k_fire8",
+  "charge",
+  "k_fire26aa",
+  "roleK",
+  "k_lastFire2",
+  "eff_rush",
+  "ko_snd_K",
+  "k_airDash",
+  "K_max2_combo",
+  "fire9_4_2",
+  "sk_dbk_ex_shadow",
+  "k_boom1_mc2",
+  "k_max2_shadow",
+  "k_glass_max",
+  "k_jumpShadow2",
+  "k_jumpShadow",
+  "k_626c_XIII",
+  "k_626a_XIII",
+  "neo_hit",
+  "hurt1_snd_K",
+  "hurt2_snd_K",
+  "role_K",
+  "Iori_cpu1",
+  "Iori_cpu2",
+  "Iori_cpu3",
+  "Iori_cpu4",
+  "Iori_cpu5",
+  "Iori_Player",
+  "Type2_Iori_Player",
+  "Type2_Iori_cpu1",
+  "Type2_Iori_cpu2",
+  "Type2_Iori_cpu3",
+  "Type2_Iori_cpu4",
+  "Type2_Iori_cpu5",
+  "Type3_Iori_player",
+  "Type3_Iori_cpu1",
+  "Type3_Iori_cpu2",
+  "Type3_Iori_cpu3",
+  "Type3_Iori_cpu4",
+  "Type3_Iori_cpu5",
+  "iori_89bMax_boom2",
+  "ko_snd_Iori",
+  "Iori_fire_m1",
+  "Iori_fire_m2",
+  "Iori_fire_m3",
+  "iori_fire_boom",
+  "Iori_hurt2",
+  "Iori_fire_s31",
+  "iori_boom",
+  "iori_boom_land",
+  "iori_89b_fireMax",
+  "iori_fire_89b2",
+  "iori_fire_89b3",
+  "iori_df_p_shadow",
+  "iori_89b_fire",
+  "iori_89bMax_boom",
+  "iori_fire5",
+  "iori_fire_caihua3",
+  "iori_fire_caihua",
+  "Iori_fire1",
+  "Iori_fire2",
+  "Iori_fire3",
+  "Iori_fire4",
+  "Iori_fire4_1",
+  "Iori_fire4_2",
+  "iori_boom_land2",
+  "Iori_fire3_o",
+  "Iori_fire3_light",
+  "fire_iori",
+  "c2",
+  "c3",
+  "c4",
+  "c5",
+  "c1",
+  "tx02",
+  "pkq",
+  "roleIori",
+  "iori3_start",
+  "13",
+  "roleIori3",
+  "roleIori2",
+  "cd2",
+  "iori_bcw1",
+  "iori_bcw2_1",
+  "qing2",
+  "iori_jump_shadow",
+  "iori_rush1",
+  "zhong2",
+  "8sh1",
+  "iori_8znxiii",
+  "iori_8zw_shadow",
+  "qjz_wh",
+  "bachiwu_1",
+  "o_max2_combo",
+  "begin_boom",
+  "huoFengCC",
+  "maiden_rush_shadow",
+  "Iori_super_skill2_shadow",
+  "iori_boom_land3",
+  "iori_89bMax_boom_2",
+  "Iori_shadow1",
+  "Iori_fire_m4",
+  "maiden_rush_shadow_o",
+  "Iori_super_skill2_shadow_o",
+  "iori_max3_boom",
+  "iori_89b_fireMax_2",
+  "iori_jumpShadow",
+  "iori_jumpShadow_o",
+  "13max",
+  "Iori_fire4_2_l",
+  "iori_89b_fireMax_o",
+  "Iori_fire_random",
+  "8sh2",
+  "8sh3",
+  "8sh4",
+  "bcw1",
+  "bcw2",
+  "role_Iori",
+  "Igniz_cpu1",
+  "Igniz_cpu2",
+  "Igniz_cpu3",
+  "Igniz_cpu4",
+  "Igniz_cpu5",
+  "Igniz_player",
+  "Type2_Igniz_cpu1",
+  "Type2_Igniz_cpu2",
+  "Type2_Igniz_cpu3",
+  "Type2_Igniz_cpu4",
+  "Type2_Igniz_cpu5",
+  "Type2_Igniz_player",
+  "Igniz_shanzi4",
+  "Igniz_4round",
+  "Igniz_bailuo",
+  "igniz_hlyz",
+  "roleIgniz",
+  "Ignizi_fire_m1",
+  "BLMJ_hit",
+  "HLYZ_hit",
+  "HLYZ_zhen",
+  "Igniz_hlyzshadow",
+  "JGKH_hit",
+  "Igniz_sk_boom2",
+  "nbailuo_R",
+  "nbailuo_R2",
+  "nbailuo_R_s",
+  "nbailuo_R2_s",
+  "nbailuo_L",
+  "nbailuo_L2",
+  "nbailuo_L_s",
+  "nbailuo_L2_s",
+  "Igniz_bailuo_s",
+  "Igniz_hit1",
+  "dfdfp_add",
+  "dfdfp_s_add",
+  "downFire",
+  "downFire2",
+  "jumpFire1",
+  "jumpFire_skill",
+  "jumpFire2",
+  "jumpFire3",
+  "jumpFire4",
+  "fireWall",
+  "dfdfk",
+  "ex_grb3",
+  "ex_grb2",
+  "heimu",
+  "luoyue",
+  "ex_grb",
+  "grb_2",
+  "grb_3",
+  "Igniz_shanzi51",
+  "Igniz_shanzi5",
+  "Igniz_shanzi6",
+  "igniz_gq",
+  "Igniz_shanzi2",
+  "Igniz_shanzi22",
+  "Igniz_shanzi2_1",
+  "JGKH2_hit",
+  "Igniz_shanzi4s",
+  "dfdfb_p_shadow",
+  "igniz_jumpShadow",
+  "igniz_jumpShadow2",
+  "igniz_roll_b_shadow",
+  "igniz_roll_f_shadow",
+  "roleIgniz2",
+  "ko_snd_Igniz",
+  "nzhurt1",
+  "nzhurt2",
+  "fireWall2",
+  "role_Igniz",
+  "Haohmaru_cpu1",
+  "Haohmaru_cpu2",
+  "Haohmaru_cpu3",
+  "Haohmaru_cpu4",
+  "Haohmaru_cpu5",
+  "Haohmaru_player",
+  "Type2_Haohmaru_cpu1",
+  "Type2_Haohmaru_cpu2",
+  "Type2_Haohmaru_cpu3",
+  "Type2_Haohmaru_cpu4",
+  "Type2_Haohmaru_cpu5",
+  "Type2_Haohmaru_player",
+  "roleHaohmaru",
+  "Haohmaru_GYZ_shadow",
+  "Haohmaru_GYZ2_shadow",
+  "Haohmaru_QHZ_shadow",
+  "terry_xuanfeng1",
+  "terry_xuanfeng3air",
+  "terry_xuanfeng3",
+  "terry_xuanfeng2air",
+  "terry_xuanfeng2",
+  "terry_xuanfeng1air",
+  "terry_xuanfeng03",
+  "terry_xuanfeng02",
+  "terry_xuanfeng01",
+  "dfdf_k_ex_shadow",
+  "haohmaru_jumpShadow",
+  "ko_snd_Haohmaru",
+  "Haohmaru_hurt1",
+  "Haohmaru_hurt2",
+  "Haohmaru_hurt3",
+  "Haohmaru_hurt4",
+  "role_Haohmaru",
+  "Goenitz_cpu1",
+  "Goenitz_cpu2",
+  "Goenitz_cpu3",
+  "Goenitz_cpu4",
+  "Goenitz_cpu5",
+  "Goenitz_Player",
+  "Type2_Goenitz_Player",
+  "Type2_Goenitz_cpu1",
+  "Type2_Goenitz_cpu2",
+  "Type2_Goenitz_cpu3",
+  "Type2_Goenitz_cpu4",
+  "Type2_Goenitz_cpu5",
+  "Type3_Goenitz_player",
+  "Type3_Goenitz_cpu1",
+  "Type3_Goenitz_cpu2",
+  "Type3_Goenitz_cpu3",
+  "Type3_Goenitz_cpu4",
+  "Type3_Goenitz_cpu5",
+  "ko_snd_Goenitz",
+  "Goenitz_run",
+  "gnccd",
+  "binghefeng",
+  "roleGoenitz",
+  "fsycmax1",
+  "fsycmax2",
+  "dark_recite",
+  "xcys",
+  "xcys2",
+  "yefeng",
+  "wind_back",
+  "wind_land",
+  "gncab",
+  "Goenitz_dash_shadow",
+  "Goenitz_jumpshadow",
+  "xiangzhitexiao",
+  "Gnz_hurt1",
+  "Gnz_hurt2",
+  "Gnz_hurt3",
+  "Gnz_hurt4",
+  "role_Goenitz",
+  "Chunli_cpu1",
+  "Chunli_cpu2",
+  "Chunli_cpu3",
+  "Chunli_cpu4",
+  "Chunli_cpu5",
+  "Chunli_player",
+  "Type2_Chunli_cpu1",
+  "Type2_Chunli_cpu2",
+  "Type2_Chunli_cpu3",
+  "Type2_Chunli_cpu4",
+  "Type2_Chunli_cpu5",
+  "Type2_Chunli_player",
+  "chunli_shanzi1",
+  "chunli_att_l3",
+  "chunli_att_l2",
+  "chunli_att_l1",
+  "chunli_airDash",
+  "roleChunli",
+  "ko_snd_Chunli",
+  "chunlii_powerball",
+  "chunlii_powerball1",
+  "chunli_qg2shadow",
+  "chunli_jumpShadow",
+  "chunli_jumpShadow2",
+  "chunli_jumpShadow3",
+  "chunli_fireEff2",
+  "Chunli_hurt1",
+  "Chunli_hurt2",
+  "Chunli_hurt3",
+  "chunli_qixingtxt",
+  "role_Chunli",
+  "Athena_cpu1",
+  "Athena_cpu2",
+  "Athena_cpu3",
+  "Athena_cpu4",
+  "Athena_cpu5",
+  "Athena_Player",
+  "Type2_Athena_cpu1",
+  "Type2_Athena_cpu2",
+  "Type2_Athena_cpu3",
+  "Type2_Athena_cpu4",
+  "Type2_Athena_cpu5",
+  "Type2_Athena_Player",
+  "ko_snd_Athena",
+  "Iori_hurt1",
+  "Athena_fire3",
+  "athena_ball_air",
+  "Athena_26b_shadow2",
+  "Athena_26b_move_shadow",
+  "Athena_fire3_special_l",
+  "Athena_fire3_special",
+  "Athena_fire3_special_bao",
+  "bao",
+  "chuansongmen",
+  "athena_ball_wtf",
+  "j24b_02um",
+  "Athena_fire3_light",
+  "roll_ab",
+  "down.wav",
+  "abcd_f",
+  "roleAthena",
+  "roleAthena2",
+  "ko_snd_Athena2",
+  "athena_fire_eff1",
+  "sk_athena_max_star",
+  "db_k_eff",
+  "sk_dfdf_k_shadow",
+  "athena_ball",
+  "athena_ball2",
+  "athena_ball3",
+  "athena_ball4",
+  "athena_ball_air_s",
+  "athena_ball_air2",
+  "26bd_fade",
+  "26bd_fade_02um",
+  "26bd_fade_02um2",
+  "26bd_move_02um",
+  "26bd_move_02um_h",
+  "26d_move_fake",
+  "Athena_fire3_02um",
+  "Athena_hurt1",
+  "athena_24o_shadow",
+  "Athena_hurt2",
+  "athena_jumpShadow",
+  "athena_jumpShadow2",
+  "athena_jumpShadow3",
+  "athena_jumpShadow4",
+  "athena_jumpShadow5",
+  "Athena_hurt3",
+  "Athena_hurt4",
+  "role_Athena",
+  "Ash_cpu1",
+  "Ash_cpu2",
+  "Ash_cpu3",
+  "Ash_cpu4",
+  "Ash_cpu5",
+  "Ash_player",
+  "Type2_Ash_cpu1",
+  "Type2_Ash_cpu2",
+  "Type2_Ash_cpu3",
+  "Type2_Ash_cpu4",
+  "Type2_Ash_cpu5",
+  "Type2_Ash_player",
+  "26O02",
+  "26O03",
+  "26O201",
+  "26o202",
+  "ash_fireEff1",
+  "exSkillCC",
+  "bf_A_eff",
+  "bf_C_eff",
+  "ash_evil_dd_o_multi",
+  "ash_evil_fireEff_2",
+  "ash_evil_fireEff_1",
+  "ash_ddd_o_fire",
+  "ash_evil_dd_o_fire",
+  "ash_2426a_slash",
+  "ash_2426a_fireBoom",
+  "ash_2426a_fireBoom_2",
+  "ash_hit_m1",
+  "26O01",
+  "nonSkillCC",
+  "bdf_d_snd_2",
+  "lp_snd",
+  "lk_snd",
+  "sp_snd",
+  "fdf_k_snd",
+  "bdf_d_snd",
+  "bdf_b_snd_2",
+  "ash_neoMax",
+  "ash_neoMax_2",
+  "roleAsh",
+  "ash_jumpShadow3",
+  "ash_jumpShadow2",
+  "ash_jumpShadow",
+  "ash_jumpShadow4",
+  "ash_jumpShadow5",
+  "ash_jumpShadow6",
+  "ash_jumpShadow7",
+  "ash_jumpShadow8",
+  "ash_dashbShadow2",
+  "ash_dashbShadow",
+  "ash_dashfShadow",
+  "ash_walkbShadow",
+  "ash_walkfShadow",
+  "ash_hurt3Shadow5",
+  "ash_hurt3Shadow4",
+  "ash_hurt3Shadow3",
+  "ash_hurtcrashShadow",
+  "ash_hurt3Shadow",
+  "ash_hurt1Shadow3",
+  "ash_hurt1Shadow2",
+  "ash_hurt1Shadow",
+  "ash_bdfbShadow4",
+  "ash_bdfbShadow3",
+  "ash_bdfbShadow2",
+  "ash_bdfbShadow",
+  "ash_fdfbShadow1",
+  "ash_fdfbShadow4",
+  "ash_fdfbShadow3",
+  "ash_fdfbShadow2",
+  "ash_fdfbShadow",
+  "ash_bfcShadow",
+  "ash_bfaShadow",
+  "ash_squatdefendShadow",
+  "ash_defendShadow",
+  "ash_landShadow",
+  "ash_getup2Shadow10",
+  "ash_getup2Shadow9",
+  "ash_getup2Shadow8",
+  "ash_getup2Shadow7",
+  "ash_getup2Shadow6",
+  "ash_getup2Shadow5",
+  "ash_getup2Shadow4",
+  "ash_getup2Shadow3",
+  "ash_getup2Shadow16",
+  "ash_getup2Shadow15",
+  "ash_getup2Shadow14",
+  "ash_getup2Shadow13",
+  "ash_getup2Shadow12",
+  "ash_getup2Shadow11",
+  "ash_getup2Shadow2",
+  "ash_getup2Shadow",
+  "ash_hurt6Shadow3",
+  "ash_hurt6Shadow2",
+  "ash_hurt6Shadow",
+  "ash_hurt4Shadow",
+  "ash_hurt2Shadow2",
+  "ash_hurt2Shadow",
+  "ash_getup1Shadow",
+  "ash_hurt3Shadow2",
+  "ash_hurtcrashShadow4",
+  "ash_hurtcrashShadow3",
+  "ash_hurtcrashShadow2",
+  "ash_getup1Shadow6",
+  "ash_getup1Shadow1",
+  "ash_getup1Shadow5",
+  "ash_getup1Shadow4",
+  "ash_getup1Shadow3",
+  "ash_getup1Shadow2",
+  "ash_standShadow2",
+  "ash_standShadow",
+  "ash_faShadow",
+  "ash_bbShadow",
+  "ash_bdShadow",
+  "ash_faShadow_2",
+  "ash_squatKickShadow",
+  "txcy",
+  "ASH_242",
+  "ASH_24222",
+  "ASH_2626K",
+  "ASH_2626P",
+  "ASH_2626P_2",
+  "ASH_2626P2",
+  "ASH_426",
+  "ASH_626B",
+  "ASH_646A",
+  "ASH_646A_02",
+  "ASH_646A_03",
+  "ASH_646C02",
+  "ASH_646C02_2",
+  "ASH_646C",
+  "ASH_646C_2",
+  "ASH_646C_EX",
+  "ASH_24O02",
+  "ASH_24O01",
+  "ASH_646A_022",
+  "ASH22",
+  "ASH_24",
+  "ASH_46C",
+  "ko_snd_Ash",
+  "sk_snd",
+  "heavyHit_snd",
+  "heavyHit_snd_2",
+  "lp_snd_2",
+  "lk_snd_2",
+  "sp_snd_2",
+  "sk_snd_2",
+  "lk2_snd_2",
+  "bdf_b_snd",
+  "fdf_k_snd_2",
+  "dfdf_p_2_snd_2",
+  "dfdf_p_snd_2",
+  "dfdf_p_snd",
+  "dfdf_p_2_snd",
+  "Ash_hurt1",
+  "Ash_hurt2",
+  "Ash_hurt3",
+  "Ash_hurt4",
+  "Ash_hurt5",
+  "Ash_hurt6",
+  "role_Ash",
+  "TextArea",
+  "UIScrollBar",
+  "trans",
+  "hint_fullScreen",
+  "draw",
+  "winner",
+  "start_mc",
+  "timeOut",
+  "winResult",
+  "UI_gameOver",
+  "winAll",
+  "intro",
+  "about",
+  "menu_bottom",
+  "setting",
+  "close_mc",
+  "AD_loading",
+  "bgEff_up",
+  "bgEff_up2",
+  "bgEff_up3",
+  "hitFire_h2",
+  "hitFire_s1",
+  "hitFire_s2",
+  "hit_h.wav",
+  "hitFire_obj",
+  "hitFire0",
+  "hitFire1",
+  "hitFire4",
+  "hitFire_cut4",
+  "hitFire_pk_h",
+  "hitFire_pk_m",
+  "hitFire_kof_1",
+  "hitFire_s3",
+  "bgEff_black",
+  "bgEff_KO",
+  "bgEff_super0",
+  "bgEff_super1",
+  "bgEff_super2",
+  "bgShinngHit",
+  "bgEff_KO2",
+  "fgEff_black",
+  "bgEff_break",
+  "bgEff_redb",
+  "bgEff_X",
+  "bgEff_invert",
+  "down2.wav",
+  "down1",
+  "run_eff",
+  "down3",
+  "down2",
+  "shinning_g",
+  "s_defend",
+  "s3",
+  "s1_bg",
+  "s2",
+  "s2_bg",
+  "s1",
+  "s1_s",
+  "s_power",
+  "s1_s_bg",
+  "superface_iori1",
+  "superface_Iori2",
+  "superface_K1",
+  "superface_K2",
+  "superface_Ryu1",
+  "superface_Ryu2",
+  "m_slash_1",
+  "m_slash_0_2",
+  "m_slash_0",
+  "bgm",
+  "bgm1_snd",
+  "boom.wav",
+  "fire1.wav",
+  "fire2.wav",
+  "hold2.wav",
+  "round2.wav",
+  "round3.wav",
+  "counter",
+  "effect",
+  "showMsg",
+  "Stage_shake",
+  "combo_list",
+  "superface_Kula1",
+  "superface_Kula2",
+  "superface_Moriya1",
+  "superface_Moriya2",
+  "superface_Orochi2",
+  "superface_Iori31",
+  "superface_Iori32",
+  "superface_Moriya_Feng1",
+  "superface_Mai1",
+  "superface_Mai2",
+  "superface_Chunli2",
+  "superface_Chunli1",
+  "superface_Terry1",
+  "superface_Terry2",
+  "superface_Ryo1",
+  "superface_Ryo2",
+  "hitFire_sf3_1",
+  "hitFire_sf3_2",
+  "head_random",
+  "hitFire_cut_lb1",
+  "hitFire_cut_lb2",
+  "stageControl_mc",
+  "zoomControl"
+ ],
+ "export_assets": [
+  {
+   "char_id": 1,
+   "export_name": "punch"
+  },
+  {
+   "char_id": 2,
+   "export_name": "kick"
+  },
+  {
+   "char_id": 3,
+   "export_name": "jump_snd"
+  },
+  {
+   "char_id": 4,
+   "export_name": "winnerVoice02um2"
+  },
+  {
+   "char_id": 5,
+   "export_name": "winner13"
+  },
+  {
+   "char_id": 6,
+   "export_name": "winnerVoice02um"
+  },
+  {
+   "char_id": 7,
+   "export_name": "winner02um"
+  },
+  {
+   "char_id": 8,
+   "export_name": "title02um"
+  },
+  {
+   "char_id": 9,
+   "export_name": "title97"
+  },
+  {
+   "char_id": 10,
+   "export_name": "timeOverNotice"
+  },
+  {
+   "char_id": 11,
+   "export_name": "timeover02um"
+  },
+  {
+   "char_id": 12,
+   "export_name": "timeover97"
+  },
+  {
+   "char_id": 13,
+   "export_name": "selectMenu"
+  },
+  {
+   "char_id": 14,
+   "export_name": "select97"
+  },
+  {
+   "char_id": 15,
+   "export_name": "select"
+  },
+  {
+   "char_id": 16,
+   "export_name": "run_snd"
+  },
+  {
+   "char_id": 17,
+   "export_name": "round97"
+  },
+  {
+   "char_id": 18,
+   "export_name": "round02um_5"
+  },
+  {
+   "char_id": 19,
+   "export_name": "round02um_4"
+  },
+  {
+   "char_id": 20,
+   "export_name": "round02um_3"
+  },
+  {
+   "char_id": 21,
+   "export_name": "round02um_2"
+  },
+  {
+   "char_id": 22,
+   "export_name": "round02um_1"
+  },
+  {
+   "char_id": 23,
+   "export_name": "round02um"
+  },
+  {
+   "char_id": 24,
+   "export_name": "randomSelect"
+  },
+  {
+   "char_id": 25,
+   "export_name": "perfect02um"
+  },
+  {
+   "char_id": 26,
+   "export_name": "perfect97"
+  },
+  {
+   "char_id": 27,
+   "export_name": "option"
+  },
+  {
+   "char_id": 28,
+   "export_name": "ok97"
+  },
+  {
+   "char_id": 29,
+   "export_name": "ok"
+  },
+  {
+   "char_id": 30,
+   "export_name": "lastKO"
+  },
+  {
+   "char_id": 31,
+   "export_name": "insertCoin"
+  },
+  {
+   "char_id": 32,
+   "export_name": "fight02um"
+  },
+  {
+   "char_id": 33,
+   "export_name": "fight97"
+  },
+  {
+   "char_id": 34,
+   "export_name": "drawgame97"
+  },
+  {
+   "char_id": 35,
+   "export_name": "drawgame02um"
+  },
+  {
+   "char_id": 36,
+   "export_name": "dizzy"
+  },
+  {
+   "char_id": 37,
+   "export_name": "bossStageFinal"
+  },
+  {
+   "char_id": 38,
+   "export_name": "bossStage97Voice"
+  },
+  {
+   "char_id": 39,
+   "export_name": "bossStage97"
+  },
+  {
+   "char_id": 40,
+   "export_name": "bossStage02um"
+  },
+  {
+   "char_id": 41,
+   "export_name": "arcadeSelect97"
+  },
+  {
+   "char_id": 42,
+   "export_name": "arcadeSelect13"
+  },
+  {
+   "char_id": 43,
+   "export_name": "arcadeSelect02um"
+  },
+  {
+   "char_id": 44,
+   "export_name": "round97_5"
+  },
+  {
+   "char_id": 45,
+   "export_name": "round97_4"
+  },
+  {
+   "char_id": 46,
+   "export_name": "round97_3"
+  },
+  {
+   "char_id": 47,
+   "export_name": "round97_2"
+  },
+  {
+   "char_id": 48,
+   "export_name": "round97_1"
+  },
+  {
+   "char_id": 49,
+   "export_name": "select02um"
+  },
+  {
+   "char_id": 50,
+   "export_name": "run_snd2"
+  },
+  {
+   "char_id": 51,
+   "export_name": "ok02um"
+  },
+  {
+   "char_id": 52,
+   "export_name": "winnerVoice97"
+  },
+  {
+   "char_id": 53,
+   "export_name": "winner97"
+  },
+  {
+   "char_id": 54,
+   "export_name": "ko02um"
+  },
+  {
+   "char_id": 55,
+   "export_name": "ko97"
+  },
+  {
+   "char_id": 80,
+   "export_name": "bgEff_superMC"
+  },
+  {
+   "char_id": 84,
+   "export_name": "bc"
+  },
+  {
+   "char_id": 88,
+   "export_name": "down"
+  },
+  {
+   "char_id": 92,
+   "export_name": "right"
+  },
+  {
+   "char_id": 96,
+   "export_name": "up"
+  },
+  {
+   "char_id": 100,
+   "export_name": "left"
+  },
+  {
+   "char_id": 104,
+   "export_name": "hk"
+  },
+  {
+   "char_id": 108,
+   "export_name": "hp"
+  },
+  {
+   "char_id": 109,
+   "export_name": "AD"
+  },
+  {
+   "char_id": 113,
+   "export_name": "lk"
+  },
+  {
+   "char_id": 117,
+   "export_name": "lp"
+  },
+  {
+   "char_id": 118,
+   "export_name": "AB"
+  },
+  {
+   "char_id": 139,
+   "export_name": "Eff_superSun"
+  },
+  {
+   "char_id": 159,
+   "export_name": "crash_eff"
+  },
+  {
+   "char_id": 208,
+   "export_name": "hitFire_cut_blood2"
+  },
+  {
+   "char_id": 210,
+   "export_name": "hitFire_cut_blood"
+  },
+  {
+   "char_id": 272,
+   "export_name": "hitFire_h3"
+  },
+  {
+   "char_id": 295,
+   "export_name": "hitFire_max"
+  },
+  {
+   "char_id": 296,
+   "export_name": "hitFire1_h"
+  },
+  {
+   "char_id": 319,
+   "export_name": "Iori_hitFire3"
+  },
+  {
+   "char_id": 322,
+   "export_name": "hold.wav"
+  },
+  {
+   "char_id": 363,
+   "export_name": "hitFire2_l"
+  },
+  {
+   "char_id": 382,
+   "export_name": "hitFire2count"
+  },
+  {
+   "char_id": 434,
+   "export_name": "breakDefend_l"
+  },
+  {
+   "char_id": 453,
+   "export_name": "breakDefend"
+  },
+  {
+   "char_id": 493,
+   "export_name": "bgEff_up_break"
+  },
+  {
+   "char_id": 511,
+   "export_name": "bgEff_universe2"
+  },
+  {
+   "char_id": 515,
+   "export_name": "bgEff_universe_break"
+  },
+  {
+   "char_id": 518,
+   "export_name": "bgEff_universe"
+  },
+  {
+   "char_id": 519,
+   "export_name": "bgEff_superAlpha"
+  },
+  {
+   "char_id": 551,
+   "export_name": "bgEff_speed1"
+  },
+  {
+   "char_id": 568,
+   "export_name": "bgEff_speed_red_break"
+  },
+  {
+   "char_id": 584,
+   "export_name": "bgEff_speed_red"
+  },
+  {
+   "char_id": 612,
+   "export_name": "bgEff_red_up_break"
+  },
+  {
+   "char_id": 628,
+   "export_name": "bgEff_red_up"
+  },
+  {
+   "char_id": 630,
+   "export_name": "bgEff_red_o"
+  },
+  {
+   "char_id": 631,
+   "export_name": "bgEff_red_full"
+  },
+  {
+   "char_id": 632,
+   "export_name": "bgEff_red_break"
+  },
+  {
+   "char_id": 633,
+   "export_name": "bgEff_red_add"
+  },
+  {
+   "char_id": 650,
+   "export_name": "bgEff_blue_break"
+  },
+  {
+   "char_id": 666,
+   "export_name": "bgEff_blue"
+  },
+  {
+   "char_id": 668,
+   "export_name": "bgEff_bloodiori_start"
+  },
+  {
+   "char_id": 669,
+   "export_name": "bgEff_blackAlpha"
+  },
+  {
+   "char_id": 670,
+   "export_name": "bgEff_black_super"
+  },
+  {
+   "char_id": 671,
+   "export_name": "bgEff_black_break"
+  },
+  {
+   "char_id": 683,
+   "export_name": "bgEff_redxbreak"
+  },
+  {
+   "char_id": 708,
+   "export_name": "bgEff_bbreakk"
+  },
+  {
+   "char_id": 711,
+   "export_name": "superface_Oswald1"
+  },
+  {
+   "char_id": 714,
+   "export_name": "superface_Kusanagi2"
+  },
+  {
+   "char_id": 717,
+   "export_name": "superface_Kusanagi1"
+  },
+  {
+   "char_id": 720,
+   "export_name": "superface_Krizalid2"
+  },
+  {
+   "char_id": 722,
+   "export_name": "superface_Krizalid1"
+  },
+  {
+   "char_id": 725,
+   "export_name": "superface_Kim2"
+  },
+  {
+   "char_id": 728,
+   "export_name": "superface_Kim1"
+  },
+  {
+   "char_id": 731,
+   "export_name": "superface_CZero2"
+  },
+  {
+   "char_id": 734,
+   "export_name": "superface_CZero1"
+  },
+  {
+   "char_id": 735,
+   "export_name": "superface_Andy2"
+  },
+  {
+   "char_id": 738,
+   "export_name": "superface_Andy1"
+  },
+  {
+   "char_id": 741,
+   "export_name": "superface_Zero2"
+  },
+  {
+   "char_id": 744,
+   "export_name": "superface_Zero1"
+  },
+  {
+   "char_id": 747,
+   "export_name": "superface_Nameless2"
+  },
+  {
+   "char_id": 749,
+   "export_name": "superface_Nameless1"
+  },
+  {
+   "char_id": 752,
+   "export_name": "superface_Mizuchi2"
+  },
+  {
+   "char_id": 755,
+   "export_name": "superface_Mizuchi1"
+  },
+  {
+   "char_id": 758,
+   "export_name": "superface_KyoXI2"
+  },
+  {
+   "char_id": 759,
+   "export_name": "superface_KyoXI1"
+  },
+  {
+   "char_id": 762,
+   "export_name": "superface_Goenitz2"
+  },
+  {
+   "char_id": 765,
+   "export_name": "superface_Goenitz1"
+  },
+  {
+   "char_id": 768,
+   "export_name": "superface_EvilAsh2"
+  },
+  {
+   "char_id": 771,
+   "export_name": "superface_Athena22"
+  },
+  {
+   "char_id": 774,
+   "export_name": "superface_Athena21"
+  },
+  {
+   "char_id": 777,
+   "export_name": "superface_Athena2"
+  },
+  {
+   "char_id": 780,
+   "export_name": "superface_Athena1"
+  },
+  {
+   "char_id": 781,
+   "export_name": "code_mc"
+  },
+  {
+   "char_id": 812,
+   "export_name": "reset_mc"
+  },
+  {
+   "char_id": 1194,
+   "export_name": "UI_VS_SINGE"
+  },
+  {
+   "char_id": 1229,
+   "export_name": "UI_VS"
+  },
+  {
+   "char_id": 1251,
+   "export_name": "Perfect_mc"
+  },
+  {
+   "char_id": 1292,
+   "export_name": "UI_service"
+  },
+  {
+   "char_id": 1312,
+   "export_name": "menu_bottom_trigger"
+  },
+  {
+   "char_id": 1315,
+   "export_name": "bgm_mc"
+  },
+  {
+   "char_id": 1318,
+   "export_name": "bgm_rugal"
+  },
+  {
+   "char_id": 1320,
+   "export_name": "bgm_igniz"
+  },
+  {
+   "char_id": 1321,
+   "export_name": "loaderchar"
+  },
+  {
+   "char_id": 1513,
+   "export_name": "fire_m3"
+  },
+  {
+   "char_id": 1514,
+   "export_name": "fire_m2"
+  },
+  {
+   "char_id": 1515,
+   "export_name": "fire_m1"
+  },
+  {
+   "char_id": 1706,
+   "export_name": "Nameless_fire_m1"
+  },
+  {
+   "char_id": 1709,
+   "export_name": "kula_jiejie_bg2"
+  },
+  {
+   "char_id": 1746,
+   "export_name": "kula_jiejie_bg"
+  },
+  {
+   "char_id": 1781,
+   "export_name": "bgEff_superSunMax"
+  },
+  {
+   "char_id": 1784,
+   "export_name": "bgEff_superSun"
+  },
+  {
+   "char_id": 1787,
+   "export_name": "bgEff_dashe"
+  },
+  {
+   "char_id": 1844,
+   "export_name": "mc_keysetting"
+  },
+  {
+   "char_id": 1847,
+   "export_name": "bgmControl_mc"
+  },
+  {
+   "char_id": 1848,
+   "export_name": "FWAd_AS2"
+  },
+  {
+   "char_id": 1927,
+   "export_name": "head"
+  },
+  {
+   "char_id": 2046,
+   "export_name": "select_icon1"
+  },
+  {
+   "char_id": 2732,
+   "export_name": "char_select_mc"
+  },
+  {
+   "char_id": 2735,
+   "export_name": "superface_kyo1"
+  },
+  {
+   "char_id": 2738,
+   "export_name": "superface_Kyo2"
+  },
+  {
+   "char_id": 2741,
+   "export_name": "superface_Ash2"
+  },
+  {
+   "char_id": 2744,
+   "export_name": "superface_Ash1"
+  },
+  {
+   "char_id": 2747,
+   "export_name": "superface_Rugal2"
+  },
+  {
+   "char_id": 2750,
+   "export_name": "superface_Rugal1"
+  },
+  {
+   "char_id": 2753,
+   "export_name": "superface_Haohmaru2"
+  },
+  {
+   "char_id": 2756,
+   "export_name": "superface_Haohmaru1"
+  },
+  {
+   "char_id": 2759,
+   "export_name": "superface_Igniz2"
+  },
+  {
+   "char_id": 2762,
+   "export_name": "superface_Igniz1"
+  },
+  {
+   "char_id": 2765,
+   "export_name": "superface_Moriya_Xue1"
+  },
+  {
+   "char_id": 2768,
+   "export_name": "superface_Orochi1"
+  },
+  {
+   "char_id": 2771,
+   "export_name": "bgm_orochi"
+  },
+  {
+   "char_id": 2773,
+   "export_name": "superface_KyoW2"
+  },
+  {
+   "char_id": 2776,
+   "export_name": "superface_KyoW1"
+  },
+  {
+   "char_id": 2849,
+   "export_name": "s_attack"
+  },
+  {
+   "char_id": 2853,
+   "export_name": "count_text"
+  },
+  {
+   "char_id": 2855,
+   "export_name": "bgEff_invert_break"
+  },
+  {
+   "char_id": 2858,
+   "export_name": "bgEff_break2"
+  },
+  {
+   "char_id": 2871,
+   "export_name": "bgEff_yhdw"
+  },
+  {
+   "char_id": 2877,
+   "export_name": "bgEff_flashshow"
+  },
+  {
+   "char_id": 2878,
+   "export_name": "bgEff_bloodiori"
+  },
+  {
+   "char_id": 2879,
+   "export_name": "bgEff_redout"
+  },
+  {
+   "char_id": 2880,
+   "export_name": "bgEff_red"
+  },
+  {
+   "char_id": 2881,
+   "export_name": "bgEff_redbbreak"
+  },
+  {
+   "char_id": 2928,
+   "export_name": "bgEff_speed4"
+  },
+  {
+   "char_id": 2929,
+   "export_name": "hit3.wav"
+  },
+  {
+   "char_id": 2956,
+   "export_name": "hitFire3_super"
+  },
+  {
+   "char_id": 2982,
+   "export_name": "hitfire_l2"
+  },
+  {
+   "char_id": 3020,
+   "export_name": "hitFire3"
+  },
+  {
+   "char_id": 3021,
+   "export_name": "hitFire2"
+  },
+  {
+   "char_id": 3022,
+   "export_name": "hit_l.wav"
+  },
+  {
+   "char_id": 3063,
+   "export_name": "hitfire_l"
+  },
+  {
+   "char_id": 3105,
+   "export_name": "hitFire_h"
+  },
+  {
+   "char_id": 3106,
+   "export_name": "hitFire_cut2"
+  },
+  {
+   "char_id": 3127,
+   "export_name": "hitFire_cut"
+  },
+  {
+   "char_id": 3128,
+   "export_name": "bgEff_speed3"
+  },
+  {
+   "char_id": 3164,
+   "export_name": "mc_fightsetting"
+  },
+  {
+   "char_id": 3207,
+   "export_name": "mc_displaysetting"
+  },
+  {
+   "char_id": 3210,
+   "export_name": "json"
+  },
+  {
+   "char_id": 3211,
+   "export_name": "battle_start"
+  },
+  {
+   "char_id": 3212,
+   "export_name": "battle_end"
+  },
+  {
+   "char_id": 3265,
+   "export_name": "KO_mc"
+  },
+  {
+   "char_id": 3319,
+   "export_name": "lifeBar"
+  },
+  {
+   "char_id": 3484,
+   "export_name": "生命能量P2_mc"
+  },
+  {
+   "char_id": 3489,
+   "export_name": "生命能量P1_mc"
+  },
+  {
+   "char_id": 3539,
+   "export_name": "Defaults"
+  },
+  {
+   "char_id": 3540,
+   "export_name": "UIObjectExtensions"
+  },
+  {
+   "char_id": 3541,
+   "export_name": "UIObject"
+  },
+  {
+   "char_id": 3547,
+   "export_name": "BoundingBox"
+  },
+  {
+   "char_id": 3548,
+   "export_name": "FocusRect"
+  },
+  {
+   "char_id": 3549,
+   "export_name": "FocusManager"
+  },
+  {
+   "char_id": 3550,
+   "export_name": "UIComponentExtensions"
+  },
+  {
+   "char_id": 3551,
+   "export_name": "UIComponent"
+  },
+  {
+   "char_id": 3552,
+   "export_name": "Label"
+  },
+  {
+   "char_id": 3575,
+   "export_name": "BrdrShdw"
+  },
+  {
+   "char_id": 3577,
+   "export_name": "BrdrFace"
+  },
+  {
+   "char_id": 3578,
+   "export_name": "SimpleButtonDown"
+  },
+  {
+   "char_id": 3580,
+   "export_name": "BrdrBlk"
+  },
+  {
+   "char_id": 3582,
+   "export_name": "BrdrHilght"
+  },
+  {
+   "char_id": 3583,
+   "export_name": "SimpleButtonIn"
+  },
+  {
+   "char_id": 3584,
+   "export_name": "SimpleButtonUp"
+  },
+  {
+   "char_id": 3585,
+   "export_name": "SimpleButton"
+  },
+  {
+   "char_id": 3587,
+   "export_name": "Border"
+  },
+  {
+   "char_id": 3588,
+   "export_name": "RectBorder"
+  },
+  {
+   "char_id": 3589,
+   "export_name": "TextInput"
+  },
+  {
+   "char_id": 3590,
+   "export_name": "ComboBase"
+  },
+  {
+   "char_id": 3591,
+   "export_name": "DataProvider"
+  },
+  {
+   "char_id": 3592,
+   "export_name": "DataSelector"
+  },
+  {
+   "char_id": 3593,
+   "export_name": "SelectableRow"
+  },
+  {
+   "char_id": 3594,
+   "export_name": "ButtonSkin"
+  },
+  {
+   "char_id": 3595,
+   "export_name": "Button"
+  },
+  {
+   "char_id": 3596,
+   "export_name": "CustomBorder"
+  },
+  {
+   "char_id": 3599,
+   "export_name": "ScrollTrack"
+  },
+  {
+   "char_id": 3606,
+   "export_name": "ScrollDownArrowDisabled"
+  },
+  {
+   "char_id": 3608,
+   "export_name": "ScrollThemeColor1"
+  },
+  {
+   "char_id": 3610,
+   "export_name": "ScrollThemeColor2"
+  },
+  {
+   "char_id": 3611,
+   "export_name": "ScrollDownArrowDown"
+  },
+  {
+   "char_id": 3612,
+   "export_name": "ScrollDownArrowOver"
+  },
+  {
+   "char_id": 3613,
+   "export_name": "ScrollDownArrowUp"
+  },
+  {
+   "char_id": 3619,
+   "export_name": "ScrollThumbBottomDisabled"
+  },
+  {
+   "char_id": 3621,
+   "export_name": "ThumbThemeColor1"
+  },
+  {
+   "char_id": 3623,
+   "export_name": "ThumbThemeColor3"
+  },
+  {
+   "char_id": 3624,
+   "export_name": "ScrollThumbBottomDown"
+  },
+  {
+   "char_id": 3625,
+   "export_name": "ScrollThumbBottomOver"
+  },
+  {
+   "char_id": 3626,
+   "export_name": "ScrollThumbBottomUp"
+  },
+  {
+   "char_id": 3628,
+   "export_name": "ScrollThumbGripDisabled"
+  },
+  {
+   "char_id": 3630,
+   "export_name": "ThumbThemeColor2"
+  },
+  {
+   "char_id": 3631,
+   "export_name": "ScrollThumbGripDown"
+  },
+  {
+   "char_id": 3632,
+   "export_name": "ScrollThumbGripOver"
+  },
+  {
+   "char_id": 3633,
+   "export_name": "ScrollThumbGripUp"
+  },
+  {
+   "char_id": 3635,
+   "export_name": "ScrollThumbMiddleDisabled"
+  },
+  {
+   "char_id": 3636,
+   "export_name": "ScrollThumbMiddleDown"
+  },
+  {
+   "char_id": 3640,
+   "export_name": "ScrollThumbMiddleOver"
+  },
+  {
+   "char_id": 3641,
+   "export_name": "ScrollThumbMiddleUp"
+  },
+  {
+   "char_id": 3642,
+   "export_name": "ScrollThumbTopDisabled"
+  },
+  {
+   "char_id": 3643,
+   "export_name": "ScrollThumbTopDown"
+  },
+  {
+   "char_id": 3644,
+   "export_name": "ScrollThumbTopOver"
+  },
+  {
+   "char_id": 3645,
+   "export_name": "ScrollThumbTopUp"
+  },
+  {
+   "char_id": 3646,
+   "export_name": "ScrollTrackDisabled"
+  },
+  {
+   "char_id": 3647,
+   "export_name": "ScrollUpArrowDisabled"
+  },
+  {
+   "char_id": 3648,
+   "export_name": "ScrollUpArrowDown"
+  },
+  {
+   "char_id": 3649,
+   "export_name": "ScrollUpArrowOver"
+  },
+  {
+   "char_id": 3650,
+   "export_name": "ScrollUpArrowUp"
+  },
+  {
+   "char_id": 3651,
+   "export_name": "BtnDownArrow"
+  },
+  {
+   "char_id": 3652,
+   "export_name": "BtnUpArrow"
+  },
+  {
+   "char_id": 3653,
+   "export_name": "ScrollBarAssets"
+  },
+  {
+   "char_id": 3654,
+   "export_name": "HScrollBar"
+  },
+  {
+   "char_id": 3655,
+   "export_name": "VScrollBar"
+  },
+  {
+   "char_id": 3656,
+   "export_name": "View"
+  },
+  {
+   "char_id": 3657,
+   "export_name": "ScrollView"
+  },
+  {
+   "char_id": 3658,
+   "export_name": "ScrollSelectList"
+  },
+  {
+   "char_id": 3659,
+   "export_name": "List"
+  },
+  {
+   "char_id": 3664,
+   "export_name": "ComboDownArrowUp"
+  },
+  {
+   "char_id": 3665,
+   "export_name": "ComboDownArrowDisabled"
+  },
+  {
+   "char_id": 3667,
+   "export_name": "ComboThemeColor1"
+  },
+  {
+   "char_id": 3668,
+   "export_name": "ComboDownArrowDown"
+  },
+  {
+   "char_id": 3669,
+   "export_name": "ComboDownArrowOver"
+  },
+  {
+   "char_id": 3670,
+   "export_name": "ComboAssets"
+  },
+  {
+   "char_id": 3671,
+   "export_name": "ComboBox"
+  },
+  {
+   "char_id": 3715,
+   "export_name": "life_power"
+  },
+  {
+   "char_id": 3717,
+   "export_name": "ScrollPane"
+  },
+  {
+   "char_id": 3720,
+   "export_name": "Zero_player"
+  },
+  {
+   "char_id": 3721,
+   "export_name": "Zero_cpu1"
+  },
+  {
+   "char_id": 3722,
+   "export_name": "Zero_cpu2"
+  },
+  {
+   "char_id": 3723,
+   "export_name": "Zero_cpu3"
+  },
+  {
+   "char_id": 3724,
+   "export_name": "Zero_cpu4"
+  },
+  {
+   "char_id": 3725,
+   "export_name": "Zero_cpu5"
+  },
+  {
+   "char_id": 3726,
+   "export_name": "CZero_Player"
+  },
+  {
+   "char_id": 3727,
+   "export_name": "CZero_cpu1"
+  },
+  {
+   "char_id": 3728,
+   "export_name": "CZero_cpu2"
+  },
+  {
+   "char_id": 3729,
+   "export_name": "CZero_cpu3"
+  },
+  {
+   "char_id": 3730,
+   "export_name": "CZero_cpu4"
+  },
+  {
+   "char_id": 3731,
+   "export_name": "CZero_cpu5"
+  },
+  {
+   "char_id": 3733,
+   "export_name": "HitCheck_mc"
+  },
+  {
+   "char_id": 3734,
+   "export_name": "hitCheck_obj"
+  },
+  {
+   "char_id": 3737,
+   "export_name": "class_ColorEffect"
+  },
+  {
+   "char_id": 3739,
+   "export_name": "class_Func"
+  },
+  {
+   "char_id": 3741,
+   "export_name": "class_ExtMath"
+  },
+  {
+   "char_id": 3742,
+   "export_name": "flyingOb2"
+  },
+  {
+   "char_id": 3743,
+   "export_name": "KeyControl"
+  },
+  {
+   "char_id": 3746,
+   "export_name": "CZhurt2"
+  },
+  {
+   "char_id": 3748,
+   "export_name": "CZhurt4"
+  },
+  {
+   "char_id": 3838,
+   "export_name": "zero_long"
+  },
+  {
+   "char_id": 3887,
+   "export_name": "zero_lion"
+  },
+  {
+   "char_id": 3943,
+   "export_name": "zero_krizalid"
+  },
+  {
+   "char_id": 3958,
+   "export_name": "Zero_itemEff1"
+  },
+  {
+   "char_id": 3959,
+   "export_name": "CZhurt1"
+  },
+  {
+   "char_id": 3988,
+   "export_name": "krizalid_wind"
+  },
+  {
+   "char_id": 4013,
+   "export_name": "earthquake"
+  },
+  {
+   "char_id": 4017,
+   "export_name": "Zero_skillX"
+  },
+  {
+   "char_id": 4106,
+   "export_name": "max2_eff"
+  },
+  {
+   "char_id": 4107,
+   "export_name": "CZhurt3"
+  },
+  {
+   "char_id": 4108,
+   "export_name": "zero_max_hit_m1"
+  },
+  {
+   "char_id": 4109,
+   "export_name": "zero_dfdfk"
+  },
+  {
+   "char_id": 4110,
+   "export_name": "zero_dfdfk_s"
+  },
+  {
+   "char_id": 4113,
+   "export_name": "zero_jumpShadow"
+  },
+  {
+   "char_id": 4116,
+   "export_name": "zero_jumpShadow2"
+  },
+  {
+   "char_id": 4215,
+   "export_name": "bz"
+  },
+  {
+   "char_id": 4218,
+   "export_name": "zero2_jumpShadow"
+  },
+  {
+   "char_id": 4221,
+   "export_name": "zero2_jumpShadow2"
+  },
+  {
+   "char_id": 4222,
+   "export_name": "zero_dfdfk_s2"
+  },
+  {
+   "char_id": 4223,
+   "export_name": "zero_dfdfk2"
+  },
+  {
+   "char_id": 4248,
+   "export_name": "Rugal_shanzi1"
+  },
+  {
+   "char_id": 4270,
+   "export_name": "over_hitchek"
+  },
+  {
+   "char_id": 4279,
+   "export_name": "zeroqzz"
+  },
+  {
+   "char_id": 4283,
+   "export_name": "zeroqz"
+  },
+  {
+   "char_id": 4292,
+   "export_name": "zeroqzzz"
+  },
+  {
+   "char_id": 4293,
+   "export_name": "bailuo_R"
+  },
+  {
+   "char_id": 4294,
+   "export_name": "bailuo_R2"
+  },
+  {
+   "char_id": 4295,
+   "export_name": "bailuo_R_s"
+  },
+  {
+   "char_id": 4296,
+   "export_name": "bailuo_R2_s"
+  },
+  {
+   "char_id": 4297,
+   "export_name": "bailuo_L"
+  },
+  {
+   "char_id": 4298,
+   "export_name": "bailuo_L2"
+  },
+  {
+   "char_id": 4299,
+   "export_name": "bailuo_L_s"
+  },
+  {
+   "char_id": 4300,
+   "export_name": "bailuo_L2_s"
+  },
+  {
+   "char_id": 4301,
+   "export_name": "zero_bailuo"
+  },
+  {
+   "char_id": 4302,
+   "export_name": "zero_bailuo_s"
+  },
+  {
+   "char_id": 4303,
+   "export_name": "cbailuo_R"
+  },
+  {
+   "char_id": 4304,
+   "export_name": "cbailuo_R2"
+  },
+  {
+   "char_id": 4305,
+   "export_name": "cbailuo_R_s"
+  },
+  {
+   "char_id": 4306,
+   "export_name": "cbailuo_R2_s"
+  },
+  {
+   "char_id": 4307,
+   "export_name": "cbailuo_L"
+  },
+  {
+   "char_id": 4308,
+   "export_name": "cbailuo_L2"
+  },
+  {
+   "char_id": 4309,
+   "export_name": "cbailuo_L_s"
+  },
+  {
+   "char_id": 4310,
+   "export_name": "cbailuo_L2_s"
+  },
+  {
+   "char_id": 4311,
+   "export_name": "czero_dfdfk"
+  },
+  {
+   "char_id": 4312,
+   "export_name": "czero_bailuo"
+  },
+  {
+   "char_id": 4313,
+   "export_name": "czero_bailuo_s"
+  },
+  {
+   "char_id": 4314,
+   "export_name": "zlqing"
+  },
+  {
+   "char_id": 4315,
+   "export_name": "zlzhong"
+  },
+  {
+   "char_id": 4873,
+   "export_name": "Zhit_h"
+  },
+  {
+   "char_id": 5456,
+   "export_name": "sk_Wolfpower1"
+  },
+  {
+   "char_id": 5494,
+   "export_name": "sk_Wolfpower2"
+  },
+  {
+   "char_id": 5521,
+   "export_name": "roleZero"
+  },
+  {
+   "char_id": 5987,
+   "export_name": "CZhit_h"
+  },
+  {
+   "char_id": 7048,
+   "export_name": "roleZero2"
+  },
+  {
+   "char_id": 7051,
+   "export_name": "ko_snd_Zero"
+  },
+  {
+   "char_id": 7053,
+   "export_name": "role_Zero"
+  },
+  {
+   "char_id": 7081,
+   "export_name": "Terry_cpu1"
+  },
+  {
+   "char_id": 7082,
+   "export_name": "Terry_cpu2"
+  },
+  {
+   "char_id": 7083,
+   "export_name": "Terry_cpu3"
+  },
+  {
+   "char_id": 7084,
+   "export_name": "Terry_cpu4"
+  },
+  {
+   "char_id": 7085,
+   "export_name": "Terry_cpu5"
+  },
+  {
+   "char_id": 7086,
+   "export_name": "Terry_player"
+  },
+  {
+   "char_id": 7087,
+   "export_name": "Type2_Terry_cpu1"
+  },
+  {
+   "char_id": 7088,
+   "export_name": "Type2_Terry_cpu2"
+  },
+  {
+   "char_id": 7089,
+   "export_name": "Type2_Terry_cpu3"
+  },
+  {
+   "char_id": 7090,
+   "export_name": "Type2_Terry_cpu4"
+  },
+  {
+   "char_id": 7091,
+   "export_name": "Type2_Terry_cpu5"
+  },
+  {
+   "char_id": 7092,
+   "export_name": "Type2_Terry_player"
+  },
+  {
+   "char_id": 7229,
+   "export_name": "Terry_fire_m3"
+  },
+  {
+   "char_id": 7254,
+   "export_name": "terry_shanzi3"
+  },
+  {
+   "char_id": 7290,
+   "export_name": "terry_shanzi4"
+  },
+  {
+   "char_id": 7319,
+   "export_name": "terry_shanzi6"
+  },
+  {
+   "char_id": 7353,
+   "export_name": "terry_shanzi7"
+  },
+  {
+   "char_id": 7354,
+   "export_name": "terry_shanzi8"
+  },
+  {
+   "char_id": 7358,
+   "export_name": "terry_jumpShadow"
+  },
+  {
+   "char_id": 7361,
+   "export_name": "terry_jumpShadow2"
+  },
+  {
+   "char_id": 7362,
+   "export_name": "Terry_hurt1"
+  },
+  {
+   "char_id": 7363,
+   "export_name": "Terry_hurt2"
+  },
+  {
+   "char_id": 7364,
+   "export_name": "Terry_hurt3"
+  },
+  {
+   "char_id": 7365,
+   "export_name": "Terry_hurt4"
+  },
+  {
+   "char_id": 7366,
+   "export_name": "sk_roundwave1"
+  },
+  {
+   "char_id": 7367,
+   "export_name": "sk_powerwave1"
+  },
+  {
+   "char_id": 7368,
+   "export_name": "Terry_powerwave"
+  },
+  {
+   "char_id": 7369,
+   "export_name": "Terry_roundwave"
+  },
+  {
+   "char_id": 7371,
+   "export_name": "Geyser"
+  },
+  {
+   "char_id": 7393,
+   "export_name": "terry_fireEff2"
+  },
+  {
+   "char_id": 7412,
+   "export_name": "terry_shanzi1"
+  },
+  {
+   "char_id": 7442,
+   "export_name": "terry_shanzi2"
+  },
+  {
+   "char_id": 7443,
+   "export_name": "terry_slowwave"
+  },
+  {
+   "char_id": 7661,
+   "export_name": "terry_Rock1"
+  },
+  {
+   "char_id": 7884,
+   "export_name": "Terry_dodge"
+  },
+  {
+   "char_id": 7917,
+   "export_name": "Terry_hit2"
+  },
+  {
+   "char_id": 7927,
+   "export_name": "Terry_hit1"
+  },
+  {
+   "char_id": 7943,
+   "export_name": "Terry_hith"
+  },
+  {
+   "char_id": 8087,
+   "export_name": "Terry_dunk"
+  },
+  {
+   "char_id": 8095,
+   "export_name": "Terry_heycomeon"
+  },
+  {
+   "char_id": 8408,
+   "export_name": "Terry_CrackShoot"
+  },
+  {
+   "char_id": 8409,
+   "export_name": "sk_CrackShoot1"
+  },
+  {
+   "char_id": 8479,
+   "export_name": "Terry_BurningKnuckles"
+  },
+  {
+   "char_id": 8484,
+   "export_name": "sk_BurningKnuckles1"
+  },
+  {
+   "char_id": 8523,
+   "export_name": "Terry_RisingTackle"
+  },
+  {
+   "char_id": 8526,
+   "export_name": "sk_RisingTackle1"
+  },
+  {
+   "char_id": 8556,
+   "export_name": "sk_powerdunk1"
+  },
+  {
+   "char_id": 8557,
+   "export_name": "Terry_powerdunk"
+  },
+  {
+   "char_id": 8572,
+   "export_name": "sk_powerdunk2"
+  },
+  {
+   "char_id": 8631,
+   "export_name": "Terry_powercharge"
+  },
+  {
+   "char_id": 8694,
+   "export_name": "Terry_powerd"
+  },
+  {
+   "char_id": 8710,
+   "export_name": "Terry_Geyser"
+  },
+  {
+   "char_id": 8711,
+   "export_name": "sk_powerGeyser1"
+  },
+  {
+   "char_id": 8747,
+   "export_name": "Terry_overangle"
+  },
+  {
+   "char_id": 8775,
+   "export_name": "Terry_areyouok"
+  },
+  {
+   "char_id": 8819,
+   "export_name": "Terry_BusterWolf"
+  },
+  {
+   "char_id": 8835,
+   "export_name": "sk_BusterWolf1"
+  },
+  {
+   "char_id": 9109,
+   "export_name": "Terry_Wolfpower"
+  },
+  {
+   "char_id": 9206,
+   "export_name": "sk_BusterWolf2"
+  },
+  {
+   "char_id": 9242,
+   "export_name": "roleTerry"
+  },
+  {
+   "char_id": 9244,
+   "export_name": "ko_snd_Terry"
+  },
+  {
+   "char_id": 9245,
+   "export_name": "terry_shanzi5"
+  },
+  {
+   "char_id": 9246,
+   "export_name": "terry_shanzi4-1"
+  },
+  {
+   "char_id": 9247,
+   "export_name": "terry_shanzi4-2"
+  },
+  {
+   "char_id": 9249,
+   "export_name": "role_Terry"
+  },
+  {
+   "char_id": 9267,
+   "export_name": "Ryu_cpu1"
+  },
+  {
+   "char_id": 9268,
+   "export_name": "Ryu_cpu2"
+  },
+  {
+   "char_id": 9269,
+   "export_name": "Ryu_cpu3"
+  },
+  {
+   "char_id": 9270,
+   "export_name": "Ryu_cpu4"
+  },
+  {
+   "char_id": 9271,
+   "export_name": "Ryu_cpu5"
+  },
+  {
+   "char_id": 9272,
+   "export_name": "Ryu_Player"
+  },
+  {
+   "char_id": 9273,
+   "export_name": "Type2_Ryu_cpu1"
+  },
+  {
+   "char_id": 9274,
+   "export_name": "Type2_Ryu_cpu2"
+  },
+  {
+   "char_id": 9275,
+   "export_name": "Type2_Ryu_cpu3"
+  },
+  {
+   "char_id": 9276,
+   "export_name": "Type2_Ryu_cpu4"
+  },
+  {
+   "char_id": 9277,
+   "export_name": "Type2_Ryu_cpu5"
+  },
+  {
+   "char_id": 9278,
+   "export_name": "Type2_Ryu_Player"
+  },
+  {
+   "char_id": 9297,
+   "export_name": "ryu_dragon"
+  },
+  {
+   "char_id": 9313,
+   "export_name": "ryu_eff_tian"
+  },
+  {
+   "char_id": 9314,
+   "export_name": "ryu_hitTest_sys"
+  },
+  {
+   "char_id": 9319,
+   "export_name": "wave_head"
+  },
+  {
+   "char_id": 9364,
+   "export_name": "waveCannon"
+  },
+  {
+   "char_id": 9419,
+   "export_name": "wave"
+  },
+  {
+   "char_id": 9441,
+   "export_name": "wave_air"
+  },
+  {
+   "char_id": 9475,
+   "export_name": "wave_air2_s"
+  },
+  {
+   "char_id": 9476,
+   "export_name": "wave_h"
+  },
+  {
+   "char_id": 9477,
+   "export_name": "wave_l"
+  },
+  {
+   "char_id": 9516,
+   "export_name": "wave_s"
+  },
+  {
+   "char_id": 9517,
+   "export_name": "wave_ss"
+  },
+  {
+   "char_id": 9518,
+   "export_name": "wave_s2"
+  },
+  {
+   "char_id": 10647,
+   "export_name": "roleRyu"
+  },
+  {
+   "char_id": 10648,
+   "export_name": "skill_content"
+  },
+  {
+   "char_id": 10650,
+   "export_name": "lose"
+  },
+  {
+   "char_id": 10651,
+   "export_name": "ko_snd_Ryu"
+  },
+  {
+   "char_id": 10652,
+   "export_name": "ryu_dragon_s"
+  },
+  {
+   "char_id": 10653,
+   "export_name": "ryu_hurt1_snd"
+  },
+  {
+   "char_id": 10654,
+   "export_name": "ryu_hurt2_snd"
+  },
+  {
+   "char_id": 10655,
+   "export_name": "wave_air2"
+  },
+  {
+   "char_id": 10669,
+   "export_name": "ken_waveCannon"
+  },
+  {
+   "char_id": 10798,
+   "export_name": "ryu_exXie"
+  },
+  {
+   "char_id": 10847,
+   "export_name": "ryu_assist_ken"
+  },
+  {
+   "char_id": 10848,
+   "export_name": "wave_s3"
+  },
+  {
+   "char_id": 10849,
+   "export_name": "Ryu_asuraSKshadow"
+  },
+  {
+   "char_id": 10850,
+   "export_name": "Ryu_asuraSKshadow2"
+  },
+  {
+   "char_id": 10874,
+   "export_name": "wave_air3"
+  },
+  {
+   "char_id": 10875,
+   "export_name": "sys_shadow"
+  },
+  {
+   "char_id": 10876,
+   "export_name": "ryu_jumpShadow"
+  },
+  {
+   "char_id": 10877,
+   "export_name": "ryu_jumpShadow2"
+  },
+  {
+   "char_id": 10878,
+   "export_name": "Ryu_4abshadow1"
+  },
+  {
+   "char_id": 10879,
+   "export_name": "Ryu_4abshadow2"
+  },
+  {
+   "char_id": 10880,
+   "export_name": "Ryu_6abshadow1"
+  },
+  {
+   "char_id": 10881,
+   "export_name": "Ryu_6abshadow2"
+  },
+  {
+   "char_id": 10882,
+   "export_name": "Ryu_hurt1"
+  },
+  {
+   "char_id": 10883,
+   "export_name": "Ryu_hurt2"
+  },
+  {
+   "char_id": 10884,
+   "export_name": "Ryu_hurt3"
+  },
+  {
+   "char_id": 10885,
+   "export_name": "Ryu_hurt4"
+  },
+  {
+   "char_id": 10886,
+   "export_name": "Ryu_hurt5"
+  },
+  {
+   "char_id": 10888,
+   "export_name": "role_Ryu"
+  },
+  {
+   "char_id": 10910,
+   "export_name": "ryo_jumpShadow"
+  },
+  {
+   "char_id": 10913,
+   "export_name": "ryo_264a_shadow"
+  },
+  {
+   "char_id": 10942,
+   "export_name": "ryo_wave"
+  },
+  {
+   "char_id": 10943,
+   "export_name": "ryo_wave_ex"
+  },
+  {
+   "char_id": 10977,
+   "export_name": "ryo_wave_air"
+  },
+  {
+   "char_id": 11071,
+   "export_name": "wave_ss_max"
+  },
+  {
+   "char_id": 11072,
+   "export_name": "wave_ss_max2"
+  },
+  {
+   "char_id": 11073,
+   "export_name": "wave_ss_l"
+  },
+  {
+   "char_id": 11107,
+   "export_name": "wave_s_l"
+  },
+  {
+   "char_id": 11121,
+   "export_name": "ryo_wave_l"
+  },
+  {
+   "char_id": 11122,
+   "export_name": "ryo_wave_s"
+  },
+  {
+   "char_id": 11123,
+   "export_name": "ryo_wave_ss"
+  },
+  {
+   "char_id": 11124,
+   "export_name": "ryo_wave_s2"
+  },
+  {
+   "char_id": 11125,
+   "export_name": "ryo_wave_s10"
+  },
+  {
+   "char_id": 12935,
+   "export_name": "roleRyo"
+  },
+  {
+   "char_id": 12954,
+   "export_name": "ryo_neoMax_eff1"
+  },
+  {
+   "char_id": 13028,
+   "export_name": "ryo_neoMax_eff"
+  },
+  {
+   "char_id": 13067,
+   "export_name": "ryo_max_smoke"
+  },
+  {
+   "char_id": 13082,
+   "export_name": "max_up_eff"
+  },
+  {
+   "char_id": 13085,
+   "export_name": "ko_snd_Ryo"
+  },
+  {
+   "char_id": 13086,
+   "export_name": "Ryo_hur1"
+  },
+  {
+   "char_id": 13087,
+   "export_name": "ryo_hurt1_snd"
+  },
+  {
+   "char_id": 13088,
+   "export_name": "ryo_hurt2_snd"
+  },
+  {
+   "char_id": 13089,
+   "export_name": "Ryo_hur2"
+  },
+  {
+   "char_id": 13090,
+   "export_name": "Ryo_hur3"
+  },
+  {
+   "char_id": 13092,
+   "export_name": "Type2_Ryo_Player"
+  },
+  {
+   "char_id": 13093,
+   "export_name": "Type2_Ryo_cpu5"
+  },
+  {
+   "char_id": 13094,
+   "export_name": "Type2_Ryo_cpu4"
+  },
+  {
+   "char_id": 13095,
+   "export_name": "Type2_Ryo_cpu3"
+  },
+  {
+   "char_id": 13096,
+   "export_name": "Type2_Ryo_cpu2"
+  },
+  {
+   "char_id": 13097,
+   "export_name": "Type2_Ryo_cpu1"
+  },
+  {
+   "char_id": 13098,
+   "export_name": "Ryo_Player"
+  },
+  {
+   "char_id": 13099,
+   "export_name": "Ryo_cpu5"
+  },
+  {
+   "char_id": 13100,
+   "export_name": "Ryo_cpu4"
+  },
+  {
+   "char_id": 13101,
+   "export_name": "Ryo_cpu3"
+  },
+  {
+   "char_id": 13102,
+   "export_name": "Ryo_cpu2"
+  },
+  {
+   "char_id": 13103,
+   "export_name": "Ryo_cpu1"
+  },
+  {
+   "char_id": 13104,
+   "export_name": "role_Ryo"
+  },
+  {
+   "char_id": 13122,
+   "export_name": "Rugal_cpu1"
+  },
+  {
+   "char_id": 13123,
+   "export_name": "Rugal_cpu2"
+  },
+  {
+   "char_id": 13124,
+   "export_name": "Rugal_cpu3"
+  },
+  {
+   "char_id": 13125,
+   "export_name": "Rugal_cpu4"
+  },
+  {
+   "char_id": 13126,
+   "export_name": "Rugal_cpu5"
+  },
+  {
+   "char_id": 13127,
+   "export_name": "Rugal_player"
+  },
+  {
+   "char_id": 13128,
+   "export_name": "Type2_Rugal_cpu1"
+  },
+  {
+   "char_id": 13129,
+   "export_name": "Type2_Rugal_cpu2"
+  },
+  {
+   "char_id": 13130,
+   "export_name": "Type2_Rugal_cpu3"
+  },
+  {
+   "char_id": 13131,
+   "export_name": "Type2_Rugal_cpu4"
+  },
+  {
+   "char_id": 13132,
+   "export_name": "Type2_Rugal_cpu5"
+  },
+  {
+   "char_id": 13133,
+   "export_name": "Type2_Rugal_player"
+  },
+  {
+   "char_id": 13140,
+   "export_name": "Rugal_fire_m3"
+  },
+  {
+   "char_id": 13172,
+   "export_name": "rugal EF16"
+  },
+  {
+   "char_id": 13174,
+   "export_name": "rugal EF16X"
+  },
+  {
+   "char_id": 13222,
+   "export_name": "rugal EF18X"
+  },
+  {
+   "char_id": 13255,
+   "export_name": "Rugal_moon"
+  },
+  {
+   "char_id": 13258,
+   "export_name": "Rugal_shadow"
+  },
+  {
+   "char_id": 13292,
+   "export_name": "Rugal_shanzi13"
+  },
+  {
+   "char_id": 13294,
+   "export_name": "Rugal_moon copy"
+  },
+  {
+   "char_id": 13328,
+   "export_name": "Rugal_wind"
+  },
+  {
+   "char_id": 13329,
+   "export_name": "Rugal_wind2"
+  },
+  {
+   "char_id": 13330,
+   "export_name": "Rugal_wind3"
+  },
+  {
+   "char_id": 13332,
+   "export_name": "rugal EF17"
+  },
+  {
+   "char_id": 13333,
+   "export_name": "Rugal_ppeff"
+  },
+  {
+   "char_id": 13351,
+   "export_name": "Rugal_dwys1"
+  },
+  {
+   "char_id": 13355,
+   "export_name": "Rugal_asuraSKshadow2"
+  },
+  {
+   "char_id": 13359,
+   "export_name": "Rugal_dwys2"
+  },
+  {
+   "char_id": 13360,
+   "export_name": "Rugal_dwys3"
+  },
+  {
+   "char_id": 13361,
+   "export_name": "rugal_jumpShadow2"
+  },
+  {
+   "char_id": 13364,
+   "export_name": "rugal_jumpShadow"
+  },
+  {
+   "char_id": 13367,
+   "export_name": "Rugal_shanzi2"
+  },
+  {
+   "char_id": 13407,
+   "export_name": "Rugal_shanzi3"
+  },
+  {
+   "char_id": 13409,
+   "export_name": "Rugal_shanzi4"
+  },
+  {
+   "char_id": 13410,
+   "export_name": "Rugal_shanzi4_1"
+  },
+  {
+   "char_id": 13445,
+   "export_name": "Rugal_shanzi5"
+  },
+  {
+   "char_id": 13447,
+   "export_name": "Rugal_shanzi5_1"
+  },
+  {
+   "char_id": 13458,
+   "export_name": "Rugal_shanzi6"
+  },
+  {
+   "char_id": 13459,
+   "export_name": "Rugal_shanzi6 copy"
+  },
+  {
+   "char_id": 13462,
+   "export_name": "Rugal_shanzi6_1"
+  },
+  {
+   "char_id": 13498,
+   "export_name": "Rugal_shanzi7"
+  },
+  {
+   "char_id": 13499,
+   "export_name": "Rugal_shanzi8"
+  },
+  {
+   "char_id": 13501,
+   "export_name": "Rugal_shanzi8_1"
+  },
+  {
+   "char_id": 13504,
+   "export_name": "Rugal_shanzi8_1 copy2"
+  },
+  {
+   "char_id": 13505,
+   "export_name": "Rugal_shanzi8_1 copy"
+  },
+  {
+   "char_id": 13513,
+   "export_name": "Rugal_shanzi9"
+  },
+  {
+   "char_id": 13515,
+   "export_name": "Rugal_shanzi9_1"
+  },
+  {
+   "char_id": 13516,
+   "export_name": "Rugal_shanzi9_1 copy"
+  },
+  {
+   "char_id": 13518,
+   "export_name": "Rugal_shanzi10"
+  },
+  {
+   "char_id": 13519,
+   "export_name": "Rugal_shanzi10_1"
+  },
+  {
+   "char_id": 13520,
+   "export_name": "Rugal_shanzi10_2"
+  },
+  {
+   "char_id": 13554,
+   "export_name": "Rugal_shanzi11"
+  },
+  {
+   "char_id": 13568,
+   "export_name": "Rugal_shanzi12"
+  },
+  {
+   "char_id": 13569,
+   "export_name": "Rugal_shanzi10_3"
+  },
+  {
+   "char_id": 13573,
+   "export_name": "Rugal_shanzi100"
+  },
+  {
+   "char_id": 13574,
+   "export_name": "Rugal_shanzi9_3"
+  },
+  {
+   "char_id": 13576,
+   "export_name": "Rugal_hit_m2"
+  },
+  {
+   "char_id": 13577,
+   "export_name": "Rugal_hit_m3"
+  },
+  {
+   "char_id": 13629,
+   "export_name": "Rugal_hit_m1"
+  },
+  {
+   "char_id": 13667,
+   "export_name": "m_hitFire_light"
+  },
+  {
+   "char_id": 14491,
+   "export_name": "02Rugal_hit_h2"
+  },
+  {
+   "char_id": 14828,
+   "export_name": "Rugal_run"
+  },
+  {
+   "char_id": 14848,
+   "export_name": "Igniz_hitFire3"
+  },
+  {
+   "char_id": 15043,
+   "export_name": "02laugh"
+  },
+  {
+   "char_id": 15252,
+   "export_name": "roleRugal2"
+  },
+  {
+   "char_id": 15462,
+   "export_name": "02umab"
+  },
+  {
+   "char_id": 15473,
+   "export_name": "02umhurt3"
+  },
+  {
+   "char_id": 15476,
+   "export_name": "02umhurt4"
+  },
+  {
+   "char_id": 15531,
+   "export_name": "98Rugal_storage"
+  },
+  {
+   "char_id": 16008,
+   "export_name": "roleRugal"
+  },
+  {
+   "char_id": 16011,
+   "export_name": "ko_snd_Rugal"
+  },
+  {
+   "char_id": 16012,
+   "export_name": "bsp2"
+  },
+  {
+   "char_id": 16013,
+   "export_name": "bsp1"
+  },
+  {
+   "char_id": 16014,
+   "export_name": "02umhurt1"
+  },
+  {
+   "char_id": 16015,
+   "export_name": "02umhurt2"
+  },
+  {
+   "char_id": 16016,
+   "export_name": "02Rugal_hit_h"
+  },
+  {
+   "char_id": 16017,
+   "export_name": "02Rugal_storage"
+  },
+  {
+   "char_id": 16018,
+   "export_name": "02Giggle"
+  },
+  {
+   "char_id": 16019,
+   "export_name": "02wild_laugh"
+  },
+  {
+   "char_id": 16020,
+   "export_name": "02hurt1"
+  },
+  {
+   "char_id": 16021,
+   "export_name": "02hurt2"
+  },
+  {
+   "char_id": 16022,
+   "export_name": "02hurt3"
+  },
+  {
+   "char_id": 16024,
+   "export_name": "role_Rugal"
+  },
+  {
+   "char_id": 16042,
+   "export_name": "Oswald_cpu1"
+  },
+  {
+   "char_id": 16043,
+   "export_name": "Oswald_cpu2"
+  },
+  {
+   "char_id": 16044,
+   "export_name": "Oswald_cpu3"
+  },
+  {
+   "char_id": 16045,
+   "export_name": "Oswald_cpu4"
+  },
+  {
+   "char_id": 16046,
+   "export_name": "Oswald_cpu5"
+  },
+  {
+   "char_id": 16047,
+   "export_name": "Oswald_Player"
+  },
+  {
+   "char_id": 17693,
+   "export_name": "card0"
+  },
+  {
+   "char_id": 17783,
+   "export_name": "roleOswald"
+  },
+  {
+   "char_id": 17800,
+   "export_name": "flash_24a"
+  },
+  {
+   "char_id": 17821,
+   "export_name": "flash_26b"
+  },
+  {
+   "char_id": 17838,
+   "export_name": "ace"
+  },
+  {
+   "char_id": 17841,
+   "export_name": "J_card"
+  },
+  {
+   "char_id": 17844,
+   "export_name": "J_card2"
+  },
+  {
+   "char_id": 17847,
+   "export_name": "os_bg_ctrl"
+  },
+  {
+   "char_id": 17866,
+   "export_name": "flash_26a"
+  },
+  {
+   "char_id": 17883,
+   "export_name": "flash_24b"
+  },
+  {
+   "char_id": 17884,
+   "export_name": "cards"
+  },
+  {
+   "char_id": 17893,
+   "export_name": "card4"
+  },
+  {
+   "char_id": 17898,
+   "export_name": "card3"
+  },
+  {
+   "char_id": 17899,
+   "export_name": "card2"
+  },
+  {
+   "char_id": 17900,
+   "export_name": "card1"
+  },
+  {
+   "char_id": 17919,
+   "export_name": "flash_ao"
+  },
+  {
+   "char_id": 17938,
+   "export_name": "dust_1"
+  },
+  {
+   "char_id": 17961,
+   "export_name": "dust_2"
+  },
+  {
+   "char_id": 17982,
+   "export_name": "dust_3"
+  },
+  {
+   "char_id": 17992,
+   "export_name": "card_a"
+  },
+  {
+   "char_id": 17993,
+   "export_name": "card_b"
+  },
+  {
+   "char_id": 17994,
+   "export_name": "card_c"
+  },
+  {
+   "char_id": 17995,
+   "export_name": "card_d"
+  },
+  {
+   "char_id": 17997,
+   "export_name": "card_a2"
+  },
+  {
+   "char_id": 17998,
+   "export_name": "card_b2"
+  },
+  {
+   "char_id": 17999,
+   "export_name": "card_c2"
+  },
+  {
+   "char_id": 18000,
+   "export_name": "card_d2"
+  },
+  {
+   "char_id": 18019,
+   "export_name": "card_fall"
+  },
+  {
+   "char_id": 18036,
+   "export_name": "flash_24aa"
+  },
+  {
+   "char_id": 18055,
+   "export_name": "flash_26aa"
+  },
+  {
+   "char_id": 18056,
+   "export_name": "card_sss"
+  },
+  {
+   "char_id": 18058,
+   "export_name": "card_sss2"
+  },
+  {
+   "char_id": 18060,
+   "export_name": "ko_snd_Oswald"
+  },
+  {
+   "char_id": 18061,
+   "export_name": "card5"
+  },
+  {
+   "char_id": 18062,
+   "export_name": "os_snd_l"
+  },
+  {
+   "char_id": 18063,
+   "export_name": "os_snd_h"
+  },
+  {
+   "char_id": 18065,
+   "export_name": "role_Oswald"
+  },
+  {
+   "char_id": 18075,
+   "export_name": "Orochi_cpu1"
+  },
+  {
+   "char_id": 18076,
+   "export_name": "Orochi_cpu2"
+  },
+  {
+   "char_id": 18077,
+   "export_name": "Orochi_cpu3"
+  },
+  {
+   "char_id": 18078,
+   "export_name": "Orochi_cpu4"
+  },
+  {
+   "char_id": 18079,
+   "export_name": "Orochi_cpu5"
+  },
+  {
+   "char_id": 18080,
+   "export_name": "Orochi_player"
+  },
+  {
+   "char_id": 18081,
+   "export_name": "Type2_Orochi_cpu1"
+  },
+  {
+   "char_id": 18082,
+   "export_name": "Type2_Orochi_cpu2"
+  },
+  {
+   "char_id": 18083,
+   "export_name": "Type2_Orochi_cpu3"
+  },
+  {
+   "char_id": 18084,
+   "export_name": "Type2_Orochi_cpu4"
+  },
+  {
+   "char_id": 18085,
+   "export_name": "Type2_Orochi_cpu5"
+  },
+  {
+   "char_id": 18086,
+   "export_name": "Type2_Orochi_player"
+  },
+  {
+   "char_id": 18088,
+   "export_name": "hit_m2"
+  },
+  {
+   "char_id": 18090,
+   "export_name": "hit_roll1"
+  },
+  {
+   "char_id": 18092,
+   "export_name": "hit_roll2"
+  },
+  {
+   "char_id": 18093,
+   "export_name": "hitCombo2"
+  },
+  {
+   "char_id": 18095,
+   "export_name": "orochi_fallBomb"
+  },
+  {
+   "char_id": 18096,
+   "export_name": "sunshine_hit"
+  },
+  {
+   "char_id": 18101,
+   "export_name": "blackDot"
+  },
+  {
+   "char_id": 18120,
+   "export_name": "powerHit_m_all"
+  },
+  {
+   "char_id": 18123,
+   "export_name": "powerHit_m_left"
+  },
+  {
+   "char_id": 18124,
+   "export_name": "powerHit_m_right"
+  },
+  {
+   "char_id": 18125,
+   "export_name": "powerHit_m1"
+  },
+  {
+   "char_id": 18126,
+   "export_name": "powerHit1"
+  },
+  {
+   "char_id": 18131,
+   "export_name": "sk_chilun1"
+  },
+  {
+   "char_id": 18162,
+   "export_name": "orochi_objBack"
+  },
+  {
+   "char_id": 18180,
+   "export_name": "obj_eballl"
+  },
+  {
+   "char_id": 18181,
+   "export_name": "obj_chilun1"
+  },
+  {
+   "char_id": 18236,
+   "export_name": "orochi_sk_boom"
+  },
+  {
+   "char_id": 18281,
+   "export_name": "orochi_sk_boom2"
+  },
+  {
+   "char_id": 18284,
+   "export_name": "orochi_sk_boom4"
+  },
+  {
+   "char_id": 18309,
+   "export_name": "sk_shinning_l"
+  },
+  {
+   "char_id": 18311,
+   "export_name": "orochi_sk_boom5"
+  },
+  {
+   "char_id": 18312,
+   "export_name": "sunshine_hit_s"
+  },
+  {
+   "char_id": 18338,
+   "export_name": "kick_flash"
+  },
+  {
+   "char_id": 18364,
+   "export_name": "kick_flash2"
+  },
+  {
+   "char_id": 18366,
+   "export_name": "dfk_att"
+  },
+  {
+   "char_id": 19782,
+   "export_name": "roleOrochi"
+  },
+  {
+   "char_id": 20377,
+   "export_name": "powerBlood1"
+  },
+  {
+   "char_id": 20622,
+   "export_name": "roleMizuchi"
+  },
+  {
+   "char_id": 20643,
+   "export_name": "orochi_s_aureole"
+  },
+  {
+   "char_id": 20644,
+   "export_name": "orochi_jumpShadow2"
+  },
+  {
+   "char_id": 20645,
+   "export_name": "orochi_jumpShadow"
+  },
+  {
+   "char_id": 20646,
+   "export_name": "objBackEff"
+  },
+  {
+   "char_id": 20702,
+   "export_name": "flying_s1_l"
+  },
+  {
+   "char_id": 20708,
+   "export_name": "flying2"
+  },
+  {
+   "char_id": 20709,
+   "export_name": "flying_s1"
+  },
+  {
+   "char_id": 20711,
+   "export_name": "flying_s2"
+  },
+  {
+   "char_id": 20713,
+   "export_name": "flying_s3"
+  },
+  {
+   "char_id": 20722,
+   "export_name": "black_dot"
+  },
+  {
+   "char_id": 20723,
+   "export_name": "jiaohurt1"
+  },
+  {
+   "char_id": 20724,
+   "export_name": "jiaohurt2"
+  },
+  {
+   "char_id": 20725,
+   "export_name": "jiaohurt3"
+  },
+  {
+   "char_id": 20728,
+   "export_name": "ko_snd_Orochi2"
+  },
+  {
+   "char_id": 20731,
+   "export_name": "hit_roll4"
+  },
+  {
+   "char_id": 20732,
+   "export_name": "sk_shinning"
+  },
+  {
+   "char_id": 20733,
+   "export_name": "sk_chilun2"
+  },
+  {
+   "char_id": 20736,
+   "export_name": "sk_shinning2"
+  },
+  {
+   "char_id": 20737,
+   "export_name": "sk_shinning22"
+  },
+  {
+   "char_id": 20963,
+   "export_name": "orochi_fallBoom"
+  },
+  {
+   "char_id": 20976,
+   "export_name": "orochi_jiguang"
+  },
+  {
+   "char_id": 20978,
+   "export_name": "role_Orochi"
+  },
+  {
+   "char_id": 20996,
+   "export_name": "Mai_cpu1"
+  },
+  {
+   "char_id": 20997,
+   "export_name": "Mai_cpu2"
+  },
+  {
+   "char_id": 20998,
+   "export_name": "Mai_cpu3"
+  },
+  {
+   "char_id": 20999,
+   "export_name": "Mai_cpu4"
+  },
+  {
+   "char_id": 21000,
+   "export_name": "Mai_cpu5"
+  },
+  {
+   "char_id": 21001,
+   "export_name": "Mai_player"
+  },
+  {
+   "char_id": 21002,
+   "export_name": "Type2_Mai_cpu1"
+  },
+  {
+   "char_id": 21003,
+   "export_name": "Type2_Mai_cpu2"
+  },
+  {
+   "char_id": 21004,
+   "export_name": "Type2_Mai_cpu3"
+  },
+  {
+   "char_id": 21005,
+   "export_name": "Type2_Mai_cpu4"
+  },
+  {
+   "char_id": 21006,
+   "export_name": "Type2_Mai_cpu5"
+  },
+  {
+   "char_id": 21007,
+   "export_name": "Type2_Mai_player"
+  },
+  {
+   "char_id": 21011,
+   "export_name": "kula_ice_freeze"
+  },
+  {
+   "char_id": 21052,
+   "export_name": "mai_shanzi1"
+  },
+  {
+   "char_id": 21478,
+   "export_name": "mai_att_m2"
+  },
+  {
+   "char_id": 21984,
+   "export_name": "mai_att_l2"
+  },
+  {
+   "char_id": 22125,
+   "export_name": "mai_att_l1"
+  },
+  {
+   "char_id": 22414,
+   "export_name": "fire_m4"
+  },
+  {
+   "char_id": 22955,
+   "export_name": "roleMai"
+  },
+  {
+   "char_id": 22956,
+   "export_name": "hitTest_jiejie"
+  },
+  {
+   "char_id": 22957,
+   "export_name": "kula_ice_freeze2"
+  },
+  {
+   "char_id": 22960,
+   "export_name": "ko_snd_Mai"
+  },
+  {
+   "char_id": 22989,
+   "export_name": "mai_shanzipo"
+  },
+  {
+   "char_id": 22994,
+   "export_name": "mai_hulu_shadow"
+  },
+  {
+   "char_id": 22996,
+   "export_name": "mai_hualan1_shadow"
+  },
+  {
+   "char_id": 22997,
+   "export_name": "mai_jumpShadow"
+  },
+  {
+   "char_id": 22998,
+   "export_name": "mai_jumpShadow2"
+  },
+  {
+   "char_id": 22999,
+   "export_name": "mai_jumpShadow3"
+  },
+  {
+   "char_id": 23000,
+   "export_name": "mai_jumpShadow4"
+  },
+  {
+   "char_id": 23029,
+   "export_name": "mai_fensenShinning"
+  },
+  {
+   "char_id": 23030,
+   "export_name": "mai_huoniao1"
+  },
+  {
+   "char_id": 23046,
+   "export_name": "mai_shanzi1_s"
+  },
+  {
+   "char_id": 23047,
+   "export_name": "mai_shanzi2"
+  },
+  {
+   "char_id": 23049,
+   "export_name": "mai_shanzi2_s"
+  },
+  {
+   "char_id": 23051,
+   "export_name": "mai_shanzi3"
+  },
+  {
+   "char_id": 23052,
+   "export_name": "mai_shanzi3_s"
+  },
+  {
+   "char_id": 23053,
+   "export_name": "mai_fire_longyanwu"
+  },
+  {
+   "char_id": 23054,
+   "export_name": "mai_fireEff2"
+  },
+  {
+   "char_id": 23055,
+   "export_name": "mai_fenshen"
+  },
+  {
+   "char_id": 23056,
+   "export_name": "mai_fenshenAir"
+  },
+  {
+   "char_id": 23074,
+   "export_name": "mai_fire_longyanzhen"
+  },
+  {
+   "char_id": 23075,
+   "export_name": "mai_hualan_shadow"
+  },
+  {
+   "char_id": 23076,
+   "export_name": "mai_hualan2_shadow"
+  },
+  {
+   "char_id": 23077,
+   "export_name": "mai_hualan3_shadow"
+  },
+  {
+   "char_id": 23078,
+   "export_name": "mai_shanzi1_h"
+  },
+  {
+   "char_id": 23079,
+   "export_name": "Mai_hurt1"
+  },
+  {
+   "char_id": 23080,
+   "export_name": "Mai_hurt2"
+  },
+  {
+   "char_id": 23081,
+   "export_name": "Mai_hurt3"
+  },
+  {
+   "char_id": 23083,
+   "export_name": "role_Mai"
+  },
+  {
+   "char_id": 23101,
+   "export_name": "KyoW_cpu1"
+  },
+  {
+   "char_id": 23102,
+   "export_name": "KyoW_cpu2"
+  },
+  {
+   "char_id": 23103,
+   "export_name": "KyoW_cpu3"
+  },
+  {
+   "char_id": 23104,
+   "export_name": "KyoW_cpu4"
+  },
+  {
+   "char_id": 23105,
+   "export_name": "KyoW_cpu5"
+  },
+  {
+   "char_id": 23106,
+   "export_name": "KyoW_Player"
+  },
+  {
+   "char_id": 23107,
+   "export_name": "Type2_KyoW_cpu1"
+  },
+  {
+   "char_id": 23108,
+   "export_name": "Type2_KyoW_cpu2"
+  },
+  {
+   "char_id": 23109,
+   "export_name": "Type2_KyoW_cpu3"
+  },
+  {
+   "char_id": 23110,
+   "export_name": "Type2_KyoW_cpu4"
+  },
+  {
+   "char_id": 23111,
+   "export_name": "Type2_KyoW_cpu5"
+  },
+  {
+   "char_id": 23112,
+   "export_name": "Type2_KyoW_Player"
+  },
+  {
+   "char_id": 23152,
+   "export_name": "fire02"
+  },
+  {
+   "char_id": 23211,
+   "export_name": "bomb"
+  },
+  {
+   "char_id": 23212,
+   "export_name": "kyo_hurt1"
+  },
+  {
+   "char_id": 23233,
+   "export_name": "fire11"
+  },
+  {
+   "char_id": 23309,
+   "export_name": "fire_s1"
+  },
+  {
+   "char_id": 23378,
+   "export_name": "fire_s3"
+  },
+  {
+   "char_id": 23379,
+   "export_name": "fire_s4"
+  },
+  {
+   "char_id": 23465,
+   "export_name": "fire_s6"
+  },
+  {
+   "char_id": 23508,
+   "export_name": "fire_s7"
+  },
+  {
+   "char_id": 23509,
+   "export_name": "kyo_shuotie_fire"
+  },
+  {
+   "char_id": 23548,
+   "export_name": "fire05"
+  },
+  {
+   "char_id": 23592,
+   "export_name": "fire"
+  },
+  {
+   "char_id": 23593,
+   "export_name": "kyo_v3"
+  },
+  {
+   "char_id": 23643,
+   "export_name": "dashezhi"
+  },
+  {
+   "char_id": 23644,
+   "export_name": "dashezhi_2"
+  },
+  {
+   "char_id": 23645,
+   "export_name": "dashezhi_max"
+  },
+  {
+   "char_id": 23647,
+   "export_name": "dashezhi_max2"
+  },
+  {
+   "char_id": 23694,
+   "export_name": "kyo_df_p_shadow"
+  },
+  {
+   "char_id": 23713,
+   "export_name": "yangyan"
+  },
+  {
+   "char_id": 23717,
+   "export_name": "yangyanBomb"
+  },
+  {
+   "char_id": 23739,
+   "export_name": "kyo_eff4"
+  },
+  {
+   "char_id": 23767,
+   "export_name": "fire8_2"
+  },
+  {
+   "char_id": 23768,
+   "export_name": "lose.wav"
+  },
+  {
+   "char_id": 23769,
+   "export_name": "bomb_sk_s3"
+  },
+  {
+   "char_id": 23845,
+   "export_name": "boom1_mc"
+  },
+  {
+   "char_id": 23846,
+   "export_name": "fireBoom"
+  },
+  {
+   "char_id": 23847,
+   "export_name": "kyo_boomPos"
+  },
+  {
+   "char_id": 23850,
+   "export_name": "ko_snd_KyoW"
+  },
+  {
+   "char_id": 23893,
+   "export_name": "kyo_neoMax_eff02"
+  },
+  {
+   "char_id": 23932,
+   "export_name": "kyo_neoMax_eff01"
+  },
+  {
+   "char_id": 23978,
+   "export_name": "kyo_neoMax_fire01"
+  },
+  {
+   "char_id": 24021,
+   "export_name": "neoMax_skyFire"
+  },
+  {
+   "char_id": 25395,
+   "export_name": "combo_mc"
+  },
+  {
+   "char_id": 25616,
+   "export_name": "kyo_slash_fire"
+  },
+  {
+   "char_id": 26150,
+   "export_name": "roleKyoW"
+  },
+  {
+   "char_id": 27001,
+   "export_name": "helai_wav"
+  },
+  {
+   "char_id": 27780,
+   "export_name": "roleKyoW2"
+  },
+  {
+   "char_id": 27810,
+   "export_name": "kyo_huo off"
+  },
+  {
+   "char_id": 27811,
+   "export_name": "kyow_zhuoyan_boom"
+  },
+  {
+   "char_id": 27812,
+   "export_name": "kyow_zhuoyan_s_boom"
+  },
+  {
+   "char_id": 27900,
+   "export_name": "bomb4"
+  },
+  {
+   "char_id": 27954,
+   "export_name": "zy_boom"
+  },
+  {
+   "char_id": 27955,
+   "export_name": "dashezhi_sc"
+  },
+  {
+   "char_id": 27957,
+   "export_name": "neoMax_skyFire_atk"
+  },
+  {
+   "char_id": 27958,
+   "export_name": "kyow2_jumpShadow"
+  },
+  {
+   "char_id": 27959,
+   "export_name": "kyow2_jumpShadow2"
+  },
+  {
+   "char_id": 27960,
+   "export_name": "kyow2_jumpShadow3"
+  },
+  {
+   "char_id": 27961,
+   "export_name": "kyow2_jumpShadow4"
+  },
+  {
+   "char_id": 27962,
+   "export_name": "kyow_jumpShadow"
+  },
+  {
+   "char_id": 27963,
+   "export_name": "kyow_jumpShadow2"
+  },
+  {
+   "char_id": 27964,
+   "export_name": "kyow_jumpShadow3"
+  },
+  {
+   "char_id": 27965,
+   "export_name": "kyow_jumpShadow4"
+  },
+  {
+   "char_id": 27967,
+   "export_name": "wushiCC"
+  },
+  {
+   "char_id": 27969,
+   "export_name": "role_KyoW"
+  },
+  {
+   "char_id": 27987,
+   "export_name": "Kyo_cpu1"
+  },
+  {
+   "char_id": 27988,
+   "export_name": "Kyo_cpu2"
+  },
+  {
+   "char_id": 27989,
+   "export_name": "Kyo_cpu3"
+  },
+  {
+   "char_id": 27990,
+   "export_name": "Kyo_cpu4"
+  },
+  {
+   "char_id": 27991,
+   "export_name": "Kyo_cpu5"
+  },
+  {
+   "char_id": 27992,
+   "export_name": "Kyo_player2"
+  },
+  {
+   "char_id": 27993,
+   "export_name": "Type2_Kyo_cpu1"
+  },
+  {
+   "char_id": 27994,
+   "export_name": "Type2_Kyo_cpu2"
+  },
+  {
+   "char_id": 27995,
+   "export_name": "Type2_Kyo_cpu3"
+  },
+  {
+   "char_id": 27996,
+   "export_name": "Type2_Kyo_cpu4"
+  },
+  {
+   "char_id": 27997,
+   "export_name": "Type2_Kyo_cpu5"
+  },
+  {
+   "char_id": 27998,
+   "export_name": "Type2_Kyo_player"
+  },
+  {
+   "char_id": 28000,
+   "export_name": "bomb3"
+  },
+  {
+   "char_id": 28069,
+   "export_name": "yangyan_land"
+  },
+  {
+   "char_id": 28072,
+   "export_name": "ko_snd_Kyo"
+  },
+  {
+   "char_id": 28091,
+   "export_name": "kyo_att1"
+  },
+  {
+   "char_id": 28110,
+   "export_name": "kyo_att2"
+  },
+  {
+   "char_id": 28125,
+   "export_name": "kyo_att3"
+  },
+  {
+   "char_id": 28150,
+   "export_name": "kyo_att21"
+  },
+  {
+   "char_id": 28161,
+   "export_name": "kyo_att22"
+  },
+  {
+   "char_id": 28180,
+   "export_name": "kyo_att23"
+  },
+  {
+   "char_id": 28959,
+   "export_name": "kyoHit_h"
+  },
+  {
+   "char_id": 29012,
+   "export_name": "kyo_v4"
+  },
+  {
+   "char_id": 29451,
+   "export_name": "roleKyo"
+  },
+  {
+   "char_id": 29457,
+   "export_name": "kyo_624a_boom_mc"
+  },
+  {
+   "char_id": 29458,
+   "export_name": "kyo_jumpShadow3"
+  },
+  {
+   "char_id": 29459,
+   "export_name": "kyo_jumpShadow"
+  },
+  {
+   "char_id": 29460,
+   "export_name": "kyo_jumpShadow2"
+  },
+  {
+   "char_id": 29461,
+   "export_name": "fire04"
+  },
+  {
+   "char_id": 29504,
+   "export_name": "fire_s2"
+  },
+  {
+   "char_id": 29505,
+   "export_name": "yangyan2_land"
+  },
+  {
+   "char_id": 29506,
+   "export_name": "kyo_fire_st"
+  },
+  {
+   "char_id": 29514,
+   "export_name": "yangyanBomb2"
+  },
+  {
+   "char_id": 29516,
+   "export_name": "fire_s5"
+  },
+  {
+   "char_id": 29517,
+   "export_name": "fire_m"
+  },
+  {
+   "char_id": 29520,
+   "export_name": "dashezi_air"
+  },
+  {
+   "char_id": 29587,
+   "export_name": "kyo_fire_caihua"
+  },
+  {
+   "char_id": 29588,
+   "export_name": "kyo_wuyan_s_boom"
+  },
+  {
+   "char_id": 29625,
+   "export_name": "ztf"
+  },
+  {
+   "char_id": 29626,
+   "export_name": "ztf_2"
+  },
+  {
+   "char_id": 29627,
+   "export_name": "bomb0"
+  },
+  {
+   "char_id": 29629,
+   "export_name": "fire_ztf"
+  },
+  {
+   "char_id": 29631,
+   "export_name": "kyo_fire_st2"
+  },
+  {
+   "char_id": 29633,
+   "export_name": "role_Kyo"
+  },
+  {
+   "char_id": 29651,
+   "export_name": "Kusanagi_cpu1"
+  },
+  {
+   "char_id": 29652,
+   "export_name": "Kusanagi_cpu2"
+  },
+  {
+   "char_id": 29653,
+   "export_name": "Kusanagi_cpu3"
+  },
+  {
+   "char_id": 29654,
+   "export_name": "Kusanagi_cpu4"
+  },
+  {
+   "char_id": 29655,
+   "export_name": "Kusanagi_cpu5"
+  },
+  {
+   "char_id": 29656,
+   "export_name": "Kusanagi_player2"
+  },
+  {
+   "char_id": 29659,
+   "export_name": "dashezhi233"
+  },
+  {
+   "char_id": 29664,
+   "export_name": "kyo_624a_boom_mc2"
+  },
+  {
+   "char_id": 29665,
+   "export_name": "dashezhi_233"
+  },
+  {
+   "char_id": 29667,
+   "export_name": "kusanagi_boomPos"
+  },
+  {
+   "char_id": 29668,
+   "export_name": "ko_snd_Kusanagi"
+  },
+  {
+   "char_id": 29964,
+   "export_name": "kusanagi_hurt2"
+  },
+  {
+   "char_id": 30471,
+   "export_name": "kyo_v33"
+  },
+  {
+   "char_id": 31071,
+   "export_name": "roleKusanagi"
+  },
+  {
+   "char_id": 31072,
+   "export_name": "kyok_jumpShadow2"
+  },
+  {
+   "char_id": 31073,
+   "export_name": "kyo_fire_caihua2"
+  },
+  {
+   "char_id": 31074,
+   "export_name": "yangyan2"
+  },
+  {
+   "char_id": 31076,
+   "export_name": "role_Kusanagi"
+  },
+  {
+   "char_id": 31086,
+   "export_name": "Kula_cpu1"
+  },
+  {
+   "char_id": 31087,
+   "export_name": "Kula_cpu2"
+  },
+  {
+   "char_id": 31088,
+   "export_name": "Kula_cpu3"
+  },
+  {
+   "char_id": 31089,
+   "export_name": "Kula_cpu4"
+  },
+  {
+   "char_id": 31090,
+   "export_name": "Kula_cpu5"
+  },
+  {
+   "char_id": 31091,
+   "export_name": "Kula_player2"
+  },
+  {
+   "char_id": 31092,
+   "export_name": "Type2_Kula_cpu1"
+  },
+  {
+   "char_id": 31093,
+   "export_name": "Type2_Kula_cpu2"
+  },
+  {
+   "char_id": 31094,
+   "export_name": "Type2_Kula_cpu3"
+  },
+  {
+   "char_id": 31095,
+   "export_name": "Type2_Kula_cpu4"
+  },
+  {
+   "char_id": 31096,
+   "export_name": "Type2_Kula_cpu5"
+  },
+  {
+   "char_id": 31097,
+   "export_name": "Type2_Kula_player"
+  },
+  {
+   "char_id": 31108,
+   "export_name": "kula_slashEff2"
+  },
+  {
+   "char_id": 31110,
+   "export_name": "kula_slashEff1"
+  },
+  {
+   "char_id": 31152,
+   "export_name": "kula_iceFire"
+  },
+  {
+   "char_id": 31155,
+   "export_name": "kula_hit_m4"
+  },
+  {
+   "char_id": 31176,
+   "export_name": "kula_storm"
+  },
+  {
+   "char_id": 31193,
+   "export_name": "hitEff_ice1"
+  },
+  {
+   "char_id": 31239,
+   "export_name": "kula_snow_sheji3"
+  },
+  {
+   "char_id": 31265,
+   "export_name": "storm_eff"
+  },
+  {
+   "char_id": 31361,
+   "export_name": "kula_ice_sheji1"
+  },
+  {
+   "char_id": 31362,
+   "export_name": "kula_ice_sheji2"
+  },
+  {
+   "char_id": 31476,
+   "export_name": "kula_ice_qixi"
+  },
+  {
+   "char_id": 31486,
+   "export_name": "kula_jiejie_char"
+  },
+  {
+   "char_id": 31487,
+   "export_name": "kula_iceFall"
+  },
+  {
+   "char_id": 31492,
+   "export_name": "kula_ice_xingchen"
+  },
+  {
+   "char_id": 31495,
+   "export_name": "kula_ice_xingchen_end"
+  },
+  {
+   "char_id": 31497,
+   "export_name": "kula_iceFall_big"
+  },
+  {
+   "char_id": 31499,
+   "export_name": "kula_iceFall_big2"
+  },
+  {
+   "char_id": 31500,
+   "export_name": "kula_iceFall_still"
+  },
+  {
+   "char_id": 31502,
+   "export_name": "kula_iceKick"
+  },
+  {
+   "char_id": 31508,
+   "export_name": "kula_iceKick_big"
+  },
+  {
+   "char_id": 31509,
+   "export_name": "kula_ice_dongjie"
+  },
+  {
+   "char_id": 31511,
+   "export_name": "kula_ice_2"
+  },
+  {
+   "char_id": 31512,
+   "export_name": "kula_ice_2_max"
+  },
+  {
+   "char_id": 31611,
+   "export_name": "kula_wuyayao"
+  },
+  {
+   "char_id": 32379,
+   "export_name": "shield"
+  },
+  {
+   "char_id": 32413,
+   "export_name": "shield_s"
+  },
+  {
+   "char_id": 32428,
+   "export_name": "kula_s6"
+  },
+  {
+   "char_id": 32430,
+   "export_name": "kula_skill_s1"
+  },
+  {
+   "char_id": 32436,
+   "export_name": "kula_att_v1"
+  },
+  {
+   "char_id": 32497,
+   "export_name": "kula_att_v2"
+  },
+  {
+   "char_id": 32580,
+   "export_name": "kula_att_v3"
+  },
+  {
+   "char_id": 32783,
+   "export_name": "kula_throw"
+  },
+  {
+   "char_id": 32812,
+   "export_name": "TMP838v8q5ngk"
+  },
+  {
+   "char_id": 32994,
+   "export_name": "kula_att_v5"
+  },
+  {
+   "char_id": 33019,
+   "export_name": "kula_skill1"
+  },
+  {
+   "char_id": 33038,
+   "export_name": "kula_skill4"
+  },
+  {
+   "char_id": 33044,
+   "export_name": "kula_s3_2"
+  },
+  {
+   "char_id": 33085,
+   "export_name": "kula_att_v6"
+  },
+  {
+   "char_id": 33089,
+   "export_name": "kula_skill2"
+  },
+  {
+   "char_id": 33190,
+   "export_name": "kula_skill3"
+  },
+  {
+   "char_id": 33232,
+   "export_name": "kula_skill_s2"
+  },
+  {
+   "char_id": 33243,
+   "export_name": "kula_att_v4"
+  },
+  {
+   "char_id": 33300,
+   "export_name": "kula_skill_s3"
+  },
+  {
+   "char_id": 33387,
+   "export_name": "ice_defXIII"
+  },
+  {
+   "char_id": 33388,
+   "export_name": "ice_def"
+  },
+  {
+   "char_id": 33393,
+   "export_name": "ice_def_big"
+  },
+  {
+   "char_id": 33474,
+   "export_name": "kula_s5"
+  },
+  {
+   "char_id": 33696,
+   "export_name": "kula_s4_2"
+  },
+  {
+   "char_id": 33801,
+   "export_name": "roleKula"
+  },
+  {
+   "char_id": 33802,
+   "export_name": "kula_hit_m5"
+  },
+  {
+   "char_id": 33901,
+   "export_name": "bingren_tx"
+  },
+  {
+   "char_id": 33902,
+   "export_name": "bingren_add"
+  },
+  {
+   "char_id": 33903,
+   "export_name": "bingren_add_s"
+  },
+  {
+   "char_id": 33905,
+   "export_name": "kula_debuff"
+  },
+  {
+   "char_id": 33908,
+   "export_name": "ko_snd_Kula"
+  },
+  {
+   "char_id": 33909,
+   "export_name": "ko_snd_Kula2"
+  },
+  {
+   "char_id": 33912,
+   "export_name": "kula_ice_qixi2"
+  },
+  {
+   "char_id": 33913,
+   "export_name": "kula_ice_qixi3"
+  },
+  {
+   "char_id": 33976,
+   "export_name": "stand_XIII"
+  },
+  {
+   "char_id": 33994,
+   "export_name": "kula_snow_sheji1"
+  },
+  {
+   "char_id": 33995,
+   "export_name": "kula_snow_sheji2"
+  },
+  {
+   "char_id": 33996,
+   "export_name": "kula_jumpShadow4"
+  },
+  {
+   "char_id": 33997,
+   "export_name": "kula_jumpShadow"
+  },
+  {
+   "char_id": 33998,
+   "export_name": "kula_jumpShadow2"
+  },
+  {
+   "char_id": 33999,
+   "export_name": "kula_jumpShadow3"
+  },
+  {
+   "char_id": 34028,
+   "export_name": "2626ac_tx"
+  },
+  {
+   "char_id": 34112,
+   "export_name": "lacachora"
+  },
+  {
+   "char_id": 34113,
+   "export_name": "kula_hurt1"
+  },
+  {
+   "char_id": 34114,
+   "export_name": "kula_hurt2"
+  },
+  {
+   "char_id": 34115,
+   "export_name": "kula_hurt3"
+  },
+  {
+   "char_id": 34116,
+   "export_name": "kula_hurt4"
+  },
+  {
+   "char_id": 34117,
+   "export_name": "kula_hurt5"
+  },
+  {
+   "char_id": 34118,
+   "export_name": "kula_hurt6"
+  },
+  {
+   "char_id": 34119,
+   "export_name": "kula_hurt7"
+  },
+  {
+   "char_id": 34120,
+   "export_name": "kula_hurt8"
+  },
+  {
+   "char_id": 34122,
+   "export_name": "role_Kula"
+  },
+  {
+   "char_id": 34140,
+   "export_name": "Krizalid_player"
+  },
+  {
+   "char_id": 34141,
+   "export_name": "Krizalid_cpu1"
+  },
+  {
+   "char_id": 34142,
+   "export_name": "Krizalid_cpu2"
+  },
+  {
+   "char_id": 34143,
+   "export_name": "Krizalid_cpu3"
+  },
+  {
+   "char_id": 34144,
+   "export_name": "Krizalid_cpu4"
+  },
+  {
+   "char_id": 34145,
+   "export_name": "Krizalid_cpu5"
+  },
+  {
+   "char_id": 34146,
+   "export_name": "CKrizalid_Player"
+  },
+  {
+   "char_id": 34147,
+   "export_name": "CKrizalid_cpu1"
+  },
+  {
+   "char_id": 34148,
+   "export_name": "CKrizalid_cpu2"
+  },
+  {
+   "char_id": 34149,
+   "export_name": "CKrizalid_cpu3"
+  },
+  {
+   "char_id": 34150,
+   "export_name": "CKrizalid_cpu4"
+  },
+  {
+   "char_id": 34151,
+   "export_name": "CKrizalid_cpu5"
+  },
+  {
+   "char_id": 34154,
+   "export_name": "long"
+  },
+  {
+   "char_id": 34155,
+   "export_name": "lion"
+  },
+  {
+   "char_id": 34159,
+   "export_name": "krizalid"
+  },
+  {
+   "char_id": 34161,
+   "export_name": "fire1_k"
+  },
+  {
+   "char_id": 34193,
+   "export_name": "krizalid_wind1"
+  },
+  {
+   "char_id": 34219,
+   "export_name": "krizalid_wind2"
+  },
+  {
+   "char_id": 34226,
+   "export_name": "krizalid_jumpShadow"
+  },
+  {
+   "char_id": 34233,
+   "export_name": "krizalid_jumpShadow2"
+  },
+  {
+   "char_id": 34236,
+   "export_name": "krizalid2_jumpShadow"
+  },
+  {
+   "char_id": 34239,
+   "export_name": "krizalid2_jumpShadow2"
+  },
+  {
+   "char_id": 34242,
+   "export_name": "ko_snd_Krizalid"
+  },
+  {
+   "char_id": 34245,
+   "export_name": "krizalid2_jumpShadow3"
+  },
+  {
+   "char_id": 34247,
+   "export_name": "fmxx"
+  },
+  {
+   "char_id": 34250,
+   "export_name": "fmxx_eff"
+  },
+  {
+   "char_id": 34266,
+   "export_name": "krizalid_long1"
+  },
+  {
+   "char_id": 34315,
+   "export_name": "bshuo"
+  },
+  {
+   "char_id": 34330,
+   "export_name": "krizalid_long2"
+  },
+  {
+   "char_id": 34348,
+   "export_name": "xx1"
+  },
+  {
+   "char_id": 34349,
+   "export_name": "xx2"
+  },
+  {
+   "char_id": 34350,
+   "export_name": "xx3"
+  },
+  {
+   "char_id": 34351,
+   "export_name": "xx4"
+  },
+  {
+   "char_id": 34352,
+   "export_name": "xx5"
+  },
+  {
+   "char_id": 34353,
+   "export_name": "xx6"
+  },
+  {
+   "char_id": 34354,
+   "export_name": "xx7"
+  },
+  {
+   "char_id": 34355,
+   "export_name": "xx8"
+  },
+  {
+   "char_id": 34584,
+   "export_name": "krizalid_abShadow"
+  },
+  {
+   "char_id": 34593,
+   "export_name": "krizalid_4abShadow"
+  },
+  {
+   "char_id": 35984,
+   "export_name": "att_h"
+  },
+  {
+   "char_id": 35986,
+   "export_name": "roleKrizalid"
+  },
+  {
+   "char_id": 35992,
+   "export_name": "krizalid_buff"
+  },
+  {
+   "char_id": 35994,
+   "export_name": "krizalid_buff2"
+  },
+  {
+   "char_id": 36387,
+   "export_name": "roleKrizalid2"
+  },
+  {
+   "char_id": 36392,
+   "export_name": "Krizalid_powerFire"
+  },
+  {
+   "char_id": 36393,
+   "export_name": "c_4abShadow"
+  },
+  {
+   "char_id": 36396,
+   "export_name": "c_abShadow"
+  },
+  {
+   "char_id": 36428,
+   "export_name": "ck_bo_l"
+  },
+  {
+   "char_id": 36429,
+   "export_name": "ck_bo_h"
+  },
+  {
+   "char_id": 36431,
+   "export_name": "armor_eff"
+  },
+  {
+   "char_id": 36432,
+   "export_name": "att_eff"
+  },
+  {
+   "char_id": 36439,
+   "export_name": "krizalid_boom1"
+  },
+  {
+   "char_id": 36440,
+   "export_name": "ko_snd_Krizalid2"
+  },
+  {
+   "char_id": 36441,
+   "export_name": "krizalid_hurt1"
+  },
+  {
+   "char_id": 36442,
+   "export_name": "krizalid_hurt2"
+  },
+  {
+   "char_id": 36443,
+   "export_name": "krizalid_hurt3"
+  },
+  {
+   "char_id": 36444,
+   "export_name": "krizalid_hurt4"
+  },
+  {
+   "char_id": 36446,
+   "export_name": "role_Krizalid"
+  },
+  {
+   "char_id": 36465,
+   "export_name": "K_cpu1"
+  },
+  {
+   "char_id": 36466,
+   "export_name": "K_cpu2"
+  },
+  {
+   "char_id": 36467,
+   "export_name": "K_cpu4"
+  },
+  {
+   "char_id": 36468,
+   "export_name": "K_cpu3"
+  },
+  {
+   "char_id": 36469,
+   "export_name": "K_cpu5"
+  },
+  {
+   "char_id": 36470,
+   "export_name": "K_player2"
+  },
+  {
+   "char_id": 36471,
+   "export_name": "Type2_K_cpu1"
+  },
+  {
+   "char_id": 36472,
+   "export_name": "Type2_K_cpu2"
+  },
+  {
+   "char_id": 36473,
+   "export_name": "Type2_K_cpu4"
+  },
+  {
+   "char_id": 36474,
+   "export_name": "Type2_K_cpu3"
+  },
+  {
+   "char_id": 36475,
+   "export_name": "Type2_K_cpu5"
+  },
+  {
+   "char_id": 36476,
+   "export_name": "Type2_K_player"
+  },
+  {
+   "char_id": 36521,
+   "export_name": "k_fire_land"
+  },
+  {
+   "char_id": 36528,
+   "export_name": "k_boom1_mc"
+  },
+  {
+   "char_id": 36529,
+   "export_name": "boom_redongMax"
+  },
+  {
+   "char_id": 36530,
+   "export_name": "boom_airDash"
+  },
+  {
+   "char_id": 36531,
+   "export_name": "hitCombo1"
+  },
+  {
+   "char_id": 36532,
+   "export_name": "hitCombo3"
+  },
+  {
+   "char_id": 36534,
+   "export_name": "k_hit_m4"
+  },
+  {
+   "char_id": 36537,
+   "export_name": "k_hit_m4_s"
+  },
+  {
+   "char_id": 36540,
+   "export_name": "k_shadow1"
+  },
+  {
+   "char_id": 36543,
+   "export_name": "k_shadow6"
+  },
+  {
+   "char_id": 36546,
+   "export_name": "k_shadow7"
+  },
+  {
+   "char_id": 36632,
+   "export_name": "k_fire2"
+  },
+  {
+   "char_id": 36635,
+   "export_name": "k_fire2_s"
+  },
+  {
+   "char_id": 36639,
+   "export_name": "k_glass"
+  },
+  {
+   "char_id": 36669,
+   "export_name": "k_fire9"
+  },
+  {
+   "char_id": 36670,
+   "export_name": "k_fire9_s"
+  },
+  {
+   "char_id": 36702,
+   "export_name": "fire9_3"
+  },
+  {
+   "char_id": 36703,
+   "export_name": "fire9_4"
+  },
+  {
+   "char_id": 36704,
+   "export_name": "fire9_2"
+  },
+  {
+   "char_id": 36800,
+   "export_name": "k_fire1"
+  },
+  {
+   "char_id": 36801,
+   "export_name": "k_fire1_s"
+  },
+  {
+   "char_id": 36820,
+   "export_name": "k_fire3"
+  },
+  {
+   "char_id": 36902,
+   "export_name": "k_fire5"
+  },
+  {
+   "char_id": 36903,
+   "export_name": "fire10"
+  },
+  {
+   "char_id": 36924,
+   "export_name": "k_fire6"
+  },
+  {
+   "char_id": 36932,
+   "export_name": "k_fire7"
+  },
+  {
+   "char_id": 36934,
+   "export_name": "k_fire8"
+  },
+  {
+   "char_id": 37531,
+   "export_name": "charge"
+  },
+  {
+   "char_id": 38052,
+   "export_name": "k_fire26aa"
+  },
+  {
+   "char_id": 38738,
+   "export_name": "roleK"
+  },
+  {
+   "char_id": 38742,
+   "export_name": "k_lastFire2"
+  },
+  {
+   "char_id": 38772,
+   "export_name": "eff_rush"
+  },
+  {
+   "char_id": 38775,
+   "export_name": "ko_snd_K"
+  },
+  {
+   "char_id": 38786,
+   "export_name": "k_airDash"
+  },
+  {
+   "char_id": 38787,
+   "export_name": "K_max2_combo"
+  },
+  {
+   "char_id": 38788,
+   "export_name": "fire9_4_2"
+  },
+  {
+   "char_id": 38789,
+   "export_name": "sk_dbk_ex_shadow"
+  },
+  {
+   "char_id": 38790,
+   "export_name": "k_boom1_mc2"
+  },
+  {
+   "char_id": 38791,
+   "export_name": "k_max2_shadow"
+  },
+  {
+   "char_id": 38792,
+   "export_name": "k_glass_max"
+  },
+  {
+   "char_id": 38793,
+   "export_name": "k_jumpShadow2"
+  },
+  {
+   "char_id": 38794,
+   "export_name": "k_jumpShadow"
+  },
+  {
+   "char_id": 38863,
+   "export_name": "k_626c_XIII"
+  },
+  {
+   "char_id": 38924,
+   "export_name": "k_626a_XIII"
+  },
+  {
+   "char_id": 38925,
+   "export_name": "neo_hit"
+  },
+  {
+   "char_id": 38926,
+   "export_name": "hurt1_snd_K"
+  },
+  {
+   "char_id": 38927,
+   "export_name": "hurt2_snd_K"
+  },
+  {
+   "char_id": 38929,
+   "export_name": "role_K"
+  },
+  {
+   "char_id": 38947,
+   "export_name": "Iori_cpu1"
+  },
+  {
+   "char_id": 38948,
+   "export_name": "Iori_cpu2"
+  },
+  {
+   "char_id": 38949,
+   "export_name": "Iori_cpu3"
+  },
+  {
+   "char_id": 38950,
+   "export_name": "Iori_cpu4"
+  },
+  {
+   "char_id": 38951,
+   "export_name": "Iori_cpu5"
+  },
+  {
+   "char_id": 38952,
+   "export_name": "Iori_Player"
+  },
+  {
+   "char_id": 38953,
+   "export_name": "Type2_Iori_Player"
+  },
+  {
+   "char_id": 38954,
+   "export_name": "Type2_Iori_cpu1"
+  },
+  {
+   "char_id": 38955,
+   "export_name": "Type2_Iori_cpu2"
+  },
+  {
+   "char_id": 38956,
+   "export_name": "Type2_Iori_cpu3"
+  },
+  {
+   "char_id": 38957,
+   "export_name": "Type2_Iori_cpu4"
+  },
+  {
+   "char_id": 38958,
+   "export_name": "Type2_Iori_cpu5"
+  },
+  {
+   "char_id": 38959,
+   "export_name": "Type3_Iori_player"
+  },
+  {
+   "char_id": 38960,
+   "export_name": "Type3_Iori_cpu1"
+  },
+  {
+   "char_id": 38961,
+   "export_name": "Type3_Iori_cpu2"
+  },
+  {
+   "char_id": 38962,
+   "export_name": "Type3_Iori_cpu3"
+  },
+  {
+   "char_id": 38963,
+   "export_name": "Type3_Iori_cpu4"
+  },
+  {
+   "char_id": 38964,
+   "export_name": "Type3_Iori_cpu5"
+  },
+  {
+   "char_id": 38965,
+   "export_name": "iori_89bMax_boom2"
+  },
+  {
+   "char_id": 38970,
+   "export_name": "ko_snd_Iori"
+  },
+  {
+   "char_id": 39168,
+   "export_name": "Iori_fire_m1"
+  },
+  {
+   "char_id": 39169,
+   "export_name": "Iori_fire_m2"
+  },
+  {
+   "char_id": 39170,
+   "export_name": "Iori_fire_m3"
+  },
+  {
+   "char_id": 39284,
+   "export_name": "iori_fire_boom"
+  },
+  {
+   "char_id": 39286,
+   "export_name": "Iori_hurt2"
+  },
+  {
+   "char_id": 39316,
+   "export_name": "Iori_fire_s31"
+  },
+  {
+   "char_id": 39353,
+   "export_name": "iori_boom"
+  },
+  {
+   "char_id": 39355,
+   "export_name": "iori_boom_land"
+  },
+  {
+   "char_id": 39360,
+   "export_name": "iori_89b_fireMax"
+  },
+  {
+   "char_id": 39401,
+   "export_name": "iori_fire_89b2"
+  },
+  {
+   "char_id": 39402,
+   "export_name": "iori_fire_89b3"
+  },
+  {
+   "char_id": 39432,
+   "export_name": "iori_df_p_shadow"
+  },
+  {
+   "char_id": 39491,
+   "export_name": "iori_89b_fire"
+  },
+  {
+   "char_id": 39494,
+   "export_name": "iori_89bMax_boom"
+  },
+  {
+   "char_id": 39536,
+   "export_name": "iori_fire5"
+  },
+  {
+   "char_id": 39543,
+   "export_name": "iori_fire_caihua3"
+  },
+  {
+   "char_id": 39544,
+   "export_name": "iori_fire_caihua"
+  },
+  {
+   "char_id": 39619,
+   "export_name": "Iori_fire1"
+  },
+  {
+   "char_id": 39639,
+   "export_name": "Iori_fire2"
+  },
+  {
+   "char_id": 39710,
+   "export_name": "Iori_fire3"
+  },
+  {
+   "char_id": 39726,
+   "export_name": "Iori_fire4"
+  },
+  {
+   "char_id": 39727,
+   "export_name": "Iori_fire4_1"
+  },
+  {
+   "char_id": 39728,
+   "export_name": "Iori_fire4_2"
+  },
+  {
+   "char_id": 39730,
+   "export_name": "iori_boom_land2"
+  },
+  {
+   "char_id": 39731,
+   "export_name": "Iori_fire3_o"
+  },
+  {
+   "char_id": 39732,
+   "export_name": "Iori_fire3_light"
+  },
+  {
+   "char_id": 39910,
+   "export_name": "fire_iori"
+  },
+  {
+   "char_id": 40132,
+   "export_name": "c2"
+  },
+  {
+   "char_id": 40133,
+   "export_name": "c3"
+  },
+  {
+   "char_id": 40143,
+   "export_name": "c4"
+  },
+  {
+   "char_id": 40153,
+   "export_name": "c5"
+  },
+  {
+   "char_id": 40183,
+   "export_name": "c1"
+  },
+  {
+   "char_id": 40324,
+   "export_name": "tx02"
+  },
+  {
+   "char_id": 41476,
+   "export_name": "pkq"
+  },
+  {
+   "char_id": 41509,
+   "export_name": "roleIori"
+  },
+  {
+   "char_id": 41512,
+   "export_name": "iori3_start"
+  },
+  {
+   "char_id": 42707,
+   "export_name": "13"
+  },
+  {
+   "char_id": 42723,
+   "export_name": "roleIori3"
+  },
+  {
+   "char_id": 43238,
+   "export_name": "roleIori2"
+  },
+  {
+   "char_id": 43239,
+   "export_name": "cd2"
+  },
+  {
+   "char_id": 43280,
+   "export_name": "iori_bcw1"
+  },
+  {
+   "char_id": 43281,
+   "export_name": "iori_bcw2_1"
+  },
+  {
+   "char_id": 43282,
+   "export_name": "qing2"
+  },
+  {
+   "char_id": 43284,
+   "export_name": "iori_jump_shadow"
+  },
+  {
+   "char_id": 43285,
+   "export_name": "iori_rush1"
+  },
+  {
+   "char_id": 43286,
+   "export_name": "zhong2"
+  },
+  {
+   "char_id": 43326,
+   "export_name": "8sh1"
+  },
+  {
+   "char_id": 43335,
+   "export_name": "iori_8znxiii"
+  },
+  {
+   "char_id": 43336,
+   "export_name": "iori_8zw_shadow"
+  },
+  {
+   "char_id": 43360,
+   "export_name": "qjz_wh"
+  },
+  {
+   "char_id": 43361,
+   "export_name": "bachiwu_1"
+  },
+  {
+   "char_id": 43364,
+   "export_name": "o_max2_combo"
+  },
+  {
+   "char_id": 43365,
+   "export_name": "begin_boom"
+  },
+  {
+   "char_id": 43367,
+   "export_name": "huoFengCC"
+  },
+  {
+   "char_id": 43368,
+   "export_name": "maiden_rush_shadow"
+  },
+  {
+   "char_id": 43369,
+   "export_name": "Iori_super_skill2_shadow"
+  },
+  {
+   "char_id": 43370,
+   "export_name": "iori_boom_land3"
+  },
+  {
+   "char_id": 43371,
+   "export_name": "iori_89bMax_boom_2"
+  },
+  {
+   "char_id": 43373,
+   "export_name": "Iori_shadow1"
+  },
+  {
+   "char_id": 43374,
+   "export_name": "Iori_fire_m4"
+  },
+  {
+   "char_id": 43375,
+   "export_name": "maiden_rush_shadow_o"
+  },
+  {
+   "char_id": 43376,
+   "export_name": "Iori_super_skill2_shadow_o"
+  },
+  {
+   "char_id": 43377,
+   "export_name": "iori_max3_boom"
+  },
+  {
+   "char_id": 43378,
+   "export_name": "iori_89b_fireMax_2"
+  },
+  {
+   "char_id": 43379,
+   "export_name": "iori_jumpShadow"
+  },
+  {
+   "char_id": 43380,
+   "export_name": "iori_jumpShadow_o"
+  },
+  {
+   "char_id": 43589,
+   "export_name": "13max"
+  },
+  {
+   "char_id": 43591,
+   "export_name": "Iori_fire4_2_l"
+  },
+  {
+   "char_id": 43592,
+   "export_name": "iori_89b_fireMax_o"
+  },
+  {
+   "char_id": 43593,
+   "export_name": "Iori_fire_random"
+  },
+  {
+   "char_id": 43594,
+   "export_name": "8sh2"
+  },
+  {
+   "char_id": 43595,
+   "export_name": "8sh3"
+  },
+  {
+   "char_id": 43596,
+   "export_name": "8sh4"
+  },
+  {
+   "char_id": 43597,
+   "export_name": "bcw1"
+  },
+  {
+   "char_id": 43598,
+   "export_name": "bcw2"
+  },
+  {
+   "char_id": 43600,
+   "export_name": "role_Iori"
+  },
+  {
+   "char_id": 43626,
+   "export_name": "Igniz_cpu1"
+  },
+  {
+   "char_id": 43627,
+   "export_name": "Igniz_cpu2"
+  },
+  {
+   "char_id": 43628,
+   "export_name": "Igniz_cpu3"
+  },
+  {
+   "char_id": 43629,
+   "export_name": "Igniz_cpu4"
+  },
+  {
+   "char_id": 43630,
+   "export_name": "Igniz_cpu5"
+  },
+  {
+   "char_id": 43631,
+   "export_name": "Igniz_player"
+  },
+  {
+   "char_id": 43632,
+   "export_name": "Type2_Igniz_cpu1"
+  },
+  {
+   "char_id": 43633,
+   "export_name": "Type2_Igniz_cpu2"
+  },
+  {
+   "char_id": 43634,
+   "export_name": "Type2_Igniz_cpu3"
+  },
+  {
+   "char_id": 43635,
+   "export_name": "Type2_Igniz_cpu4"
+  },
+  {
+   "char_id": 43636,
+   "export_name": "Type2_Igniz_cpu5"
+  },
+  {
+   "char_id": 43637,
+   "export_name": "Type2_Igniz_player"
+  },
+  {
+   "char_id": 43677,
+   "export_name": "Igniz_shanzi4"
+  },
+  {
+   "char_id": 43693,
+   "export_name": "Igniz_4round"
+  },
+  {
+   "char_id": 43695,
+   "export_name": "Igniz_bailuo"
+  },
+  {
+   "char_id": 43850,
+   "export_name": "igniz_hlyz"
+  },
+  {
+   "char_id": 45225,
+   "export_name": "roleIgniz"
+  },
+  {
+   "char_id": 45239,
+   "export_name": "Ignizi_fire_m1"
+  },
+  {
+   "char_id": 45240,
+   "export_name": "BLMJ_hit"
+  },
+  {
+   "char_id": 45383,
+   "export_name": "HLYZ_hit"
+  },
+  {
+   "char_id": 45384,
+   "export_name": "HLYZ_zhen"
+  },
+  {
+   "char_id": 45385,
+   "export_name": "Igniz_hlyzshadow"
+  },
+  {
+   "char_id": 45419,
+   "export_name": "JGKH_hit"
+  },
+  {
+   "char_id": 45486,
+   "export_name": "Igniz_sk_boom2"
+  },
+  {
+   "char_id": 45487,
+   "export_name": "nbailuo_R"
+  },
+  {
+   "char_id": 45488,
+   "export_name": "nbailuo_R2"
+  },
+  {
+   "char_id": 45489,
+   "export_name": "nbailuo_R_s"
+  },
+  {
+   "char_id": 45490,
+   "export_name": "nbailuo_R2_s"
+  },
+  {
+   "char_id": 45491,
+   "export_name": "nbailuo_L"
+  },
+  {
+   "char_id": 45492,
+   "export_name": "nbailuo_L2"
+  },
+  {
+   "char_id": 45493,
+   "export_name": "nbailuo_L_s"
+  },
+  {
+   "char_id": 45494,
+   "export_name": "nbailuo_L2_s"
+  },
+  {
+   "char_id": 45495,
+   "export_name": "Igniz_bailuo_s"
+  },
+  {
+   "char_id": 45497,
+   "export_name": "Igniz_hit1"
+  },
+  {
+   "char_id": 45498,
+   "export_name": "dfdfp_add"
+  },
+  {
+   "char_id": 45499,
+   "export_name": "dfdfp_s_add"
+  },
+  {
+   "char_id": 45508,
+   "export_name": "downFire"
+  },
+  {
+   "char_id": 45509,
+   "export_name": "downFire2"
+  },
+  {
+   "char_id": 45520,
+   "export_name": "jumpFire1"
+  },
+  {
+   "char_id": 45554,
+   "export_name": "jumpFire_skill"
+  },
+  {
+   "char_id": 45556,
+   "export_name": "jumpFire2"
+  },
+  {
+   "char_id": 45558,
+   "export_name": "jumpFire3"
+  },
+  {
+   "char_id": 45560,
+   "export_name": "jumpFire4"
+  },
+  {
+   "char_id": 45561,
+   "export_name": "fireWall"
+  },
+  {
+   "char_id": 45562,
+   "export_name": "dfdfk"
+  },
+  {
+   "char_id": 45668,
+   "export_name": "ex_grb3"
+  },
+  {
+   "char_id": 45669,
+   "export_name": "ex_grb2"
+  },
+  {
+   "char_id": 45690,
+   "export_name": "heimu"
+  },
+  {
+   "char_id": 45691,
+   "export_name": "luoyue"
+  },
+  {
+   "char_id": 45692,
+   "export_name": "ex_grb"
+  },
+  {
+   "char_id": 45717,
+   "export_name": "grb_2"
+  },
+  {
+   "char_id": 45736,
+   "export_name": "grb_3"
+  },
+  {
+   "char_id": 45770,
+   "export_name": "Igniz_shanzi51"
+  },
+  {
+   "char_id": 45771,
+   "export_name": "Igniz_shanzi5"
+  },
+  {
+   "char_id": 45772,
+   "export_name": "Igniz_shanzi6"
+  },
+  {
+   "char_id": 45847,
+   "export_name": "igniz_gq"
+  },
+  {
+   "char_id": 45849,
+   "export_name": "Igniz_shanzi2"
+  },
+  {
+   "char_id": 45850,
+   "export_name": "Igniz_shanzi22"
+  },
+  {
+   "char_id": 45851,
+   "export_name": "Igniz_shanzi2_1"
+  },
+  {
+   "char_id": 45855,
+   "export_name": "JGKH2_hit"
+  },
+  {
+   "char_id": 45856,
+   "export_name": "Igniz_shanzi4s"
+  },
+  {
+   "char_id": 45857,
+   "export_name": "dfdfb_p_shadow"
+  },
+  {
+   "char_id": 45858,
+   "export_name": "igniz_jumpShadow"
+  },
+  {
+   "char_id": 45859,
+   "export_name": "igniz_jumpShadow2"
+  },
+  {
+   "char_id": 45860,
+   "export_name": "igniz_roll_b_shadow"
+  },
+  {
+   "char_id": 45861,
+   "export_name": "igniz_roll_f_shadow"
+  },
+  {
+   "char_id": 46582,
+   "export_name": "roleIgniz2"
+  },
+  {
+   "char_id": 46584,
+   "export_name": "ko_snd_Igniz"
+  },
+  {
+   "char_id": 46585,
+   "export_name": "nzhurt1"
+  },
+  {
+   "char_id": 46586,
+   "export_name": "nzhurt2"
+  },
+  {
+   "char_id": 46587,
+   "export_name": "fireWall2"
+  },
+  {
+   "char_id": 46589,
+   "export_name": "role_Igniz"
+  },
+  {
+   "char_id": 46607,
+   "export_name": "Haohmaru_cpu1"
+  },
+  {
+   "char_id": 46608,
+   "export_name": "Haohmaru_cpu2"
+  },
+  {
+   "char_id": 46609,
+   "export_name": "Haohmaru_cpu3"
+  },
+  {
+   "char_id": 46610,
+   "export_name": "Haohmaru_cpu4"
+  },
+  {
+   "char_id": 46611,
+   "export_name": "Haohmaru_cpu5"
+  },
+  {
+   "char_id": 46612,
+   "export_name": "Haohmaru_player"
+  },
+  {
+   "char_id": 46613,
+   "export_name": "Type2_Haohmaru_cpu1"
+  },
+  {
+   "char_id": 46614,
+   "export_name": "Type2_Haohmaru_cpu2"
+  },
+  {
+   "char_id": 46615,
+   "export_name": "Type2_Haohmaru_cpu3"
+  },
+  {
+   "char_id": 46616,
+   "export_name": "Type2_Haohmaru_cpu4"
+  },
+  {
+   "char_id": 46617,
+   "export_name": "Type2_Haohmaru_cpu5"
+  },
+  {
+   "char_id": 46618,
+   "export_name": "Type2_Haohmaru_player"
+  },
+  {
+   "char_id": 48068,
+   "export_name": "roleHaohmaru"
+  },
+  {
+   "char_id": 48069,
+   "export_name": "Haohmaru_GYZ_shadow"
+  },
+  {
+   "char_id": 48070,
+   "export_name": "Haohmaru_GYZ2_shadow"
+  },
+  {
+   "char_id": 48071,
+   "export_name": "Haohmaru_QHZ_shadow"
+  },
+  {
+   "char_id": 48103,
+   "export_name": "terry_xuanfeng1"
+  },
+  {
+   "char_id": 48104,
+   "export_name": "terry_xuanfeng3air"
+  },
+  {
+   "char_id": 48105,
+   "export_name": "terry_xuanfeng3"
+  },
+  {
+   "char_id": 48106,
+   "export_name": "terry_xuanfeng2air"
+  },
+  {
+   "char_id": 48107,
+   "export_name": "terry_xuanfeng2"
+  },
+  {
+   "char_id": 48108,
+   "export_name": "terry_xuanfeng1air"
+  },
+  {
+   "char_id": 48109,
+   "export_name": "terry_xuanfeng03"
+  },
+  {
+   "char_id": 48110,
+   "export_name": "terry_xuanfeng02"
+  },
+  {
+   "char_id": 48111,
+   "export_name": "terry_xuanfeng01"
+  },
+  {
+   "char_id": 48112,
+   "export_name": "dfdf_k_ex_shadow"
+  },
+  {
+   "char_id": 48113,
+   "export_name": "haohmaru_jumpShadow"
+  },
+  {
+   "char_id": 48116,
+   "export_name": "ko_snd_Haohmaru"
+  },
+  {
+   "char_id": 48117,
+   "export_name": "Haohmaru_hurt1"
+  },
+  {
+   "char_id": 48118,
+   "export_name": "Haohmaru_hurt2"
+  },
+  {
+   "char_id": 48119,
+   "export_name": "Haohmaru_hurt3"
+  },
+  {
+   "char_id": 48120,
+   "export_name": "Haohmaru_hurt4"
+  },
+  {
+   "char_id": 48122,
+   "export_name": "role_Haohmaru"
+  },
+  {
+   "char_id": 48140,
+   "export_name": "Goenitz_cpu1"
+  },
+  {
+   "char_id": 48141,
+   "export_name": "Goenitz_cpu2"
+  },
+  {
+   "char_id": 48142,
+   "export_name": "Goenitz_cpu3"
+  },
+  {
+   "char_id": 48143,
+   "export_name": "Goenitz_cpu4"
+  },
+  {
+   "char_id": 48144,
+   "export_name": "Goenitz_cpu5"
+  },
+  {
+   "char_id": 48145,
+   "export_name": "Goenitz_Player"
+  },
+  {
+   "char_id": 48146,
+   "export_name": "Type2_Goenitz_Player"
+  },
+  {
+   "char_id": 48147,
+   "export_name": "Type2_Goenitz_cpu1"
+  },
+  {
+   "char_id": 48148,
+   "export_name": "Type2_Goenitz_cpu2"
+  },
+  {
+   "char_id": 48149,
+   "export_name": "Type2_Goenitz_cpu3"
+  },
+  {
+   "char_id": 48150,
+   "export_name": "Type2_Goenitz_cpu4"
+  },
+  {
+   "char_id": 48151,
+   "export_name": "Type2_Goenitz_cpu5"
+  },
+  {
+   "char_id": 48152,
+   "export_name": "Type3_Goenitz_player"
+  },
+  {
+   "char_id": 48153,
+   "export_name": "Type3_Goenitz_cpu1"
+  },
+  {
+   "char_id": 48154,
+   "export_name": "Type3_Goenitz_cpu2"
+  },
+  {
+   "char_id": 48155,
+   "export_name": "Type3_Goenitz_cpu3"
+  },
+  {
+   "char_id": 48156,
+   "export_name": "Type3_Goenitz_cpu4"
+  },
+  {
+   "char_id": 48157,
+   "export_name": "Type3_Goenitz_cpu5"
+  },
+  {
+   "char_id": 48159,
+   "export_name": "ko_snd_Goenitz"
+  },
+  {
+   "char_id": 48416,
+   "export_name": "Goenitz_run"
+  },
+  {
+   "char_id": 48699,
+   "export_name": "gnccd"
+  },
+  {
+   "char_id": 49525,
+   "export_name": "binghefeng"
+  },
+  {
+   "char_id": 49716,
+   "export_name": "roleGoenitz"
+  },
+  {
+   "char_id": 49735,
+   "export_name": "fsycmax1"
+  },
+  {
+   "char_id": 49736,
+   "export_name": "fsycmax2"
+  },
+  {
+   "char_id": 49737,
+   "export_name": "dark_recite"
+  },
+  {
+   "char_id": 49738,
+   "export_name": "xcys"
+  },
+  {
+   "char_id": 49739,
+   "export_name": "xcys2"
+  },
+  {
+   "char_id": 49742,
+   "export_name": "yefeng"
+  },
+  {
+   "char_id": 49743,
+   "export_name": "wind_back"
+  },
+  {
+   "char_id": 49744,
+   "export_name": "wind_land"
+  },
+  {
+   "char_id": 49745,
+   "export_name": "gncab"
+  },
+  {
+   "char_id": 49747,
+   "export_name": "Goenitz_dash_shadow"
+  },
+  {
+   "char_id": 49748,
+   "export_name": "Goenitz_jumpshadow"
+  },
+  {
+   "char_id": 49763,
+   "export_name": "xiangzhitexiao"
+  },
+  {
+   "char_id": 49764,
+   "export_name": "Gnz_hurt1"
+  },
+  {
+   "char_id": 49765,
+   "export_name": "Gnz_hurt2"
+  },
+  {
+   "char_id": 49766,
+   "export_name": "Gnz_hurt3"
+  },
+  {
+   "char_id": 49767,
+   "export_name": "Gnz_hurt4"
+  },
+  {
+   "char_id": 49769,
+   "export_name": "role_Goenitz"
+  },
+  {
+   "char_id": 49795,
+   "export_name": "Chunli_cpu1"
+  },
+  {
+   "char_id": 49796,
+   "export_name": "Chunli_cpu2"
+  },
+  {
+   "char_id": 49797,
+   "export_name": "Chunli_cpu3"
+  },
+  {
+   "char_id": 49798,
+   "export_name": "Chunli_cpu4"
+  },
+  {
+   "char_id": 49799,
+   "export_name": "Chunli_cpu5"
+  },
+  {
+   "char_id": 49800,
+   "export_name": "Chunli_player"
+  },
+  {
+   "char_id": 49801,
+   "export_name": "Type2_Chunli_cpu1"
+  },
+  {
+   "char_id": 49802,
+   "export_name": "Type2_Chunli_cpu2"
+  },
+  {
+   "char_id": 49803,
+   "export_name": "Type2_Chunli_cpu3"
+  },
+  {
+   "char_id": 49804,
+   "export_name": "Type2_Chunli_cpu4"
+  },
+  {
+   "char_id": 49805,
+   "export_name": "Type2_Chunli_cpu5"
+  },
+  {
+   "char_id": 49806,
+   "export_name": "Type2_Chunli_player"
+  },
+  {
+   "char_id": 49863,
+   "export_name": "chunli_shanzi1"
+  },
+  {
+   "char_id": 50803,
+   "export_name": "chunli_att_l3"
+  },
+  {
+   "char_id": 50845,
+   "export_name": "chunli_att_l2"
+  },
+  {
+   "char_id": 51000,
+   "export_name": "chunli_att_l1"
+  },
+  {
+   "char_id": 51472,
+   "export_name": "chunli_airDash"
+  },
+  {
+   "char_id": 52047,
+   "export_name": "roleChunli"
+  },
+  {
+   "char_id": 52050,
+   "export_name": "ko_snd_Chunli"
+  },
+  {
+   "char_id": 52051,
+   "export_name": "chunlii_powerball"
+  },
+  {
+   "char_id": 52059,
+   "export_name": "chunlii_powerball1"
+  },
+  {
+   "char_id": 52060,
+   "export_name": "chunli_qg2shadow"
+  },
+  {
+   "char_id": 52062,
+   "export_name": "chunli_jumpShadow"
+  },
+  {
+   "char_id": 52063,
+   "export_name": "chunli_jumpShadow2"
+  },
+  {
+   "char_id": 52064,
+   "export_name": "chunli_jumpShadow3"
+  },
+  {
+   "char_id": 52083,
+   "export_name": "chunli_fireEff2"
+  },
+  {
+   "char_id": 52084,
+   "export_name": "Chunli_hurt1"
+  },
+  {
+   "char_id": 52085,
+   "export_name": "Chunli_hurt2"
+  },
+  {
+   "char_id": 52086,
+   "export_name": "Chunli_hurt3"
+  },
+  {
+   "char_id": 52101,
+   "export_name": "chunli_qixingtxt"
+  },
+  {
+   "char_id": 52103,
+   "export_name": "role_Chunli"
+  },
+  {
+   "char_id": 52121,
+   "export_name": "Athena_cpu1"
+  },
+  {
+   "char_id": 52122,
+   "export_name": "Athena_cpu2"
+  },
+  {
+   "char_id": 52123,
+   "export_name": "Athena_cpu3"
+  },
+  {
+   "char_id": 52124,
+   "export_name": "Athena_cpu4"
+  },
+  {
+   "char_id": 52125,
+   "export_name": "Athena_cpu5"
+  },
+  {
+   "char_id": 52126,
+   "export_name": "Athena_Player"
+  },
+  {
+   "char_id": 52127,
+   "export_name": "Type2_Athena_cpu1"
+  },
+  {
+   "char_id": 52128,
+   "export_name": "Type2_Athena_cpu2"
+  },
+  {
+   "char_id": 52129,
+   "export_name": "Type2_Athena_cpu3"
+  },
+  {
+   "char_id": 52130,
+   "export_name": "Type2_Athena_cpu4"
+  },
+  {
+   "char_id": 52131,
+   "export_name": "Type2_Athena_cpu5"
+  },
+  {
+   "char_id": 52132,
+   "export_name": "Type2_Athena_Player"
+  },
+  {
+   "char_id": 52134,
+   "export_name": "ko_snd_Athena"
+  },
+  {
+   "char_id": 52135,
+   "export_name": "Iori_hurt1"
+  },
+  {
+   "char_id": 52177,
+   "export_name": "Athena_fire3"
+  },
+  {
+   "char_id": 52193,
+   "export_name": "athena_ball_air"
+  },
+  {
+   "char_id": 52197,
+   "export_name": "Athena_26b_shadow2"
+  },
+  {
+   "char_id": 52200,
+   "export_name": "Athena_26b_move_shadow"
+  },
+  {
+   "char_id": 52238,
+   "export_name": "Athena_fire3_special_l"
+  },
+  {
+   "char_id": 52239,
+   "export_name": "Athena_fire3_special"
+  },
+  {
+   "char_id": 52278,
+   "export_name": "Athena_fire3_special_bao"
+  },
+  {
+   "char_id": 52323,
+   "export_name": "bao"
+  },
+  {
+   "char_id": 52353,
+   "export_name": "chuansongmen"
+  },
+  {
+   "char_id": 52354,
+   "export_name": "athena_ball_wtf"
+  },
+  {
+   "char_id": 52365,
+   "export_name": "j24b_02um"
+  },
+  {
+   "char_id": 52367,
+   "export_name": "Athena_fire3_light"
+  },
+  {
+   "char_id": 52631,
+   "export_name": "roll_ab"
+  },
+  {
+   "char_id": 54168,
+   "export_name": "down.wav"
+  },
+  {
+   "char_id": 54207,
+   "export_name": "abcd_f"
+  },
+  {
+   "char_id": 54259,
+   "export_name": "roleAthena"
+  },
+  {
+   "char_id": 55572,
+   "export_name": "roleAthena2"
+  },
+  {
+   "char_id": 55574,
+   "export_name": "ko_snd_Athena2"
+  },
+  {
+   "char_id": 55576,
+   "export_name": "athena_fire_eff1"
+  },
+  {
+   "char_id": 55601,
+   "export_name": "sk_athena_max_star"
+  },
+  {
+   "char_id": 55614,
+   "export_name": "db_k_eff"
+  },
+  {
+   "char_id": 55617,
+   "export_name": "sk_dfdf_k_shadow"
+  },
+  {
+   "char_id": 55618,
+   "export_name": "athena_ball"
+  },
+  {
+   "char_id": 55619,
+   "export_name": "athena_ball2"
+  },
+  {
+   "char_id": 55620,
+   "export_name": "athena_ball3"
+  },
+  {
+   "char_id": 55621,
+   "export_name": "athena_ball4"
+  },
+  {
+   "char_id": 55622,
+   "export_name": "athena_ball_air_s"
+  },
+  {
+   "char_id": 55623,
+   "export_name": "athena_ball_air2"
+  },
+  {
+   "char_id": 55636,
+   "export_name": "26bd_fade"
+  },
+  {
+   "char_id": 55645,
+   "export_name": "26bd_fade_02um"
+  },
+  {
+   "char_id": 55646,
+   "export_name": "26bd_fade_02um2"
+  },
+  {
+   "char_id": 55650,
+   "export_name": "26bd_move_02um"
+  },
+  {
+   "char_id": 55651,
+   "export_name": "26bd_move_02um_h"
+  },
+  {
+   "char_id": 55652,
+   "export_name": "26d_move_fake"
+  },
+  {
+   "char_id": 55653,
+   "export_name": "Athena_fire3_02um"
+  },
+  {
+   "char_id": 55654,
+   "export_name": "Athena_hurt1"
+  },
+  {
+   "char_id": 55656,
+   "export_name": "athena_24o_shadow"
+  },
+  {
+   "char_id": 55657,
+   "export_name": "Athena_hurt2"
+  },
+  {
+   "char_id": 55658,
+   "export_name": "athena_jumpShadow"
+  },
+  {
+   "char_id": 55659,
+   "export_name": "athena_jumpShadow2"
+  },
+  {
+   "char_id": 55660,
+   "export_name": "athena_jumpShadow3"
+  },
+  {
+   "char_id": 55661,
+   "export_name": "athena_jumpShadow4"
+  },
+  {
+   "char_id": 55662,
+   "export_name": "athena_jumpShadow5"
+  },
+  {
+   "char_id": 55663,
+   "export_name": "Athena_hurt3"
+  },
+  {
+   "char_id": 55669,
+   "export_name": "Athena_hurt4"
+  },
+  {
+   "char_id": 55671,
+   "export_name": "role_Athena"
+  },
+  {
+   "char_id": 55689,
+   "export_name": "Ash_cpu1"
+  },
+  {
+   "char_id": 55690,
+   "export_name": "Ash_cpu2"
+  },
+  {
+   "char_id": 55691,
+   "export_name": "Ash_cpu3"
+  },
+  {
+   "char_id": 55692,
+   "export_name": "Ash_cpu4"
+  },
+  {
+   "char_id": 55693,
+   "export_name": "Ash_cpu5"
+  },
+  {
+   "char_id": 55694,
+   "export_name": "Ash_player"
+  },
+  {
+   "char_id": 55695,
+   "export_name": "Type2_Ash_cpu1"
+  },
+  {
+   "char_id": 55696,
+   "export_name": "Type2_Ash_cpu2"
+  },
+  {
+   "char_id": 55697,
+   "export_name": "Type2_Ash_cpu3"
+  },
+  {
+   "char_id": 55698,
+   "export_name": "Type2_Ash_cpu4"
+  },
+  {
+   "char_id": 55699,
+   "export_name": "Type2_Ash_cpu5"
+  },
+  {
+   "char_id": 55700,
+   "export_name": "Type2_Ash_player"
+  },
+  {
+   "char_id": 55753,
+   "export_name": "26O02"
+  },
+  {
+   "char_id": 55868,
+   "export_name": "26O03"
+  },
+  {
+   "char_id": 55890,
+   "export_name": "26O201"
+  },
+  {
+   "char_id": 56008,
+   "export_name": "26o202"
+  },
+  {
+   "char_id": 56180,
+   "export_name": "ash_fireEff1"
+  },
+  {
+   "char_id": 56182,
+   "export_name": "exSkillCC"
+  },
+  {
+   "char_id": 56227,
+   "export_name": "bf_A_eff"
+  },
+  {
+   "char_id": 56276,
+   "export_name": "bf_C_eff"
+  },
+  {
+   "char_id": 56277,
+   "export_name": "ash_evil_dd_o_multi"
+  },
+  {
+   "char_id": 56378,
+   "export_name": "ash_evil_fireEff_2"
+  },
+  {
+   "char_id": 56413,
+   "export_name": "ash_evil_fireEff_1"
+  },
+  {
+   "char_id": 56728,
+   "export_name": "ash_ddd_o_fire"
+  },
+  {
+   "char_id": 56730,
+   "export_name": "ash_evil_dd_o_fire"
+  },
+  {
+   "char_id": 56764,
+   "export_name": "ash_2426a_slash"
+  },
+  {
+   "char_id": 56826,
+   "export_name": "ash_2426a_fireBoom"
+  },
+  {
+   "char_id": 56827,
+   "export_name": "ash_2426a_fireBoom_2"
+  },
+  {
+   "char_id": 56828,
+   "export_name": "ash_hit_m1"
+  },
+  {
+   "char_id": 56831,
+   "export_name": "26O01"
+  },
+  {
+   "char_id": 56833,
+   "export_name": "nonSkillCC"
+  },
+  {
+   "char_id": 57790,
+   "export_name": "bdf_d_snd_2"
+  },
+  {
+   "char_id": 58358,
+   "export_name": "lp_snd"
+  },
+  {
+   "char_id": 58359,
+   "export_name": "lk_snd"
+  },
+  {
+   "char_id": 58364,
+   "export_name": "sp_snd"
+  },
+  {
+   "char_id": 58426,
+   "export_name": "fdf_k_snd"
+  },
+  {
+   "char_id": 58464,
+   "export_name": "bdf_d_snd"
+  },
+  {
+   "char_id": 58480,
+   "export_name": "bdf_b_snd_2"
+  },
+  {
+   "char_id": 58501,
+   "export_name": "ash_neoMax"
+  },
+  {
+   "char_id": 58521,
+   "export_name": "ash_neoMax_2"
+  },
+  {
+   "char_id": 58651,
+   "export_name": "roleAsh"
+  },
+  {
+   "char_id": 58652,
+   "export_name": "ash_jumpShadow3"
+  },
+  {
+   "char_id": 58653,
+   "export_name": "ash_jumpShadow2"
+  },
+  {
+   "char_id": 58654,
+   "export_name": "ash_jumpShadow"
+  },
+  {
+   "char_id": 58655,
+   "export_name": "ash_jumpShadow4"
+  },
+  {
+   "char_id": 58656,
+   "export_name": "ash_jumpShadow5"
+  },
+  {
+   "char_id": 58657,
+   "export_name": "ash_jumpShadow6"
+  },
+  {
+   "char_id": 58658,
+   "export_name": "ash_jumpShadow7"
+  },
+  {
+   "char_id": 58659,
+   "export_name": "ash_jumpShadow8"
+  },
+  {
+   "char_id": 58660,
+   "export_name": "ash_dashbShadow2"
+  },
+  {
+   "char_id": 58661,
+   "export_name": "ash_dashbShadow"
+  },
+  {
+   "char_id": 58662,
+   "export_name": "ash_dashfShadow"
+  },
+  {
+   "char_id": 58663,
+   "export_name": "ash_walkbShadow"
+  },
+  {
+   "char_id": 58664,
+   "export_name": "ash_walkfShadow"
+  },
+  {
+   "char_id": 58665,
+   "export_name": "ash_hurt3Shadow5"
+  },
+  {
+   "char_id": 58666,
+   "export_name": "ash_hurt3Shadow4"
+  },
+  {
+   "char_id": 58667,
+   "export_name": "ash_hurt3Shadow3"
+  },
+  {
+   "char_id": 58668,
+   "export_name": "ash_hurtcrashShadow"
+  },
+  {
+   "char_id": 58669,
+   "export_name": "ash_hurt3Shadow"
+  },
+  {
+   "char_id": 58670,
+   "export_name": "ash_hurt1Shadow3"
+  },
+  {
+   "char_id": 58671,
+   "export_name": "ash_hurt1Shadow2"
+  },
+  {
+   "char_id": 58672,
+   "export_name": "ash_hurt1Shadow"
+  },
+  {
+   "char_id": 58673,
+   "export_name": "ash_bdfbShadow4"
+  },
+  {
+   "char_id": 58674,
+   "export_name": "ash_bdfbShadow3"
+  },
+  {
+   "char_id": 58675,
+   "export_name": "ash_bdfbShadow2"
+  },
+  {
+   "char_id": 58676,
+   "export_name": "ash_bdfbShadow"
+  },
+  {
+   "char_id": 58677,
+   "export_name": "ash_fdfbShadow1"
+  },
+  {
+   "char_id": 58678,
+   "export_name": "ash_fdfbShadow4"
+  },
+  {
+   "char_id": 58679,
+   "export_name": "ash_fdfbShadow3"
+  },
+  {
+   "char_id": 58680,
+   "export_name": "ash_fdfbShadow2"
+  },
+  {
+   "char_id": 58681,
+   "export_name": "ash_fdfbShadow"
+  },
+  {
+   "char_id": 58682,
+   "export_name": "ash_bfcShadow"
+  },
+  {
+   "char_id": 58683,
+   "export_name": "ash_bfaShadow"
+  },
+  {
+   "char_id": 58684,
+   "export_name": "ash_squatdefendShadow"
+  },
+  {
+   "char_id": 58685,
+   "export_name": "ash_defendShadow"
+  },
+  {
+   "char_id": 58686,
+   "export_name": "ash_landShadow"
+  },
+  {
+   "char_id": 58687,
+   "export_name": "ash_getup2Shadow10"
+  },
+  {
+   "char_id": 58688,
+   "export_name": "ash_getup2Shadow9"
+  },
+  {
+   "char_id": 58689,
+   "export_name": "ash_getup2Shadow8"
+  },
+  {
+   "char_id": 58690,
+   "export_name": "ash_getup2Shadow7"
+  },
+  {
+   "char_id": 58691,
+   "export_name": "ash_getup2Shadow6"
+  },
+  {
+   "char_id": 58692,
+   "export_name": "ash_getup2Shadow5"
+  },
+  {
+   "char_id": 58693,
+   "export_name": "ash_getup2Shadow4"
+  },
+  {
+   "char_id": 58694,
+   "export_name": "ash_getup2Shadow3"
+  },
+  {
+   "char_id": 58695,
+   "export_name": "ash_getup2Shadow16"
+  },
+  {
+   "char_id": 58696,
+   "export_name": "ash_getup2Shadow15"
+  },
+  {
+   "char_id": 58697,
+   "export_name": "ash_getup2Shadow14"
+  },
+  {
+   "char_id": 58698,
+   "export_name": "ash_getup2Shadow13"
+  },
+  {
+   "char_id": 58699,
+   "export_name": "ash_getup2Shadow12"
+  },
+  {
+   "char_id": 58700,
+   "export_name": "ash_getup2Shadow11"
+  },
+  {
+   "char_id": 58701,
+   "export_name": "ash_getup2Shadow2"
+  },
+  {
+   "char_id": 58702,
+   "export_name": "ash_getup2Shadow"
+  },
+  {
+   "char_id": 58703,
+   "export_name": "ash_hurt6Shadow3"
+  },
+  {
+   "char_id": 58704,
+   "export_name": "ash_hurt6Shadow2"
+  },
+  {
+   "char_id": 58705,
+   "export_name": "ash_hurt6Shadow"
+  },
+  {
+   "char_id": 58706,
+   "export_name": "ash_hurt4Shadow"
+  },
+  {
+   "char_id": 58707,
+   "export_name": "ash_hurt2Shadow2"
+  },
+  {
+   "char_id": 58708,
+   "export_name": "ash_hurt2Shadow"
+  },
+  {
+   "char_id": 58709,
+   "export_name": "ash_getup1Shadow"
+  },
+  {
+   "char_id": 58710,
+   "export_name": "ash_hurt3Shadow2"
+  },
+  {
+   "char_id": 58711,
+   "export_name": "ash_hurtcrashShadow4"
+  },
+  {
+   "char_id": 58712,
+   "export_name": "ash_hurtcrashShadow3"
+  },
+  {
+   "char_id": 58713,
+   "export_name": "ash_hurtcrashShadow2"
+  },
+  {
+   "char_id": 58714,
+   "export_name": "ash_getup1Shadow6"
+  },
+  {
+   "char_id": 58715,
+   "export_name": "ash_getup1Shadow1"
+  },
+  {
+   "char_id": 58716,
+   "export_name": "ash_getup1Shadow5"
+  },
+  {
+   "char_id": 58717,
+   "export_name": "ash_getup1Shadow4"
+  },
+  {
+   "char_id": 58718,
+   "export_name": "ash_getup1Shadow3"
+  },
+  {
+   "char_id": 58719,
+   "export_name": "ash_getup1Shadow2"
+  },
+  {
+   "char_id": 58720,
+   "export_name": "ash_standShadow2"
+  },
+  {
+   "char_id": 58721,
+   "export_name": "ash_standShadow"
+  },
+  {
+   "char_id": 58722,
+   "export_name": "ash_faShadow"
+  },
+  {
+   "char_id": 58723,
+   "export_name": "ash_bbShadow"
+  },
+  {
+   "char_id": 58724,
+   "export_name": "ash_bdShadow"
+  },
+  {
+   "char_id": 58725,
+   "export_name": "ash_faShadow_2"
+  },
+  {
+   "char_id": 58726,
+   "export_name": "ash_squatKickShadow"
+  },
+  {
+   "char_id": 58727,
+   "export_name": "txcy"
+  },
+  {
+   "char_id": 58759,
+   "export_name": "ASH_242"
+  },
+  {
+   "char_id": 58846,
+   "export_name": "ASH_24222"
+  },
+  {
+   "char_id": 58982,
+   "export_name": "ASH_2626K"
+  },
+  {
+   "char_id": 59032,
+   "export_name": "ASH_2626P"
+  },
+  {
+   "char_id": 59033,
+   "export_name": "ASH_2626P_2"
+  },
+  {
+   "char_id": 59034,
+   "export_name": "ASH_2626P2"
+  },
+  {
+   "char_id": 59077,
+   "export_name": "ASH_426"
+  },
+  {
+   "char_id": 59165,
+   "export_name": "ASH_626B"
+  },
+  {
+   "char_id": 59205,
+   "export_name": "ASH_646A"
+  },
+  {
+   "char_id": 59206,
+   "export_name": "ASH_646A_02"
+  },
+  {
+   "char_id": 59207,
+   "export_name": "ASH_646A_03"
+  },
+  {
+   "char_id": 59208,
+   "export_name": "ASH_646C02"
+  },
+  {
+   "char_id": 59209,
+   "export_name": "ASH_646C02_2"
+  },
+  {
+   "char_id": 59274,
+   "export_name": "ASH_646C"
+  },
+  {
+   "char_id": 59275,
+   "export_name": "ASH_646C_2"
+  },
+  {
+   "char_id": 59276,
+   "export_name": "ASH_646C_EX"
+  },
+  {
+   "char_id": 59427,
+   "export_name": "ASH_24O02"
+  },
+  {
+   "char_id": 59545,
+   "export_name": "ASH_24O01"
+  },
+  {
+   "char_id": 59549,
+   "export_name": "ASH_646A_022"
+  },
+  {
+   "char_id": 59553,
+   "export_name": "ASH22"
+  },
+  {
+   "char_id": 59555,
+   "export_name": "ASH_24"
+  },
+  {
+   "char_id": 59556,
+   "export_name": "ASH_46C"
+  },
+  {
+   "char_id": 59559,
+   "export_name": "ko_snd_Ash"
+  },
+  {
+   "char_id": 59560,
+   "export_name": "sk_snd"
+  },
+  {
+   "char_id": 59561,
+   "export_name": "heavyHit_snd"
+  },
+  {
+   "char_id": 59562,
+   "export_name": "heavyHit_snd_2"
+  },
+  {
+   "char_id": 59563,
+   "export_name": "lp_snd_2"
+  },
+  {
+   "char_id": 59564,
+   "export_name": "lk_snd_2"
+  },
+  {
+   "char_id": 59565,
+   "export_name": "sp_snd_2"
+  },
+  {
+   "char_id": 59566,
+   "export_name": "sk_snd_2"
+  },
+  {
+   "char_id": 59567,
+   "export_name": "lk2_snd_2"
+  },
+  {
+   "char_id": 59568,
+   "export_name": "bdf_b_snd"
+  },
+  {
+   "char_id": 59569,
+   "export_name": "fdf_k_snd_2"
+  },
+  {
+   "char_id": 59570,
+   "export_name": "dfdf_p_2_snd_2"
+  },
+  {
+   "char_id": 59571,
+   "export_name": "dfdf_p_snd_2"
+  },
+  {
+   "char_id": 59572,
+   "export_name": "dfdf_p_snd"
+  },
+  {
+   "char_id": 59573,
+   "export_name": "dfdf_p_2_snd"
+  },
+  {
+   "char_id": 59574,
+   "export_name": "Ash_hurt1"
+  },
+  {
+   "char_id": 59575,
+   "export_name": "Ash_hurt2"
+  },
+  {
+   "char_id": 59576,
+   "export_name": "Ash_hurt3"
+  },
+  {
+   "char_id": 59577,
+   "export_name": "Ash_hurt4"
+  },
+  {
+   "char_id": 59578,
+   "export_name": "Ash_hurt5"
+  },
+  {
+   "char_id": 59579,
+   "export_name": "Ash_hurt6"
+  },
+  {
+   "char_id": 59581,
+   "export_name": "role_Ash"
+  },
+  {
+   "char_id": 59601,
+   "export_name": "TextArea"
+  },
+  {
+   "char_id": 59603,
+   "export_name": "UIScrollBar"
+  },
+  {
+   "char_id": 59771,
+   "export_name": "trans"
+  },
+  {
+   "char_id": 59775,
+   "export_name": "hint_fullScreen"
+  },
+  {
+   "char_id": 59778,
+   "export_name": "draw"
+  },
+  {
+   "char_id": 59806,
+   "export_name": "winner"
+  },
+  {
+   "char_id": 59879,
+   "export_name": "start_mc"
+  },
+  {
+   "char_id": 59882,
+   "export_name": "timeOut"
+  },
+  {
+   "char_id": 59996,
+   "export_name": "winResult"
+  },
+  {
+   "char_id": 60026,
+   "export_name": "UI_gameOver"
+  },
+  {
+   "char_id": 60138,
+   "export_name": "winAll"
+  },
+  {
+   "char_id": 60232,
+   "export_name": "intro"
+  },
+  {
+   "char_id": 60246,
+   "export_name": "about"
+  },
+  {
+   "char_id": 60325,
+   "export_name": "menu_bottom"
+  },
+  {
+   "char_id": 60346,
+   "export_name": "setting"
+  },
+  {
+   "char_id": 60350,
+   "export_name": "close_mc"
+  },
+  {
+   "char_id": 60359,
+   "export_name": "AD_loading"
+  },
+  {
+   "char_id": 60373,
+   "export_name": "bgEff_up"
+  },
+  {
+   "char_id": 60374,
+   "export_name": "bgEff_up2"
+  },
+  {
+   "char_id": 60375,
+   "export_name": "bgEff_up3"
+  },
+  {
+   "char_id": 60422,
+   "export_name": "hitFire_h2"
+  },
+  {
+   "char_id": 60451,
+   "export_name": "hitFire_s1"
+  },
+  {
+   "char_id": 60452,
+   "export_name": "hitFire_s2"
+  },
+  {
+   "char_id": 60455,
+   "export_name": "hit_h.wav"
+  },
+  {
+   "char_id": 60468,
+   "export_name": "hitFire_obj"
+  },
+  {
+   "char_id": 60469,
+   "export_name": "hitFire0"
+  },
+  {
+   "char_id": 60470,
+   "export_name": "hitFire1"
+  },
+  {
+   "char_id": 60493,
+   "export_name": "hitFire4"
+  },
+  {
+   "char_id": 60494,
+   "export_name": "hitFire_cut4"
+  },
+  {
+   "char_id": 60515,
+   "export_name": "hitFire_pk_h"
+  },
+  {
+   "char_id": 60540,
+   "export_name": "hitFire_pk_m"
+  },
+  {
+   "char_id": 60565,
+   "export_name": "hitFire_kof_1"
+  },
+  {
+   "char_id": 60566,
+   "export_name": "hitFire_s3"
+  },
+  {
+   "char_id": 60567,
+   "export_name": "bgEff_black"
+  },
+  {
+   "char_id": 60568,
+   "export_name": "bgEff_KO"
+  },
+  {
+   "char_id": 60569,
+   "export_name": "bgEff_super0"
+  },
+  {
+   "char_id": 60573,
+   "export_name": "bgEff_super1"
+  },
+  {
+   "char_id": 60612,
+   "export_name": "bgEff_super2"
+  },
+  {
+   "char_id": 60613,
+   "export_name": "bgShinngHit"
+  },
+  {
+   "char_id": 60669,
+   "export_name": "bgEff_KO2"
+  },
+  {
+   "char_id": 60670,
+   "export_name": "fgEff_black"
+  },
+  {
+   "char_id": 60671,
+   "export_name": "bgEff_break"
+  },
+  {
+   "char_id": 60692,
+   "export_name": "bgEff_redb"
+  },
+  {
+   "char_id": 60693,
+   "export_name": "bgEff_X"
+  },
+  {
+   "char_id": 60694,
+   "export_name": "bgEff_invert"
+  },
+  {
+   "char_id": 60697,
+   "export_name": "down2.wav"
+  },
+  {
+   "char_id": 60714,
+   "export_name": "down1"
+  },
+  {
+   "char_id": 60715,
+   "export_name": "run_eff"
+  },
+  {
+   "char_id": 60770,
+   "export_name": "down3"
+  },
+  {
+   "char_id": 60787,
+   "export_name": "down2"
+  },
+  {
+   "char_id": 60790,
+   "export_name": "shinning_g"
+  },
+  {
+   "char_id": 60817,
+   "export_name": "s_defend"
+  },
+  {
+   "char_id": 60872,
+   "export_name": "s3"
+  },
+  {
+   "char_id": 60919,
+   "export_name": "s1_bg"
+  },
+  {
+   "char_id": 60964,
+   "export_name": "s2"
+  },
+  {
+   "char_id": 60999,
+   "export_name": "s2_bg"
+  },
+  {
+   "char_id": 61101,
+   "export_name": "s1"
+  },
+  {
+   "char_id": 61169,
+   "export_name": "s1_s"
+  },
+  {
+   "char_id": 61245,
+   "export_name": "s_power"
+  },
+  {
+   "char_id": 61276,
+   "export_name": "s1_s_bg"
+  },
+  {
+   "char_id": 61279,
+   "export_name": "superface_iori1"
+  },
+  {
+   "char_id": 61281,
+   "export_name": "superface_Iori2"
+  },
+  {
+   "char_id": 61284,
+   "export_name": "superface_K1"
+  },
+  {
+   "char_id": 61287,
+   "export_name": "superface_K2"
+  },
+  {
+   "char_id": 61290,
+   "export_name": "superface_Ryu1"
+  },
+  {
+   "char_id": 61293,
+   "export_name": "superface_Ryu2"
+  },
+  {
+   "char_id": 61308,
+   "export_name": "m_slash_1"
+  },
+  {
+   "char_id": 61323,
+   "export_name": "m_slash_0_2"
+  },
+  {
+   "char_id": 61324,
+   "export_name": "m_slash_0"
+  },
+  {
+   "char_id": 61327,
+   "export_name": "bgm"
+  },
+  {
+   "char_id": 61328,
+   "export_name": "bgm1_snd"
+  },
+  {
+   "char_id": 61329,
+   "export_name": "boom.wav"
+  },
+  {
+   "char_id": 61330,
+   "export_name": "fire1.wav"
+  },
+  {
+   "char_id": 61331,
+   "export_name": "fire2.wav"
+  },
+  {
+   "char_id": 61332,
+   "export_name": "hold2.wav"
+  },
+  {
+   "char_id": 61334,
+   "export_name": "round2.wav"
+  },
+  {
+   "char_id": 61335,
+   "export_name": "round3.wav"
+  },
+  {
+   "char_id": 61343,
+   "export_name": "counter"
+  },
+  {
+   "char_id": 61345,
+   "export_name": "effect"
+  },
+  {
+   "char_id": 61386,
+   "export_name": "showMsg"
+  },
+  {
+   "char_id": 61387,
+   "export_name": "Stage_shake"
+  },
+  {
+   "char_id": 61409,
+   "export_name": "combo_list"
+  },
+  {
+   "char_id": 61412,
+   "export_name": "superface_Kula1"
+  },
+  {
+   "char_id": 61414,
+   "export_name": "superface_Kula2"
+  },
+  {
+   "char_id": 61417,
+   "export_name": "superface_Moriya1"
+  },
+  {
+   "char_id": 61419,
+   "export_name": "superface_Moriya2"
+  },
+  {
+   "char_id": 61422,
+   "export_name": "superface_Orochi2"
+  },
+  {
+   "char_id": 61425,
+   "export_name": "superface_Iori31"
+  },
+  {
+   "char_id": 61427,
+   "export_name": "superface_Iori32"
+  },
+  {
+   "char_id": 61430,
+   "export_name": "superface_Moriya_Feng1"
+  },
+  {
+   "char_id": 61433,
+   "export_name": "superface_Mai1"
+  },
+  {
+   "char_id": 61435,
+   "export_name": "superface_Mai2"
+  },
+  {
+   "char_id": 61438,
+   "export_name": "superface_Chunli2"
+  },
+  {
+   "char_id": 61441,
+   "export_name": "superface_Chunli1"
+  },
+  {
+   "char_id": 61444,
+   "export_name": "superface_Terry1"
+  },
+  {
+   "char_id": 61447,
+   "export_name": "superface_Terry2"
+  },
+  {
+   "char_id": 61449,
+   "export_name": "superface_Ryo1"
+  },
+  {
+   "char_id": 61451,
+   "export_name": "superface_Ryo2"
+  },
+  {
+   "char_id": 61496,
+   "export_name": "hitFire_sf3_1"
+  },
+  {
+   "char_id": 61511,
+   "export_name": "hitFire_sf3_2"
+  },
+  {
+   "char_id": 61513,
+   "export_name": "head_random"
+  },
+  {
+   "char_id": 61516,
+   "export_name": "hitFire_cut_lb1"
+  },
+  {
+   "char_id": 61517,
+   "export_name": "hitFire_cut_lb2"
+  },
+  {
+   "char_id": 61522,
+   "export_name": "stageControl_mc"
+  },
+  {
+   "char_id": 61524,
+   "export_name": "zoomControl"
+  }
+ ],
+ "sounds": [],
+ "sprites": [],
+ "images": [],
+ "fonts": [],
+ "frame_label_lines": [],
+ "script_files_exported": 27122,
+ "string_count": 589206,
+ "path_like_strings": [
+  "            P1_mc.loadMovie(\"char/\" + roleName + \".swf\");",
+  "            P2_mc.loadMovie(\"char/\" + roleName + \".swf\");",
+  "      _loc2_.loadClip(\"stage/\" + bgID + \".swf\",loader);",
+  "      fscommand(\"exec\",\"changedisplay2.exe\");",
+  "      this.url_xml = _level0.adPath + \"/\" + _level0.game + \"/\" + \"ad_loading.xml\";",
+  "   _loc2_.loadClip(\"char/\" + _loc1_ + \".swf\",P1_mc);",
+  "   _loc2_.loadClip(\"char/\" + _loc1_ + \".swf\",P2_mc);",
+  "   bgInf.load(\"stage/list.txt\");",
+  "   fscommand(\"exec\",\"changedisplay1.exe\");",
+  "   fscommand(\"exec\",\"changedisplay2.exe\");",
+  "   loadMovie(\"code.swf\",code_mc);",
+  "   mask_netplay.txt.text = oppRole.toString();",
+  "   selectChar.loadSound(\"sound/select.mp3\",false);",
+  "   soundInf.load(\"sound/list.txt\");",
+  "   stage_loader.loadClip(\"stage/\" + bgID + \".swf\",stage_mc);",
+  "   static var frameworkSWFPath = FWAd_AS2.swfFolder + \"FrameworkAS2.swf\";",
+  ".WaV,",
+  "boom_snd.attachSound(\"boom.wav\");",
+  "fire1_snd.attachSound(\"fire1.wav\");",
+  "fire2_snd.attachSound(\"fire2.wav\");",
+  "loadMovie(\"data/skillList.swf\",skList);",
+  "option_snd.loadSound(\"sound/main.mp3\");",
+  "this.loadMovie(\"debug/debug.swf\");",
+  "this.loadMovie(\"stage/weather/\" + _root.tq + \".swf\");"
+ ]
+}

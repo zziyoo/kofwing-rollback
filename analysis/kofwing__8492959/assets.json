@@ -1,0 +1,187 @@
+{
+ "relative_path": "kofwing/8492959.swf",
+ "analysis_id": "kofwing__8492959",
+ "tag_counts": {
+  "S": 4740,
+  "D": 3405,
+  "P": 3001,
+  "R": 663,
+  "F": 165,
+  "E": 59,
+  "C": 2
+ },
+ "unknown_tag_ids": {},
+ "n_export_assets": 32,
+ "export_names": [
+  "Iori_fire_m1",
+  "Andy_cpu1",
+  "Andy_cpu2",
+  "Andy_cpu3",
+  "Andy_cpu4",
+  "Andy_cpu5",
+  "Andy_player",
+  "Type2_Andy_cpu1",
+  "Type2_Andy_cpu2",
+  "Type2_Andy_cpu3",
+  "Type2_Andy_cpu4",
+  "Type2_Andy_cpu5",
+  "Type2_Andy_player",
+  "HitCheck_mc",
+  "class_ColorEffect",
+  "class_Func",
+  "class_ExtMath",
+  "flyingOb2",
+  "KeyControl",
+  "Terry_fire_m3",
+  "hitCheck_obj",
+  "Andy_fire2",
+  "13_zhuang",
+  "db_pl_eff",
+  "canying2",
+  "残影3",
+  "Terry_dodge",
+  "sk_BurningKnuckles1",
+  "sk_RisingTackle1",
+  "roleAndy",
+  "ko_snd_Andy",
+  "role_Andy"
+ ],
+ "export_assets": [
+  {
+   "char_id": 93,
+   "export_name": "Iori_fire_m1"
+  },
+  {
+   "char_id": 96,
+   "export_name": "Andy_cpu1"
+  },
+  {
+   "char_id": 98,
+   "export_name": "Andy_cpu2"
+  },
+  {
+   "char_id": 100,
+   "export_name": "Andy_cpu3"
+  },
+  {
+   "char_id": 102,
+   "export_name": "Andy_cpu4"
+  },
+  {
+   "char_id": 104,
+   "export_name": "Andy_cpu5"
+  },
+  {
+   "char_id": 106,
+   "export_name": "Andy_player"
+  },
+  {
+   "char_id": 108,
+   "export_name": "Type2_Andy_cpu1"
+  },
+  {
+   "char_id": 110,
+   "export_name": "Type2_Andy_cpu2"
+  },
+  {
+   "char_id": 112,
+   "export_name": "Type2_Andy_cpu3"
+  },
+  {
+   "char_id": 114,
+   "export_name": "Type2_Andy_cpu4"
+  },
+  {
+   "char_id": 116,
+   "export_name": "Type2_Andy_cpu5"
+  },
+  {
+   "char_id": 118,
+   "export_name": "Type2_Andy_player"
+  },
+  {
+   "char_id": 120,
+   "export_name": "HitCheck_mc"
+  },
+  {
+   "char_id": 123,
+   "export_name": "class_ColorEffect"
+  },
+  {
+   "char_id": 125,
+   "export_name": "class_Func"
+  },
+  {
+   "char_id": 127,
+   "export_name": "class_ExtMath"
+  },
+  {
+   "char_id": 128,
+   "export_name": "flyingOb2"
+  },
+  {
+   "char_id": 129,
+   "export_name": "KeyControl"
+  },
+  {
+   "char_id": 218,
+   "export_name": "Terry_fire_m3"
+  },
+  {
+   "char_id": 244,
+   "export_name": "hitCheck_obj"
+  },
+  {
+   "char_id": 440,
+   "export_name": "Andy_fire2"
+  },
+  {
+   "char_id": 495,
+   "export_name": "13_zhuang"
+  },
+  {
+   "char_id": 508,
+   "export_name": "db_pl_eff"
+  },
+  {
+   "char_id": 511,
+   "export_name": "canying2"
+  },
+  {
+   "char_id": 514,
+   "export_name": "残影3"
+  },
+  {
+   "char_id": 1244,
+   "export_name": "Terry_dodge"
+  },
+  {
+   "char_id": 2046,
+   "export_name": "sk_BurningKnuckles1"
+  },
+  {
+   "char_id": 2234,
+   "export_name": "sk_RisingTackle1"
+  },
+  {
+   "char_id": 2882,
+   "export_name": "roleAndy"
+  },
+  {
+   "char_id": 2885,
+   "export_name": "ko_snd_Andy"
+  },
+  {
+   "char_id": 2887,
+   "export_name": "role_Andy"
+  }
+ ],
+ "sounds": [],
+ "sprites": [],
+ "images": [],
+ "fonts": [],
+ "frame_label_lines": [],
+ "script_files_exported": 774,
+ "string_count": 18908,
+ "path_like_strings": []
+}

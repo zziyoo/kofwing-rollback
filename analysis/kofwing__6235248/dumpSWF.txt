@@ -1,0 +1,4 @@
+00000015:    0. SetBackgroundColor        tagId=  9 len=       3  ff ff ff
+0000001a:    1. DoAction                  tagId= 12 len=    1982  88 5c 01 28 00 2c 00 73 70 6c 69 74 00 6c 65 6e 67 74 68 00 53 79 73 74 65 6d 00 63 61 70 61 62 ... 05 01 4f 96 06 00 04 01 08 25 08 26 1c 4f 96 0b 00 04 02 07 01 00 00 00 04 01 08 27 52 17 4f 00
+000007de:    2. ShowFrame                 tagId=  1 len=       0  
+000007e0:    3. End                       tagId=  0 len=       0  

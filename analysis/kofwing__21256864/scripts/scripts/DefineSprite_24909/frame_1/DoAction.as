@@ -1,0 +1,1 @@
+hitPos = "up";

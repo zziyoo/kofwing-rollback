@@ -1,0 +1,26 @@
+{
+ "relative_path": "stage2/其他地图/静态/piazza.swf",
+ "analysis_id": "静态__piazza",
+ "tag_counts": {
+  "S": 152,
+  "D": 32,
+  "P": 22,
+  "F": 1,
+  "M": 1,
+  "J": 1,
+  "R": 1,
+  "E": 1
+ },
+ "unknown_tag_ids": {},
+ "n_export_assets": 0,
+ "export_names": [],
+ "export_assets": [],
+ "sounds": [],
+ "sprites": [],
+ "images": [],
+ "fonts": [],
+ "frame_label_lines": [],
+ "script_files_exported": 5,
+ "string_count": 2979,
+ "path_like_strings": []
+}

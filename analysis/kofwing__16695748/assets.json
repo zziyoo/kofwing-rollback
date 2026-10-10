@@ -1,0 +1,291 @@
+{
+ "relative_path": "kofwing/16695748.swf",
+ "analysis_id": "kofwing__16695748",
+ "tag_counts": {
+  "S": 6132,
+  "P": 4724,
+  "D": 2496,
+  "R": 897,
+  "F": 207,
+  "E": 79,
+  "C": 3
+ },
+ "unknown_tag_ids": {},
+ "n_export_assets": 52,
+ "export_names": [
+  "Moriya_hurt4",
+  "Moriya_hurt3",
+  "Moriya_hurt2",
+  "Moriya_hurt1",
+  "ko_snd_Moriya",
+  "Moriya_cpu1",
+  "Moriya_cpu2",
+  "Moriya_cpu3",
+  "Moriya_cpu4",
+  "Moriya_cpu5",
+  "Moriya_player2",
+  "Type2_Moriya_cpu1",
+  "Type2_Moriya_cpu2",
+  "Type2_Moriya_cpu3",
+  "Type2_Moriya_cpu4",
+  "Type2_Moriya_cpu5",
+  "Type2_Moriya_Player",
+  "HitCheck_mc",
+  "hitCheck_obj",
+  "class_ColorEffect",
+  "class_Func",
+  "class_ExtMath",
+  "flyingOb2",
+  "m_slash_3",
+  "m_slash_3_2",
+  "m_hit_v_h3",
+  "m_hit_v_h1",
+  "moriya_dfp_shadow_01",
+  "defend.wav",
+  "m_hit_v_h2",
+  "huoFengCC",
+  "roleMoriya",
+  "KeyControl",
+  "m_moonlight",
+  "moriya_fulong",
+  "moriya_light",
+  "m_slash_3_2_nohit",
+  "moriya_fulong_s",
+  "moriya_bingshu",
+  "hitEff_ice1",
+  "m_hitFire_light",
+  "moriya_slash_m3",
+  "moriya_heti1",
+  "moriya_heti2",
+  "moriya_slash_m2",
+  "df_p_shadow_01",
+  "moriya_jumpShadow",
+  "moriya_jumpShadow2",
+  "moriya_jumpShadow3",
+  "moriya_moon_special",
+  "xinyue",
+  "role_Moriya"
+ ],
+ "export_assets": [
+  {
+   "char_id": 1,
+   "export_name": "Moriya_hurt4"
+  },
+  {
+   "char_id": 2,
+   "export_name": "Moriya_hurt3"
+  },
+  {
+   "char_id": 3,
+   "export_name": "Moriya_hurt2"
+  },
+  {
+   "char_id": 4,
+   "export_name": "Moriya_hurt1"
+  },
+  {
+   "char_id": 8,
+   "export_name": "ko_snd_Moriya"
+  },
+  {
+   "char_id": 11,
+   "export_name": "Moriya_cpu1"
+  },
+  {
+   "char_id": 13,
+   "export_name": "Moriya_cpu2"
+  },
+  {
+   "char_id": 15,
+   "export_name": "Moriya_cpu3"
+  },
+  {
+   "char_id": 17,
+   "export_name": "Moriya_cpu4"
+  },
+  {
+   "char_id": 19,
+   "export_name": "Moriya_cpu5"
+  },
+  {
+   "char_id": 21,
+   "export_name": "Moriya_player2"
+  },
+  {
+   "char_id": 23,
+   "export_name": "Type2_Moriya_cpu1"
+  },
+  {
+   "char_id": 25,
+   "export_name": "Type2_Moriya_cpu2"
+  },
+  {
+   "char_id": 27,
+   "export_name": "Type2_Moriya_cpu3"
+  },
+  {
+   "char_id": 29,
+   "export_name": "Type2_Moriya_cpu4"
+  },
+  {
+   "char_id": 31,
+   "export_name": "Type2_Moriya_cpu5"
+  },
+  {
+   "char_id": 33,
+   "export_name": "Type2_Moriya_Player"
+  },
+  {
+   "char_id": 35,
+   "export_name": "HitCheck_mc"
+  },
+  {
+   "char_id": 36,
+   "export_name": "hitCheck_obj"
+  },
+  {
+   "char_id": 39,
+   "export_name": "class_ColorEffect"
+  },
+  {
+   "char_id": 41,
+   "export_name": "class_Func"
+  },
+  {
+   "char_id": 43,
+   "export_name": "class_ExtMath"
+  },
+  {
+   "char_id": 44,
+   "export_name": "flyingOb2"
+  },
+  {
+   "char_id": 69,
+   "export_name": "m_slash_3"
+  },
+  {
+   "char_id": 82,
+   "export_name": "m_slash_3_2"
+  },
+  {
+   "char_id": 820,
+   "export_name": "m_hit_v_h3"
+  },
+  {
+   "char_id": 865,
+   "export_name": "m_hit_v_h1"
+  },
+  {
+   "char_id": 1075,
+   "export_name": "moriya_dfp_shadow_01"
+  },
+  {
+   "char_id": 1184,
+   "export_name": "defend.wav"
+  },
+  {
+   "char_id": 1191,
+   "export_name": "m_hit_v_h2"
+  },
+  {
+   "char_id": 1381,
+   "export_name": "huoFengCC"
+  },
+  {
+   "char_id": 1478,
+   "export_name": "roleMoriya"
+  },
+  {
+   "char_id": 1479,
+   "export_name": "KeyControl"
+  },
+  {
+   "char_id": 1504,
+   "export_name": "m_moonlight"
+  },
+  {
+   "char_id": 1532,
+   "export_name": "moriya_fulong"
+  },
+  {
+   "char_id": 1544,
+   "export_name": "moriya_light"
+  },
+  {
+   "char_id": 1545,
+   "export_name": "m_slash_3_2_nohit"
+  },
+  {
+   "char_id": 1546,
+   "export_name": "moriya_fulong_s"
+  },
+  {
+   "char_id": 1616,
+   "export_name": "moriya_bingshu"
+  },
+  {
+   "char_id": 1634,
+   "export_name": "hitEff_ice1"
+  },
+  {
+   "char_id": 1672,
+   "export_name": "m_hitFire_light"
+  },
+  {
+   "char_id": 1696,
+   "export_name": "moriya_slash_m3"
+  },
+  {
+   "char_id": 1769,
+   "export_name": "moriya_heti1"
+  },
+  {
+   "char_id": 1869,
+   "export_name": "moriya_heti2"
+  },
+  {
+   "char_id": 1870,
+   "export_name": "moriya_slash_m2"
+  },
+  {
+   "char_id": 1871,
+   "export_name": "df_p_shadow_01"
+  },
+  {
+   "char_id": 1872,
+   "export_name": "moriya_jumpShadow"
+  },
+  {
+   "char_id": 1873,
+   "export_name": "moriya_jumpShadow2"
+  },
+  {
+   "char_id": 1874,
+   "export_name": "moriya_jumpShadow3"
+  },
+  {
+   "char_id": 1899,
+   "export_name": "moriya_moon_special"
+  },
+  {
+   "char_id": 1924,
+   "export_name": "xinyue"
+  },
+  {
+   "char_id": 1926,
+   "export_name": "role_Moriya"
+  }
+ ],
+ "sounds": [],
+ "sprites": [],
+ "images": [],
+ "fonts": [],
+ "frame_label_lines": [],
+ "script_files_exported": 956,
+ "string_count": 13911,
+ "path_like_strings": [
+  "   _loc2_.attachSound(\"defend.wav\");",
+  "defend.wav",
+  "snd.attachSound(\"defend.wav\");"
+ ]
+}

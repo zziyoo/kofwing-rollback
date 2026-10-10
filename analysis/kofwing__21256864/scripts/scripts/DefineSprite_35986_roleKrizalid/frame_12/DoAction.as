@@ -1,0 +1,1 @@
+gotoMode3("ready");

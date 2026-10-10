@@ -1,0 +1,10 @@
+on(construct){
+   status_1 = "hurt1";
+   flag = "s3";
+   oppDirChange = 0;
+   hurt = false;
+   land = false;
+   downHit = false;
+   func = "";
+   posObj = "_parent.posObj_b";
+}

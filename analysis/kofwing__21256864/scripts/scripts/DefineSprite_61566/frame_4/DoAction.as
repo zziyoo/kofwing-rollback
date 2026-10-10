@@ -1,0 +1,9 @@
+stop();
+if(!_level0.isLoadStage)
+{
+   getDefault();
+}
+else
+{
+   bgInf.load("stage/list.txt");
+}

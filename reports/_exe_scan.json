@@ -1,0 +1,396 @@
+{
+ "exe": "D:\\拳皇\\拳皇WingEX1.2前瞻版\\wingex1.2.exe",
+ "exe_size": 146699366,
+ "signature_hits": 43,
+ "plausible": 15,
+ "candidates": [
+  {
+   "offset": 6148152,
+   "signature": "FWS",
+   "version": 8,
+   "declared_length": 40171,
+   "plausible": true,
+   "sha256_first_1mb": "e118349ad147f4d4193d919796a9a4db56c78ff5e00db3491e2083ff48ce615e",
+   "bytes_available": 40171,
+   "sha256_full": "82886faa6a4f8a3333b0d7c6fb4a939bcc569295dc1e8ad740c2f569d6886d3e",
+   "match": [
+    "kofwing/6148152.swf"
+   ]
+  },
+  {
+   "offset": 6211728,
+   "signature": "ZWS",
+   "version": 0,
+   "declared_length": 5461827,
+   "plausible": false,
+   "sha256_first_1mb": "4f66f8de587cfb96f0a413e21c268e0ddb664466377bbd84112372c6c8085e04"
+  },
+  {
+   "offset": 6211732,
+   "signature": "CWS",
+   "version": 0,
+   "declared_length": 5461830,
+   "plausible": false,
+   "sha256_first_1mb": "f9ccebb52849a6527e335082ed37149f095fa153a8f99866ffc4cecb959c4fda"
+  },
+  {
+   "offset": 6211736,
+   "signature": "FWS",
+   "version": 0,
+   "declared_length": 16188,
+   "plausible": true,
+   "sha256_first_1mb": "ce677eeba87e3c9464098516cdcf09bbe17f16d95eba66249b035d05f7acbbce",
+   "bytes_available": 16188,
+   "sha256_full": "d05fea6dabb5b2b654861e5cd35cebe4b7b9fe05bade0ee4449e0685252ac89b",
+   "match": null
+  },
+  {
+   "offset": 6211828,
+   "signature": "FWS",
+   "version": 6,
+   "declared_length": 0,
+   "plausible": false,
+   "sha256_first_1mb": "62ec2fcd6d8ead585a1bdd7ab05e129b47e267843689a92a3c5d0547d4725b64"
+  },
+  {
+   "offset": 6211840,
+   "signature": "FWS",
+   "version": 7,
+   "declared_length": 0,
+   "plausible": false,
+   "sha256_first_1mb": "ead6185748da41b0629c9bb01016a85436f97d11e713756835b393f19eefe1cc"
+  },
+  {
+   "offset": 6211852,
+   "signature": "FWS",
+   "version": 8,
+   "declared_length": 0,
+   "plausible": false,
+   "sha256_first_1mb": "9d8c2a16f4ab9f1cad073136eac0b9ab5db4f85866b4179f0125561ff759f4d2"
+  },
+  {
+   "offset": 6212056,
+   "signature": "FWS",
+   "version": 0,
+   "declared_length": 0,
+   "plausible": false,
+   "sha256_first_1mb": "75409cca8d17cb4b49f1491054127d37347b72d6db5090a55986b0bceb1a26bb"
+  },
+  {
+   "offset": 6230976,
+   "signature": "FWS",
+   "version": 8,
+   "declared_length": 4271,
+   "plausible": true,
+   "sha256_first_1mb": "91dbf541ad3d59b0b96dd7966f0d25d7c4207134eac878045fa2ac5a011cba35",
+   "bytes_available": 4271,
+   "sha256_full": "ee7d78ab0f94e3d25d31b6e25b91430dedf5511ada09364ffef054c2ca9f5009",
+   "match": [
+    "kofwing/6230976.swf"
+   ]
+  },
+  {
+   "offset": 6235248,
+   "signature": "CWS",
+   "version": 7,
+   "declared_length": 2018,
+   "plausible": true,
+   "sha256_first_1mb": "e6ef42f033d0d47b4ecdfcff64c136dc21d596cd44980a6593ccf63469a2da55",
+   "bytes_available": 2018,
+   "sha256_full": "95503e66d4ce06c1194310253ac41b51db8e0189e4bcee5c3344b4ead837ddc1",
+   "match": null
+  },
+  {
+   "offset": 7298128,
+   "signature": "CWS",
+   "version": 6,
+   "declared_length": 86594,
+   "plausible": true,
+   "sha256_first_1mb": "069fb7d5b4782300f2ff4dac3dd97b2710223fd16de151dd6b0d22c34ee61802",
+   "bytes_available": 86594,
+   "sha256_full": "24f961dc325c3587ab1213c940bd7061f5b01eac62fa5976585ce8abbfb8e2a1",
+   "match": null
+  },
+  {
+   "offset": 8492959,
+   "signature": "CWS",
+   "version": 8,
+   "declared_length": 3758072,
+   "plausible": true,
+   "sha256_first_1mb": "cfbb6e88b846cb48a57a709bd22dfff64766449208e7fd5512718d7e599747d4",
+   "bytes_available": 3758072,
+   "sha256_full": "dfc4e24ee5670d2c11eecf586f6f54a8c8eb34d9b858fe3e041fcf751ef24890",
+   "match": null
+  },
+  {
+   "offset": 11480055,
+   "signature": "CWS",
+   "version": 8,
+   "declared_length": 6667258,
+   "plausible": true,
+   "sha256_first_1mb": "dfa3181b376e8486f6197aa9b06934e1f74dbc383eba304017068cb835f58ca4",
+   "bytes_available": 6667258,
+   "sha256_full": "e51c40b191e07ffded16346110c1b40ebe1ee5db33b78beea21c8adc06b3feb9",
+   "match": null
+  },
+  {
+   "offset": 14025700,
+   "signature": "ZWS",
+   "version": 202,
+   "declared_length": 3411921329,
+   "plausible": false,
+   "sha256_first_1mb": "28dd6a48658971e73f9fcea780f6e4d1dfcff65ec029ef01df97834b3edf4c45"
+  },
+  {
+   "offset": 15829214,
+   "signature": "ZWS",
+   "version": 14,
+   "declared_length": 2822238134,
+   "plausible": false,
+   "sha256_first_1mb": "45da929ef8137c8df13e81c168f5b305822ff8a384a4f5e24bc33494e24b2c07"
+  },
+  {
+   "offset": 16695748,
+   "signature": "CWS",
+   "version": 8,
+   "declared_length": 2389234,
+   "plausible": true,
+   "sha256_first_1mb": "a913937686d7075c4f45d49e07eac0af88e17cda6d00312ee3322940acd1e0d6",
+   "bytes_available": 2389234,
+   "sha256_full": "59480358ecff4d386bba881b05131980229e37f65e3300059848489de39ef3b5",
+   "match": null
+  },
+  {
+   "offset": 18464326,
+   "signature": "CWS",
+   "version": 8,
+   "declared_length": 3282947,
+   "plausible": true,
+   "sha256_first_1mb": "a09a8b214367f2be69ca2e156c8265849995dd5bb12eb06d6fcf85b30318db54",
+   "bytes_available": 3282947,
+   "sha256_full": "b4ec044687107ee55681600ca1932a1169d5d3ac93f077280b1bfdfe39a562cb",
+   "match": null
+  },
+  {
+   "offset": 20817874,
+   "signature": "CWS",
+   "version": 15,
+   "declared_length": 104375,
+   "plausible": true,
+   "sha256_first_1mb": "4ea276f45bac146bb771dc11afc536fb13240491563675d88a0c89dff826af4a",
+   "bytes_available": 104375,
+   "sha256_full": "ebdc3e03a7c5fe9e9655579e434fc595ab22ec3d4ed793b9a2404cb525fc1747",
+   "match": null
+  },
+  {
+   "offset": 21256864,
+   "signature": "ZWS",
+   "version": 15,
+   "declared_length": 150847814,
+   "plausible": false,
+   "sha256_first_1mb": "a4c158e48814ff624c3ae903fb3fbcf41ae128e4c49594e87f76bc8dd787b9f3"
+  },
+  {
+   "offset": 27969957,
+   "signature": "FWS",
+   "version": 4,
+   "declared_length": 2950167922,
+   "plausible": true,
+   "sha256_first_1mb": "8399afc86f4836506f5f72d3e1739ddd2a06df616acf091c6860cd4e5e2d1c9a",
+   "bytes_available": 118729409,
+   "match": null
+  },
+  {
+   "offset": 38522525,
+   "signature": "FWS",
+   "version": 130,
+   "declared_length": 1640120122,
+   "plausible": true,
+   "sha256_first_1mb": "39a223cc54a1819feefd1ea482e1457dddb6285dce249ed3b3cf9525fe5d556f",
+   "bytes_available": 108176841,
+   "match": null
+  },
+  {
+   "offset": 42775604,
+   "signature": "CWS",
+   "version": 141,
+   "declared_length": 350301794,
+   "plausible": false,
+   "sha256_first_1mb": "fc117a35da0bf40379e343b20233b7ced3a5297e7aa34de55c543388b18baf4f"
+  },
+  {
+   "offset": 52727160,
+   "signature": "ZWS",
+   "version": 1,
+   "declared_length": 1211391173,
+   "plausible": false,
+   "sha256_first_1mb": "36b32ad03868f68be0a2bceda49bae64e2c005b350edde8f4571685a995a4563"
+  },
+  {
+   "offset": 53979043,
+   "signature": "CWS",
+   "version": 123,
+   "declared_length": 1686859313,
+   "plausible": false,
+   "sha256_first_1mb": "a32c4ef8d6eadb9e2212116415b0662059df9ad9d0dd196ce0dd96d6c6e43843"
+  },
+  {
+   "offset": 65043635,
+   "signature": "CWS",
+   "version": 127,
+   "declared_length": 4288511293,
+   "plausible": false,
+   "sha256_first_1mb": "b22fa3a69a7445da0fc987721b9568b53e9cb00b93f27fa085acbd469d16f153"
+  },
+  {
+   "offset": 65355586,
+   "signature": "ZWS",
+   "version": 4,
+   "declared_length": 479264082,
+   "plausible": false,
+   "sha256_first_1mb": "c8b2ba62e55876f24d348747bbac984f0a5aa4c8442f05432f09b20c232382b4"
+  },
+  {
+   "offset": 65533139,
+   "signature": "CWS",
+   "version": 157,
+   "declared_length": 1951471044,
+   "plausible": false,
+   "sha256_first_1mb": "73a4d4d4d89f0eceb37b5f20d1e2e8a5e3bfcaa2f9d4f9844f640bc806c817df"
+  },
+  {
+   "offset": 71136128,
+   "signature": "CWS",
+   "version": 57,
+   "declared_length": 2225420208,
+   "plausible": false,
+   "sha256_first_1mb": "198f2ce33e16c439f3a53468b1b9a6d6e953ba732a2a8a52291daaee21cf6873"
+  },
+  {
+   "offset": 77175266,
+   "signature": "ZWS",
+   "version": 51,
+   "declared_length": 3357030103,
+   "plausible": false,
+   "sha256_first_1mb": "8495d6c4d542fff8a30b89c1f809adf5ecaf54dfa99e7cb2e26411b7e68f936e"
+  },
+  {
+   "offset": 79883631,
+   "signature": "ZWS",
+   "version": 146,
+   "declared_length": 2800391686,
+   "plausible": false,
+   "sha256_first_1mb": "133d04e71bf7b28a6a87bf0048ca738ded281a92c6037096a4a8dd2a2a429149"
+  },
+  {
+   "offset": 84187910,
+   "signature": "FWS",
+   "version": 24,
+   "declared_length": 1658592937,
+   "plausible": true,
+   "sha256_first_1mb": "2a08c40e0c690eb0851c2c8ad4ee7b8947b8a49c0b0ee5a3fe724b417550e267",
+   "bytes_available": 62511456,
+   "match": null
+  },
+  {
+   "offset": 102961885,
+   "signature": "CWS",
+   "version": 96,
+   "declared_length": 138208008,
+   "plausible": false,
+   "sha256_first_1mb": "bee26c059585a6da022193a467bdd5e2838e96031c712ce3d540d973e1c6d31a"
+  },
+  {
+   "offset": 109902279,
+   "signature": "FWS",
+   "version": 204,
+   "declared_length": 3583617328,
+   "plausible": true,
+   "sha256_first_1mb": "303fb13d548d1d458b00886b1bfbf73f7b6cee90abae6b59a7b7246300c20349",
+   "bytes_available": 36797087,
+   "match": null
+  },
+  {
+   "offset": 110051584,
+   "signature": "ZWS",
+   "version": 167,
+   "declared_length": 2185374873,
+   "plausible": false,
+   "sha256_first_1mb": "380f5d5c7be4c179ba639bb00fec5e31de585dd147d386da4161f996690e8f9b"
+  },
+  {
+   "offset": 114144817,
+   "signature": "CWS",
+   "version": 232,
+   "declared_length": 3410834089,
+   "plausible": false,
+   "sha256_first_1mb": "5c7cca521cd2ee8f42f48df75e67a6e25d9b3dd256dcabd6e50a491d8265511b"
+  },
+  {
+   "offset": 114999804,
+   "signature": "ZWS",
+   "version": 65,
+   "declared_length": 2737317019,
+   "plausible": false,
+   "sha256_first_1mb": "a42cc9365afbffa17da5fc0086b211a19c948a115ab1d6e7200af8cdebfd8523"
+  },
+  {
+   "offset": 116852643,
+   "signature": "CWS",
+   "version": 148,
+   "declared_length": 1000551316,
+   "plausible": false,
+   "sha256_first_1mb": "fad28e44607b86ce2a15377a1cfa0f95248ea8254a10b742c6df8325ebeb55a2"
+  },
+  {
+   "offset": 122147336,
+   "signature": "CWS",
+   "version": 141,
+   "declared_length": 3365871074,
+   "plausible": false,
+   "sha256_first_1mb": "02530e13cdac8c793219ec079e4f39bb7ca378af406303087099aa7b993c24d8"
+  },
+  {
+   "offset": 124325961,
+   "signature": "ZWS",
+   "version": 194,
+   "declared_length": 1908333125,
+   "plausible": false,
+   "sha256_first_1mb": "85e63a37dc7e974d2e39d0e2455fb08fa7a050f0ba061fb5a139f60d7eb1c170"
+  },
+  {
+   "offset": 125959566,
+   "signature": "ZWS",
+   "version": 39,
+   "declared_length": 3586414286,
+   "plausible": false,
+   "sha256_first_1mb": "4afe55715c4652551d05427eff89a1de22895ecb3165f8f15dabc2f503a96e4e"
+  },
+  {
+   "offset": 132126460,
+   "signature": "CWS",
+   "version": 190,
+   "declared_length": 453381731,
+   "plausible": false,
+   "sha256_first_1mb": "6a03f5fd51bd779fcb451c138958faf5c22ea6c5f32344d32232868b6fef7117"
+  },
+  {
+   "offset": 139974208,
+   "signature": "FWS",
+   "version": 30,
+   "declared_length": 2533608262,
+   "plausible": true,
+   "sha256_first_1mb": "d0b4e86a4d5eef81dd4baedac70289c639730abe87210867a254ee290fc1dd05",
+   "bytes_available": 6725158,
+   "match": null
+  },
+  {
+   "offset": 146097400,
+   "signature": "ZWS",
+   "version": 127,
+   "declared_length": 177189049,
+   "plausible": false,
+   "sha256_first_1mb": "b7709d5b187dff30d0372a2ca432bf89fa3bcb89ba765dafbde46f53aeeaa11f"
+  }
+ ]
+}

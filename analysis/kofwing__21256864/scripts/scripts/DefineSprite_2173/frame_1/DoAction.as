@@ -1,0 +1,1 @@
+player._visible = false;

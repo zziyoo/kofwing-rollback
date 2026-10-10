@@ -1,0 +1,2 @@
+stop();
+isPlaying = 0;

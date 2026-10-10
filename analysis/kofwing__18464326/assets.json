@@ -1,0 +1,237 @@
+{
+ "relative_path": "kofwing/18464326.swf",
+ "analysis_id": "kofwing__18464326",
+ "tag_counts": {
+  "S": 4405,
+  "P": 3528,
+  "D": 2871,
+  "R": 444,
+  "F": 122,
+  "E": 61,
+  "C": 3
+ },
+ "unknown_tag_ids": {},
+ "n_export_assets": 42,
+ "export_names": [
+  "shoushen1",
+  "run",
+  "shoushen2",
+  "wmcd",
+  "wmqing",
+  "wmzhong",
+  "h3",
+  "h2",
+  "h1",
+  "Nameless_cpu1",
+  "Nameless_cpu2",
+  "Nameless_cpu3",
+  "Nameless_cpu4",
+  "Nameless_cpu5",
+  "Nameless_player",
+  "HitCheck_mc",
+  "hitCheck_obj",
+  "class_ColorEffect",
+  "class_Func",
+  "class_ExtMath",
+  "flyingOb2",
+  "KeyControl",
+  "Terry_fire_m3",
+  "nameless_jumpShadow4",
+  "nameless_jumpShadow",
+  "nameless_jumpShadow2",
+  "nameless_jumpShadow3",
+  "nameless_fire1",
+  "nameless_fire2",
+  "upFire",
+  "upFire2",
+  "upFire3",
+  "upFire4",
+  "skill1",
+  "Nameless_fire_m1",
+  "sk_powerwave1",
+  "sk_CrackShoot1",
+  "sk_powerGeyser1",
+  "sk_Wolfpower2",
+  "roleNameless",
+  "ko_snd_Nameless",
+  "role_Nameless"
+ ],
+ "export_assets": [
+  {
+   "char_id": 1,
+   "export_name": "shoushen1"
+  },
+  {
+   "char_id": 2,
+   "export_name": "run"
+  },
+  {
+   "char_id": 3,
+   "export_name": "shoushen2"
+  },
+  {
+   "char_id": 4,
+   "export_name": "wmcd"
+  },
+  {
+   "char_id": 5,
+   "export_name": "wmqing"
+  },
+  {
+   "char_id": 6,
+   "export_name": "wmzhong"
+  },
+  {
+   "char_id": 7,
+   "export_name": "h3"
+  },
+  {
+   "char_id": 8,
+   "export_name": "h2"
+  },
+  {
+   "char_id": 9,
+   "export_name": "h1"
+  },
+  {
+   "char_id": 12,
+   "export_name": "Nameless_cpu1"
+  },
+  {
+   "char_id": 14,
+   "export_name": "Nameless_cpu2"
+  },
+  {
+   "char_id": 16,
+   "export_name": "Nameless_cpu3"
+  },
+  {
+   "char_id": 18,
+   "export_name": "Nameless_cpu4"
+  },
+  {
+   "char_id": 20,
+   "export_name": "Nameless_cpu5"
+  },
+  {
+   "char_id": 22,
+   "export_name": "Nameless_player"
+  },
+  {
+   "char_id": 24,
+   "export_name": "HitCheck_mc"
+  },
+  {
+   "char_id": 26,
+   "export_name": "hitCheck_obj"
+  },
+  {
+   "char_id": 29,
+   "export_name": "class_ColorEffect"
+  },
+  {
+   "char_id": 31,
+   "export_name": "class_Func"
+  },
+  {
+   "char_id": 33,
+   "export_name": "class_ExtMath"
+  },
+  {
+   "char_id": 34,
+   "export_name": "flyingOb2"
+  },
+  {
+   "char_id": 35,
+   "export_name": "KeyControl"
+  },
+  {
+   "char_id": 175,
+   "export_name": "Terry_fire_m3"
+  },
+  {
+   "char_id": 179,
+   "export_name": "nameless_jumpShadow4"
+  },
+  {
+   "char_id": 182,
+   "export_name": "nameless_jumpShadow"
+  },
+  {
+   "char_id": 185,
+   "export_name": "nameless_jumpShadow2"
+  },
+  {
+   "char_id": 188,
+   "export_name": "nameless_jumpShadow3"
+  },
+  {
+   "char_id": 227,
+   "export_name": "nameless_fire1"
+  },
+  {
+   "char_id": 228,
+   "export_name": "nameless_fire2"
+  },
+  {
+   "char_id": 251,
+   "export_name": "upFire"
+  },
+  {
+   "char_id": 252,
+   "export_name": "upFire2"
+  },
+  {
+   "char_id": 275,
+   "export_name": "upFire3"
+  },
+  {
+   "char_id": 276,
+   "export_name": "upFire4"
+  },
+  {
+   "char_id": 333,
+   "export_name": "skill1"
+  },
+  {
+   "char_id": 334,
+   "export_name": "Nameless_fire_m1"
+  },
+  {
+   "char_id": 1966,
+   "export_name": "sk_powerwave1"
+  },
+  {
+   "char_id": 1993,
+   "export_name": "sk_CrackShoot1"
+  },
+  {
+   "char_id": 2052,
+   "export_name": "sk_powerGeyser1"
+  },
+  {
+   "char_id": 2505,
+   "export_name": "sk_Wolfpower2"
+  },
+  {
+   "char_id": 2573,
+   "export_name": "roleNameless"
+  },
+  {
+   "char_id": 2576,
+   "export_name": "ko_snd_Nameless"
+  },
+  {
+   "char_id": 2578,
+   "export_name": "role_Nameless"
+  }
+ ],
+ "sounds": [],
+ "sprites": [],
+ "images": [],
+ "fonts": [],
+ "frame_label_lines": [],
+ "script_files_exported": 452,
+ "string_count": 16149,
+ "path_like_strings": []
+}

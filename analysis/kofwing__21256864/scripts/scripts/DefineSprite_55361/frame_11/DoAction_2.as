@@ -1,0 +1,22 @@
+if(_parent.player_type == "cpu")
+{
+   this.onEnterFrame = function()
+   {
+      if(_level0.inPause || _level0.inFreeze)
+      {
+         return undefined;
+      }
+      mc1._x += v;
+      mc1._y += v;
+      mc2._x -= v;
+      mc2._y += v;
+      _parent.shuijingbo_check();
+   };
+}
+else
+{
+   keyp.pressFunc = function()
+   {
+      gotoAndPlay(102);
+   };
+}

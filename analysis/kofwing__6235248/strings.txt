@@ -1,0 +1,121 @@
+            _loc5_ = true;
+            break;
+         ASnative(2202,999)();
+         _loc1_.data.domains = new Object();
+         _loc1_.data.domains[domain] = true;
+         _loc1_.flush();
+         i++;
+         if(_loc3_[i] < _loc2_[i])
+         if(_loc3_[i] > _loc2_[i])
+         return VersionStrToArray(_loc1_.attributes.version);
+         return undefined;
+         {
+         }
+      ASnative(2202,0)(_loc5_,this.toString());
+      ASnative(2202,998)();
+      _loc1_ = GetSO(scope,null);
+      _loc1_ = _loc1_ + 1;
+      _loc1_ = _loc1_.nextSibling;
+      _loc1_.data[name] = value;
+      _loc1_.flush();
+      _loc2_ = ClientVersion();
+      _loc2_ = domain + "/" + _loc2_;
+      _loc2_[_loc1_] = Number(_loc2_[_loc1_]);
+      _loc3_ = ServerVersion(this);
+      _loc4_ = _loc2_.length;
+      _loc5_ = false;
+      i = 0;
+      if(_loc1_.data.domains == null)
+      if(_loc1_.data.domains[domain] == null)
+      if(_loc1_.nodeName == "update")
+      if(_loc4_ != 4 || _loc4_ != _loc3_.length)
+      return undefined;
+      this.data[_loc2_] = SharedObject.getLocal(_loc2_,scope);
+      while(i < _loc4_)
+      {
+      }
+   LogDomain(scope,domain);
+   _loc1_ = 0;
+   _loc1_ = _loc1_.firstChild;
+   _loc1_ = _loc1_.substring(_loc1_.indexOf(" ") + 1,_loc1_.length);
+   _loc1_.flush();
+   _loc1_.ignoreWhite = true;
+   _loc1_.load(theUrl);
+   _loc1_.onLoad = handleOnLoad;
+   _loc2_.flush();
+   else
+   if(_loc3_ != 4)
+   if(domain != null)
+   if(okay)
+   if(override || _loc1_.data[name] == null)
+   if(this.data[_loc2_] == null)
+   return VersionStrToArray(_loc1_);
+   return _loc1_.data[name];
+   return _loc2_;
+   return this.data[_loc2_];
+   return undefined;
+   var _loc1_ = GetSO(scope,domain);
+   var _loc1_ = GetSO(scope,null);
+   var _loc1_ = System.capabilities.version;
+   var _loc1_ = new XML();
+   var _loc1_ = rootNode.firstChild;
+   var _loc1_;
+   var _loc2_ = "settings";
+   var _loc2_ = GetSO(scope,domain);
+   var _loc2_ = v.split(",");
+   var _loc2_;
+   var _loc3_ = _loc2_.length;
+   var _loc3_;
+   var _loc4_;
+   var _loc5_;
+   while(_loc1_ < _loc3_)
+   while(_loc1_)
+ASnative
+ClientVersion
+Commit
+GetSO
+GetServerVersion
+GetSetting
+LogDomain
+Object
+ServerVersion
+SetSetting
+SharedObject
+System
+VersionStrToArray
+attributes
+capabilities
+domain
+domains
+firstChild
+flush
+function ClientVersion()
+function ServerVersion(rootNode)
+function VersionStrToArray(v)
+function handleOnLoad(okay)
+getLocal
+handleOnLoad
+ignoreWhite
+indexOf
+length
+nextSibling
+nodeName
+onLoad
+override
+rootNode
+scope
+settings
+split
+substring
+theUrl
+this.Commit = function(scope, domain)
+this.GetSO = function(scope, domain)
+this.GetServerVersion = function(theUrl)
+this.GetSetting = function(scope, domain, name)
+this.LogDomain = function(scope, domain)
+this.SetSetting = function(scope, domain, name, value, override)
+this.data = new Object();
+toString
+update
+value
+version

@@ -1,0 +1,26 @@
+{
+ "relative_path": "stage2/K2.swf",
+ "analysis_id": "stage2__K2",
+ "tag_counts": {
+  "D": 30,
+  "P": 18,
+  "S": 14,
+  "R": 4,
+  "F": 1,
+  "M": 1,
+  "J": 1,
+  "E": 1
+ },
+ "unknown_tag_ids": {},
+ "n_export_assets": 0,
+ "export_names": [],
+ "export_assets": [],
+ "sounds": [],
+ "sprites": [],
+ "images": [],
+ "fonts": [],
+ "frame_label_lines": [],
+ "script_files_exported": 3,
+ "string_count": 5534,
+ "path_like_strings": []
+}

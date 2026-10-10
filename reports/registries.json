@@ -1,0 +1,1367 @@
+{
+ "stage_registry": {
+  "path": "stage/list.txt",
+  "pair_count": 31,
+  "scalars": 0,
+  "resolved": 30,
+  "missing": 19,
+  "case_diffs": 0,
+  "entries": [
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "密涅瓦号帆船",
+    "target": "密涅瓦号帆船.swf",
+    "resolved_file": "stage/密涅瓦号帆船.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "阿万特村",
+    "target": "阿万特村.swf",
+    "resolved_file": "stage/阿万特村.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "暗影之主",
+    "target": "暗影之主.swf",
+    "resolved_file": "stage/暗影之主.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "冰墓",
+    "target": "冰墓.swf",
+    "resolved_file": "stage/冰墓.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "城门外",
+    "target": "城门外.swf",
+    "resolved_file": "stage/城门外.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "地下巫术实验室",
+    "target": "地下巫术实验室.swf",
+    "resolved_file": "stage/地下巫术实验室.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "地狱炎窟",
+    "target": "地狱炎窟.swf",
+    "resolved_file": "stage/地狱炎窟.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "狄恩斯赫特大教堂",
+    "target": "狄恩斯赫特大教堂.swf",
+    "resolved_file": "stage/狄恩斯赫特大教堂.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "东方实验室",
+    "target": "东方实验室.swf",
+    "resolved_file": "stage/东方实验室.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "寂静花园",
+    "target": "寂静花园.swf",
+    "resolved_file": "stage/寂静花园.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "禁忌的地下水洞",
+    "target": "禁忌的地下水洞.swf",
+    "resolved_file": "stage/禁忌的地下水洞.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "里弗人工意识",
+    "target": "里弗人工意识.swf",
+    "resolved_file": "stage/里弗人工意识.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "秘密巫术实验室",
+    "target": "秘密巫术实验室.swf",
+    "resolved_file": "stage/秘密巫术实验室.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "入口",
+    "target": "入口.swf",
+    "resolved_file": "stage/入口.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "双龙之塔",
+    "target": "双龙之塔.swf",
+    "resolved_file": "stage/双龙之塔.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "隧道",
+    "target": "隧道.swf",
+    "resolved_file": "stage/隧道.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "邪恶之桥",
+    "target": "邪恶之桥.swf",
+    "resolved_file": "stage/邪恶之桥.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "终焉之间",
+    "target": "终焉之间.swf",
+    "resolved_file": "stage/终焉之间.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "练习加大版",
+    "target": "练习加大版.swf",
+    "resolved_file": "stage/练习加大版.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Kyo",
+    "declared": "Railway",
+    "target": "Railway.swf",
+    "resolved_file": "stage2/其他地图/静态/Railway.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "KyoW",
+    "declared": "Raining street",
+    "target": "Raining street.swf",
+    "resolved_file": null,
+    "status": "MISSING"
+   },
+   {
+    "kind": "map",
+    "key": "Kusanagi",
+    "declared": "cloneTeam",
+    "target": "cloneTeam.swf",
+    "resolved_file": "stage2/CloneTeam.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Kula",
+    "declared": "iceLab",
+    "target": "iceLab.swf",
+    "resolved_file": null,
+    "status": "MISSING"
+   },
+   {
+    "kind": "map",
+    "key": "K",
+    "declared": "Factory",
+    "target": "Factory.swf",
+    "resolved_file": null,
+    "status": "MISSING"
+   },
+   {
+    "kind": "map",
+    "key": "Iori",
+    "declared": "Moon bridge",
+    "target": "Moon bridge.swf",
+    "resolved_file": null,
+    "status": "MISSING"
+   },
+   {
+    "kind": "map",
+    "key": "Iori3",
+    "declared": "Moon2",
+    "target": "Moon2.swf",
+    "resolved_file": null,
+    "status": "MISSING"
+   },
+   {
+    "kind": "map",
+    "key": "Ryu",
+    "declared": "Gym",
+    "target": "Gym.swf",
+    "resolved_file": null,
+    "status": "MISSING"
+   },
+   {
+    "kind": "map",
+    "key": "Moriya",
+    "declared": "Moon",
+    "target": "Moon.swf",
+    "resolved_file": "stage2/其他地图/静态/Moon.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Mai",
+    "declared": "Platform",
+    "target": "Platform.swf",
+    "resolved_file": "stage2/其他地图/静态/Platform.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Chunli",
+    "declared": "China",
+    "target": "China.swf",
+    "resolved_file": null,
+    "status": "MISSING"
+   },
+   {
+    "kind": "map",
+    "key": "Terry",
+    "declared": "America",
+    "target": "America.swf",
+    "resolved_file": null,
+    "status": "MISSING"
+   },
+   {
+    "kind": "map",
+    "key": "Haohmaru",
+    "declared": "Raining village",
+    "target": "Raining village.swf",
+    "resolved_file": null,
+    "status": "MISSING"
+   },
+   {
+    "kind": "map",
+    "key": "Athena",
+    "declared": "piazza",
+    "target": "piazza.swf",
+    "resolved_file": "stage2/其他地图/静态/piazza.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Ryo",
+    "declared": "Japan",
+    "target": "Japan.swf",
+    "resolved_file": "stage2/其他地图/动态/Japan.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Nameless",
+    "declared": "Lab",
+    "target": "Lab.swf",
+    "resolved_file": "stage2/其他地图/静态/Lab.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Ash",
+    "declared": "Night",
+    "target": "Night.swf",
+    "resolved_file": null,
+    "status": "MISSING"
+   },
+   {
+    "kind": "map",
+    "key": "Ash2",
+    "declared": "Diablosis",
+    "target": "Diablosis.swf",
+    "resolved_file": null,
+    "status": "MISSING"
+   },
+   {
+    "kind": "map",
+    "key": "Rugal",
+    "declared": "Rugal02um",
+    "target": "Rugal02um.swf",
+    "resolved_file": null,
+    "status": "MISSING"
+   },
+   {
+    "kind": "map",
+    "key": "Zero",
+    "declared": "Zero",
+    "target": "Zero.swf",
+    "resolved_file": "stage2/Zero.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Zero2",
+    "declared": "cZero",
+    "target": "cZero.swf",
+    "resolved_file": "stage2/CZero.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Igniz",
+    "declared": "Igniz2k1",
+    "target": "Igniz2k1.swf",
+    "resolved_file": null,
+    "status": "MISSING"
+   },
+   {
+    "kind": "map",
+    "key": "Igniz2",
+    "declared": "Lords of Shadow",
+    "target": "Lords of Shadow.swf",
+    "resolved_file": null,
+    "status": "MISSING"
+   },
+   {
+    "kind": "map",
+    "key": "Orochi",
+    "declared": "earth",
+    "target": "earth.swf",
+    "resolved_file": "stage2/其他地图/动态/earth.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Krizalid",
+    "declared": "downEdge",
+    "target": "downEdge.swf",
+    "resolved_file": null,
+    "status": "MISSING"
+   },
+   {
+    "kind": "map",
+    "key": "Orochi2",
+    "declared": "Mizuchi",
+    "target": "Mizuchi.swf",
+    "resolved_file": "stage2/Mizuchi.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Kim",
+    "declared": "1",
+    "target": "1.swf",
+    "resolved_file": null,
+    "status": "MISSING"
+   },
+   {
+    "kind": "map",
+    "key": "Goenitz",
+    "declared": "ochris",
+    "target": "ochris.swf",
+    "resolved_file": null,
+    "status": "MISSING"
+   },
+   {
+    "kind": "map",
+    "key": "Andy",
+    "declared": "Snow",
+    "target": "Snow.swf",
+    "resolved_file": null,
+    "status": "MISSING"
+   },
+   {
+    "kind": "map",
+    "key": "Oswald",
+    "declared": "Church14",
+    "target": "Church14.swf",
+    "resolved_file": null,
+    "status": "MISSING"
+   }
+  ]
+ },
+ "stage2_registry": {
+  "path": "stage2/list.txt",
+  "pair_count": 39,
+  "scalars": 0,
+  "resolved": 76,
+  "missing": 0,
+  "case_diffs": 0,
+  "entries": [
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Black",
+    "target": "Black.swf",
+    "resolved_file": "stage2/Black.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Ash",
+    "target": "Ash.swf",
+    "resolved_file": "stage2/Ash.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Athena",
+    "target": "Athena.swf",
+    "resolved_file": "stage2/Athena.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Chunli",
+    "target": "Chunli.swf",
+    "resolved_file": "stage2/Chunli.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "CZero",
+    "target": "CZero.swf",
+    "resolved_file": "stage2/CZero.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "E_Ash",
+    "target": "E_Ash.swf",
+    "resolved_file": "stage2/E_Ash.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Goenitz",
+    "target": "Goenitz.swf",
+    "resolved_file": "stage2/Goenitz.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Haohmaru",
+    "target": "Haohmaru.swf",
+    "resolved_file": "stage2/Haohmaru.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Igniz_01",
+    "target": "Igniz_01.swf",
+    "resolved_file": "stage2/Igniz_01.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Igniz_02um",
+    "target": "Igniz_02um.swf",
+    "resolved_file": "stage2/Igniz_02um.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Iori",
+    "target": "Iori.swf",
+    "resolved_file": "stage2/Iori.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Iori2",
+    "target": "Iori2.swf",
+    "resolved_file": "stage2/Iori2.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Iori3",
+    "target": "Iori3.swf",
+    "resolved_file": "stage2/Iori3.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "K",
+    "target": "K.swf",
+    "resolved_file": "stage2/K.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "K2",
+    "target": "K2.swf",
+    "resolved_file": "stage2/K2.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Kim",
+    "target": "Kim.swf",
+    "resolved_file": "stage2/Kim.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Krizalid",
+    "target": "Krizalid.swf",
+    "resolved_file": "stage2/Krizalid.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Kula",
+    "target": "Kula.swf",
+    "resolved_file": "stage2/Kula.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Kula2",
+    "target": "Kula2.swf",
+    "resolved_file": "stage2/Kula2.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Kyo",
+    "target": "Kyo.swf",
+    "resolved_file": "stage2/Kyo.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Kyo2",
+    "target": "Kyo2.swf",
+    "resolved_file": "stage2/Kyo2.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "KyoW",
+    "target": "KyoW.swf",
+    "resolved_file": "stage2/KyoW.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Mai",
+    "target": "Mai.swf",
+    "resolved_file": "stage2/Mai.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Mizuchi",
+    "target": "Mizuchi.swf",
+    "resolved_file": "stage2/Mizuchi.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Moriya",
+    "target": "Moriya.swf",
+    "resolved_file": "stage2/Moriya.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Orochi",
+    "target": "Orochi.swf",
+    "resolved_file": "stage2/Orochi.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Oswald",
+    "target": "Oswald.swf",
+    "resolved_file": "stage2/Oswald.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Rugal_02um",
+    "target": "Rugal_02um.swf",
+    "resolved_file": "stage2/Rugal_02um.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Rugal_02",
+    "target": "Rugal_02.swf",
+    "resolved_file": "stage2/Rugal_02.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Rugal_98",
+    "target": "Rugal_98.swf",
+    "resolved_file": "stage2/Rugal_98.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Ryo",
+    "target": "Ryo.swf",
+    "resolved_file": "stage2/Ryo.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Ryu",
+    "target": "Ryu.swf",
+    "resolved_file": "stage2/Ryu.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Terry",
+    "target": "Terry.swf",
+    "resolved_file": "stage2/Terry.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Zero",
+    "target": "Zero.swf",
+    "resolved_file": "stage2/Zero.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Orochi Yashiro",
+    "target": "Orochi Yashiro.swf",
+    "resolved_file": "stage2/Orochi Yashiro.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "Orochi Chris",
+    "target": "Orochi Chris.swf",
+    "resolved_file": "stage2/Orochi Chris.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "longStage",
+    "target": "longStage.swf",
+    "resolved_file": "stage2/longStage.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "stageBG_item",
+    "key": "stageBG",
+    "declared": "练习",
+    "target": "练习.swf",
+    "resolved_file": "stage2/练习.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Kyo",
+    "declared": "Kyo",
+    "target": "Kyo.swf",
+    "resolved_file": "stage2/Kyo.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Kyo2",
+    "declared": "Kyo2",
+    "target": "Kyo2.swf",
+    "resolved_file": "stage2/Kyo2.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "KyoW",
+    "declared": "KyoW",
+    "target": "KyoW.swf",
+    "resolved_file": "stage2/KyoW.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Kusanagi",
+    "declared": "cloneTeam",
+    "target": "cloneTeam.swf",
+    "resolved_file": "stage2/CloneTeam.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Kula",
+    "declared": "Kula",
+    "target": "Kula.swf",
+    "resolved_file": "stage2/Kula.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Kula2",
+    "declared": "Kula2",
+    "target": "Kula2.swf",
+    "resolved_file": "stage2/Kula2.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "K",
+    "declared": "K",
+    "target": "K.swf",
+    "resolved_file": "stage2/K.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "K2",
+    "declared": "K2",
+    "target": "K2.swf",
+    "resolved_file": "stage2/K2.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Iori",
+    "declared": "Iori",
+    "target": "Iori.swf",
+    "resolved_file": "stage2/Iori.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Iori2",
+    "declared": "Iori2",
+    "target": "Iori2.swf",
+    "resolved_file": "stage2/Iori2.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Iori3",
+    "declared": "Iori3",
+    "target": "Iori3.swf",
+    "resolved_file": "stage2/Iori3.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Ryu",
+    "declared": "Ryu",
+    "target": "Ryu.swf",
+    "resolved_file": "stage2/Ryu.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Ryu2",
+    "declared": "Ryu",
+    "target": "Ryu.swf",
+    "resolved_file": "stage2/Ryu.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Moriya",
+    "declared": "Moriya",
+    "target": "Moriya.swf",
+    "resolved_file": "stage2/Moriya.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Mai",
+    "declared": "Mai",
+    "target": "Mai.swf",
+    "resolved_file": "stage2/Mai.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Chunli",
+    "declared": "Chunli",
+    "target": "Chunli.swf",
+    "resolved_file": "stage2/Chunli.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Terry",
+    "declared": "Terry",
+    "target": "Terry.swf",
+    "resolved_file": "stage2/Terry.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Haohmaru",
+    "declared": "Haohmaru",
+    "target": "Haohmaru.swf",
+    "resolved_file": "stage2/Haohmaru.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Athena",
+    "declared": "Athena",
+    "target": "Athena.swf",
+    "resolved_file": "stage2/Athena.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Ryo",
+    "declared": "Ryo",
+    "target": "Ryo.swf",
+    "resolved_file": "stage2/Ryo.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Nameless",
+    "declared": "cloneTeam",
+    "target": "cloneTeam.swf",
+    "resolved_file": "stage2/CloneTeam.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Ash",
+    "declared": "Ash",
+    "target": "Ash.swf",
+    "resolved_file": "stage2/Ash.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Ash2",
+    "declared": "E_Ash",
+    "target": "E_Ash.swf",
+    "resolved_file": "stage2/E_Ash.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Rugal",
+    "declared": "Rugal_98",
+    "target": "Rugal_98.swf",
+    "resolved_file": "stage2/Rugal_98.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Rugal2",
+    "declared": "Rugal_02",
+    "target": "Rugal_02.swf",
+    "resolved_file": "stage2/Rugal_02.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Zero",
+    "declared": "Zero",
+    "target": "Zero.swf",
+    "resolved_file": "stage2/Zero.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Zero2",
+    "declared": "CZero",
+    "target": "CZero.swf",
+    "resolved_file": "stage2/CZero.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Igniz",
+    "declared": "Igniz_01",
+    "target": "Igniz_01.swf",
+    "resolved_file": "stage2/Igniz_01.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Igniz2",
+    "declared": "Igniz_02um",
+    "target": "Igniz_02um.swf",
+    "resolved_file": "stage2/Igniz_02um.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Orochi",
+    "declared": "Orochi",
+    "target": "Orochi.swf",
+    "resolved_file": "stage2/Orochi.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Orochi2",
+    "declared": "Mizuchi",
+    "target": "Mizuchi.swf",
+    "resolved_file": "stage2/Mizuchi.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Oswald",
+    "declared": "Oswald",
+    "target": "Oswald.swf",
+    "resolved_file": "stage2/Oswald.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Krizalid",
+    "declared": "Krizalid",
+    "target": "Krizalid.swf",
+    "resolved_file": "stage2/Krizalid.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Krizalid2",
+    "declared": "Krizalid",
+    "target": "Krizalid.swf",
+    "resolved_file": "stage2/Krizalid.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Andy",
+    "declared": "Mai",
+    "target": "Mai.swf",
+    "resolved_file": "stage2/Mai.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Goenitz",
+    "declared": "Goenitz",
+    "target": "Goenitz.swf",
+    "resolved_file": "stage2/Goenitz.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Kim",
+    "declared": "Kim",
+    "target": "Kim.swf",
+    "resolved_file": "stage2/Kim.swf",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Kim2",
+    "declared": "Kim",
+    "target": "Kim.swf",
+    "resolved_file": "stage2/Kim.swf",
+    "status": "resolved"
+   }
+  ]
+ },
+ "music_registry": {
+  "path": "sound/list.txt",
+  "pair_count": 42,
+  "scalars": 1,
+  "resolved": 41,
+  "missing": 0,
+  "case_diffs": 0,
+  "entries": [
+   {
+    "kind": "scalar",
+    "key": "musicNum",
+    "declared": "50",
+    "resolved_file": null,
+    "status": "SCALAR"
+   },
+   {
+    "kind": "map",
+    "key": "Andy",
+    "declared": "Andy.mp3",
+    "target": "Andy.mp3",
+    "resolved_file": "sound/Andy.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Ash",
+    "declared": "Ash.mp3",
+    "target": "Ash.mp3",
+    "resolved_file": "sound/Ash.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Ash2",
+    "declared": "Ash2.mp3",
+    "target": "Ash2.mp3",
+    "resolved_file": "sound/Ash2.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Athena",
+    "declared": "Athena.mp3",
+    "target": "Athena.mp3",
+    "resolved_file": "sound/Athena.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Athena2",
+    "declared": "Athena2.mp3",
+    "target": "Athena2.mp3",
+    "resolved_file": "sound/Athena2.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Chunli",
+    "declared": "ChunLi.MP3",
+    "target": "ChunLi.MP3",
+    "resolved_file": "sound/ChunLi.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Goenitz",
+    "declared": "Goenitz.mp3",
+    "target": "Goenitz.mp3",
+    "resolved_file": "sound/Goenitz.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Haohmaru",
+    "declared": "Haohmaru.mp3",
+    "target": "Haohmaru.mp3",
+    "resolved_file": "sound/Haohmaru.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Igniz",
+    "declared": "Igniz.mp3",
+    "target": "Igniz.mp3",
+    "resolved_file": "sound/Igniz.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Igniz2",
+    "declared": "Igniz2.mp3",
+    "target": "Igniz2.mp3",
+    "resolved_file": "sound/Igniz2.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Iori",
+    "declared": "Iori.mp3",
+    "target": "Iori.mp3",
+    "resolved_file": "sound/Iori.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Iori2",
+    "declared": "Iori2.mp3",
+    "target": "Iori2.mp3",
+    "resolved_file": "sound/Iori2.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Iori3",
+    "declared": "Iori3.mp3",
+    "target": "Iori3.mp3",
+    "resolved_file": "sound/Iori3.mp3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "K",
+    "declared": "K.mp3",
+    "target": "K.mp3",
+    "resolved_file": "sound/K.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "K2",
+    "declared": "K2.mp3",
+    "target": "K2.mp3",
+    "resolved_file": "sound/K2.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Kim",
+    "declared": "Kim.mp3",
+    "target": "Kim.mp3",
+    "resolved_file": "sound/Kim.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Kim2",
+    "declared": "Kim2.mp3",
+    "target": "Kim2.mp3",
+    "resolved_file": "sound/Kim2.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Krizalid",
+    "declared": "Krizalid.mp3",
+    "target": "Krizalid.mp3",
+    "resolved_file": "sound/Krizalid.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Krizalid2",
+    "declared": "Krizalid2.mp3",
+    "target": "Krizalid2.mp3",
+    "resolved_file": "sound/Krizalid2.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Kula",
+    "declared": "Kula.mp3",
+    "target": "Kula.mp3",
+    "resolved_file": "sound/Kula.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Kula2",
+    "declared": "Kula2.mp3",
+    "target": "Kula2.mp3",
+    "resolved_file": "sound/Kula2.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Kusanagi",
+    "declared": "Kusanagi.mp3",
+    "target": "Kusanagi.mp3",
+    "resolved_file": "sound/Kusanagi.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Kyo",
+    "declared": "Kyo.mp3",
+    "target": "Kyo.mp3",
+    "resolved_file": "sound/Kyo.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Kyo2",
+    "declared": "Kyo2.mp3",
+    "target": "Kyo2.mp3",
+    "resolved_file": "sound/Kyo2.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "KyoW",
+    "declared": "KyoW.mp3",
+    "target": "KyoW.mp3",
+    "resolved_file": "sound/KyoW.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "KyoW2",
+    "declared": "KyoW2.mp3",
+    "target": "KyoW2.mp3",
+    "resolved_file": "sound/KyoW2.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Mai",
+    "declared": "Mai.mp3",
+    "target": "Mai.mp3",
+    "resolved_file": "sound/Mai.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Moriya",
+    "declared": "Moriya.mp3",
+    "target": "Moriya.mp3",
+    "resolved_file": "sound/Moriya.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Nameless",
+    "declared": "Nameless.mp3",
+    "target": "Nameless.mp3",
+    "resolved_file": "sound/Nameless.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Orochi",
+    "declared": "Orochi.mp3",
+    "target": "Orochi.mp3",
+    "resolved_file": "sound/Orochi.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Orochi2",
+    "declared": "Mizuchi.mp3",
+    "target": "Mizuchi.mp3",
+    "resolved_file": "sound/Mizuchi.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Oswald",
+    "declared": "Oswald.mp3",
+    "target": "Oswald.mp3",
+    "resolved_file": "sound/Oswald.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Rugal",
+    "declared": "Rugal.mp3",
+    "target": "Rugal.mp3",
+    "resolved_file": "sound/Rugal.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Rugal2",
+    "declared": "Rugal2.mp3",
+    "target": "Rugal2.mp3",
+    "resolved_file": "sound/Rugal2.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Ryo",
+    "declared": "Ryo.mp3",
+    "target": "Ryo.mp3",
+    "resolved_file": "sound/Ryo.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Ryu",
+    "declared": "Ryu.mp3",
+    "target": "Ryu.mp3",
+    "resolved_file": "sound/Ryu.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Ryu2",
+    "declared": "Ryu2.mp3",
+    "target": "Ryu2.mp3",
+    "resolved_file": "sound/Ryu2.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Terry",
+    "declared": "Terry.mp3",
+    "target": "Terry.mp3",
+    "resolved_file": "sound/Terry.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Terry2",
+    "declared": "Terry2.mp3",
+    "target": "Terry2.mp3",
+    "resolved_file": "sound/Terry2.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Zero",
+    "declared": "Zero.mp3",
+    "target": "Zero.mp3",
+    "resolved_file": "sound/Zero.MP3",
+    "status": "resolved"
+   },
+   {
+    "kind": "map",
+    "key": "Zero2",
+    "declared": "Zero2.mp3",
+    "target": "Zero2.mp3",
+    "resolved_file": "sound/Zero2.mp3",
+    "status": "resolved"
+   }
+  ]
+ }
+}

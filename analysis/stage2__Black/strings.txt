@@ -1,0 +1,15 @@
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+System
+System.security.allowDomain("*");
+allowDomain
+bg2_mc
+bgArray
+isBase
+isBmd
+ov@bg2_mc
+security
+stop();
+v_rate
+var bg2 = {isBmd:true,mc:bg2_mc,v_rate:1,isBase:true};
+var bgArray = [bg2];

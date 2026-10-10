@@ -1,0 +1,42 @@
+tag 831 declares 1347756997 bytes but only 106256479 remain
+tag stream ended WITHOUT an End tag - structure is truncated
+dumpSWF stderr: Oct 10, 2026 9:12:10 PM com.jpexs.decompiler.flash.SWFInputStream resolveTag
+dumpSWF stderr: SEVERE: Error during tag reading. SWF: _ ID: 48 name: Unresolved (tcl: DefineFont2, tid: 48) pos: 133
+dumpSWF stderr: com.jpexs.decompiler.flash.EndOfStreamException: Premature end of the stream reached
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWFInputStream.readNoBitReset(SWFInputStream.java:616)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWFInputStream.readEx(SWFInputStream.java:596)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWFInputStream.readUI32Internal(SWFInputStream.java:697)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWFInputStream.readUI32(SWFInputStream.java:685)
+dumpSWF stderr: at com.jpexs.decompiler.flash.tags.DefineFont2Tag.readData(DefineFont2Tag.java:172)
+dumpSWF stderr: at com.jpexs.decompiler.flash.tags.DefineFont2Tag.<init>(DefineFont2Tag.java:134)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWFInputStream.resolveTag(SWFInputStream.java:1720)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWFInputStream.readTagList(SWFInputStream.java:1499)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWF.<init>(SWF.java:2488)
+dumpSWF stderr: at com.jpexs.decompiler.flash.SWF.<init>(SWF.java:2182)
+dumpSWF stderr: at com.jpexs.decompiler.flash.console.CommandLineArgumentParser.parseDumpSwf(CommandLineArgumentParser.java:4665)
+dumpSWF stderr: at com.jpexs.decompiler.flash.console.CommandLineArgumentParser.parseArgumentsInternal(CommandLineArgumentParser.java:728)
+dumpSWF stderr: at com.jpexs.decompiler.flash.console.CommandLineArgumentParser.parseArguments(CommandLineArgumentParser.java:477)
+dumpSWF stderr: at com.jpexs.decompiler.flash.gui.Main.main(Main.java:3697)
+dumpSWF stderr: 
+dumpSWF stderr: Oct 10, 2026 9:12:10 PM com.jpexs.decompiler.flash.SWFInputStream resolveTag
+dumpSWF stderr: SEVERE: Error during tag reading. SWF: _ ID: 89 name: Unresolved (tcl: StartSound2, tid: 89) pos: 502
+export stderr: Oct 10, 2026 9:12:12 PM com.jpexs.decompiler.flash.SWFInputStream resolveTag
+export stderr: SEVERE: Error during tag reading. SWF: 40440656.swf ID: 89 name: Unresolved (tcl: StartSound2, tid: 89) pos: 502
+export stderr: com.jpexs.decompiler.flash.EndOfStreamException: Premature end of the stream reached
+export stderr: at com.jpexs.decompiler.flash.SWFInputStream.readNoBitReset(SWFInputStream.java:616)
+export stderr: at com.jpexs.decompiler.flash.SWFInputStream.readEx(SWFInputStream.java:596)
+export stderr: at com.jpexs.decompiler.flash.SWFInputStream.readString(SWFInputStream.java:649)
+export stderr: at com.jpexs.decompiler.flash.tags.StartSound2Tag.readData(StartSound2Tag.java:71)
+export stderr: at com.jpexs.decompiler.flash.tags.StartSound2Tag.<init>(StartSound2Tag.java:66)
+export stderr: at com.jpexs.decompiler.flash.SWFInputStream.resolveTag(SWFInputStream.java:1824)
+export stderr: at com.jpexs.decompiler.flash.SWFInputStream$TagResolutionTask.call(SWFInputStream.java:1446)
+export stderr: at com.jpexs.decompiler.flash.SWFInputStream$TagResolutionTask.call(SWFInputStream.java:1385)
+export stderr: at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+export stderr: at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+export stderr: at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+export stderr: at java.base/java.lang.Thread.run(Thread.java:842)
+export stderr: 
+export stderr: Oct 10, 2026 9:12:12 PM com.jpexs.decompiler.flash.SWFInputStream resolveTag
+export stderr: SEVERE: Error during tag reading. SWF: 40440656.swf ID: 4 name: Unresolved (tcl: PlaceObject, tid: 4) pos: 2171
+export stderr: com.jpexs.decompiler.flash.EndOfStreamException: Premature end of the stream reached
+export stderr: at com.jpexs.decompiler.flash.SWFInputStream.readNoBitReset(SWFInputStream.java:616)

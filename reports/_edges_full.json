@@ -1,0 +1,1282 @@
+[
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "sound/list.txt",
+  "api": "LoadVars.load",
+  "location": "kofwing__21256864: DoAction.as:4",
+  "evidence": "soundInf.load(\"sound/list.txt\");",
+  "confidence": "CONFIRMED",
+  "note": "registry text file exists on disk",
+  "resolved_target": "sound/list.txt"
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "sound/main.mp3",
+  "api": "Sound.loadSound",
+  "location": "kofwing__21256864: DoAction.as:3413",
+  "evidence": "option_snd.loadSound(\"sound/main.mp3\");",
+  "confidence": "CONFIRMED",
+  "note": "audio file exists on disk",
+  "resolved_target": "sound/main.mp3"
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "sound/select.mp3",
+  "api": "Sound.loadSound",
+  "location": "kofwing__21256864: DoAction.as:12",
+  "evidence": "selectChar.loadSound(\"sound/select.mp3\",false);",
+  "confidence": "CONFIRMED",
+  "note": "audio file exists on disk",
+  "resolved_target": "sound/select.mp3"
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "stage/list.txt",
+  "api": "LoadVars.load",
+  "location": "kofwing__21256864: DoAction.as:8",
+  "evidence": "bgInf.load(\"stage/list.txt\");",
+  "confidence": "CONFIRMED",
+  "note": "registry text file exists on disk",
+  "resolved_target": "stage/list.txt"
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "/<variable>.swf",
+  "api": "dynamic_path_concat",
+  "location": "kofwing__21256864: AD_loading.as:26",
+  "evidence": "this.url_xml = _level0.adPath + \"/\" + _level0.game + \"/\" + \"ad_loading.xml\";",
+  "confidence": "PATTERN",
+  "note": "directory `/` exists; filename chosen at runtime",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "/<variable>.swf",
+  "api": "dynamic_path_concat",
+  "location": "kofwing__21256864: AD_loading.as:27",
+  "evidence": "this.url_count = _level0.adPath + \"/\" + _level0.game + \"/\" + \"count.asp\";",
+  "confidence": "PATTERN",
+  "note": "directory `/` exists; filename chosen at runtime",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "sound/<variable>.swf",
+  "api": "dynamic_path_concat",
+  "location": "kofwing__21256864: DoAction.as:48",
+  "evidence": "stageSound.loadSound(\"sound/\" + _loc2_,false);",
+  "confidence": "PATTERN",
+  "note": "directory `sound/` exists; filename chosen at runtime",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "sound/<variable>.swf",
+  "api": "dynamic_path_concat",
+  "location": "kofwing__21256864: DoAction.as:52",
+  "evidence": "stageSound.loadSound(\"sound/\" + _loc3_,false);",
+  "confidence": "PATTERN",
+  "note": "directory `sound/` exists; filename chosen at runtime",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "stage/<variable>.swf",
+  "api": "dynamic_path_concat",
+  "location": "kofwing__21256864: DoAction.as:29",
+  "evidence": "_loc2_.loadClip(\"stage/\" + bgID + \".swf\",loader);",
+  "confidence": "PATTERN",
+  "note": "directory `stage/` exists; filename chosen at runtime",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "stage/<variable>.swf",
+  "api": "dynamic_path_concat",
+  "location": "kofwing__21256864: DoAction.as:67",
+  "evidence": "stage_loader.loadClip(\"stage/\" + bgID + \".swf\",stage_mc);",
+  "confidence": "PATTERN",
+  "note": "directory `stage/` exists; filename chosen at runtime",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "stage/weather/<variable>.swf",
+  "api": "dynamic_path_concat",
+  "location": "kofwing__21256864: DoAction.as:1",
+  "evidence": "this.loadMovie(\"stage/weather/\" + _root.tq + \".swf\");",
+  "confidence": "PATTERN",
+  "note": "directory `stage/weather/` exists; filename chosen at runtime",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/6235248.swf",
+  "target_pattern": "/<variable>.swf",
+  "api": "dynamic_path_concat",
+  "location": "kofwing__6235248: DoAction.as:82",
+  "evidence": "_loc2_ = domain + \"/\" + _loc2_;",
+  "confidence": "PATTERN",
+  "note": "directory `/` exists; filename chosen at runtime",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/20817874.swf",
+  "target_pattern": "debug/debug.swf",
+  "api": "loadMovie",
+  "location": "kofwing__20817874: CLIPACTIONRECORD onClipEvent(load).as:4",
+  "evidence": "_parent._parent.loadMovie(\"debug/debug.swf\");",
+  "confidence": "MISSING",
+  "note": "SWF not present in the extracted tree",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "char/<variable>.swf",
+  "api": "dynamic_path_concat",
+  "location": "kofwing__21256864: DoAction.as:792",
+  "evidence": "_loc2_.loadClip(\"char/\" + _loc1_ + \".swf\",P1_mc);",
+  "confidence": "MISSING",
+  "note": "directory `char/` does not exist in this distribution - the game falls back or the files are shipped separately",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "char/<variable>.swf",
+  "api": "dynamic_path_concat",
+  "location": "kofwing__21256864: DoAction.as:812",
+  "evidence": "_loc2_.loadClip(\"char/\" + _loc1_ + \".swf\",P2_mc);",
+  "confidence": "MISSING",
+  "note": "directory `char/` does not exist in this distribution - the game falls back or the files are shipped separately",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "char/<variable>.swf",
+  "api": "dynamic_path_concat",
+  "location": "kofwing__21256864: DoAction.as:915",
+  "evidence": "P1_mc.loadMovie(\"char/\" + roleName + \".swf\");",
+  "confidence": "MISSING",
+  "note": "directory `char/` does not exist in this distribution - the game falls back or the files are shipped separately",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "char/<variable>.swf",
+  "api": "dynamic_path_concat",
+  "location": "kofwing__21256864: DoAction.as:919",
+  "evidence": "P2_mc.loadMovie(\"char/\" + roleName + \".swf\");",
+  "confidence": "MISSING",
+  "note": "directory `char/` does not exist in this distribution - the game falls back or the files are shipped separately",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "code.swf",
+  "api": "loadMovie",
+  "location": "kofwing__21256864: DoAction.as:3541",
+  "evidence": "loadMovie(\"code.swf\",code_mc);",
+  "confidence": "MISSING",
+  "note": "SWF not present in the extracted tree",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "data/skillList.swf",
+  "api": "loadMovie",
+  "location": "kofwing__21256864: DoAction.as:15",
+  "evidence": "loadMovie(\"data/skillList.swf\",skList);",
+  "confidence": "MISSING",
+  "note": "SWF not present in the extracted tree",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "debug/debug.swf",
+  "api": "loadMovie",
+  "location": "kofwing__21256864: DoAction_2.as:1",
+  "evidence": "this.loadMovie(\"debug/debug.swf\");",
+  "confidence": "MISSING",
+  "note": "SWF not present in the extracted tree",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "http://<variable>.swf",
+  "api": "dynamic_path_concat",
+  "location": "kofwing__21256864: FWAd_AS2.as:8",
+  "evidence": "static var swfFolder = \"http://\" + FWAd_AS2.swfDomain + \"/fwcfg/\";",
+  "confidence": "MISSING",
+  "note": "directory `http://` does not exist in this distribution - the game falls back or the files are shipped separately",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "http://flashwing.kilu.de/help.html#<variable>.swf",
+  "api": "dynamic_path_concat",
+  "location": "kofwing__21256864: DoAction.as:57",
+  "evidence": "getURL(\"http://flashwing.kilu.de/help.html#\" + anchor,\"_blank\");",
+  "confidence": "MISSING",
+  "note": "directory `http://flashwing.kilu.de/help.html#` does not exist in this distribution - the game falls back or the files are shipped separately",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "http://flashwing.kilu.de/help_en.html#<variable>.swf",
+  "api": "dynamic_path_concat",
+  "location": "kofwing__21256864: DoAction.as:53",
+  "evidence": "getURL(\"http://flashwing.kilu.de/help_en.html#\" + anchor,\"_blank\");",
+  "confidence": "MISSING",
+  "note": "directory `http://flashwing.kilu.de/help_en.html#` does not exist in this distribution - the game falls back or the files are shipped separately",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/11480055.swf",
+  "target_pattern": "hurt1_snd_",
+  "api": "Sound.attachSound",
+  "location": "kofwing__11480055: Role.as:5429",
+  "evidence": "this.hurt1_snd.attachSound(\"hurt1_snd_\" + this.roleName);",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/11480055.swf",
+  "target_pattern": "hurt2_snd_",
+  "api": "Sound.attachSound",
+  "location": "kofwing__11480055: Role.as:5431",
+  "evidence": "this.hurt2_snd.attachSound(\"hurt2_snd_\" + this.roleName);",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/11480055.swf",
+  "target_pattern": "lose_snd_",
+  "api": "Sound.attachSound",
+  "location": "kofwing__11480055: Role.as:5433",
+  "evidence": "this.lose_snd.attachSound(\"lose_snd_\" + this.roleName);",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/11480055.swf",
+  "target_pattern": "run_snd",
+  "api": "Sound.attachSound",
+  "location": "kofwing__11480055: Role.as:5427",
+  "evidence": "this.run_snd.attachSound(\"run_snd\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/16695748.swf",
+  "target_pattern": "defend.wav",
+  "api": "Sound.attachSound",
+  "location": "kofwing__16695748: DoAction.as:4",
+  "evidence": "_loc2_.attachSound(\"defend.wav\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/16695748.swf",
+  "target_pattern": "defend.wav",
+  "api": "Sound.attachSound",
+  "location": "kofwing__16695748: DoAction.as:5",
+  "evidence": "snd.attachSound(\"defend.wav\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/16695748.swf",
+  "target_pattern": "hurt1_snd_",
+  "api": "Sound.attachSound",
+  "location": "kofwing__16695748: Role.as:5429",
+  "evidence": "this.hurt1_snd.attachSound(\"hurt1_snd_\" + this.roleName);",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/16695748.swf",
+  "target_pattern": "hurt2_snd_",
+  "api": "Sound.attachSound",
+  "location": "kofwing__16695748: Role.as:5431",
+  "evidence": "this.hurt2_snd.attachSound(\"hurt2_snd_\" + this.roleName);",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/16695748.swf",
+  "target_pattern": "lose_snd_",
+  "api": "Sound.attachSound",
+  "location": "kofwing__16695748: Role.as:5433",
+  "evidence": "this.lose_snd.attachSound(\"lose_snd_\" + this.roleName);",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/16695748.swf",
+  "target_pattern": "run_snd",
+  "api": "Sound.attachSound",
+  "location": "kofwing__16695748: Role.as:5427",
+  "evidence": "this.run_snd.attachSound(\"run_snd\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/18464326.swf",
+  "target_pattern": "hurt1_snd_",
+  "api": "Sound.attachSound",
+  "location": "kofwing__18464326: Role.as:5429",
+  "evidence": "this.hurt1_snd.attachSound(\"hurt1_snd_\" + this.roleName);",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/18464326.swf",
+  "target_pattern": "hurt2_snd_",
+  "api": "Sound.attachSound",
+  "location": "kofwing__18464326: Role.as:5431",
+  "evidence": "this.hurt2_snd.attachSound(\"hurt2_snd_\" + this.roleName);",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/18464326.swf",
+  "target_pattern": "lose_snd_",
+  "api": "Sound.attachSound",
+  "location": "kofwing__18464326: Role.as:5433",
+  "evidence": "this.lose_snd.attachSound(\"lose_snd_\" + this.roleName);",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/18464326.swf",
+  "target_pattern": "run_snd",
+  "api": "Sound.attachSound",
+  "location": "kofwing__18464326: Role.as:5427",
+  "evidence": "this.run_snd.attachSound(\"run_snd\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "Iori3",
+  "api": "Sound.loadSound",
+  "location": "kofwing__21256864: DoAction.as:5",
+  "evidence": "_level0.bgmControl_mc.loadSound(\"Iori3\",\"Iori\");",
+  "confidence": "INFERRED",
+  "note": "non-file reference (link id / UI asset)",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "arcadeSelect02um",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:16",
+  "evidence": "selectCharArcade.attachSound(\"arcadeSelect02um\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "arcadeSelect02um",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:21",
+  "evidence": "selectChar.attachSound(\"arcadeSelect02um\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "arcadeSelect97",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:12",
+  "evidence": "selectCharArcade.attachSound(\"arcadeSelect97\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "arcadeSelect97",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:17",
+  "evidence": "selectChar.attachSound(\"arcadeSelect97\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "blank",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:43",
+  "evidence": "this.attachSound(\"blank\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "boom.wav",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3522",
+  "evidence": "boom_snd.attachSound(\"boom.wav\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "bossStage02um",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3473",
+  "evidence": "bossStage02um_snd.attachSound(\"bossStage02um\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "bossStage97",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3471",
+  "evidence": "bossStage97_snd.attachSound(\"bossStage97\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "bossStage97Voice",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3469",
+  "evidence": "bossStage97Voice_snd.attachSound(\"bossStage97Voice\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "bossStageFinal",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3475",
+  "evidence": "bossStageFinal_snd.attachSound(\"bossStageFinal\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "char/",
+  "api": "MovieClipLoader.loadClip",
+  "location": "kofwing__21256864: DoAction.as:792",
+  "evidence": "_loc2_.loadClip(\"char/\" + _loc1_ + \".swf\",P1_mc);",
+  "confidence": "INFERRED",
+  "note": "non-file reference (link id / UI asset)",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "char/",
+  "api": "MovieClipLoader.loadClip",
+  "location": "kofwing__21256864: DoAction.as:812",
+  "evidence": "_loc2_.loadClip(\"char/\" + _loc1_ + \".swf\",P2_mc);",
+  "confidence": "INFERRED",
+  "note": "non-file reference (link id / UI asset)",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "char/",
+  "api": "loadMovie",
+  "location": "kofwing__21256864: DoAction.as:915",
+  "evidence": "P1_mc.loadMovie(\"char/\" + roleName + \".swf\");",
+  "confidence": "INFERRED",
+  "note": "non-file reference (link id / UI asset)",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "char/",
+  "api": "loadMovie",
+  "location": "kofwing__21256864: DoAction.as:919",
+  "evidence": "P2_mc.loadMovie(\"char/\" + roleName + \".swf\");",
+  "confidence": "INFERRED",
+  "note": "non-file reference (link id / UI asset)",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "data/gotoQQGroup.html",
+  "api": "getURL",
+  "location": "kofwing__21256864: DoAction.as:77",
+  "evidence": "getURL(\"data/gotoQQGroup.html\", \"_blank\");",
+  "confidence": "INFERRED",
+  "note": "non-file reference (link id / UI asset)",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "data/gotoTBWeb.html",
+  "api": "getURL",
+  "location": "kofwing__21256864: DoAction.as:81",
+  "evidence": "getURL(\"data/gotoTBWeb.html\", \"_blank\");",
+  "confidence": "INFERRED",
+  "note": "non-file reference (link id / UI asset)",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "data/gotoWeb.html",
+  "api": "getURL",
+  "location": "kofwing__21256864: DoAction.as:73",
+  "evidence": "getURL(\"data/gotoWeb.html\", \"_blank\");",
+  "confidence": "INFERRED",
+  "note": "non-file reference (link id / UI asset)",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "data/skillTable.html",
+  "api": "getURL",
+  "location": "kofwing__21256864: DoAction.as:64",
+  "evidence": "getURL(\"data/skillTable.html\", \"_blank\");",
+  "confidence": "INFERRED",
+  "note": "non-file reference (link id / UI asset)",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "data/skillTable.html",
+  "api": "getURL",
+  "location": "kofwing__21256864: DoAction.as:68",
+  "evidence": "getURL(\"data/skillTable.html\", \"_blank\");",
+  "confidence": "INFERRED",
+  "note": "non-file reference (link id / UI asset)",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "dizzy",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3514",
+  "evidence": "dizzy.attachSound(\"dizzy\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "drawgame02um",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3449",
+  "evidence": "drawgame02um_snd.attachSound(\"drawgame02um\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "drawgame97",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3447",
+  "evidence": "drawgame97_snd.attachSound(\"drawgame97\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "fight02um",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3445",
+  "evidence": "fight02um_snd.attachSound(\"fight02um\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "fight97",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3443",
+  "evidence": "fight97_snd.attachSound(\"fight97\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "fire1.wav",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3518",
+  "evidence": "fire1_snd.attachSound(\"fire1.wav\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "fire2.wav",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3520",
+  "evidence": "fire2_snd.attachSound(\"fire2.wav\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "http://en.flashwing.net",
+  "api": "getURL",
+  "location": "kofwing__21256864: DoAction.as:89",
+  "evidence": "getURL(\"http://en.flashwing.net\", \"_blank\");",
+  "confidence": "INFERRED",
+  "note": "remote URL, only reachable with network access",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "http://flashwing.kilu.de/help.html#",
+  "api": "getURL",
+  "location": "kofwing__21256864: DoAction.as:57",
+  "evidence": "getURL(\"http://flashwing.kilu.de/help.html#\" + anchor,\"_blank\");",
+  "confidence": "INFERRED",
+  "note": "remote URL, only reachable with network access",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "http://flashwing.kilu.de/help_en.html#",
+  "api": "getURL",
+  "location": "kofwing__21256864: DoAction.as:53",
+  "evidence": "getURL(\"http://flashwing.kilu.de/help_en.html#\" + anchor,\"_blank\");",
+  "confidence": "INFERRED",
+  "note": "remote URL, only reachable with network access",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "http://kof.flashwing.net",
+  "api": "getURL",
+  "location": "kofwing__21256864: DoAction.as:85",
+  "evidence": "getURL(\"http://kof.flashwing.net\", \"_blank\");",
+  "confidence": "INFERRED",
+  "note": "remote URL, only reachable with network access",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "hurt1_snd_",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: Role.as:5420",
+  "evidence": "this.hurt1_snd.attachSound(\"hurt1_snd_\" + this.roleName);",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "hurt2_snd_",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: Role.as:5422",
+  "evidence": "this.hurt2_snd.attachSound(\"hurt2_snd_\" + this.roleName);",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "insertCoin",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3498",
+  "evidence": "insertCoin_snd.attachSound(\"insertCoin\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "iori_caihua3",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:4",
+  "evidence": "snd.attachSound(\"iori_caihua3\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "jump_snd",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3516",
+  "evidence": "jump_snd.attachSound(\"jump_snd\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "kick",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3510",
+  "evidence": "k_snd.attachSound(\"kick\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "ko02um",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3453",
+  "evidence": "ko02um_snd.attachSound(\"ko02um\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "ko97",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3451",
+  "evidence": "ko97_snd.attachSound(\"ko97\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "lastKO",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: Life_Power.as:271",
+  "evidence": "_loc2_.attachSound(\"lastKO\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "lose",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:69",
+  "evidence": "lose_snd.attachSound(\"lose\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "lose_snd_",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: Role.as:5424",
+  "evidence": "this.lose_snd.attachSound(\"lose_snd_\" + this.roleName);",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "ok",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3489",
+  "evidence": "ok_snd.attachSound(\"ok\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "ok02um",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3495",
+  "evidence": "ok02um_snd.attachSound(\"ok02um\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "ok97",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3492",
+  "evidence": "ok97_snd.attachSound(\"ok97\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "perfect02um",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3457",
+  "evidence": "perfect02um_snd.attachSound(\"perfect02um\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "perfect97",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3455",
+  "evidence": "perfect97_snd.attachSound(\"perfect97\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "punch",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3504",
+  "evidence": "p_snd.attachSound(\"punch\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "punch_l",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3506",
+  "evidence": "pl_snd.attachSound(\"punch_l\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "punch_l",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3508",
+  "evidence": "pl_snd.attachSound(\"punch_l\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "randomSelect",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3487",
+  "evidence": "randomSelect_snd.attachSound(\"randomSelect\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "readme.pdf#",
+  "api": "getURL",
+  "location": "kofwing__21256864: DoAction.as:44",
+  "evidence": "getURL(\"readme.pdf#\" + anchor,\"_blank\");",
+  "confidence": "INFERRED",
+  "note": "non-file reference (link id / UI asset)",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "readme.pdf#",
+  "api": "getURL",
+  "location": "kofwing__21256864: DoAction.as:48",
+  "evidence": "getURL(\"readme.pdf#\" + anchor,\"_blank\");",
+  "confidence": "INFERRED",
+  "note": "non-file reference (link id / UI asset)",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "round02um",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3421",
+  "evidence": "round02um_snd.attachSound(\"round02um\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "round02um_1",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3425",
+  "evidence": "round02um_1_snd.attachSound(\"round02um_1\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "round02um_2",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3429",
+  "evidence": "round02um_2_snd.attachSound(\"round02um_2\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "round02um_3",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3433",
+  "evidence": "round02um_3_snd.attachSound(\"round02um_3\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "round02um_4",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3437",
+  "evidence": "round02um_4_snd.attachSound(\"round02um_4\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "round02um_5",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3441",
+  "evidence": "round02um_5_snd.attachSound(\"round02um_5\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "round97",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3419",
+  "evidence": "round97_snd.attachSound(\"round97\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "round97_1",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3423",
+  "evidence": "round97_1_snd.attachSound(\"round97_1\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "round97_2",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3427",
+  "evidence": "round97_2_snd.attachSound(\"round97_2\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "round97_3",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3431",
+  "evidence": "round97_3_snd.attachSound(\"round97_3\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "round97_4",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3435",
+  "evidence": "round97_4_snd.attachSound(\"round97_4\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "round97_5",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3439",
+  "evidence": "round97_5_snd.attachSound(\"round97_5\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "run_snd",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3512",
+  "evidence": "run_snd.attachSound(\"run_snd\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "run_snd",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: Role.as:5418",
+  "evidence": "this.run_snd.attachSound(\"run_snd\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "select",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3477",
+  "evidence": "select_snd.attachSound(\"select\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "select02um",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3481",
+  "evidence": "select02um_snd.attachSound(\"select02um\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "select02um",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3485",
+  "evidence": "selectMenu02um_snd.attachSound(\"select02um\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "select97",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3479",
+  "evidence": "select97_snd.attachSound(\"select97\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "selectMenu",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3483",
+  "evidence": "selectMenu_snd.attachSound(\"selectMenu\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "sound/",
+  "api": "Sound.loadSound",
+  "location": "kofwing__21256864: DoAction.as:48",
+  "evidence": "stageSound.loadSound(\"sound/\" + _loc2_,false);",
+  "confidence": "INFERRED",
+  "note": "non-file reference (link id / UI asset)",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "sound/",
+  "api": "Sound.loadSound",
+  "location": "kofwing__21256864: DoAction.as:52",
+  "evidence": "stageSound.loadSound(\"sound/\" + _loc3_,false);",
+  "confidence": "INFERRED",
+  "note": "non-file reference (link id / UI asset)",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "stage/",
+  "api": "MovieClipLoader.loadClip",
+  "location": "kofwing__21256864: DoAction.as:29",
+  "evidence": "_loc2_.loadClip(\"stage/\" + bgID + \".swf\",loader);",
+  "confidence": "INFERRED",
+  "note": "non-file reference (link id / UI asset)",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "stage/",
+  "api": "MovieClipLoader.loadClip",
+  "location": "kofwing__21256864: DoAction.as:67",
+  "evidence": "stage_loader.loadClip(\"stage/\" + bgID + \".swf\",stage_mc);",
+  "confidence": "INFERRED",
+  "note": "non-file reference (link id / UI asset)",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "stage/weather/",
+  "api": "loadMovie",
+  "location": "kofwing__21256864: DoAction.as:1",
+  "evidence": "this.loadMovie(\"stage/weather/\" + _root.tq + \".swf\");",
+  "confidence": "INFERRED",
+  "note": "non-file reference (link id / UI asset)",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "timeOverNotice",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3501",
+  "evidence": "timeOverNotice_snd.attachSound(\"timeOverNotice\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "timeover02um",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3461",
+  "evidence": "timeover02um_snd.attachSound(\"timeover02um\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "timeover97",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3459",
+  "evidence": "timeover97_snd.attachSound(\"timeover97\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "title02um",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3417",
+  "evidence": "mainTitle02um_snd.attachSound(\"title02um\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "title97",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3415",
+  "evidence": "mainTitle_snd.attachSound(\"title97\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "winner02um",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction_2.as:13",
+  "evidence": "winnerBgm.attachSound(\"winner02um\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "winner97",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction_2.as:17",
+  "evidence": "winnerBgm.attachSound(\"winner97\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "winnerVoice02um",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3465",
+  "evidence": "winnerVoice02um_snd.attachSound(\"winnerVoice02um\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "winnerVoice02um2",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3467",
+  "evidence": "winnerVoice02um2_snd.attachSound(\"winnerVoice02um2\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/21256864.swf",
+  "target_pattern": "winnerVoice97",
+  "api": "Sound.attachSound",
+  "location": "kofwing__21256864: DoAction.as:3463",
+  "evidence": "winnerVoice97_snd.attachSound(\"winnerVoice97\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/8492959.swf",
+  "target_pattern": "hurt1_snd_",
+  "api": "Sound.attachSound",
+  "location": "kofwing__8492959: Role.as:5429",
+  "evidence": "this.hurt1_snd.attachSound(\"hurt1_snd_\" + this.roleName);",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/8492959.swf",
+  "target_pattern": "hurt2_snd_",
+  "api": "Sound.attachSound",
+  "location": "kofwing__8492959: Role.as:5431",
+  "evidence": "this.hurt2_snd.attachSound(\"hurt2_snd_\" + this.roleName);",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/8492959.swf",
+  "target_pattern": "lose_snd_",
+  "api": "Sound.attachSound",
+  "location": "kofwing__8492959: Role.as:5433",
+  "evidence": "this.lose_snd.attachSound(\"lose_snd_\" + this.roleName);",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ },
+ {
+  "source": "kofwing/8492959.swf",
+  "target_pattern": "run_snd",
+  "api": "Sound.attachSound",
+  "location": "kofwing__8492959: Role.as:5427",
+  "evidence": "this.run_snd.attachSound(\"run_snd\");",
+  "confidence": "INFERRED",
+  "note": "bare link id - resolved from this SWF's internal DefineSound/ExportAssets library, not an external file",
+  "resolved_target": ""
+ }
+]

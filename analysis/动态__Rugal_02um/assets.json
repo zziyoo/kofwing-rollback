@@ -1,0 +1,25 @@
+{
+ "relative_path": "stage2/其他地图/动态/Rugal_02um.swf",
+ "analysis_id": "动态__Rugal_02um",
+ "tag_counts": {
+  "D": 112,
+  "S": 82,
+  "P": 66,
+  "F": 1,
+  "M": 1,
+  "J": 1,
+  "E": 1
+ },
+ "unknown_tag_ids": {},
+ "n_export_assets": 0,
+ "export_names": [],
+ "export_assets": [],
+ "sounds": [],
+ "sprites": [],
+ "images": [],
+ "fonts": [],
+ "frame_label_lines": [],
+ "script_files_exported": 2,
+ "string_count": 672,
+ "path_like_strings": []
+}

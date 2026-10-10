@@ -1,0 +1,106 @@
+class Nameless_Combo extends role_corn.Combo_listener
+{
+   var beCancled;
+   var combo1;
+   var combo2;
+   var combo3;
+   var notTOcancle;
+   var role;
+   var s_cancle;
+   var skill_over;
+   function Nameless_Combo(r)
+   {
+      super();
+      this.role = r;
+      this.init();
+   }
+   function init()
+   {
+      this.combo1 = new Object();
+      this.combo1.df_k = {f_k:"sk_fake"};
+      this.combo1.f_p = {dfdf_p:"dfdf_p",dfdf_p_max:"dfdf_p_max"};
+      this.combo1.fdf_pl = {dfdf_p:"dfdf_p",dfdf_p_max:"dfdf_p_max"};
+      this.combo2 = new Object();
+      this.combo3 = new Object();
+      this.skill_over = new Object();
+      this.combo2.punch_l = 4;
+      this.skill_over.punch_l = 5;
+      this.combo2.punch = 11;
+      this.skill_over.punch = 9;
+      this.combo2.punch2 = 8;
+      this.skill_over.punch2 = 18;
+      this.combo2.kick_l = 4;
+      this.skill_over.kick_l = 6;
+      this.combo2.kick = 8;
+      this.skill_over.kick = 20;
+      this.combo2.kick2 = 6;
+      this.combo3.kick2 = 15;
+      this.skill_over.kick2 = 13;
+      this.combo2.squatPunch = 9;
+      this.skill_over.squatPunch = 16;
+      this.combo2.squatPunch_l = 3;
+      this.skill_over.squatPunch_l = 5;
+      this.combo2.squatKick = 8;
+      this.skill_over.squatKick = 13;
+      this.combo2.squatKick_l = 3;
+      this.skill_over.squatKick_l = 5;
+      this.combo2.heavyHit = 12;
+      this.skill_over.heavyHit = 15;
+      this.combo2.f_p = 10;
+      this.combo3.f_p = 15;
+      this.skill_over.f_p = 20;
+      this.combo2.f_k = 13;
+      this.skill_over.f_k = 13;
+      this.combo2.df_k = 8;
+      this.combo3.df_k = 10;
+      this.combo2.df_ph = 14;
+      this.skill_over.df_ph = 16;
+      this.combo2.df_pl = 11;
+      this.skill_over.df_pl = 13;
+      this.combo2.db_p = 28;
+      this.skill_over.db_p = 28;
+      this.combo2.fdf_pl = 8;
+      this.skill_over.fdf_pl = 8;
+      this.combo2.fdf_ph = 10;
+      this.skill_over.fdf_ph = 13;
+      this.combo2.db_kl = 16;
+      this.skill_over.db_kl = 18;
+      this.combo2.db_k = 19;
+      this.skill_over.db_k = 24;
+      this.combo2.dfdf_p = 11;
+      this.skill_over.dfdf_p = 25;
+      this.combo2.dfdf_k = 31;
+      this.skill_over.dfdf_k = 41;
+      this.beCancled = new Object();
+      this.beCancled.punch2 = 1;
+      this.beCancled.kick_s1 = 1;
+      this.beCancled.punch_l = 1;
+      this.beCancled.f_k = 1;
+      this.beCancled.kick = 1;
+      this.beCancled.kick2 = 1;
+      this.beCancled.kick_s1 = 1;
+      this.beCancled.kick_s2 = 1;
+      this.beCancled.kick_l = 1;
+      this.beCancled.df_k = 1;
+      this.beCancled.squatPunch = 1;
+      this.beCancled.squatPunch_l = 1;
+      this.beCancled.squatKick_l = 1;
+      this.beCancled.jumpSkill_punch = 1;
+      this.notTOcancle = new Object();
+      this.notTOcancle.punch = 1;
+      this.notTOcancle.punch2 = 1;
+      this.notTOcancle.punch_l = 1;
+      this.notTOcancle.kick = 1;
+      this.notTOcancle.kick_l = 1;
+      this.notTOcancle.squatPunch = 1;
+      this.notTOcancle.squatPunch_l = 1;
+      this.notTOcancle.squatKick_l = 1;
+      this.notTOcancle.squatKick = 1;
+      this.notTOcancle.pitch = 1;
+      this.s_cancle = new Object();
+      this.s_cancle.punch_l = {f_p:1,kick_l:1,punch:1,kick:1};
+      this.s_cancle.kick_l = {df_k:1};
+      this.s_cancle.squatPunch_l = {f_p:1,kick_l:1,squatKick_l:1,punch:1,kick:1};
+      this.s_cancle.squatKick_l = {f_p:1,kick_l:1,punch:1,kick:1};
+   }
+}

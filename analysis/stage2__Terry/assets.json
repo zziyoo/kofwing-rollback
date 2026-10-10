@@ -1,0 +1,24 @@
+{
+ "relative_path": "stage2/Terry.swf",
+ "analysis_id": "stage2__Terry",
+ "tag_counts": {
+  "S": 429,
+  "P": 411,
+  "D": 18,
+  "F": 1,
+  "M": 1,
+  "E": 1
+ },
+ "unknown_tag_ids": {},
+ "n_export_assets": 0,
+ "export_names": [],
+ "export_assets": [],
+ "sounds": [],
+ "sprites": [],
+ "images": [],
+ "fonts": [],
+ "frame_label_lines": [],
+ "script_files_exported": 1,
+ "string_count": 1131,
+ "path_like_strings": []
+}

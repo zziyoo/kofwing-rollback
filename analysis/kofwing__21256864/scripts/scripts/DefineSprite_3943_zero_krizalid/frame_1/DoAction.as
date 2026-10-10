@@ -1,0 +1,17 @@
+this.onEnterFrame = function()
+{
+   if(this._currentframe < this._totalframes)
+   {
+      _root.role_mc.status_8 = "jingling";
+   }
+   if(_level0.inPause || _level0.inFreeze || _root.role_mc.opp.inFreeze)
+   {
+      stop();
+   }
+   else
+   {
+      play();
+   }
+};
+dirs = this.dir;
+allowNum = 1;

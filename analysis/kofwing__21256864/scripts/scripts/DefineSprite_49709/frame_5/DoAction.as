@@ -1,0 +1,2 @@
+continueHit = true;
+countEnd();

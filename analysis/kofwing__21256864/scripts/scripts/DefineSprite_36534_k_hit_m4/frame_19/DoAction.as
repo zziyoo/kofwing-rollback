@@ -1,0 +1,3 @@
+_X = _root.role_mc.opp._x;
+_Y = _root.role_mc._y - 70;
+_root.role_mc.mc.stop();

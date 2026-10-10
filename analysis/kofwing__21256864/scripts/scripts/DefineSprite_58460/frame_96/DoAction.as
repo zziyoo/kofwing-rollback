@@ -1,0 +1,4 @@
+this.onEnterFrame = function()
+{
+   stop();
+};

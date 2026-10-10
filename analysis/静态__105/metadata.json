@@ -1,0 +1,82 @@
+{
+ "relative_path": "stage2/其他地图/静态/105.swf",
+ "filename": "105.swf",
+ "extension": ".swf",
+ "bytes": 96317,
+ "sha256": "0a8d834385b15d0ac1c6379aa759cfd1bf51f7482607c2bd177d009eb69e69ce",
+ "is_swf_signature": true,
+ "valid_swf": true,
+ "compression": "zlib",
+ "swf_version": 7,
+ "declared_length": 98365,
+ "actual_length": 96317,
+ "length_match": false,
+ "frame_rate": 30.0,
+ "declared_frame_count": 2,
+ "showframe_count": 2,
+ "canvas_twips": [
+  -14336,
+  -2048
+ ],
+ "canvas_px_1440dpi": [
+  -716.8,
+  -102.4
+ ],
+ "tag_total": 15,
+ "tag_histogram": {
+  "0": 1,
+  "1": 2,
+  "2": 4,
+  "9": 1,
+  "12": 1,
+  "26": 1,
+  "36": 1,
+  "39": 4
+ },
+ "tag_histogram_named": {
+  "End": 1,
+  "ShowFrame": 2,
+  "DefineShape": 4,
+  "SetBackgroundColor": 1,
+  "DoAction": 1,
+  "PlaceObject2": 1,
+  "DefineBitsLossless4": 1,
+  "DefineSprite": 4
+ },
+ "has_do_action": true,
+ "has_do_init_action": false,
+ "has_do_abc": false,
+ "n_do_action": 1,
+ "n_do_init_action": 0,
+ "n_do_abc": 0,
+ "n_sprite": 4,
+ "n_image_tags": 1,
+ "n_sound_tags": 0,
+ "n_font_tags": 0,
+ "n_text_tags": 0,
+ "n_shape_tags": 4,
+ "n_frame_label": 0,
+ "n_symbol_class": 0,
+ "n_export_assets": 0,
+ "n_define_binary": 0,
+ "n_video_stream": 0,
+ "tag_walk_ok": true,
+ "warnings": [
+  "declared length 98365 != actual length 96317 (delta +2048)"
+ ],
+ "errors": [],
+ "length_delta": 2048,
+ "bytes_after_end_tag": 0,
+ "analysis_id": "静态__105",
+ "jpexs_dump_parsed_lines": 27,
+ "jpexs_tag_counts": {
+  "D": 11,
+  "P": 8,
+  "S": 6,
+  "R": 1,
+  "E": 1
+ },
+ "script_files_exported": 2,
+ "string_count": 246,
+ "jpexs_errors": []
+}

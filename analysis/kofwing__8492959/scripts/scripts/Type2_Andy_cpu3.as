@@ -1,0 +1,1 @@
+Object.registerClass("Type2_Andy_cpu3",Type2_Andy_AI_Lv3);

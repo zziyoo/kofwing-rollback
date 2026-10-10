@@ -1,0 +1,2 @@
+continueHit = true;
+hitPos = "down";

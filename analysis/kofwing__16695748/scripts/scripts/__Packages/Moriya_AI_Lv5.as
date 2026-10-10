@@ -1,0 +1,129 @@
+class Moriya_AI_Lv5 extends Moriya_AI
+{
+   var attack_rate0;
+   var combo_rate0;
+   var dis_array;
+   var dis_num;
+   var hold_rate0;
+   var skill_dis;
+   var wait_frame0;
+   function Moriya_AI_Lv5()
+   {
+      super();
+      this.skill_init();
+      this.combo_init();
+      this.combo_rate0 = 100;
+      this.attack_rate0 = 65;
+      this.hold_rate0 = 100;
+      this.attack_s0 = 50;
+      this.wait_frame0 = 0;
+      this.combo_risk0 = 20;
+   }
+   function skill_init()
+   {
+      this.dis_array[0] = 100;
+      this.dis_array[1] = 150;
+      this.dis_array[2] = 250;
+      this.dis_array[3] = 300;
+      this.dis_array[4] = 400;
+      this.dis_array[5] = 450;
+      this.dis_array[6] = 550;
+      this.dis_array[7] = 1000;
+      this.skill_dis[0] = ["walk_b"];
+      this.skill_dis[1] = ["walk_b"];
+      this.skill_dis[2] = ["dash_f"];
+      this.skill_dis[3] = ["dash_f"];
+      this.skill_dis[4] = ["dash_f"];
+      this.skill_dis[5] = ["dash_f","dash_f","dash_f","dash_f"];
+      this.skill_dis[6] = ["dash_f","dash_f","dash_f","dash_f","dash_f"];
+      this.skill_dis[7] = ["dash_f","dash_f","dash_f","dash_f","dash_f","dash_f"];
+      this.dis_num = this.dis_array.length;
+   }
+   function combo_init()
+   {
+      this.combo_1 = new Object();
+      this.combo_land = new Object();
+      this.combo_auto = new Object();
+      this.combo_burst = new Object();
+      this.delay_frames = new Object();
+      this.combo_oppOnEgde = new Object();
+      this.combo_1.punch = ["sk_buyue1","sk_buyue2","sk_buyue1","sk_buyue2","sk_buyue1","sk_buyue2","sk_buyue1","sk_buyue2","sk_yueying_c1","sk_long_m","sk_long_d"];
+      this.combo_1.squatKick_l = ["punch_l"];
+      this.combo_1.punch_l2 = ["punch2"];
+      this.comboDis.punch_l2 = [130];
+      this.combo_1.punch2 = ["sk_buyue1","sk_buyue2","sk_yueying_c1","sk_yueying_a1","sk_yueying_c1","sk_yueying_a1"];
+      this.combo_1.sk_yueying_a1 = ["sk_yueying_a2","sk_yueying_a2_ai"];
+      this.combo_oppOnEgde.sk_yueying_a1 = [false,true];
+      this.combo_1.sk_yueying_a2 = ["sk_xinyue","sk_xinyue","sk_xinyue","sk_yueying_a3"];
+      this.combo_auto.sk_xinyue = ["sk_xinyue3"];
+      this.combo_1.sk_yueying_c1 = ["sk_yueying_c2"];
+      this.combo_1.sk_yueying_c2 = ["sk_yueying_c3"];
+      this.combo_1.sk_yueying_c3 = ["sk_yueying_c4"];
+      this.combo_1.kick = ["sk_long_m","sk_long_u","sk_long_u","sk_long_d","sk_s1","sk_s2"];
+      this.combo_1.squatPunch = ["punch3"];
+      this.combo_burst.punch3 = ["sk_yueying_a1","sk_yueying_c1"];
+      this.combo_burst.punch2 = ["df_p"];
+      this.combo_burst.punch = ["df_p"];
+      this.combo_burst.df_p = ["punch3"];
+      this.combo_burst.sk_yueying_c2 = ["sk_yueying_a1","sk_yueying_c3"];
+      this.combo_burst.sk_yueying_c3 = ["sk_xinyue"];
+      this.combo_burst.sk_xinyue3 = ["sk_s1"];
+      this.combo_burst.sk_xinyue = ["sk_s2","sk_xinyue3","sk_xinyue3"];
+      this.combo_burst.sk_s2 = ["sk_s1","sk_s3","sk_s4"];
+      this.combo_burst.sk_s1 = ["sk_s2","sk_s3","sk_s4"];
+      this.combo_burst.sk_yueying_a1 = ["sk_yueying_a2","sk_yueying_a2","sk_yueying_c1"];
+      this.combo_burst.sk_long_u = ["sk_long_d"];
+      this.combo_burst.sk_long_m = ["sk_long_d"];
+      this.combo_burst.sk_long_d = ["sk_yueying_a1","sk_yueying_c1"];
+      this.combo_land.jump_f = ["squatKick_l"];
+      this.comboDis.jump_f = [150];
+      this.combo_land.jumpSkill_kick = ["squatKick_l","punch2","punch"];
+      this.comboDis.jumpSkill_kick = [80,120,400];
+      this.combo_land.jumpSkill_punch = ["squatKick_l","punch2","punch"];
+      this.comboDis.jumpSkill_punch = [80,120,400];
+      this.combo_land.jumpSkill_kick_l = ["squatKick_l","punch2","punch"];
+      this.comboDis.jumpSkill_kick_l = [80,120,400];
+      this.combo_land.jump = ["squatKick_l"];
+      this.comboDis.jump = [150];
+      this.combo_land.jump_f = ["squatKick_l"];
+      this.comboDis.jump_f = [150];
+      this.combo_land.jumpSkill_heavyHit = ["sk_buyue1","sk_buyue2"];
+      this.action_1 = new Object();
+      this.action_1.airAttack = [["kick","kick","kick","kick"],["sk_xinyue"],["sk_s1","sk_s2"],["sk_buyue2"]];
+      this.delay_frames.airAttack = [180,250,300,1000];
+      this.delay_framesL.airAttack = [125,75,150,50];
+      this.delay_framesH.airAttack = [500,150,500,500];
+      this.action_1.downMove = [["sk_buyue1","sk_buyue2"]];
+      this.delay_frames.downMove = [1000];
+      this.action_1.down = [["punch4"],["dash_f"]];
+      this.delay_frames.down = [300,1000];
+      this.action_1.getup = [["jump_f","jump","squatKick_l","squatPunch_l","dash_b"],["dash_b","jump","jump_f","punch"],["punch","sk_buyue3"],["sk_buyue1","sk_buyue2"],["sk_buyue1"]];
+      this.delay_frames.getup = [150,250,300,350,550];
+      this.action_1.oppRollDown = [["dash_b","squatKick_l"],["dash_b","sk_long_d","sk_long_m","sk_buyue1"],["sk_buyue1","sk_buyue1","sk_buyue2","sk_buyue3","sk_buyue3"]];
+      this.delay_frames.oppRollDown = [150,300,1000];
+      this.action_1.oppLandHurt = [["squatKick_l","punch2","punch_l2"],["squatKick_l","punch_l","squatKick_l","squatPunch_l"],["punch","df_p","squatPunch_l","sk_buyue2","jump_f"],["dash_f"],["sk_buyue1","sk_buyue2"]];
+      this.delay_frames.oppLandHurt = [120,150,200,300,350];
+      this.action_1.oppLand = [["squatKick_l","punch_l","squatKick_l","squatPunch_l"],["punch","punch","jump_f","jump","squatPunch_l"]];
+      this.delay_frames.oppLand = [180,300];
+      this.action_1.oppRoll = [["squatPunch_l","punch_l","squatKick_l","roll_f","sk_yuedu1"],["jump_b","jump","jump_f"],["sk_buyue3","jump_b","dash_b","sk_buyue2","sk_buyue1","sk_long_u","sk_yuedu2"],["sk_buyue2","jump_b","sk_buyue3","sk_long_d","sk_yueying_a1","sk_yueying_c1","sk_xinyue"],["sk_buyue1","dash_b","roll_b","sk_buyue2"]];
+      this.delay_frames.oppRoll = [150,300,500,600,1000];
+      this.action_1.oppJump = [["sk_xinyue"],["sk_xinyue2","sk_s4"],["sk_s1","sk_s4","sk_buyue1"],["sk_s1","sk_s4","sk_buyue1","jump","jump_b"],["dash_f","sk_buyue1","sk_buyue3"]];
+      this.delay_frames.oppJump = [250,300,350,400,1000];
+      this.action_1.wander = [["roll_b","jump_b"],["jump_b","walk_f"],["dash_f"]];
+      this.delay_frames.wander = [150,300,1000];
+      this.action_1.defend = [["walk_b","walk_b","roll_f"],["walk_b","roll_b"],["walk_b","dash_b","jump_b","roll_b"],["walk_b"]];
+      this.delay_frames.defend = [130,200,400,1000];
+      this.action_1.defendAttack = [["sk_s4","sk_xinyue","sk_xinyue2","sk_yuedu1","sk_yuedu2"],["sk_s4","sk_xinyue2","sk_s1","sk_s2","sk_yuedu2"],["sk_long_d","sk_long_m","sk_buyue1","sk_s1"],["sk_buyue1","sk_buyue2","sk_buyue3","sk_s3"]];
+      this.delay_frames.defendAttack = [250,300,400,500];
+      this.action_1.defend_f = [["squatKick_l","kick_l"],["jump_b"],["dash_b"]];
+      this.delay_frames.defend_f = [150,250,1000];
+      this.action_1.defend_dashf = [["roll_f","squatPunch_l","squatKick_l"],["squatPunch_l"],["sk_buyue1"],["dash_b"]];
+      this.delay_frames.defend_dashf = [150,200,350,1000];
+      this.action_1.defend_h = [["hold_u","hold_u","roll_f"],["hold_u","roll_b"],["hold_u"]];
+      this.delay_frames.defend_h = [130,200,1000];
+      this.action_1.pos_down = [["squatKick_l","jump_f","dash_f"],["squatKick","jump_b","dash_f"],["dash_f","sk_long_d","sk_long_u"],["jump_f","dash_f","roll_f"]];
+      this.delay_frames.pos_down = [180,250,350,450];
+      this.action_1.pos_up = [["punch3","jump_f","jump_b","dash_f","sk_buyue1"],["jump","jump_b","dash_f"],["dash_f","sk_long_d","sk_long_u"],["jump_f","dash_f","roll_f"]];
+      this.delay_frames.pos_up = [200,250,350,450];
+   }
+}

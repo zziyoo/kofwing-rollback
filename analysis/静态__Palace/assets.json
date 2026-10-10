@@ -1,0 +1,33 @@
+{
+ "relative_path": "stage2/其他地图/静态/Palace.swf",
+ "analysis_id": "静态__Palace",
+ "tag_counts": {
+  "D": 16,
+  "P": 12,
+  "S": 9,
+  "R": 6,
+  "E": 2,
+  "F": 1,
+  "M": 1,
+  "J": 1
+ },
+ "unknown_tag_ids": {},
+ "n_export_assets": 1,
+ "export_names": [
+  "stage_palace"
+ ],
+ "export_assets": [
+  {
+   "char_id": 12,
+   "export_name": "stage_palace"
+  }
+ ],
+ "sounds": [],
+ "sprites": [],
+ "images": [],
+ "fonts": [],
+ "frame_label_lines": [],
+ "script_files_exported": 3,
+ "string_count": 2029,
+ "path_like_strings": []
+}

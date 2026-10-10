@@ -1,0 +1,32 @@
+00000015:    0. FileAttributes            tagId= 69 len=       4  10 00 00 00
+0000001b:    1. Metadata                  tagId= 77 len=    1296  3c 72 64 66 3a 52 44 46 20 78 6d 6c 6e 73 3a 72 64 66 3d 22 68 74 74 70 3a 2f 2f 77 77 77 2e 77 ... 20 3c 2f 72 64 66 3a 44 65 73 63 72 69 70 74 69 6f 6e 3e 20 3c 2f 72 64 66 3a 52 44 46 3e 20 00
+00000531:    2. SetBackgroundColor        tagId=  9 len=       3  ff ff ff
+00000536:    3. DoAction                  tagId= 12 len=      54  07 96 10 00 00 2a 00 07 01 00 00 00 00 53 79 73 74 65 6d 00 1c 96 0a 00 00 73 65 63 75 72 69 74 79 00 4e 96 0d 00 00 61 6c 6c 6f 77 44 6f 6d 61 69 6e 00 52 17 00
+00000572:    4. DefineBitsJPEG3 (chid: 1) tagId= 35 len=  429882  01 00 0b 74 06 00 ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 06 ... aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa 0a b1 b0 3f 0e
+000694b2:    5. DefineShape (chid: 2)     tagId=  2 len=      64  02 00 80 00 03 a9 80 31 fa 2f 60 04 42 ff ff d5 40 00 0a 00 00 00 42 01 00 d5 40 00 0a 00 00 34 00 17 cc 00 ff 00 00 00 00 00 00 00 30 16 0e a6 08 bd 8b e2 2b 43 d6 02 9f c3 a9 87 ab fa d0 00
+000694f8:    6. DefineShape (chid: 3)     tagId=  2 len=      36  03 00 80 3d 4b 6a a8 00 00 31 f8 01 00 00 00 00 00 10 0e 0d aa a0 00 1f 89 a5 4e 96 3f f8 65 ac e9 9c 10 00
+00069522:    7. DefineSprite (chid: 4)    tagId= 39 len=      16  04 00 01 00 86 06 06 01 00 03 00 00 40 00 00 00
+0006952c:      0. PlaceObject2 (chid: 3, dpt: 1) tagId= 26 len=       6  06 01 00 03 00 00
+00069534:      1. ShowFrame               tagId=  1 len=       0  
+00069538:    8. DefineSprite (chid: 5)    tagId= 39 len=      39  05 00 01 00 86 06 06 01 00 02 00 00 95 06 0e 02 00 04 00 c9 00 00 28 06 8f ff f4 a3 70 69 00 40 10 00 70 40 00 00 00
+00069542:      0. PlaceObject2 (chid: 2, dpt: 1) tagId= 26 len=       6  06 01 00 02 00 00
+0006954a:      1. PlaceObject2 (chid: 4, dpt: 2) tagId= 26 len=      21  0e 02 00 04 00 c9 00 00 28 06 8f ff f4 a3 70 69 00 40 10 00 70
+00069561:      2. ShowFrame               tagId=  1 len=       0  
+00069565:    9. DefineFont3 (chid: 6, fn: "Microsoft YaHei") tagId= 75 len=      23  06 00 04 04 10 4d 69 63 72 6f 73 6f 66 74 20 59 61 48 65 69 00 00 00
+00069582:   10. DefineFontAlignZones (fid: 6) tagId= 73 len=       3  06 00 40
+0006958b:   11. DefineEditText (chid: 7)  tagId= 37 len=     194  07 00 87 d5 83 00 77 fe c0 1a 00 85 22 06 00 58 02 00 cc ff ff 02 00 00 00 00 00 00 28 00 00 3c ... b0 b1 e6 98 af e8 bf 91 e8 ba ab e8 b7 9f e4 bd a0 e6 91 b8 3c 2f 66 6f 6e 74 3e 3c 2f 70 3e 00
+00069653:   12. DefineSprite (chid: 8)    tagId= 39 len=      41  08 00 01 00 bf 11 1b 00 00 00 06 01 01 00 07 00 18 aa 00 50 01 02 00 cc ff ff 00 00 05 00 00 00 05 00 00 01 a3 40 00 00 00
+0006965d:      0. PlaceObject3 (chid: 7, dpt: 1) tagId= 70 len=      27  06 01 01 00 07 00 18 aa 00 50 01 02 00 cc ff ff 00 00 05 00 00 00 05 00 00 01 a3
+0006967e:      1. ShowFrame               tagId=  1 len=       0  
+00069682:   13. DefineSprite (chid: 9)    tagId= 39 len=     222  09 00 02 00 3f 03 8e 00 00 00 88 2b 00 07 00 62 67 5f 31 00 69 73 42 6d 64 00 6d 63 00 76 5f 72 ... 67 5f 32 00 40 00 02 07 04 00 3f 03 02 00 00 00 07 00 88 06 05 01 00 b9 99 a7 82 40 40 00 00 00
+0006968c:      0. DoAction                tagId= 12 len=     142  88 2b 00 07 00 62 67 5f 31 00 69 73 42 6d 64 00 6d 63 00 76 5f 72 61 74 65 00 69 73 42 61 73 65 ... 07 04 00 00 00 43 3c 96 04 00 08 06 08 05 1c 96 02 00 08 00 1c 96 05 00 07 02 00 00 00 42 3c 00
+00069720:      1. PlaceObject2 (chid: 5, dpt: 1, nm: "bg_1") tagId= 26 len=      15  26 01 00 05 00 1f a4 c2 ff c0 62 67 5f 31 00
+00069735:      2. PlaceObject2 (chid: 8, dpt: 4, nm: "bg_2") tagId= 26 len=      15  26 04 00 08 00 1b 0d 94 a0 00 62 67 5f 32 00
+0006974a:      3. ShowFrame               tagId=  1 len=       0  
+0006974c:      4. RemoveObject2 (dpt: 4)  tagId= 28 len=       2  04 00
+00069750:      5. DoAction                tagId= 12 len=       2  07 00
+00069758:      6. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 b9 99 a7 82 40
+00069762:      7. ShowFrame               tagId=  1 len=       0  
+00069766:   14. PlaceObject2 (chid: 9, dpt: 1, nm: "mc") tagId= 26 len=       9  26 01 00 09 00 00 6d 63 00
+00069775:   15. ShowFrame                 tagId=  1 len=       0  
+00069777:   16. End                       tagId=  0 len=       0  

@@ -1,0 +1,2 @@
+stop();
+System.security.allowDomain("*");

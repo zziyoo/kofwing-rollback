@@ -1,0 +1,414 @@
+{
+ "relative_path": "kofwing/11480055.swf",
+ "analysis_id": "kofwing__11480055",
+ "tag_counts": {
+  "S": 29633,
+  "P": 6477,
+  "D": 5235,
+  "R": 1482,
+  "F": 269,
+  "E": 103,
+  "C": 3
+ },
+ "unknown_tag_ids": {},
+ "n_export_assets": 77,
+ "export_names": [
+  "Kim_hurt3",
+  "Kim_hurt2",
+  "Kim_hurt1",
+  "hit3.wav",
+  "Igniz_hitFire3",
+  "Kim_cpu1",
+  "Kim_cpu2",
+  "Kim_cpu3",
+  "Kim_cpu4",
+  "Kim_cpu5",
+  "Kim_player2",
+  "Type2_Kim_cpu1",
+  "Type2_Kim_cpu2",
+  "Type2_Kim_cpu3",
+  "Type2_Kim_cpu4",
+  "Type2_Kim_cpu5",
+  "Type2_Kim_player",
+  "HitCheck_mc",
+  "hitCheck_obj",
+  "class_ColorEffect",
+  "class_ExtMath",
+  "class_Func",
+  "fire02",
+  "bomb3",
+  "bomb",
+  "fire11",
+  "fire_s1",
+  "fire_s3",
+  "fire_s4",
+  "fire_s6",
+  "fire_s7",
+  "kyo_shuotie_fire",
+  "fire05",
+  "fire_m1",
+  "fire_m2",
+  "fire_m3",
+  "kyo_v3",
+  "dashezhi",
+  "dashezhi_2",
+  "dashezhi_max",
+  "dashezhi_max2",
+  "kyo_df_p_shadow",
+  "yangyan",
+  "yangyanBomb",
+  "kyo_eff4",
+  "fire8_2",
+  "kim_fire1",
+  "Kim_fire2",
+  "kim_kick1",
+  "bomb_sk_s3",
+  "boom1_mc",
+  "fireBoom",
+  "kyo_boomPos",
+  "ko_snd_Kim",
+  "run_snd",
+  "kyo_att1",
+  "kyo_att2",
+  "kyo_att3",
+  "kyo_att21",
+  "kyo_att22",
+  "kyo_att23",
+  "kim前跳",
+  "kim前跳2",
+  "KeyControl",
+  "combo_mc",
+  "fhj_rush_shadow",
+  "roleKim",
+  "kyo_huo off",
+  "fire04",
+  "fire_s2",
+  "yangyan2",
+  "kyo_fire_st",
+  "yangyanBomb2",
+  "fire_s5",
+  "fire_m",
+  "dashezi_air",
+  "role_Kim"
+ ],
+ "export_assets": [
+  {
+   "char_id": 1,
+   "export_name": "Kim_hurt3"
+  },
+  {
+   "char_id": 2,
+   "export_name": "Kim_hurt2"
+  },
+  {
+   "char_id": 3,
+   "export_name": "Kim_hurt1"
+  },
+  {
+   "char_id": 8,
+   "export_name": "hit3.wav"
+  },
+  {
+   "char_id": 27,
+   "export_name": "Igniz_hitFire3"
+  },
+  {
+   "char_id": 30,
+   "export_name": "Kim_cpu1"
+  },
+  {
+   "char_id": 32,
+   "export_name": "Kim_cpu2"
+  },
+  {
+   "char_id": 34,
+   "export_name": "Kim_cpu3"
+  },
+  {
+   "char_id": 36,
+   "export_name": "Kim_cpu4"
+  },
+  {
+   "char_id": 38,
+   "export_name": "Kim_cpu5"
+  },
+  {
+   "char_id": 40,
+   "export_name": "Kim_player2"
+  },
+  {
+   "char_id": 42,
+   "export_name": "Type2_Kim_cpu1"
+  },
+  {
+   "char_id": 44,
+   "export_name": "Type2_Kim_cpu2"
+  },
+  {
+   "char_id": 46,
+   "export_name": "Type2_Kim_cpu3"
+  },
+  {
+   "char_id": 48,
+   "export_name": "Type2_Kim_cpu4"
+  },
+  {
+   "char_id": 50,
+   "export_name": "Type2_Kim_cpu5"
+  },
+  {
+   "char_id": 52,
+   "export_name": "Type2_Kim_player"
+  },
+  {
+   "char_id": 54,
+   "export_name": "HitCheck_mc"
+  },
+  {
+   "char_id": 55,
+   "export_name": "hitCheck_obj"
+  },
+  {
+   "char_id": 58,
+   "export_name": "class_ColorEffect"
+  },
+  {
+   "char_id": 60,
+   "export_name": "class_ExtMath"
+  },
+  {
+   "char_id": 62,
+   "export_name": "class_Func"
+  },
+  {
+   "char_id": 135,
+   "export_name": "fire02"
+  },
+  {
+   "char_id": 136,
+   "export_name": "bomb3"
+  },
+  {
+   "char_id": 203,
+   "export_name": "bomb"
+  },
+  {
+   "char_id": 224,
+   "export_name": "fire11"
+  },
+  {
+   "char_id": 246,
+   "export_name": "fire_s1"
+  },
+  {
+   "char_id": 314,
+   "export_name": "fire_s3"
+  },
+  {
+   "char_id": 315,
+   "export_name": "fire_s4"
+  },
+  {
+   "char_id": 359,
+   "export_name": "fire_s6"
+  },
+  {
+   "char_id": 361,
+   "export_name": "fire_s7"
+  },
+  {
+   "char_id": 362,
+   "export_name": "kyo_shuotie_fire"
+  },
+  {
+   "char_id": 401,
+   "export_name": "fire05"
+  },
+  {
+   "char_id": 422,
+   "export_name": "fire_m1"
+  },
+  {
+   "char_id": 423,
+   "export_name": "fire_m2"
+  },
+  {
+   "char_id": 424,
+   "export_name": "fire_m3"
+  },
+  {
+   "char_id": 439,
+   "export_name": "kyo_v3"
+  },
+  {
+   "char_id": 445,
+   "export_name": "dashezhi"
+  },
+  {
+   "char_id": 446,
+   "export_name": "dashezhi_2"
+  },
+  {
+   "char_id": 447,
+   "export_name": "dashezhi_max"
+  },
+  {
+   "char_id": 450,
+   "export_name": "dashezhi_max2"
+  },
+  {
+   "char_id": 463,
+   "export_name": "kyo_df_p_shadow"
+  },
+  {
+   "char_id": 482,
+   "export_name": "yangyan"
+  },
+  {
+   "char_id": 486,
+   "export_name": "yangyanBomb"
+  },
+  {
+   "char_id": 508,
+   "export_name": "kyo_eff4"
+  },
+  {
+   "char_id": 536,
+   "export_name": "fire8_2"
+  },
+  {
+   "char_id": 562,
+   "export_name": "kim_fire1"
+  },
+  {
+   "char_id": 636,
+   "export_name": "Kim_fire2"
+  },
+  {
+   "char_id": 653,
+   "export_name": "kim_kick1"
+  },
+  {
+   "char_id": 655,
+   "export_name": "bomb_sk_s3"
+  },
+  {
+   "char_id": 701,
+   "export_name": "boom1_mc"
+  },
+  {
+   "char_id": 702,
+   "export_name": "fireBoom"
+  },
+  {
+   "char_id": 703,
+   "export_name": "kyo_boomPos"
+  },
+  {
+   "char_id": 706,
+   "export_name": "ko_snd_Kim"
+  },
+  {
+   "char_id": 707,
+   "export_name": "run_snd"
+  },
+  {
+   "char_id": 726,
+   "export_name": "kyo_att1"
+  },
+  {
+   "char_id": 747,
+   "export_name": "kyo_att2"
+  },
+  {
+   "char_id": 762,
+   "export_name": "kyo_att3"
+  },
+  {
+   "char_id": 787,
+   "export_name": "kyo_att21"
+  },
+  {
+   "char_id": 800,
+   "export_name": "kyo_att22"
+  },
+  {
+   "char_id": 819,
+   "export_name": "kyo_att23"
+  },
+  {
+   "char_id": 822,
+   "export_name": "kim前跳"
+  },
+  {
+   "char_id": 825,
+   "export_name": "kim前跳2"
+  },
+  {
+   "char_id": 826,
+   "export_name": "KeyControl"
+  },
+  {
+   "char_id": 2150,
+   "export_name": "combo_mc"
+  },
+  {
+   "char_id": 2266,
+   "export_name": "fhj_rush_shadow"
+  },
+  {
+   "char_id": 4500,
+   "export_name": "roleKim"
+  },
+  {
+   "char_id": 4530,
+   "export_name": "kyo_huo off"
+  },
+  {
+   "char_id": 4531,
+   "export_name": "fire04"
+  },
+  {
+   "char_id": 4532,
+   "export_name": "fire_s2"
+  },
+  {
+   "char_id": 4534,
+   "export_name": "yangyan2"
+  },
+  {
+   "char_id": 4535,
+   "export_name": "kyo_fire_st"
+  },
+  {
+   "char_id": 4536,
+   "export_name": "yangyanBomb2"
+  },
+  {
+   "char_id": 4538,
+   "export_name": "fire_s5"
+  },
+  {
+   "char_id": 4539,
+   "export_name": "fire_m"
+  },
+  {
+   "char_id": 4540,
+   "export_name": "dashezi_air"
+  },
+  {
+   "char_id": 4542,
+   "export_name": "role_Kim"
+  }
+ ],
+ "sounds": [],
+ "sprites": [],
+ "images": [],
+ "fonts": [],
+ "frame_label_lines": [],
+ "script_files_exported": 1471,
+ "string_count": 28094,
+ "path_like_strings": [
+  "hit3.wav"
+ ]
+}

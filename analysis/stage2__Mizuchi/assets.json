@@ -1,0 +1,48 @@
+{
+ "relative_path": "stage2/Mizuchi.swf",
+ "analysis_id": "stage2__Mizuchi",
+ "tag_counts": {
+  "P": 242,
+  "S": 169,
+  "D": 45,
+  "R": 6,
+  "E": 5,
+  "F": 1,
+  "M": 1,
+  "J": 1
+ },
+ "unknown_tag_ids": {},
+ "n_export_assets": 4,
+ "export_names": [
+  "snow1",
+  "snow2",
+  "snow3",
+  "snow4"
+ ],
+ "export_assets": [
+  {
+   "char_id": 3,
+   "export_name": "snow1"
+  },
+  {
+   "char_id": 6,
+   "export_name": "snow2"
+  },
+  {
+   "char_id": 9,
+   "export_name": "snow3"
+  },
+  {
+   "char_id": 12,
+   "export_name": "snow4"
+  }
+ ],
+ "sounds": [],
+ "sprites": [],
+ "images": [],
+ "fonts": [],
+ "frame_label_lines": [],
+ "script_files_exported": 4,
+ "string_count": 720,
+ "path_like_strings": []
+}

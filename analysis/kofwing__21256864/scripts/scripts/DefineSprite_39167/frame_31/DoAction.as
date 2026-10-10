@@ -1,0 +1,3 @@
+stop();
+gotoAndStop("XIII");
+play();

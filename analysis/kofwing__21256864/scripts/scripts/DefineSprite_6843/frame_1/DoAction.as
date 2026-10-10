@@ -1,0 +1,1 @@
+checkTouch_stop = true;

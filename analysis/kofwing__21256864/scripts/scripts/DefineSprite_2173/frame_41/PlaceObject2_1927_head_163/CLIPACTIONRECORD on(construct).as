@@ -1,0 +1,15 @@
+on(construct){
+   active = true;
+   canSelect = true;
+   frameOK = 35;
+   hasHidden = true;
+   name = "Haohmaru";
+   role = "Haohmaru";
+   type = 1;
+   up = "i";
+   down = "a1";
+   left = "k";
+   right = "o";
+   yc = "";
+   img = "defaultValue";
+}

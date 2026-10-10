@@ -1,0 +1,19 @@
+00000012:    0. DefineVideoStream (chid: 55462) tagId= 60 len=      48  a6 d8 36 45 a2 bd 07 af d5 25 45 fe 11 99 f6 1c 50 fc ba 92 e3 aa eb f8 9a 3b 4a ed 7a 76 20 34 8c e5 70 09 bf 0d f2 95 9e 51 c0 28 4f 6d c8 c4
+00000044:    1. Unknown (tid: 773)        tagId=773 len=      57  ce 89 53 b9 0e 26 73 f6 06 b2 71 ca a9 52 06 cc 67 02 76 fd d2 4f c5 d9 01 56 ce e1 9f 1c b8 d9 fd 02 db d9 30 70 9c 56 a3 57 89 9b 3e ba e4 1f 8d 26 69 82 86 3c f0 37 32
+0000007f:    2. Unknown (tid: 103)        tagId=103 len=       5  56 18 29 eb fe
+00000086:    3. Unknown (tid: 273)        tagId=273 len=      58  f5 2a fb 55 ff d1 cd 04 09 98 21 13 51 9b 2a 3b b4 67 44 bd 59 99 11 9a 70 fd 8b 1c 58 e7 43 88 81 dd 88 7b 2a 3d 55 f2 ec e2 3f 7b 1a e6 23 48 58 eb 92 cb d0 df 92 12 03 7a
+000000c2:    4. Error (tcl: DefineShape3, tid: 32) tagId= 32 len=      19  a7 e8 76 e3 51 cd 87 46 4e d5 b8 82 88 26 90 99 b0 7d 28
+000000d7:    5. Unknown (tid: 111)        tagId=111 len=      39  bb b2 9b 5c a2 95 51 14 2c 95 d4 ea 08 2f 49 a9 de 56 3d 35 2b 44 eb 52 55 c8 33 16 a7 84 94 30 20 e9 97 a3 0c d9 85
+00000100:    6. Unknown (tid: 814)        tagId=814 len=       6  93 2a a0 a5 41 3b
+00000108:    7. Unknown (tid: 851)        tagId=851 len=       9  ce 36 28 a2 09 63 77 d9 13
+00000113:    8. Unknown (tid: 871)        tagId=871 len=      61  71 a8 a9 40 0f 5d dc a0 5c 36 ee 9d db 4d 11 01 f0 79 e9 1d 06 f6 3c 82 52 a0 1c b6 ee 5a 80 ad 6f 1d b4 6c d3 1c 98 25 15 06 f8 e8 da e4 3e b9 2f 94 8e f0 33 96 03 5a 18 30 db 35 ae
+00000152:    9. Unknown (tid: 113)        tagId=113 len=      26  e4 38 9b 50 d2 d4 55 64 ab f7 32 8e f7 55 83 1d 88 3c 5d 95 59 e8 1e 96 16 37
+0000016e:   10. Unknown (tid: 225)        tagId=225 len=      27  0d e2 e4 d2 c7 09 68 c6 00 01 bb 71 76 f2 49 dd 52 88 fc 95 93 b3 df b2 c1 38 f3
+0000018b:   11. Unknown (tid: 724)        tagId=724 len=       5  c4 ad c4 dc 1a
+00000192:   12. Unknown (tid: 244)        tagId=244 len=       6  38 17 1d b5 07 c3
+0000019a:   13. Unknown (tid: 496)        tagId=496 len=      36  df 32 c6 de 4b 38 3e 2b 13 db c6 e4 89 20 51 e8 5b e4 00 14 c7 0b b0 f4 f2 8d 72 48 b5 af c1 7f 52 a9 2b 32
+000001c0:   14. Unknown (tid: 873)        tagId=873 len=       3  7d 8b 98
+000001c5:   15. Unknown (tid: 610)        tagId=610 len=      26  79 6a 3c 92 f8 2c 54 10 78 4c 26 d7 ed b6 d0 d5 01 11 01 f9 55 53 8d f5 05 fc
+000001e1:   16. Unknown (tid: 203)        tagId=203 len=      59  d7 fe be 8a e2 75 fc a1 e7 ec 73 ec 62 74 57 85 c9 8e d6 ee b0 e1 0f 43 df ec 91 ce 76 30 5d 70 62 22 6f fa 59 3b 59 2f 57 b8 3f 07 41 00 b8 5d 34 5e d4 46 fe ee 6c 93 41 9c 9c
+0000021e:   17. Unknown (tid: 834)        tagId=834 len=      30  1d f6 cb 15 66 73 f8 e4 fb 01 f5 51 18 46 86 f2 1c 0c b9 4a 6e 23 d3 9a c7 bb d0 dd 35 bb
+0000023e:   18. Unknown (tid: 175)        tagId=175 len=62510876  26 ba 27 2e e7 6e f9 77 9a eb 53 a4 63 25 15 50 ca 78 10 a5 e6 d7 df 28 11 c9 e3 db 15 2b 97 4e ... a7 60 a2 b3 b2 24 5b 05 b3 96 a1 fd eb 38 61 9f 8e e2 8f ff f5 a4 fd 74 56 34 12 fa be 19 7a 07

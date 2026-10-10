@@ -1,0 +1,24 @@
+{
+ "relative_path": "stage2/其他地图/动态/祸忌.swf",
+ "analysis_id": "动态__祸忌",
+ "tag_counts": {
+  "S": 58,
+  "D": 41,
+  "P": 21,
+  "F": 1,
+  "M": 1,
+  "E": 1
+ },
+ "unknown_tag_ids": {},
+ "n_export_assets": 0,
+ "export_names": [],
+ "export_assets": [],
+ "sounds": [],
+ "sprites": [],
+ "images": [],
+ "fonts": [],
+ "frame_label_lines": [],
+ "script_files_exported": 3,
+ "string_count": 24238,
+ "path_like_strings": []
+}

@@ -1,0 +1,1 @@
+fire.gotoAndPlay(1);

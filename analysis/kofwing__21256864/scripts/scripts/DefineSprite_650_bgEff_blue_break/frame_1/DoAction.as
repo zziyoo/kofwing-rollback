@@ -1,0 +1,1 @@
+mc._visible = false;

@@ -1,0 +1,25 @@
+{
+ "relative_path": "stage2/其他地图/动态/Saiki.swf",
+ "analysis_id": "动态__Saiki",
+ "tag_counts": {
+  "D": 783,
+  "S": 449,
+  "P": 434,
+  "R": 5,
+  "F": 1,
+  "M": 1,
+  "E": 1
+ },
+ "unknown_tag_ids": {},
+ "n_export_assets": 0,
+ "export_names": [],
+ "export_assets": [],
+ "sounds": [],
+ "sprites": [],
+ "images": [],
+ "fonts": [],
+ "frame_label_lines": [],
+ "script_files_exported": 4,
+ "string_count": 51199,
+ "path_like_strings": []
+}

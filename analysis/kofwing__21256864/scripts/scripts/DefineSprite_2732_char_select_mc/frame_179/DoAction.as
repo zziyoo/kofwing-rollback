@@ -1,0 +1,81 @@
+if(_level0.ranCharSelect)
+{
+   setTimeout(function()
+   {
+      select_mc.player.init(null,"a4",face_p1,name_mc1,this,mode_p1,fromTxt_mc1,"p1");
+      goto("a4");
+      select_mc.player.showFace("random");
+      select_mc.player.showName("random");
+      select_mc.player.gotoAndStop(2);
+      select_mc.a4.select._visible = true;
+   }
+   ,2000);
+}
+if(_level0.ranCharSelectNum2)
+{
+   setTimeout(function()
+   {
+      select_mc.player.init(null,"a4",face_p1,name_mc1,this,mode_p1,fromTxt_mc1,"p1");
+      goto("a4");
+      select_mc.player.showFace("random");
+      select_mc.player.showName("random");
+      select_mc.player.gotoAndStop(2);
+      select_mc.a4.select._visible = true;
+   }
+   ,2500);
+}
+if(_level0.ranCharSelectNum3)
+{
+   setTimeout(function()
+   {
+      select_mc.player.init(null,"a4",face_p1,name_mc1,this,mode_p1,fromTxt_mc1,"p1");
+      goto("a4");
+      select_mc.player.showFace("random");
+      select_mc.player.showName("random");
+      select_mc.player.gotoAndStop(2);
+      select_mc.a4.select._visible = true;
+   }
+   ,3000);
+}
+if(_level0.ranCharSelectN)
+{
+   setTimeout(function()
+   {
+      select_mc.player.init(null,"n0",face_p1,name_mc1,this,mode_p1,fromTxt_mc1,"p1");
+      goto("n0");
+      select_mc.player.showFace("randomNormal");
+      select_mc.player.showName("randomNormal");
+      select_mc.player.gotoAndStop(2);
+      select_mc.n0.select._visible = true;
+      select_mc.player.selectOK();
+   }
+   ,2000);
+}
+if(_level0.ranCharSelectNNum2)
+{
+   setTimeout(function()
+   {
+      select_mc.player.init(null,"n0",face_p1,name_mc1,this,mode_p1,fromTxt_mc1,"p1");
+      goto("n0");
+      select_mc.player.showFace("randomNormal");
+      select_mc.player.showName("randomNormal");
+      select_mc.player.gotoAndStop(2);
+      select_mc.n0.select._visible = true;
+      select_mc.player.selectOK();
+   }
+   ,2500);
+}
+if(_level0.ranCharSelectNNum3)
+{
+   setTimeout(function()
+   {
+      select_mc.player.init(null,"n0",face_p1,name_mc1,this,mode_p1,fromTxt_mc1,"p1");
+      goto("n0");
+      select_mc.player.showFace("randomNormal");
+      select_mc.player.showName("randomNormal");
+      select_mc.player.gotoAndStop(2);
+      select_mc.n0.select._visible = true;
+      select_mc.player.selectOK();
+   }
+   ,3000);
+}

@@ -1,0 +1,236 @@
+00000015:    0. FileAttributes            tagId= 69 len=       4  00 00 00 00
+0000001b:    1. SetBackgroundColor        tagId=  9 len=       3  ff ff ff
+00000020:    2. DefineBitsJPEG3 (chid: 1) tagId= 35 len=   52743  01 00 68 cc 00 00 ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 10 ... 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 78 1a da 0e d5 52
+0000ce2d:    3. DefineShape3 (chid: 2)    tagId= 32 len=     121  02 00 80 00 02 49 07 f0 c9 3e d0 04 00 cc cc cc 00 43 01 00 d9 40 00 05 00 00 0a 00 21 90 43 01 ... 38 65 e1 1f 2d ad f8 49 20 e5 4a 61 4f 8b 6e 01 de 30 91 33 10 3c 2b c7 25 e6 e1 a2 39 10 d0 00
+0000ceac:    4. DefineSprite (chid: 3)    tagId= 39 len=      16  03 00 01 00 86 06 06 01 00 02 00 00 40 00 00 00
+0000ceb6:      0. PlaceObject2 (chid: 2, dpt: 1) tagId= 26 len=       6  06 01 00 02 00 00
+0000cebe:      1. ShowFrame               tagId=  1 len=       0  
+0000cec2:    5. DefineBitsJPEG3 (chid: 4) tagId= 35 len=   39790  04 00 7d 8f 00 00 ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 10 ... 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 44 f0 3f f2 d9 6e 8b
+00016a36:    6. DefineShape (chid: 5)     tagId=  2 len=      42  05 00 80 00 03 62 20 00 01 4b d0 01 43 04 00 d9 3f f4 34 ff c2 40 00 10 16 0d 88 85 2f 5f 89 3b cf 5a d0 df 0d 88 9e aa 5e 80
+00016a66:    7. DefineSprite (chid: 6)    tagId= 39 len=      16  06 00 01 00 86 06 06 01 00 05 00 00 40 00 00 00
+00016a70:      0. PlaceObject2 (chid: 5, dpt: 1) tagId= 26 len=       6  06 01 00 05 00 00
+00016a78:      1. ShowFrame               tagId=  1 len=       0  
+00016a7c:    8. DefineBitsJPEG3 (chid: 7) tagId= 35 len=    6210  07 00 16 18 00 00 ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 06 ... 00 00 00 c2 a0 fe a9 e7 69 09 a0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 b8 01 e0 88 4c 0e
+000182c4:    9. DefineShape (chid: 8)     tagId=  2 len=      36  08 00 68 00 17 70 00 04 1a 00 01 43 07 00 d9 40 00 05 00 00 00 00 10 13 d8 bb 8e d4 1a 76 51 23 b6 f9 80 00
+000182ee:   10. DefineSprite (chid: 9)    tagId= 39 len=     236  09 00 02 00 3f 03 9a 00 00 00 88 37 00 09 00 62 67 30 00 69 73 42 6d 64 00 6d 63 00 62 67 30 5f ... f7 58 80 62 67 31 5f 6d 63 00 40 00 02 07 01 00 02 07 03 00 86 06 06 01 00 08 00 00 40 00 00 00
+000182f8:      0. DoAction                tagId= 12 len=     154  88 37 00 09 00 62 67 30 00 69 73 42 6d 64 00 6d 63 00 62 67 30 5f 6d 63 00 76 5f 72 61 74 65 00 ... 07 04 00 00 00 43 3c 96 04 00 08 08 08 05 1c 96 02 00 08 00 1c 96 05 00 07 02 00 00 00 42 3c 00
+00018398:      1. PlaceObject2 (chid: 3, dpt: 1, nm: "bg0_mc") tagId= 26 len=      21  26 01 00 03 00 c5 ee e6 e7 f3 36 c4 20 a0 62 67 30 5f 6d 63 00
+000183b3:      2. PlaceObject2 (chid: 6, dpt: 3, nm: "bg1_mc") tagId= 26 len=      17  26 03 00 06 00 1d 1b f7 58 80 62 67 31 5f 6d 63 00
+000183ca:      3. ShowFrame               tagId=  1 len=       0  
+000183cc:      4. RemoveObject2 (dpt: 1)  tagId= 28 len=       2  01 00
+000183d0:      5. RemoveObject2 (dpt: 3)  tagId= 28 len=       2  03 00
+000183d4:      6. PlaceObject2 (chid: 8, dpt: 1) tagId= 26 len=       6  06 01 00 08 00 00
+000183dc:      7. ShowFrame               tagId=  1 len=       0  
+000183e0:   11. PlaceObject2 (chid: 9, dpt: 1, nm: "mc") tagId= 26 len=      14  26 01 00 09 00 c9 00 02 40 00 00 6d 63 00
+000183f4:   12. DefineBitsJPEG3 (chid: 10) tagId= 35 len=    8233  0a 00 cc 1e 00 00 ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 10 ... 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 38 18 63 10 97 04
+0001a423:   13. DefineShape2 (chid: 11)   tagId= 22 len=     130  0b 00 85 51 5a ae b7 73 10 8c f0 02 00 00 00 00 43 0a 00 d9 40 00 05 00 00 0e 8d 7a e6 20 00 20 ... 00 d9 40 00 05 00 00 0e 72 4a e6 20 00 20 16 0a ba dd cc 57 aa 33 cf 48 d7 9e b7 31 3d 1c a2 00
+0001a4ab:   14. DefineSprite (chid: 12)   tagId= 39 len=      20  0c 00 01 00 8a 06 06 03 00 0b 00 20 ab aa 23 3c 40 00 00 00
+0001a4b5:      0. PlaceObject2 (chid: 11, dpt: 3) tagId= 26 len=      10  06 03 00 0b 00 20 ab aa 23 3c
+0001a4c1:      1. ShowFrame               tagId=  1 len=       0  
+0001a4c5:   15. DefineSprite (chid: 13)   tagId= 39 len=    1201  0d 00 64 00 8a 06 06 01 00 0c 00 1f 1b 34 00 00 40 00 88 06 05 01 00 1f 1d 84 00 00 40 00 88 06 ... 00 87 06 05 01 00 13 69 00 00 40 00 02 07 01 00 8a 06 06 03 00 0b 00 20 ab a4 23 3c 40 00 00 00
+0001a4cf:      0. PlaceObject2 (chid: 12, dpt: 1) tagId= 26 len=      10  06 01 00 0c 00 1f 1b 34 00 00
+0001a4db:      1. ShowFrame               tagId=  1 len=       0  
+0001a4dd:      2. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 1d 84 00 00
+0001a4e7:      3. ShowFrame               tagId=  1 len=       0  
+0001a4e9:      4. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 1f d4 00 00
+0001a4f3:      5. ShowFrame               tagId=  1 len=       0  
+0001a4f5:      6. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 22 24 00 00
+0001a4ff:      7. ShowFrame               tagId=  1 len=       0  
+0001a501:      8. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 24 74 00 00
+0001a50b:      9. ShowFrame               tagId=  1 len=       0  
+0001a50d:     10. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 26 c0 00 00
+0001a517:     11. ShowFrame               tagId=  1 len=       0  
+0001a519:     12. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 29 10 00 00
+0001a523:     13. ShowFrame               tagId=  1 len=       0  
+0001a525:     14. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 2b 60 00 00
+0001a52f:     15. ShowFrame               tagId=  1 len=       0  
+0001a531:     16. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 2d b0 00 00
+0001a53b:     17. ShowFrame               tagId=  1 len=       0  
+0001a53d:     18. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 30 00 00 00
+0001a547:     19. ShowFrame               tagId=  1 len=       0  
+0001a549:     20. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 32 50 00 00
+0001a553:     21. ShowFrame               tagId=  1 len=       0  
+0001a555:     22. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 34 a0 00 00
+0001a55f:     23. ShowFrame               tagId=  1 len=       0  
+0001a561:     24. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 36 f0 00 00
+0001a56b:     25. ShowFrame               tagId=  1 len=       0  
+0001a56d:     26. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 39 3c 00 00
+0001a577:     27. ShowFrame               tagId=  1 len=       0  
+0001a579:     28. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 3b 8c 00 00
+0001a583:     29. ShowFrame               tagId=  1 len=       0  
+0001a585:     30. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 3d dc 00 00
+0001a58f:     31. ShowFrame               tagId=  1 len=       0  
+0001a591:     32. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 40 2c 00 00
+0001a59b:     33. ShowFrame               tagId=  1 len=       0  
+0001a59d:     34. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 42 7c 00 00
+0001a5a7:     35. ShowFrame               tagId=  1 len=       0  
+0001a5a9:     36. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 44 cc 00 00
+0001a5b3:     37. ShowFrame               tagId=  1 len=       0  
+0001a5b5:     38. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 47 1c 00 00
+0001a5bf:     39. ShowFrame               tagId=  1 len=       0  
+0001a5c1:     40. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 49 6c 00 00
+0001a5cb:     41. ShowFrame               tagId=  1 len=       0  
+0001a5cd:     42. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 4b b8 00 00
+0001a5d7:     43. ShowFrame               tagId=  1 len=       0  
+0001a5d9:     44. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 4e 08 00 00
+0001a5e3:     45. ShowFrame               tagId=  1 len=       0  
+0001a5e5:     46. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 50 58 00 00
+0001a5ef:     47. ShowFrame               tagId=  1 len=       0  
+0001a5f1:     48. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 52 a8 00 00
+0001a5fb:     49. ShowFrame               tagId=  1 len=       0  
+0001a5fd:     50. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 54 f8 00 00
+0001a607:     51. ShowFrame               tagId=  1 len=       0  
+0001a609:     52. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 57 48 00 00
+0001a613:     53. ShowFrame               tagId=  1 len=       0  
+0001a615:     54. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 59 98 00 00
+0001a61f:     55. ShowFrame               tagId=  1 len=       0  
+0001a621:     56. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 5b e8 00 00
+0001a62b:     57. ShowFrame               tagId=  1 len=       0  
+0001a62d:     58. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 5e 34 00 00
+0001a637:     59. ShowFrame               tagId=  1 len=       0  
+0001a639:     60. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 60 84 00 00
+0001a643:     61. ShowFrame               tagId=  1 len=       0  
+0001a645:     62. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 62 d4 00 00
+0001a64f:     63. ShowFrame               tagId=  1 len=       0  
+0001a651:     64. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 65 24 00 00
+0001a65b:     65. ShowFrame               tagId=  1 len=       0  
+0001a65d:     66. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 67 74 00 00
+0001a667:     67. ShowFrame               tagId=  1 len=       0  
+0001a669:     68. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 69 c4 00 00
+0001a673:     69. ShowFrame               tagId=  1 len=       0  
+0001a675:     70. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 6c 14 00 00
+0001a67f:     71. ShowFrame               tagId=  1 len=       0  
+0001a681:     72. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 6e 64 00 00
+0001a68b:     73. ShowFrame               tagId=  1 len=       0  
+0001a68d:     74. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 70 b0 00 00
+0001a697:     75. ShowFrame               tagId=  1 len=       0  
+0001a699:     76. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 73 00 00 00
+0001a6a3:     77. ShowFrame               tagId=  1 len=       0  
+0001a6a5:     78. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 75 50 00 00
+0001a6af:     79. ShowFrame               tagId=  1 len=       0  
+0001a6b1:     80. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 77 a0 00 00
+0001a6bb:     81. ShowFrame               tagId=  1 len=       0  
+0001a6bd:     82. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 79 f0 00 00
+0001a6c7:     83. ShowFrame               tagId=  1 len=       0  
+0001a6c9:     84. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 7c 40 00 00
+0001a6d3:     85. ShowFrame               tagId=  1 len=       0  
+0001a6d5:     86. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1f 7e 90 00 00
+0001a6df:     87. ShowFrame               tagId=  1 len=       0  
+0001a6e1:     88. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 01 c0 00 00
+0001a6eb:     89. ShowFrame               tagId=  1 len=       0  
+0001a6ed:     90. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 06 60 00 00
+0001a6f7:     91. ShowFrame               tagId=  1 len=       0  
+0001a6f9:     92. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 0a f8 00 00
+0001a703:     93. ShowFrame               tagId=  1 len=       0  
+0001a705:     94. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 0f 98 00 00
+0001a70f:     95. ShowFrame               tagId=  1 len=       0  
+0001a711:     96. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 14 38 00 00
+0001a71b:     97. ShowFrame               tagId=  1 len=       0  
+0001a71d:     98. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 18 d8 00 00
+0001a727:     99. ShowFrame               tagId=  1 len=       0  
+0001a729:    100. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 1d 78 00 00
+0001a733:    101. ShowFrame               tagId=  1 len=       0  
+0001a735:    102. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 22 18 00 00
+0001a73f:    103. ShowFrame               tagId=  1 len=       0  
+0001a741:    104. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 26 b8 00 00
+0001a74b:    105. ShowFrame               tagId=  1 len=       0  
+0001a74d:    106. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 2b 50 00 00
+0001a757:    107. ShowFrame               tagId=  1 len=       0  
+0001a759:    108. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 2f f0 00 00
+0001a763:    109. ShowFrame               tagId=  1 len=       0  
+0001a765:    110. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 34 90 00 00
+0001a76f:    111. ShowFrame               tagId=  1 len=       0  
+0001a771:    112. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 39 30 00 00
+0001a77b:    113. ShowFrame               tagId=  1 len=       0  
+0001a77d:    114. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 3d d0 00 00
+0001a787:    115. ShowFrame               tagId=  1 len=       0  
+0001a789:    116. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 42 70 00 00
+0001a793:    117. ShowFrame               tagId=  1 len=       0  
+0001a795:    118. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 47 10 00 00
+0001a79f:    119. ShowFrame               tagId=  1 len=       0  
+0001a7a1:    120. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 4b b0 00 00
+0001a7ab:    121. ShowFrame               tagId=  1 len=       0  
+0001a7ad:    122. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 50 50 00 00
+0001a7b7:    123. ShowFrame               tagId=  1 len=       0  
+0001a7b9:    124. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 54 f0 00 00
+0001a7c3:    125. ShowFrame               tagId=  1 len=       0  
+0001a7c5:    126. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 59 88 00 00
+0001a7cf:    127. ShowFrame               tagId=  1 len=       0  
+0001a7d1:    128. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 5e 28 00 00
+0001a7db:    129. ShowFrame               tagId=  1 len=       0  
+0001a7dd:    130. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 62 c8 00 00
+0001a7e7:    131. ShowFrame               tagId=  1 len=       0  
+0001a7e9:    132. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 67 68 00 00
+0001a7f3:    133. ShowFrame               tagId=  1 len=       0  
+0001a7f5:    134. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 6c 08 00 00
+0001a7ff:    135. ShowFrame               tagId=  1 len=       0  
+0001a801:    136. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 70 a8 00 00
+0001a80b:    137. ShowFrame               tagId=  1 len=       0  
+0001a80d:    138. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 75 48 00 00
+0001a817:    139. ShowFrame               tagId=  1 len=       0  
+0001a819:    140. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 79 e0 00 00
+0001a823:    141. ShowFrame               tagId=  1 len=       0  
+0001a825:    142. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1d 7e 80 00 00
+0001a82f:    143. ShowFrame               tagId=  1 len=       0  
+0001a831:    144. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1b 06 40 00 00
+0001a83b:    145. ShowFrame               tagId=  1 len=       0  
+0001a83d:    146. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1b 0f 80 00 00
+0001a847:    147. ShowFrame               tagId=  1 len=       0  
+0001a849:    148. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1b 18 c0 00 00
+0001a853:    149. ShowFrame               tagId=  1 len=       0  
+0001a855:    150. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1b 22 00 00 00
+0001a85f:    151. ShowFrame               tagId=  1 len=       0  
+0001a861:    152. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1b 2b 40 00 00
+0001a86b:    153. ShowFrame               tagId=  1 len=       0  
+0001a86d:    154. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1b 34 80 00 00
+0001a877:    155. ShowFrame               tagId=  1 len=       0  
+0001a879:    156. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1b 3d b0 00 00
+0001a883:    157. ShowFrame               tagId=  1 len=       0  
+0001a885:    158. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1b 46 f0 00 00
+0001a88f:    159. ShowFrame               tagId=  1 len=       0  
+0001a891:    160. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1b 50 30 00 00
+0001a89b:    161. ShowFrame               tagId=  1 len=       0  
+0001a89d:    162. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1b 59 70 00 00
+0001a8a7:    163. ShowFrame               tagId=  1 len=       0  
+0001a8a9:    164. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1b 62 b0 00 00
+0001a8b3:    165. ShowFrame               tagId=  1 len=       0  
+0001a8b5:    166. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1b 6b f0 00 00
+0001a8bf:    167. ShowFrame               tagId=  1 len=       0  
+0001a8c1:    168. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1b 75 30 00 00
+0001a8cb:    169. ShowFrame               tagId=  1 len=       0  
+0001a8cd:    170. PlaceObject2 (dpt: 1)   tagId= 26 len=       8  05 01 00 1b 7e 60 00 00
+0001a8d7:    171. ShowFrame               tagId=  1 len=       0  
+0001a8d9:    172. PlaceObject2 (dpt: 1)   tagId= 26 len=       7  05 01 00 19 0f 40 00
+0001a8e2:    173. ShowFrame               tagId=  1 len=       0  
+0001a8e4:    174. PlaceObject2 (dpt: 1)   tagId= 26 len=       7  05 01 00 19 21 c0 00
+0001a8ed:    175. ShowFrame               tagId=  1 len=       0  
+0001a8ef:    176. PlaceObject2 (dpt: 1)   tagId= 26 len=       7  05 01 00 19 34 40 00
+0001a8f8:    177. ShowFrame               tagId=  1 len=       0  
+0001a8fa:    178. PlaceObject2 (dpt: 1)   tagId= 26 len=       7  05 01 00 19 46 c0 00
+0001a903:    179. ShowFrame               tagId=  1 len=       0  
+0001a905:    180. PlaceObject2 (dpt: 1)   tagId= 26 len=       7  05 01 00 19 59 40 00
+0001a90e:    181. ShowFrame               tagId=  1 len=       0  
+0001a910:    182. PlaceObject2 (dpt: 1)   tagId= 26 len=       7  05 01 00 19 6b c0 00
+0001a919:    183. ShowFrame               tagId=  1 len=       0  
+0001a91b:    184. PlaceObject2 (dpt: 1)   tagId= 26 len=       7  05 01 00 19 7e 40 00
+0001a924:    185. ShowFrame               tagId=  1 len=       0  
+0001a926:    186. PlaceObject2 (dpt: 1)   tagId= 26 len=       7  05 01 00 17 21 80 00
+0001a92f:    187. ShowFrame               tagId=  1 len=       0  
+0001a931:    188. PlaceObject2 (dpt: 1)   tagId= 26 len=       7  05 01 00 17 46 40 00
+0001a93a:    189. ShowFrame               tagId=  1 len=       0  
+0001a93c:    190. PlaceObject2 (dpt: 1)   tagId= 26 len=       7  05 01 00 17 6b 40 00
+0001a945:    191. ShowFrame               tagId=  1 len=       0  
+0001a947:    192. PlaceObject2 (dpt: 1)   tagId= 26 len=       7  05 01 00 15 20 80 00
+0001a950:    193. ShowFrame               tagId=  1 len=       0  
+0001a952:    194. PlaceObject2 (dpt: 1)   tagId= 26 len=       7  05 01 00 15 6a 80 00
+0001a95b:    195. ShowFrame               tagId=  1 len=       0  
+0001a95d:    196. PlaceObject2 (dpt: 1)   tagId= 26 len=       7  05 01 00 13 69 00 00
+0001a966:    197. ShowFrame               tagId=  1 len=       0  
+0001a968:    198. RemoveObject2 (dpt: 1)  tagId= 28 len=       2  01 00
+0001a96c:    199. PlaceObject2 (chid: 11, dpt: 3) tagId= 26 len=      10  06 03 00 0b 00 20 ab a4 23 3c
+0001a978:    200. ShowFrame               tagId=  1 len=       0  
+0001a97c:   16. PlaceObject3 (chid: 13, dpt: 5) tagId= 70 len=      12  06 02 05 00 0d 00 1f 2b f0 b5 d8 04
+0001a98a:   17. ShowFrame                 tagId=  1 len=       0  
+0001a98c:   18. DoAction                  tagId= 12 len=       2  07 00
+0001a994:   19. ShowFrame                 tagId=  1 len=       0  
+0001a996:   20. End                       tagId=  0 len=       0  

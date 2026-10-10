@@ -1,0 +1,82 @@
+{
+ "relative_path": "stage2/Igniz_01.swf",
+ "filename": "Igniz_01.swf",
+ "extension": ".swf",
+ "bytes": 490614,
+ "sha256": "9abb2f021875375a59b2e4604df18c545637ae2cb8acdf803521314eb394ceb7",
+ "is_swf_signature": true,
+ "valid_swf": true,
+ "compression": "zlib",
+ "swf_version": 8,
+ "declared_length": 490615,
+ "actual_length": 490614,
+ "length_match": false,
+ "frame_rate": 30.0,
+ "declared_frame_count": 1,
+ "showframe_count": 1,
+ "canvas_twips": [
+  7008,
+  12064
+ ],
+ "canvas_px_1440dpi": [
+  350.4,
+  603.2
+ ],
+ "tag_total": 24,
+ "tag_histogram": {
+  "0": 1,
+  "1": 1,
+  "2": 8,
+  "9": 1,
+  "20": 8,
+  "26": 1,
+  "39": 3,
+  "69": 1
+ },
+ "tag_histogram_named": {
+  "End": 1,
+  "ShowFrame": 1,
+  "DefineShape": 8,
+  "SetBackgroundColor": 1,
+  "DefineBitsLossless2": 8,
+  "PlaceObject2": 1,
+  "DefineSprite": 3,
+  "FileAttributes": 1
+ },
+ "has_do_action": false,
+ "has_do_init_action": false,
+ "has_do_abc": false,
+ "n_do_action": 0,
+ "n_do_init_action": 0,
+ "n_do_abc": 0,
+ "n_sprite": 3,
+ "n_image_tags": 8,
+ "n_sound_tags": 0,
+ "n_font_tags": 0,
+ "n_text_tags": 0,
+ "n_shape_tags": 8,
+ "n_frame_label": 0,
+ "n_symbol_class": 0,
+ "n_export_assets": 0,
+ "n_define_binary": 0,
+ "n_video_stream": 0,
+ "tag_walk_ok": true,
+ "warnings": [
+  "declared length 490615 != actual length 490614 (delta +1)"
+ ],
+ "errors": [],
+ "length_delta": 1,
+ "bytes_after_end_tag": 0,
+ "analysis_id": "stage2__Igniz_01",
+ "jpexs_dump_parsed_lines": 62,
+ "jpexs_tag_counts": {
+  "S": 28,
+  "D": 20,
+  "P": 12,
+  "F": 1,
+  "E": 1
+ },
+ "script_files_exported": 1,
+ "string_count": 1671,
+ "jpexs_errors": []
+}

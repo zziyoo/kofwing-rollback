@@ -1,0 +1,25 @@
+{
+ "relative_path": "stage/隧道.swf",
+ "analysis_id": "stage__隧道",
+ "tag_counts": {
+  "D": 7,
+  "S": 5,
+  "P": 4,
+  "F": 1,
+  "M": 1,
+  "J": 1,
+  "E": 1
+ },
+ "unknown_tag_ids": {},
+ "n_export_assets": 0,
+ "export_names": [],
+ "export_assets": [],
+ "sounds": [],
+ "sprites": [],
+ "images": [],
+ "fonts": [],
+ "frame_label_lines": [],
+ "script_files_exported": 3,
+ "string_count": 772,
+ "path_like_strings": []
+}

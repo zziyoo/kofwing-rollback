@@ -1,0 +1,385 @@
+stop();
+if(_level0.moreVs == true)
+{
+   var winner;
+   if(_root.wface == 1)
+   {
+      if(_level0.player_type == "1PVS2P")
+      {
+         _level0.winTimes1PPVP++;
+      }
+      if(_level0.player_type == "vs")
+      {
+         _level0.winTimes1PPVE++;
+      }
+      if(_level0.player_type == "COMVSCOM")
+      {
+         _level0.winTimes1PEVE++;
+      }
+      if(_level0.loseTimes_P1 == 0)
+      {
+         winner = _level0.charSelect_P1;
+         if(_level0.charSelect_P1 == "Iori" && _level0.mode_role_P1 == 3)
+         {
+            winner = "Iori3";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P1 == "Ash" && _level0.mode_role_P1 == 2)
+         {
+            winner = "Ash2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P1 == "KyoW" && _level0.mode_role_P1 == 2)
+         {
+            winner = "KyoW2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P1 == "Zero" && _level0.mode_role_P1 == 2)
+         {
+            winner = "CZero";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P1 == "Orochi" && _level0.mode_role_P1 == 2)
+         {
+            winner = "Orochi2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P1 == "Krizalid" && _level0.mode_role_P1 == 2)
+         {
+            winner = "Krizalid2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+      }
+      else if(_level0.loseTimes_P1 == 1)
+      {
+         winner = _level0.charSelect_P12;
+         if(_level0.charSelect_P12 == "Iori" && _level0.mode_role_P12 == 3)
+         {
+            winner = "Iori3";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P12 == "Ash" && _level0.mode_role_P12 == 2)
+         {
+            winner = "Ash2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P12 == "KyoW" && _level0.mode_role_P12 == 2)
+         {
+            winner = "KyoW2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P12 == "Zero" && _level0.mode_role_P12 == 2)
+         {
+            winner = "CZero";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P12 == "Orochi" && _level0.mode_role_P12 == 2)
+         {
+            winner = "Orochi2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P12 == "Krizalid" && _level0.mode_role_P12 == 2)
+         {
+            winner = "Krizalid2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+      }
+      else if(_level0.loseTimes_P1 == 2)
+      {
+         winner = _level0.charSelect_P13;
+         if(_level0.charSelect_P13 == "Iori" && _level0.mode_role_P13 == 3)
+         {
+            winner = "Iori3";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P13 == "Ash" && _level0.mode_role_P13 == 2)
+         {
+            winner = "Ash2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P13 == "KyoW" && _level0.mode_role_P13 == 2)
+         {
+            winner = "KyoW2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P13 == "Zero" && _level0.mode_role_P13 == 2)
+         {
+            winner = "CZero";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P13 == "Orochi" && _level0.mode_role_P13 == 2)
+         {
+            winner = "Orochi2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P13 == "Krizalid" && _level0.mode_role_P13 == 2)
+         {
+            winner = "Krizalid2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+      }
+   }
+   else if(_root.wface == 2)
+   {
+      if(_level0.player_type == "1PVS2P")
+      {
+         _level0.winTimes2PPVP++;
+      }
+      if(_level0.player_type == "vs")
+      {
+         _level0.winTimes2PPVE++;
+      }
+      if(_level0.player_type == "COMVSCOM")
+      {
+         _level0.winTimes2PEVE++;
+      }
+      if(_level0.loseTimes_P2 == 0)
+      {
+         winner = _level0.charSelect_P2;
+         if(_level0.charSelect_P2 == "Iori" && _level0.mode_role_P2 == 3)
+         {
+            winner = "Iori3";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P2 == "Ash" && _level0.mode_role_P2 == 2)
+         {
+            winner = "Ash2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P2 == "KyoW" && _level0.mode_role_P2 == 2)
+         {
+            winner = "KyoW2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P2 == "Zero" && _level0.mode_role_P2 == 2)
+         {
+            winner = "CZero";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P2 == "Orochi" && _level0.mode_role_P2 == 2)
+         {
+            winner = "Orochi2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P2 == "Krizalid" && _level0.mode_role_P2 == 2)
+         {
+            winner = "Krizalid2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+      }
+      else if(_level0.loseTimes_P2 == 1)
+      {
+         winner = _level0.charSelect_P22;
+         if(_level0.charSelect_P22 == "Iori" && _level0.mode_role_P22 == 3)
+         {
+            winner = "Iori3";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P22 == "Ash" && _level0.mode_role_P22 == 2)
+         {
+            winner = "Ash2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P22 == "KyoW" && _level0.mode_role_P22 == 2)
+         {
+            winner = "KyoW2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P22 == "Zero" && _level0.mode_role_P22 == 2)
+         {
+            winner = "CZero";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P22 == "Orochi" && _level0.mode_role_P22 == 2)
+         {
+            winner = "Orochi2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P22 == "Krizalid" && _level0.mode_role_P22 == 2)
+         {
+            winner = "Krizalid2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+      }
+      else if(_level0.loseTimes_P2 == 2)
+      {
+         winner = _level0.charSelect_P23;
+         if(_level0.charSelect_P23 == "Iori" && _level0.mode_role_P23 == 3)
+         {
+            winner = "Iori3";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P23 == "Ash" && _level0.mode_role_P23 == 2)
+         {
+            winner = "Ash2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P23 == "KyoW" && _level0.mode_role_P23 == 2)
+         {
+            winner = "KyoW2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P23 == "Zero" && _level0.mode_role_P23 == 2)
+         {
+            winner = "CZero";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P23 == "Orochi" && _level0.mode_role_P23 == 2)
+         {
+            winner = "Orochi2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+         if(_level0.charSelect_P23 == "Krizalid" && _level0.mode_role_P23 == 2)
+         {
+            winner = "Krizalid2";
+            gotoAndStop(winner);
+            return undefined;
+         }
+      }
+   }
+   gotoAndStop(winner);
+}
+else
+{
+   var winner;
+   if(_root.wface == 1)
+   {
+      if(_level0.player_type == "1PVS2P")
+      {
+         _level0.winTimes1PPVP++;
+      }
+      if(_level0.player_type == "vs")
+      {
+         _level0.winTimes1PPVE++;
+      }
+      if(_level0.player_type == "COMVSCOM")
+      {
+         _level0.winTimes1PEVE++;
+      }
+      winner = _level0.charSelect_P1;
+      if(_level0.charSelect_P1 == "Iori" && _level0.mode_role_P1 == 3)
+      {
+         winner = "Iori3";
+         gotoAndStop(winner);
+         return undefined;
+      }
+      if(_level0.charSelect_P1 == "Ash" && _level0.mode_role_P1 == 2)
+      {
+         winner = "Ash2";
+         gotoAndStop(winner);
+         return undefined;
+      }
+      if(_level0.charSelect_P1 == "KyoW" && _level0.mode_role_P1 == 2)
+      {
+         winner = "KyoW2";
+         gotoAndStop(winner);
+         return undefined;
+      }
+      if(_level0.charSelect_P1 == "Zero" && _level0.mode_role_P1 == 2)
+      {
+         winner = "CZero";
+         gotoAndStop(winner);
+         return undefined;
+      }
+      if(_level0.charSelect_P1 == "Orochi" && _level0.mode_role_P1 == 2)
+      {
+         winner = "Orochi2";
+         gotoAndStop(winner);
+         return undefined;
+      }
+      if(_level0.charSelect_P1 == "Krizalid" && _level0.mode_role_P1 == 2)
+      {
+         winner = "Krizalid2";
+         gotoAndStop(winner);
+         return undefined;
+      }
+   }
+   else if(_root.wface == 2)
+   {
+      if(_level0.player_type == "1PVS2P")
+      {
+         _level0.winTimes2PPVP++;
+      }
+      if(_level0.player_type == "vs")
+      {
+         _level0.winTimes2PPVE++;
+      }
+      if(_level0.player_type == "COMVSCOM")
+      {
+         _level0.winTimes2PEVE++;
+      }
+      winner = _level0.charSelect_P2;
+      if(_level0.charSelect_P2 == "Iori" && _level0.mode_role_P2 == 3)
+      {
+         winner = "Iori3";
+         gotoAndStop(winner);
+         return undefined;
+      }
+      if(_level0.charSelect_P2 == "Ash" && _level0.mode_role_P2 == 2)
+      {
+         winner = "Ash2";
+         gotoAndStop(winner);
+         return undefined;
+      }
+      if(_level0.charSelect_P2 == "KyoW" && _level0.mode_role_P2 == 2)
+      {
+         winner = "KyoW2";
+         gotoAndStop(winner);
+         return undefined;
+      }
+      if(_level0.charSelect_P2 == "Zero" && _level0.mode_role_P2 == 2)
+      {
+         winner = "CZero";
+         gotoAndStop(winner);
+         return undefined;
+      }
+      if(_level0.charSelect_P2 == "Orochi" && _level0.mode_role_P2 == 2)
+      {
+         winner = "Orochi2";
+         gotoAndStop(winner);
+         return undefined;
+      }
+      if(_level0.charSelect_P2 == "Krizalid" && _level0.mode_role_P2 == 2)
+      {
+         winner = "Krizalid2";
+         gotoAndStop(winner);
+         return undefined;
+      }
+   }
+   gotoAndStop(winner);
+}

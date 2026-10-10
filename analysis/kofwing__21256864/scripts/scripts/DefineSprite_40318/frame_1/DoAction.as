@@ -1,0 +1,10 @@
+_root.role_mc.bloodPower = false;
+_root.role_mc.countEnd();
+_root.role_mc.burst_mode = "";
+_root.role_mc.inBurst = false;
+_root.role_mc.colorNormal();
+_root.role_mc.Vwalk = 11;
+_root.role_mc.Vdash = 28;
+_root.role_mc.Vjump_x = 13;
+_root.role_mc.Vjump_y = 39;
+_root.role_mc.Vjump_far = 20;

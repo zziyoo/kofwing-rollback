@@ -1,0 +1,18 @@
+# Scratch output from the pipeline smoke test. These 4 SWFs are also analysed in
+# full under analysis/ (kofwing__6148152, kofwing__6230976, kofwing__6235248,
+# kofwing__27969957), so this tree is pure duplicate data.
+analysis/_test/
+
+# Leftovers from the same smoke test.
+reports/_struct_test.json
+reports/__probe.txt
+
+# Python noise
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS noise
+Thumbs.db
+.DS_Store
+desktop.ini
