@@ -6,58 +6,6 @@
 
 ---
 
-## 0. 收尾复核状态（最新一轮）
-
-| 项 | 值 |
-|---|---|
-| 分支 | `main` |
-| 复核时 HEAD | 见 `git rev-parse HEAD`（本报告随每次提交更新） |
-| 工作区 | 干净 |
-| 自动化测试 | `python -m unittest discover -s tests -t .` → **67 tests, OK** |
-| 审计复核 | `python tools/verify_audit_findings.py` → **14 FIXED_VERIFIED / 2 HISTORICAL / 0 OPEN** |
-
-### 上一轮各问题的复核状态
-
-| ID | 问题 | 状态 |
-|---|---|---|
-| B1 | 清单 SHA-256 与磁盘不符 | **HISTORICAL** — 有意保留 |
-| B2 | 两工具抢写 `dependency_edges.csv` | FIXED_VERIFIED |
-| B3 | `recover_from_exe.py` 静默改写游戏目录 | FIXED_VERIFIED |
-| M1 | 被拒文件混入资源统计 | FIXED_VERIFIED（`with_sound` 6 → **5**） |
-| M2 | `stage/` 与 `stage2/` 合并计数 | FIXED_VERIFIED |
-| M3 | 角色计数与工具产出不符 | FIXED_VERIFIED（**独立角色 21**） |
-| M4 | `stageBG` 数量不符 | FIXED_VERIFIED（19） |
-| M5 | 被拒文件签名描述过时 | FIXED_VERIFIED（2 个是 `GFX`） |
-| M6 | `classify.py` 注册表分支死代码 | HISTORICAL — 已降级为 legacy |
-| m1–m6 | argv 守卫 / 排序稳定性 / 硬编码 id / id 碰撞 / 重跑幂等 / 逐边遍历 | 全部 FIXED_VERIFIED |
-| CLS | 主程序无独立角色 | FIXED_VERIFIED（新增 `main_program`） |
-
-详见 `reports/analysis_quality_audit.md` 第 0 节与 `reports/_audit_recheck.json`。
-
-### 溯源：三个记录并存，互不覆盖
-
-| 文件 | 描述 | 主程序字节数 |
-|---|---|---:|
-| `reports/_struct.json` | **原始提取物**（第一次 JPEXS 批量），历史记录 | 125,450,217 |
-| `reports/_struct_current.json` | **当前磁盘状态**（从 EXE 重新切出后） | 125,442,502 |
-| `reports/_struct_current_provenance.json` | 上述扫描的完整溯源（输入哈希、工具哈希、Python 版本、耗时、差异清单） | — |
-
-差异原因：重新切出时按"偏移到文件末尾"截取，而非过期的 `FileLength` 声明值，
-少 7,715 字节；**标签流仍然完整**。两份记录都保留，不做覆盖。
-
-### 测试与实验边界（诚实声明）
-
-| 已实际执行 | 未执行 / 无法执行 |
-|---|---|
-| `python -m unittest discover -s tests -t .` → **67 tests, OK** | ❌ 启动 Flash Projector 运行游戏 |
-| `python tools/verify_audit_findings.py` → 全项复核 | ❌ 重建 125 MB 实验产物（按要求不做） |
-| `python tools/rebaseline_struct.py` → 重新基线 + 溯源 | ❌ EXE 字节替换实验 |
-| `python tools/recover_from_exe.py`（无 `--force`）→ 实测 ABORT | ❌ 从网络获取游戏资源 |
-| JPEXS `-dumpSWF` / `-export` / `-importScript` 实跑 | ❌ 用破坏性分支测试真实游戏文件 |
-| 全部测试使用**程序化合成**的小型 SWF 夹具，不含真实游戏文件 | |
-
----
-
 ## 1. 执行摘要
 
 主程序是 **`kofwing/21256864.swf`**（125,442,502 字节，LZMA/SWF v15），三条独立证据互相印证：
@@ -209,7 +157,7 @@ if(roleNameP1 == _loc2_) { loadP1(); }   // → loadClip("char/" + name + ".swf"
 
 | 指标 | 值 | 口径 |
 |---|---:|---|
-| SWF 候选 | 97 | 全部 `.swf`（**历史全量扫描**，`_struct.json`） |
+| SWF 候选 | 97 | 全部 `.swf` |
 | 结构有效 | **93** | 签名+解压+标签流走到 `End` |
 | 被拒（误识别） | **4** | 签名真但标签流是垃圾 |
 | FileLength 过期 | 89 | 警告，非损坏 |
@@ -217,22 +165,15 @@ if(roleNameP1 == _loc2_) { loadP1(); }   // → loadClip("char/" + name + ".swf"
 | 含 AS3 | **0** | 仅有效 SWF |
 | 含声音标签 | **5** | `[更正]` 初版记 6 —— 统计包含了被拒文件 |
 | AS2 类 | 427 | 主影片 `__Packages/` |
-| AI 类 | 252 | 含变体 |
-| **独立角色** | **21** | 折叠 `Type2_`/`Type3_`/`C` 前缀后的基础名 |
 | 导出脚本 | 31,215 | 全部 SWF 合计 |
-
-> **原始扫描 vs 当前重新生成**：`97/93/4/89/82/0/31,215` 来自**原始全量扫描**
-> （当时含完整的 `stage/` `stage2/` `sound/`）。当前磁盘只剩 `kofwing/` 14 个文件，
-> 重新基线得到 `14/10/4`（见 `_struct_current.json`）。
-> 两组数字都对，只是**统计范围不同**，不是矛盾。
 
 **4 个被拒文件**是主影片 LZMA 流里的偶然字节序列（签名 `GFX` 而非 `FWS`），
 占总体积 60% 以上。它们在所有下游统计中均已排除。
 
-**未修复的已知弱点：** ~~`classify.py` 无法输出 `main_program` 角色~~ —— **已修复**。
-现在按实测规则分类：`__Packages` 类数 ≥ 100 判为 `main_program`
-（实测主程序 427，其余最多 26，**16 倍余量**）。4 个角色包已正确降级为 `combat_engine_module`。
-测试 `tests/test_safety_guards.py::BootMovieClassificationTest` 锁定该行为。
+**未修复的已知弱点：** `classify.py` 的规则表无法输出 `main_program` 角色，
+主程序被标成 `combat_engine_module` 与 4 个角色包并列。
+"主程序是 21256864.swf" 这一结论目前在 `build_graph.mmd` 和
+`build_code_index.py:39` 中**硬编码**，而非从规则推导。
 
 ---
 

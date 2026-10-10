@@ -43,19 +43,13 @@ pipeline that produces it.
  5   valid SWF containing sound tags
  0   valid SWF containing AS3
 427  AS2 classes decompiled from the main movie
-252  per-character AI classes (variants included)
- 21  independent characters (after folding Type2_/Type3_/C prefixes)
+252  per-character AI classes
 794  moves extracted from data/skillList.swf
 ```
 
 **Counting rule:** `total` / `invalid` / `duplicate` / `total bytes` cover all
 candidates; the `with_*` rows count only structurally valid SWF. Recorded
 explicitly in `_struct.json` under `counting_rule`.
-
-**Character counting rule:** variant markers are stripped from the base name by
-`tools/build_code_index.py::split_character_name()` — `Type2_`, `Type3_`, and a
-leading `C` followed by an uppercase letter (`CZero`→`Zero`, `CKrizalid`→`Krizalid`).
-Applied uniformly; no name is ever dropped to make a number agree with prose.
 
 ## Layout
 
@@ -96,29 +90,17 @@ analysis/<id>/                   one directory per SWF, named from its relative 
 | Report | What it answers |
 |---|---|
 | `final_report.md` | **Executive summary.** Directory completeness, config defects, what is proven vs unverified, remaining-issues list by priority |
-| `manual_smoke_test.md` | **What YOU must run locally.** Baseline test, patched-SWF test, EXE-repack prerequisites, rollback |
 | `runtime_dependency_audit.md` | The 4 missing runtime deps with `file:line` evidence; the 4-character whitelist discovery; **contains a correction notice** |
 | `modding_assessment.md` | Which subsystem to edit for which goal; JPEXS vs Flash CS6 boundary; **contains a correction notice** (dead code) |
 | `modding_pipeline_validation.md` | **Can we actually edit and repack?** Three propositions proven separately: script edit / SWF re-save / game runs |
 | `modding_code_map.md` | Navigation map by theme, with blast radius and minimal verification per entry |
 | `stage_audit.md` / `bgm_audit.md` | Stage and BGM configuration semantics and defects |
-| `analysis_quality_audit.md` | Audit of this toolchain; §0 holds the closing re-verification table |
+| `analysis_quality_audit.md` | Audit of this toolchain's own consistency + the 46-test suite |
 | `dependency_graph.md` | Load graph with per-edge code evidence |
 | `move_list.md` / `.json` | **All 794 moves** extracted from `data/skillList.swf` |
 | `file_inventory.md` / `.csv` | All 97 candidates with validation results |
 | `code_index.md` / `.csv` | Location of every gameplay subsystem |
 | `registries.json` / `registry_entries.csv` | Parsed `list.txt` tables |
-
-### Provenance records — three scans, none overwrites another
-
-| File | Describes | Boot movie bytes |
-|---|---|---:|
-| `reports/_struct.json` | the **original** extraction (historical record) | 125,450,217 |
-| `reports/_struct_current.json` | what is on disk **right now** | 125,442,502 |
-| `reports/_struct_current_provenance.json` | full provenance of the re-baseline | — |
-
-The 7,715-byte gap is explained: the EXE re-cut ran to EOF instead of trusting the
-stale `FileLength`. The tag stream is complete either way. Do not merge these records.
 
 ## Known JPEXS CLI gotchas (measured, not documented)
 
@@ -157,35 +139,18 @@ python tools/phase2_stage_bgm_audit.py
 python tools/engine_diff_verify.py
 python tools/extract_move_list.py     # needs the extracted skillList scripts
 
-# 6. re-baseline the CURRENT input without touching the historical record
-python tools/rebaseline_struct.py
-
-# 7. re-verify every finding in analysis_quality_audit.md
-python tools/verify_audit_findings.py
-
-# 8. tests
+# 6. tests
 python -m unittest discover -s tests -t .
 ```
 
 `tools/swf_struct.py` encodes the validation rules independently of JPEXS, so a file is
 never accepted just because a decompiler opened it.
 
-> **Never re-run step 1 on the full game tree.** It would overwrite the manifest record
-> of the *original* extraction with whatever is on disk. Use
-> `tools/rebaseline_struct.py`, which writes to a separate path and records provenance.
-
-## Safety guards
-
-`tools/recover_from_exe.py` is the only tool that writes **outside** this repository,
-into the game directory. It is guarded and the guards are tested:
-
-- refuses to run without `--force`
-- aborts when the target directory already holds files
-- never rewrites a file that already matches the manifest
-- flags truncated candidates instead of silently accepting them
-
-Guard tests live in `tests/test_safety_guards.py` (uses synthetic fixtures, never real
-game files).
+> **Read `reports/analysis_quality_audit.md` §blockers before re-running step 1 on the
+> full game tree.** It would overwrite the manifest record of the *original* extraction
+> with whatever is currently on disk (the boot movie was re-cut from the EXE and is
+> 7,715 bytes shorter). The current `_struct.json` is the historical record; leave it be
+> unless you intend to re-baseline.
 
 ## experiments/
 
